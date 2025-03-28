@@ -14,6 +14,7 @@
 1. Add data to JSON file at `src/json/Speakers.json`
 2. Add speaker file name, such as `speaker-name.png`
 3. Add speaker images as PNG / JPG files to `public/images/speakers/`
+
 NOTE: The speaker page gets generated from the Speakers.json file, so if you add speakers to Schedules.json file without adding them to the Speakers.json file, the link to the speak will give a 404. 
 
 ## How to add FAQ
