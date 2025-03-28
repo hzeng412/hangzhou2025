@@ -1,9 +1,9 @@
 Data Parity:
-
 - /schedules (JSON)
 - /speakers (JSON)
-- Tracks
+- Tracks (JSON)
 - FAQ (JSON)
+- Sponsors (JSON)
 
 Content:
 - Privacy (Markdown)
