@@ -1,0 +1,31 @@
+{
+    "categories": [
+        { "name": "All" },
+        { "name": "Co-Organizer" },
+        { "name": "Gold Sponsor" },
+        { "name": "Silver Sponsor" },
+        { "name": "Partner" }
+    ],
+    "partners": [
+        {
+            "category": "Co-Organizer",
+            "image": "baai.png"
+        },
+        {
+            "category": "Co-Organizer",
+            "image": "baai.png"
+        },
+        {
+            "category": "Gold Sponsor",
+            "image": "baai.png"
+        },
+        {
+            "category": "Silver Sponsor",
+            "image": "baai.png"
+        },
+        {
+            "category": "Partner",
+            "image": "baai.png"
+        }
+    ]
+}

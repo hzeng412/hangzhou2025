@@ -1,0 +1,40 @@
+---
+interface Props {
+    title: string;
+    text?: string;
+    lightgray?: boolean;
+}
+
+const { title, text, lightgray } = Astro.props;
+---
+
+<section
+    class="section default-header"
+    data-theme-section="light"
+    data-bg-section={lightgray ? 'lightgray' : 'light'}
+    data-scroll-section
+>
+    <div class="gradient-circle-wrap">
+        <div class="gradient-circle" />
+    </div>
+
+    <div class="container">
+        <div class={`row ${text ? 'grid' : ''}`}>
+            <div class="border-bottom" />
+
+            <div class="col col-title">
+                <div class="col-row col-row-title">
+                    <h1>{title}</h1>
+                </div>
+            </div>
+
+            {text &&
+                <div class="col col-text">
+                    <div class="col-row styled-content">
+                        <p>{text}</p>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>

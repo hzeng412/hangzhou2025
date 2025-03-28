@@ -1,0 +1,81 @@
+{
+    "categories": [
+        { "name": "All" },
+        { "name": "AI model" },
+        { "name": "AI infra" },
+        { "name": "AI apps" },
+        { "name": "Embodied AI" },
+        { "name": "AI for science" },
+        { "name": "Global collaboration" }
+    ],
+    "speakers": [
+        {
+            "tag": "AI model",
+            "name": "Fiona McDonnell",
+            "description": "VP Global Partner Services",
+            "full_description": "Fiona McDonnell is the VP of Global Partner Services at the lorem ipsum project. She has a background in technology and has worked on a number of projects in the field.",
+            "image": "speaker-placeholder.jpg",
+            "socialLinks": {
+                "linkedin": "https://linkedin.com/in/fionamcdonnell",
+                "twitter": "https://twitter.com/fionamcdonnell"
+            }
+        },
+        {
+            "tag": "Embodied AI",
+            "name": "Dorothy Creamer",
+            "description": "Senior Research Manager",
+            "full_description": "Dorothy Creamer is a Senior Research Manager at the lorem ipsum project. She has a background in AI and has worked on a number of projects in the field.",
+            "image": "speaker-placeholder.jpg",
+            "socialLinks": {
+                "website": "https://example.com/dorothy-creamer",
+                "linkedin": "https://linkedin.com/in/dorothycreamer"
+            }
+        },
+        {
+            "tag": "AI infra",
+            "name": "Raymond James",
+            "description": "Founder & Open-Source contributor at the lorem ipsum project",
+            "full_description": "Raymond James is the founder of the lorem ipsum project and has been working on open-source projects for over 10 years.",
+            "image": "speaker-placeholder.jpg",
+            "socialLinks": {
+                "website": "https://example.com/raymond-james",
+                "github": "https://github.com/raymondjames",
+                "twitter": "https://twitter.com/raymondjames",
+                "linkedin": "https://linkedin.com/in/raymondjames"
+            }
+        },
+        {
+            "tag": "Embodied AI",
+            "name": "Dorothy Creamer 2",
+            "description": "Senior Research Manager",
+            "full_description": "Dorothy Creamer is a Senior Research Manager at the lorem ipsum project. She has a background in AI and has worked on a number of projects in the field.",
+            "image": "speaker-placeholder.jpg",
+            "socialLinks": {
+                "website": "https://example.com/dorothy-creamer",
+                "linkedin": "https://linkedin.com/in/dorothycreamer"
+            }
+        },
+        {
+            "tag": "Embodied AI",
+            "name": "Dorothy Creamer 3",
+            "description": "Senior Research Manager",
+            "full_description": "Dorothy Creamer is a Senior Research Manager at the lorem ipsum project. She has a background in AI and has worked on a number of projects in the field.",
+            "image": "speaker-placeholder.jpg",
+            "socialLinks": {
+                "website": "https://example.com/dorothy-creamer",
+                "linkedin": "https://linkedin.com/in/dorothycreamer"
+            }
+        },
+        {
+            "tag": "Embodied AI",
+            "name": "Dorothy Creamer 4",
+            "description": "Senior Research Manager",
+            "full_description": "Dorothy Creamer is a Senior Research Manager at the lorem ipsum project. She has a background in AI and has worked on a number of projects in the field.",
+            "image": "speaker-placeholder.jpg",
+            "socialLinks": {
+                "website": "https://example.com/dorothy-creamer",
+                "linkedin": "https://linkedin.com/in/dorothycreamer"
+            }
+        }
+    ]
+}

@@ -1,0 +1,280 @@
+---
+// Components
+import Layout from "layouts/Layout.astro";
+import Hero from "components/Hero.astro";
+import Intro from "components/Intro.astro";
+import Statistics from "components/Statistics.astro";
+import Tracks from "components/Tracks.astro";
+import FeaturedSpeakers from "components/FeaturedSpeakers.astro";
+import Cards from "components/Cards.astro";
+import TextAndImage from "components/TextAndImage.astro";
+import TextAndSponsors from "components/TextAndSponsors.astro";
+import VenueInfo from "components/VenueInfo.astro";
+import PreviousEvents from "components/PreviousEvents.astro";
+import GetTickets from "components/GetTickets.astro";
+import Marquee from "components/Marquee.astro";
+
+// Images
+import Placeholder1 from "images/homepage/stats1.png";
+import Placeholder2 from "images/homepage/stats2.png";
+import Placeholder3 from "images/homepage/stats3.png";
+import SpotlightBlue from "images/homepage/spotlight-bl.svg";
+import GosimShanghai from "images/homepage/gosim-shanghai.png";
+import GosimAmsterdam from "images/homepage/gosim-amsterdam.png";
+import GosimBeijing from "images/homepage/gosim-beijing.png";
+---
+
+<Layout
+  title="GOSIM AI Paris 2025"
+  description="GOSIM Paris, the City of Light, transforms into the City of Artificial Brilliance this May. GOSIM AI 2025 invites visionaries, disruptors, and pioneers to converge at Station F, a crucible of innovation, to shape the next frontier of AI."
+  navDarkMode={true}
+  navBackground="header-home"
+  pageTransitionName="Home"
+>
+  <Hero
+    date="May 6-7, 2025"
+    location="Paris, France"
+    links={[
+      {
+        text: "Propose a talk",
+        link: "https://cfp.gosim.org/",
+        openInNewTab: true,
+      },
+      {
+        text: "Apply for Spotlight",
+        link: "https://spotlight.gosim.org/ai2025",
+        openInNewTab: true,
+      },
+    ]}
+  />
+
+  <div
+    class="section-wrap"
+    id="intro"
+    data-theme-section="light"
+    data-bg-section="lightgray"
+  >
+    <Intro>
+      <h1 class="h3 light split-words animate-read">
+        Paris, the City of Light, transforms into the City of Artificial
+        Brilliance this May. GOSIM AI 2025 invites visionaries, disruptors, and
+        pioneers to converge at <b
+          class="anchor-span"
+          data-anchor-target="#venue">Station F</b
+        >, a crucible of innovation—to shape the next frontier of AI.
+      </h1>
+    </Intro>
+
+    <Statistics
+      stats={[
+        {
+          title: " 500+",
+          subtitle: "Attendees",
+          image: Placeholder1,
+          imageAlt: "",
+          hasPlus: true,
+        },
+        {
+          title: "50",
+          subtitle: "Talks",
+          imageAlt: "",
+          image: Placeholder2,
+        },
+        {
+          title: "2",
+          subtitle: "Exhilarating days",
+          imageAlt: "",
+          image: Placeholder3,
+        },
+      ]}
+    />
+
+    <Marquee />
+  </div>
+
+  <Tracks
+    title="Tracks"
+    list={[
+      {
+        title: "AI Model",
+        text: `Shaping the Future with Open-Source AI: Unleashing world-class performance in LLMs, multi-modal AI, cutting-edge image and video generation models, and pioneering on-device small LLMs pushing the boundaries of AI efficiency and accessibility.`,
+      },
+      {
+        title: "AI Infra",
+        text: `Building Scalable AI with Open-Source Innovation: Advancing AI training, inference, fine-tuning, reinforcement learning frameworks, optimized on-device inference solutions, and seamless large-scale cloud deployment to enable next-generation AI capabilities.`,
+      },
+      {
+        title: "AI Apps",
+        text: `Transforming Industries with Open-Source AI: Leveraging community-driven AI models to revolutionize healthcare, finance, and creative tools, while integrating open-source AI app development frameworks, agentic tools, Retrieval-Augmented Generation (RAGs), front-end AI applications, personal AI assistants, future AI operating systems, and smart AI hardware.`,
+      },
+      {
+        title: "Embodied AI",
+        text: `Propelling Open-Source Robotics Forward: Innovating community-driven robot design, expanding openly available datasets, developing advanced visual language models, and shaping policy frameworks that define the future of autonomous systems.`,
+      },
+      {
+        title: "AI For Science",
+        text: `Pushing the Frontiers of Scientific Discovery with AI: Empowering breakthroughs in mathematics, material design, drug discovery, astrophysics, and computer systems through open-source AI research.`,
+      },
+      {
+        title: "Global Open-Source AI Collaboration",
+        text: `Strengthening the AI Ecosystem: Expanding global knowledge-sharing, collaborative dataset development, transparent AI governance, and robust open-source infrastructure to drive worldwide innovation in AI.`,
+      },
+    ]}
+    ctaButton={{
+      text: "See schedule",
+      link: "/schedule/",
+    }}
+  />
+
+  <FeaturedSpeakers
+    title="Featured Speakers"
+    ctaButton={{
+      text: "More speakers",
+      link: "/speakers/",
+    }}
+  />
+
+  <Cards
+    title="Why you need to attend"
+    description="From foundational models to open-source breakthroughs, this is where ideas ignite. Join leaders and experts as they explore the most pressing challenges and the most promising opportunities in AI, from ethical considerations to the AGI future."
+    cards={[
+      {
+        title: "French Flair, Global Impact",
+        description:
+          "Showcasing the harmony between open-source ingenuity and technological excellence—immerse yourself in a world where savoir-faire meets groundbreaking innovation, setting the stage for a global AI revolution across six visionary tracks.",
+        image: "/icons/eiffel.svg",
+      },
+      {
+        title: "Open-Source Collaboration",
+        description:
+          "Cultivating a powerful synergy between academia, thriving open-source communities, and visionary industry leaders to drive AI breakthroughs, accelerate innovation, and shape the future of intelligent systems together.",
+        image: "/icons/collaboration.svg",
+      },
+      {
+        title: "World-Class Open-Source AI",
+        description:
+          "Stay at the cutting edge with insights from the most impactful open-source AI projects, including Huggingface, Llama, Qwen, OpenSeek, Intern-LLM, Moxin, Mistral, vLLM, PyTorch, FlagOpen, and emerging trailblazers.",
+        image: "/icons/open-source-ai.svg",
+      },
+      {
+        title: "Unparalleled Networking",
+        description:
+          "Connect with 500+ open-source AI project leaders, researchers, and practitioners driving the AI landscape forward.",
+        image: "/icons/networking.svg",
+      },
+      {
+        title: "Hands-On Workshops",
+        description:
+          "Experience real-time coding labs, interactive AI tool demos, and expert-led sessions designed to provide practical skills and deep technical insights.",
+        image: "/icons/workshops.svg",
+      },
+      {
+        title: "Showcase of AI Startups",
+        description:
+          "Witness the unveiling of groundbreaking AI projects from some of the most innovative startups pushing the boundaries of technology.",
+        image: "/icons/startups.svg",
+      },
+    ]}
+  />
+
+  <TextAndImage
+    title="GOSIM AI Spotlight"
+    text="Step into the realm of innovation at GOSIM AI Spotlight—where Europe’s rich tradition of creativity meets the cutting edge of open-source AI. Join us in this GOSIM AI co-located event that celebrates collaboration, diversity, and the pioneering spirit of our vibrant continent."
+    image={SpotlightBlue}
+    imageAlt="Gosim Spotlight AI badge"
+    ctaButton={{
+      text: "Apply now",
+      link: "https://spotlight.gosim.org/ai2025",
+      openInNewTab: true,
+    }}
+  />
+
+  <TextAndSponsors
+    title="Thank you to our sponsors"
+    text="Unlock unique marketing opportunities and gain exposure by sponsoring GOSIM. As a sponsor, you'll reach a diverse audience of industry professionals and position your brand as a leader in the field."
+    ctaButton={{
+      text: "See all",
+      link: "/sponsors/",
+    }}
+    logos={[
+      {
+        image: "baai.png",
+        imageAlt: "Baai logo",
+      },
+      {
+        image: "baai.png",
+        imageAlt: "Baai logo",
+      },
+      {
+        image: "baai.png",
+        imageAlt: "Baai logo",
+      },
+      {
+        image: "baai.png",
+        imageAlt: "Baai logo",
+      },
+      {
+        image: "baai.png",
+        imageAlt: "Baai logo",
+      },
+      {
+        image: "baai.png",
+        imageAlt: "Baai logo",
+      },
+    ]}
+  />
+
+  <VenueInfo
+    subtitle="The Venue"
+    title="Station F"
+    location="5 Parv. Alan Turing, 75013 Paris, France"
+    text="Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honoré."
+    ctaButton={{
+      text: "Event location",
+      link: "https://stationf.co",
+      openInNewTab: true,
+    }}
+  />
+
+  <PreviousEvents
+    title="Previous Events"
+    events={[
+      {
+        title: "GOSIM Beijing",
+        date: "October 17-18, 2024",
+        description:
+          "The GOSIM Beijing conference, attracted more than 1700 attendees, makes it the largest GOSIM event so far.",
+        image: GosimBeijing,
+        link: "https://china2024.gosim.org/",
+      },
+      {
+        title: "GOSIM Amsterdam",
+        date: "June 6-7, 2024",
+        description:
+          "GOSIM Amsterdam was a two-day event that brought together 1200 attendees from around the world.",
+        image: GosimAmsterdam,
+        link: "https://europe2024.gosim.org/",
+      },
+      {
+        title: "GOSIM Shanghai",
+        date: "September 23-24, 2023",
+        description:
+          "The GOSIM conference and workshop focused on championing and enhancing open-source contributions.",
+        image: GosimShanghai,
+        link: "https://conference2023.gosim.org/",
+      },
+    ]}
+  />
+
+  <GetTickets
+    title="Grab your GOSIM AI Paris ticket"
+    location="Paris, France"
+    date="May 6-7, 2025"
+    text="Paris, the City of Light, transforms into the City of Artificial Brilliance this May. GOSIM AI 2025 invites visionaries, disruptors, and pioneers to converge at Station F—a crucible of innovation—to shape the next frontier of AI."
+    ctaButton={{
+      text: "Get tickets",
+      link: "https://www.eventbrite.com/e/gosim-ai-paris-tickets-1265928669729?aff=oddtdtcreator",
+      openInNewTab: true,
+    }}
+  />
+</Layout>

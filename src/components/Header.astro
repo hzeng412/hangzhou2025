@@ -1,0 +1,224 @@
+---
+// Components
+import Button from "components/Button.astro";
+import Logo from "./Logo.astro";
+
+const links = [
+  {
+    text: "Schedule",
+    link: "/schedule/",
+  },
+  {
+    text: "Speakers",
+    link: "/speakers/",
+  },
+  {
+    text: "Sponsors",
+    link: "/sponsors/",
+  },
+  {
+    text: "FAQ",
+    link: "/faq/",
+  },
+  {
+    text: "Co-located Events",
+    subLinks: [
+      {
+        text: "Venue",
+        link: "http://stationf.co/",
+        openInNewTab: true,
+      },
+      {
+        text: "GOSIM AI Spotlight",
+        link: "https://spotlight.gosim.org/ai2025",
+        openInNewTab: true,
+      },
+    ],
+  },
+  {
+    text: "More",
+    subLinks: [
+      {
+        text: "Venue",
+        link: "/#venue",
+        anchor: "#venue",
+      },
+      {
+        text: "Volunteer",
+        link: "https://docs.google.com/forms/d/e/1FAIpQLSc62kJczw7lr-l0JAAbkabeIrrPPAD7OWyzwDopTD0L4HC6EQ/viewform",
+        openInNewTab: true,
+      },
+    ],
+  },
+];
+
+const slug = Astro.url.pathname;
+---
+
+<header>
+  <Button
+    text="Get tickets"
+    link="https://www.eventbrite.com/e/gosim-ai-paris-tickets-1265928669729?aff=oddtdtcreator"
+    openInNewTab
+    class="btn primary btn-floating btn-hover"
+  />
+
+  <div class="mobile-nav">
+    <div class="overlay overlay-dark" data-navigation-toggle="close"></div>
+
+    <div class="mobile-nav-box">
+      <div class="box-row box-row-logo">
+        <Logo />
+      </div>
+      <nav class="box-row box-row-nav" aria-label="Navigation Mobile">
+        <ul>
+          {
+            links.map((loop) => (
+              <li
+                class={`link link-hover ${loop.subLinks ? "has-sublinks" : ""}`}
+                data-barba-update
+                data-link-status={loop.link === slug ? "active" : "not-active"}
+                data-has-sublinks={loop.subLinks ? "true" : "false"}
+                data-sublinks={
+                  loop.subLinks ? JSON.stringify(loop.subLinks) : "[]"
+                }
+              >
+                {loop?.subLinks ? (
+                  <button class="link-click">
+                    <span>{loop.text}</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="ml-2 inline-block"
+                    >
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </button>
+                ) : (
+                  <a class="link-click" href={loop.link}>
+                    <span>{loop.text}</span>
+                  </a>
+                )}
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+      <div class="box-row box-row-btn">
+        <Button
+          text="Get tickets"
+          link="https://www.eventbrite.com/e/gosim-ai-paris-tickets-1265928669729?aff=oddtdtcreator"
+          openInNewTab
+          class="btn primary xl btn-hover"
+        />
+      </div>
+    </div>
+  </div>
+
+  <button
+    class="hamburger btn-floating"
+    aria-label="Open menu"
+    data-navigation-toggle="toggle"
+  >
+    <div class="hamburger-fill"></div>
+    <div class="bar bar-top"></div>
+    <div class="bar bar-bottom"></div>
+  </button>
+
+  <div class="btn light btn-filter btn-filter-floating btn-hover">
+    <div class="btn-click filter-alpha-animate" data-filter-toggle="toggle">
+      <div class="btn-content original">
+        <div class="btn-fill"></div>
+        <span>Filter</span>
+      </div>
+      <div class="border-box"></div>
+    </div>
+  </div>
+
+  <div class="main-nav-bar" style="opacity: 1;">
+    <div class="overlay nav-fill"></div>
+    <div class="row">
+      <div class="border-bottom"></div>
+
+      <div class="logo">
+        <a href="/" aria-label="Go to homepage" class="logo-click">
+          <Logo />
+          <Logo />
+        </a>
+      </div>
+
+      <nav aria-label="Navigation Desktop">
+        <ul>
+          {
+            links.map((loop) => (
+              <li
+                class={`link link-hover ${loop.subLinks ? "has-sublinks" : ""}`}
+                style="position: relative;"
+                data-barba-update
+                data-link-status={loop.link === slug ? "active" : "not-active"}
+                data-has-sublinks={loop.subLinks ? "true" : "false"}
+                data-sublinks={
+                  loop.subLinks ? JSON.stringify(loop.subLinks) : "[]"
+                }
+              >
+                {loop?.subLinks ? (
+                  <button class="link-click">
+                    <span>{loop.text}</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="ml-2 inline-block"
+                    >
+                      <path d="m6 9 6 6 6-6" />
+                    </svg>
+                  </button>
+                ) : (
+                  <a class="link-click" href={loop.link}>
+                    <span>{loop.text}</span>
+                  </a>
+                )}
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+
+      <Button
+        text="Get tickets"
+        link="https://www.eventbrite.com/e/gosim-ai-paris-tickets-1265928669729?aff=oddtdtcreator"
+        openInNewTab
+        class="btn outline btn-hover"
+      />
+
+      <div class="hamburger outline" data-navigation-toggle="toggle">
+        <div class="hamburger-fill"></div>
+        <div class="bar bar-top"></div>
+        <div class="bar bar-bottom"></div>
+      </div>
+
+      <div class="btn light btn-filter btn-filter-static btn-hover">
+        <div class="btn-click filter-alpha-animate" data-filter-toggle="toggle">
+          <div class="btn-content original">
+            <div class="btn-fill"></div>
+            <span>Filter</span>
+          </div>
+          <div class="border-box"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
