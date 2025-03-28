@@ -7,5 +7,4 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   integrations: [sitemap()],
   site: "https://testnew.gosim.org/",
-  base: '/',
 });
