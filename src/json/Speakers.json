@@ -1,81 +1,408 @@
 {
     "categories": [
-        { "name": "All" },
-        { "name": "AI model" },
-        { "name": "AI infra" },
-        { "name": "AI apps" },
-        { "name": "Embodied AI" },
-        { "name": "AI for science" },
-        { "name": "Global collaboration" }
+        {
+            "name": "All"
+        },
+        {
+            "name": "AI Model"
+        },
+        {
+            "name": "AI Infra"
+        },
+        {
+            "name": "AI Apps"
+        },
+        {
+            "name": "Embodied AI"
+        }
     ],
     "speakers": [
         {
-            "tag": "AI model",
-            "name": "Fiona McDonnell",
-            "description": "VP Global Partner Services",
-            "full_description": "Fiona McDonnell is the VP of Global Partner Services at the lorem ipsum project. She has a background in technology and has worked on a number of projects in the field.",
-            "image": "speaker-placeholder.jpg",
-            "socialLinks": {
-                "linkedin": "https://linkedin.com/in/fionamcdonnell",
-                "twitter": "https://twitter.com/fionamcdonnell"
-            }
+            "id": "alexy-khrabrov",
+            "tag": "ai-apps",
+            "name": "Alexy Khrabrov",
+            "description": "AI Community Architect at Neo4j",
+            "full_description": "OAKS: The Open Agentic AI Knowledge Stack",
+            "image": "alexy-khrabrov.jpg",
+            "org": "Neo4j"
         },
         {
-            "tag": "Embodied AI",
-            "name": "Dorothy Creamer",
-            "description": "Senior Research Manager",
-            "full_description": "Dorothy Creamer is a Senior Research Manager at the lorem ipsum project. She has a background in AI and has worked on a number of projects in the field.",
-            "image": "speaker-placeholder.jpg",
-            "socialLinks": {
-                "website": "https://example.com/dorothy-creamer",
-                "linkedin": "https://linkedin.com/in/dorothycreamer"
-            }
+            "id": "angelo-corsaro",
+            "tag": "embodied-ai",
+            "name": "Angelo Corsaro",
+            "description": "CEO and CTO of ZettaScale Technology",
+            "full_description": "",
+            "image": "angelo-corsaro.png",
+            "org": "Zenoh"
         },
         {
-            "tag": "AI infra",
-            "name": "Raymond James",
-            "description": "Founder & Open-Source contributor at the lorem ipsum project",
-            "full_description": "Raymond James is the founder of the lorem ipsum project and has been working on open-source projects for over 10 years.",
-            "image": "speaker-placeholder.jpg",
-            "socialLinks": {
-                "website": "https://example.com/raymond-james",
-                "github": "https://github.com/raymondjames",
-                "twitter": "https://twitter.com/raymondjames",
-                "linkedin": "https://linkedin.com/in/raymondjames"
-            }
+            "id": "baosong-yang",
+            "tag": "ai-model",
+            "name": "Baosong Yang",
+            "description": "Research Engineer at Alibaba Tongyi Lab",
+            "full_description": "Qwen",
+            "image": "generic-profile.png",
+            "org": "Alibaba Tongyi Lab"
         },
         {
-            "tag": "Embodied AI",
-            "name": "Dorothy Creamer 2",
-            "description": "Senior Research Manager",
-            "full_description": "Dorothy Creamer is a Senior Research Manager at the lorem ipsum project. She has a background in AI and has worked on a number of projects in the field.",
-            "image": "speaker-placeholder.jpg",
-            "socialLinks": {
-                "website": "https://example.com/dorothy-creamer",
-                "linkedin": "https://linkedin.com/in/dorothycreamer"
-            }
+            "id": "cailean-osborne-phd",
+            "tag": "ai-model",
+            "name": "Cailean Osborne, PhD",
+            "description": "Senior Researcher at Linux Foundation",
+            "full_description": "Introducing the OpenMDW License for AI Models",
+            "image": "cailean-osborne-phd.png",
+            "org": "Linux Foundation"
         },
         {
-            "tag": "Embodied AI",
-            "name": "Dorothy Creamer 3",
-            "description": "Senior Research Manager",
-            "full_description": "Dorothy Creamer is a Senior Research Manager at the lorem ipsum project. She has a background in AI and has worked on a number of projects in the field.",
-            "image": "speaker-placeholder.jpg",
-            "socialLinks": {
-                "website": "https://example.com/dorothy-creamer",
-                "linkedin": "https://linkedin.com/in/dorothycreamer"
-            }
+            "id": "chao-jia",
+            "tag": "ai-model",
+            "name": "Chao Jia",
+            "description": "Vice President of Mianbi Intelligence",
+            "full_description": "",
+            "image": "chao-jia.png",
+            "org": "miniCPM"
         },
         {
-            "tag": "Embodied AI",
-            "name": "Dorothy Creamer 4",
-            "description": "Senior Research Manager",
-            "full_description": "Dorothy Creamer is a Senior Research Manager at the lorem ipsum project. She has a background in AI and has worked on a number of projects in the field.",
-            "image": "speaker-placeholder.jpg",
-            "socialLinks": {
-                "website": "https://example.com/dorothy-creamer",
-                "linkedin": "https://linkedin.com/in/dorothycreamer"
-            }
+            "id": "cheng-chi",
+            "tag": "embodied-ai",
+            "name": "Cheng Chi",
+            "description": "Researcher at BAAI",
+            "full_description": "Towards a Cerebrum-Cerebellum Collaboration Framework for Large Embodied Models",
+            "image": "cheng-chi.jpeg",
+            "org": "Beijing Academy of Artificial Intelligence"
+        },
+        {
+            "id": "chi-wang",
+            "tag": "ai-apps",
+            "name": "Chi Wang",
+            "description": "Research Scientist at Google DeepMind",
+            "full_description": "AG2: The Open-Source AgentOS for Agentic AI",
+            "image": "chi-wang.png",
+            "org": "Google DeepMind"
+        },
+        {
+            "id": "diego-rojas",
+            "tag": "ai-model",
+            "name": "Diego Rojas",
+            "description": "Research Engineer at Zhipu.AI",
+            "full_description": "Going Beyond Tokens for Code Large Language Models",
+            "image": "diego-rojas.jpeg",
+            "org": "Zhipu.AI"
+        },
+        {
+            "id": "elie-bakouch",
+            "tag": "ai-model",
+            "name": "Elie Bakouch",
+            "description": "Research Engineer at Hugging Face",
+            "full_description": "Pre-training of Smol and Large LLM",
+            "image": "elie-bakouch.jpeg",
+            "org": "Hugging Face"
+        },
+        {
+            "id": "fan-wang",
+            "tag": "embodied-ai",
+            "name": "Fan Wang",
+            "description": "Researcher at the Embodied AI Center, AIRS",
+            "full_description": "Integrating Feedback and Learning in Closed Loop: Toward General-Purpose Embodied AI Systems",
+            "image": "fan-wang.jpg",
+            "org": "ARIS"
+        },
+        {
+            "id": "greg-schoeninger",
+            "tag": "ai-infra",
+            "name": "Greg Schoeninger",
+            "description": "CEO at Oxen.ai",
+            "full_description": "Datasets and Infrastructure for DeepSeek-R1 Style Reinforcement Learning (GRPO)",
+            "image": "greg-schoeninger.jpeg",
+            "org": "Oxen.ai"
+        },
+        {
+            "id": "guang-liu",
+            "tag": "ai-model",
+            "name": "Guang Liu",
+            "description": "Head of OpenSeek",
+            "full_description": "OpenSeek: Collaborative Innovation for Next-Gen Models",
+            "image": "guang-liu.jpg",
+            "org": "BAAI"
+        },
+        {
+            "id": "guilherme-penedo",
+            "tag": "ai-model",
+            "name": "Guilherme Penedo",
+            "description": "ML Research Engineer at Hugging Face",
+            "full_description": "Open-R1: A fully open reproduction of DeepSeek-R1",
+            "image": "guilherme-penedo.jpg",
+            "org": "Hugging Face"
+        },
+        {
+            "id": "guohao-li",
+            "tag": "ai-apps",
+            "name": "Guohao Li",
+            "description": "Founder of Camel-AI.org",
+            "full_description": "",
+            "image": "guohao-li.png",
+            "org": "Camel.ai"
+        },
+        {
+            "id": "han-xiao",
+            "tag": "ai-apps",
+            "name": "Han Xiao",
+            "description": "Founder & CEO of JinA AI",
+            "full_description": "",
+            "image": "han-xiao.png",
+            "org": "Jina.ai"
+        },
+        {
+            "id": "huy-hoang-ha",
+            "tag": "ai-model",
+            "name": "Huy Hoang Ha",
+            "description": "LLM Researcher",
+            "full_description": "Spatial Reasoning LLM: Enhancing 2D & 3D Understanding for Robotic Manipulation and Navigation",
+            "image": "huy-hoang-ha.jpg",
+            "org": "Menlo Research"
+        },
+        {
+            "id": "jason-li",
+            "tag": "ai-model",
+            "name": "Jason Li",
+            "description": "Senior VP at CSDN",
+            "full_description": "Decoding DeepSeek",
+            "image": "jason-li.png",
+            "org": "CSDN"
+        },
+        {
+            "id": "ke-bao",
+            "tag": "ai-infra",
+            "name": "Ke Bao",
+            "description": "Member of LMSYS Org",
+            "full_description": "SGLang: Efficient LLM Serving Engine",
+            "image": "ke-bao.jpeg",
+            "org": "LMSYS Org"
+        },
+        {
+            "id": "markus-tavenrath",
+            "tag": "ai-infra",
+            "name": "Markus Tavenrath",
+            "description": "Principal Engineer Developer Technology at NVIDIA",
+            "full_description": "Khronos in the World of Open Source and Machine Learning",
+            "image": "markus-tavenrath.jpg",
+            "org": "NVIDIA"
+        },
+        {
+            "id": "martino-russi",
+            "tag": "embodied-ai",
+            "name": "Martino Russi",
+            "description": "Embodied Robotics Engineer at Hugging Face",
+            "full_description": "How to Build Your Humanoid",
+            "image": "martino-russi.jpeg",
+            "org": "Hugging Face"
+        },
+        {
+            "id": "matt-white",
+            "tag": "ai-infra",
+            "name": "Matt White",
+            "description": "GM of AI of Linux Foundation",
+            "full_description": "Pytorch",
+            "image": "matt-white.png",
+            "org": "Pytorch"
+        },
+        {
+            "id": "min-zhang",
+            "tag": "embodied-ai",
+            "name": "Min Zhang",
+            "description": "EU Director of Unitree Robotics",
+            "full_description": "G1 Open Source dataset and Humanoid Robot from Unitree Robotics",
+            "image": "min-zhang.png",
+            "org": "Unitree Robotics"
+        },
+        {
+            "id": "philipp-oppermann",
+            "tag": "embodied-ai",
+            "name": "Philipp Oppermann",
+            "description": "Dora Project Lead",
+            "full_description": "",
+            "image": "philipp-oppermann.jpeg",
+            "org": "DORA+Zenoh"
+        },
+        {
+            "id": "rik-arends",
+            "tag": "ai-apps",
+            "name": "Rik Arends",
+            "description": "Co-Founder of Makepad",
+            "full_description": "Building AI Apps with Makepad",
+            "image": "rik-arends.png",
+            "org": "Makepad"
+        },
+        {
+            "id": "sebastien-crozet",
+            "tag": "ai-infra",
+            "name": "Sebastien Crozet",
+            "description": "Co-founder and CTO Foresight Mining Software Corporation",
+            "full_description": "WGMath",
+            "image": "sebastien-crozet.jpeg",
+            "org": "WGMath"
+        },
+        {
+            "id": "shanghang-zhang",
+            "tag": "embodied-ai",
+            "name": "Shanghang Zhang",
+            "description": "Assistant Professor at the School of Computer Science, Peking University",
+            "full_description": "RoboMIND",
+            "image": "shanghang-zhang.png",
+            "org": "BAAI/PKU/Tsinghua"
+        },
+        {
+            "id": "shiwei-liu",
+            "tag": "ai-model",
+            "name": "Shiwei Liu",
+            "description": "Royal Society Newton International Fellow",
+            "full_description": "The Curse of Depth in Large Language Models",
+            "image": "shiwei-liu.jpg",
+            "org": "University of Oxford"
+        },
+        {
+            "id": "siao-liu",
+            "tag": "embodied-ai",
+            "name": "Siao Liu",
+            "description": "Researcher at BAAI",
+            "full_description": "Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation",
+            "image": "siao-liu.jpg",
+            "org": "Beijing Academy of Artificial Intelligence"
+        },
+        {
+            "id": "sirui-hong",
+            "tag": "ai-apps",
+            "name": "Sirui Hong",
+            "description": "Co-Founder of OpenManus",
+            "full_description": "",
+            "image": "sirui-hong.jpg",
+            "org": "OpenManus"
+        },
+        {
+            "id": "tbd",
+            "tag": "ai-apps",
+            "name": "TBD",
+            "description": "",
+            "full_description": "TBD",
+            "image": "generic-profile.png",
+            "org": ""
+        },
+        {
+            "id": "tianyu-chen",
+            "tag": "ai-model",
+            "name": "Tianyu Chen",
+            "description": "Ph.D Candidate at Peking University",
+            "full_description": "Automated Proof Generation for Rust Code via Self-Evolution",
+            "image": "tianyu-chen.jpeg",
+            "org": "Peking University"
+        },
+        {
+            "id": "ville-kuosmanen",
+            "tag": "embodied-ai",
+            "name": "Ville Kuosmanen",
+            "description": "Founder at Voyage Robotics",
+            "full_description": "Building robotic applications with open-source VLA models",
+            "image": "ville-kuosmanen.jpg",
+            "org": "Voyage Robotics"
+        },
+        {
+            "id": "wei-jia",
+            "tag": "ai-model",
+            "name": "Wei Jia",
+            "description": "Director at Zhipu AI",
+            "full_description": "",
+            "image": "generic-profile.png",
+            "org": "Zhipu"
+        },
+        {
+            "id": "xin-dong",
+            "tag": "ai-model",
+            "name": "Xin Dong",
+            "description": "Technical Expert in the Programming Language Lab of Huawei",
+            "full_description": "CangjieMagic : New Choices for Developers in the Age of Large Models",
+            "image": "xin-dong.jpg",
+            "org": "HUAWEI"
+        },
+        {
+            "id": "xinrui-liu",
+            "tag": "ai-apps",
+            "name": "Xinrui Liu",
+            "description": "Developer Ecosystem Director at LangGenius",
+            "full_description": "Tech together, Powered by Dify",
+            "image": "xinrui-liu.jpg",
+            "org": "LangGenius"
+        },
+        {
+            "id": "xiyuan-wang",
+            "tag": "ai-infra",
+            "name": "Xiyuan Wang",
+            "description": "Senior Software Engineer at Huawei",
+            "full_description": "The best practice of training and inferencing on Ascend CANN",
+            "image": "xiyuan-wang.jpeg",
+            "org": "Huawei"
+        },
+        {
+            "id": "yanzhi-wang",
+            "tag": "ai-model",
+            "name": "Yanzhi Wang",
+            "description": "Associate Professor, Electrical and Computer Engineering of Northwestern University",
+            "full_description": "Demysifying LLM training - towards fully open-source LLM from pre-training to reinforcement learning",
+            "image": "yanzhi-wang.png",
+            "org": "Northeastern University"
+        },
+        {
+            "id": "yaowei-zheng",
+            "tag": "ai-infra",
+            "name": "Yaowei Zheng",
+            "description": "Ph.D. Student at Beihang University",
+            "full_description": "verl: Hybrid Controller-based RLHF System",
+            "image": "yaowei-zheng.jpeg",
+            "org": "Beihang University"
+        },
+        {
+            "id": "yingfeng-zhang",
+            "tag": "ai-apps",
+            "name": "Yingfeng Zhang",
+            "description": "Co-Founder of InfiniFlow",
+            "full_description": "RAGFlow: Leading the Open-Source Revolution in Enterprise-Grade Retrieval-Augmented Generation",
+            "image": "yingfeng-zhang.png",
+            "org": "InfiniFlow"
+        },
+        {
+            "id": "yinping-ma",
+            "tag": "ai-infra",
+            "name": "Yinping Ma",
+            "description": "Engineer at Peking University",
+            "full_description": "Open-source intelligent computing integrated management and utilization foundational software - SCOW and CraneSched",
+            "image": "yinping-ma.jpg",
+            "org": "Peking University"
+        },
+        {
+            "id": "yiran-zhong",
+            "tag": "ai-model",
+            "name": "Yiran Zhong",
+            "description": "Director of Research at MiniMax",
+            "full_description": "Linear Next: The evolution of LLM Architecture",
+            "image": "yiran-zhong.png",
+            "org": "MiniMax"
+        },
+        {
+            "id": "yongbin-li",
+            "tag": "ai-apps",
+            "name": "Yongbin Li",
+            "description": "Researcher of Alibaba Tongyi Lab",
+            "full_description": "AI Coding",
+            "image": "generic-profile.png",
+            "org": "Alibaba Tongyi Lab"
+        },
+        {
+            "id": "yonghua-lin",
+            "tag": "ai-infra",
+            "name": "Yonghua Lin",
+            "description": "VP of BAAI",
+            "full_description": "FlagGems and FlagOS",
+            "image": "yonghua-lin.png",
+            "org": "BAAI FlagGem"
         }
     ]
 }
