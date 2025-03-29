@@ -10,6 +10,9 @@
 2. Add sponsor file name, such as `sponsor-name.png`
 3. Add sponsor images as PNG / JPG / SVG files to `public/images/sponsors/`
 
+Current build only has one category for sponsors. To add additional categories:
+1. Update JSON file with additional category values ("Co-Organizer", "Gold Sponsor", "Silver Sponsor")
+
 ## How to add Speakers
 1. Add data to JSON file at `src/json/Speakers.json`
 2. Add speaker file name, such as `speaker-name.png`
