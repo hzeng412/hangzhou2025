@@ -27,53 +27,315 @@
         {
             "name": "Embodied AI",
             "id": "embodied-ai"
-        },
-        {
-            "name": "AI for Science",
-            "id": "ai-science"
-        },
-        {
-            "name": "Global Collaboration",
-            "id": "global-collaboration"
         }
     ],
     "sessions": {
         "AI Model": [
             {
                 "date": "May 6",
-                "timeSlot": "12:45-14:00",
-                "title": "Registration",
-                "content": "<p>Welcome and registration, teas and coffee</p>",
-                "speakers": []
-            },
-            {
-                "date": "May 6",
-                "timeSlot": "12:45-14:00",
-                "title": "Some name for an AI Model session on the schedule",
-                "content": "<p><strong>The open source landscape today </strong></p><p>Two presentations from two different perspectives of tech </p><p>We'll cover: </p><ul><li>The changing landscape of mainstream </li><li>Consumer preferences</li></ul><p><strong>More speakers to be confirmed </strong></p>",
+                "timeSlot": "9:30 - 10:00",
+                "title": "Keynote",
+                "content": "",
                 "speakers": [
                     {
-                        "name": "Fiona McDonnell",
-                        "title": "VP Global Partner Services",
+                        "id": "tbd",
+                        "name": "TBD",
+                        "roleOrg": "",
                         "tags": [
-                            "Technology"
+                            "ai-apps"
                         ],
-                        "image": "speaker-placeholder.jpg"
-                    },
-                    {
-                        "name": "Dorothy Creamer",
-                        "title": "Senior Research Manager",
-                        "tags": [
-                            "Consultant"
-                        ],
-                        "image": "speaker-placeholder.jpg"
+                        "image": "generic-profile.png"
                     }
                 ]
             },
             {
                 "date": "May 6",
-                "timeSlot": "12:45-14:00",
-                "title": "Lunch",
+                "timeSlot": "10:10 - 10:40",
+                "title": "Morning Coffee",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "10:40 - 11:20",
+                "title": "Open-R1: A fully open reproduction of DeepSeek-R1",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "guilherme-penedo",
+                        "name": "Guilherme Penedo",
+                        "roleOrg": "ML Research Engineer at Hugging Face",
+                        "tags": [
+                            "ai-model"
+                        ],
+                        "image": "guilherme-penedo.jpg"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "11:20 - 12:00",
+                "title": "OpenSeek: Collaborative Innovation for Next-Gen Models",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "guang-liu",
+                        "name": "Guang Liu",
+                        "roleOrg": "Head of OpenSeek",
+                        "tags": [
+                            "ai-model"
+                        ],
+                        "image": "guang-liu.jpg"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "12:00 - 14:00",
+                "title": "Lunch Break",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "14:00 - 14:40",
+                "title": "Decode DeepSeek: the Technological innovation and Its Influence on AI Ecosystem",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "jason-li",
+                        "name": "Jason Li",
+                        "roleOrg": "Senior VP at CSDN",
+                        "tags": [
+                            "ai-model"
+                        ],
+                        "image": "jason-li.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "14:40 - 15:20",
+                "title": "Linear Next: The evolution of LLM Architecture",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "yiran-zhong",
+                        "name": "Yiran Zhong",
+                        "roleOrg": "Director of Research at MiniMax",
+                        "tags": [
+                            "ai-model"
+                        ],
+                        "image": "yiran-zhong.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "15:20 - 15:40",
+                "title": "Afternoon Coffee",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "15:40 - 16:20",
+                "title": "miniCPM",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "chao-jia",
+                        "name": "Chao Jia",
+                        "roleOrg": "Vice President of Mianbi Intelligence",
+                        "tags": [
+                            "ai-model"
+                        ],
+                        "image": "chao-jia.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "16:20 - 17:00",
+                "title": "Going Beyond Tokens for Code Large Language Models",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "diego-rojas",
+                        "name": "Diego Rojas",
+                        "roleOrg": "Research Engineer at Zhipu.AI",
+                        "tags": [
+                            "ai-model"
+                        ],
+                        "image": "diego-rojas.jpeg"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "17:00 - 18:00",
+                "title": "Spotlight Demo",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "18:00 - 21:00",
+                "title": "VIP Diner",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "9:30  - 10:00",
+                "title": "Keynote",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "tbd",
+                        "name": "TBD",
+                        "roleOrg": "",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "generic-profile.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "10:10 - 10:40",
+                "title": "Morning Coffee",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "10:40 - 11:20",
+                "title": "Qwen",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "baosong-yang",
+                        "name": "Baosong Yang",
+                        "roleOrg": "Research Engineer at Alibaba Tongyi Lab",
+                        "tags": [
+                            "ai-model"
+                        ],
+                        "image": "generic-profile.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "11:20 - 12:00",
+                "title": "Olmo",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "tbd",
+                        "name": "TBD",
+                        "roleOrg": "",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "generic-profile.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "12:00 - 14:00",
+                "title": "Lunch Break",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "14:00 - 14:40",
+                "title": "Pre-training of smol and large LLM",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "elie-bakouch",
+                        "name": "Elie Bakouch",
+                        "roleOrg": "Research Engineer at Hugging Face",
+                        "tags": [
+                            "ai-model"
+                        ],
+                        "image": "elie-bakouch.jpeg"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "14:40 - 15:20",
+                "title": "Demysifying LLM training --- towards fully open-source LLM from pre-training to reinforcement learning",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "yanzhi-wang",
+                        "name": "Yanzhi Wang",
+                        "roleOrg": "Associate Professor, Electrical and Computer Engineering of Northwestern University",
+                        "tags": [
+                            "ai-model"
+                        ],
+                        "image": "yanzhi-wang.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "15:20 - 15:40",
+                "title": "Afternoon Coffee",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "15:40 - 16:20",
+                "title": "Google Gemma",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "tbd",
+                        "name": "TBD",
+                        "roleOrg": "",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "generic-profile.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "16:20 - 17:00",
+                "title": "The Curse of Depth in Large Language Models",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "shiwei-liu",
+                        "name": "Shiwei Liu",
+                        "roleOrg": "Royal Society Newton International Fellow",
+                        "tags": [
+                            "ai-model"
+                        ],
+                        "image": "shiwei-liu.jpg"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "17:00 - 18:00",
+                "title": "Spotlight Demo",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "18:00 - 21:00",
+                "title": "Social Gathering",
                 "content": "",
                 "speakers": []
             }
@@ -81,65 +343,289 @@
         "AI Infra": [
             {
                 "date": "May 6",
-                "timeSlot": "10:05-10:50",
-                "title": "Some name for an AI Infra session on the schedule",
-                "content": "<p><strong>The open source landscape today </strong></p><p>Two presentations from two different perspectives of tech </p><p>We'll cover: </p><ul><li>The changing landscape of mainstream </li><li>Consumer preferences</li></ul><p><strong>More speakers to be confirmed </strong></p>",
-                "speakers": [
-                    {
-                        "name": "Fiona McDonnell",
-                        "title": "VP Global Partner Services",
-                        "tags": [
-                            "Technology"
-                        ],
-                        "image": "speaker-placeholder.jpg"
-                    },
-                    {
-                        "name": "Dorothy Creamer",
-                        "title": "Senior Research Manager",
-                        "tags": [
-                            "Consultant"
-                        ],
-                        "image": "speaker-placeholder.jpg"
-                    }
-                ]
-            },
-            {
-                "date": "May 6",
-                "timeSlot": "12:45-14:00",
-                "title": "Lunch",
+                "timeSlot": "9:30  - 10:00",
+                "title": "Keynote",
                 "content": "",
                 "speakers": []
-            }
-        ],
-        "AI Apps": [
+            },
             {
                 "date": "May 6",
-                "timeSlot": "10:05-10:50",
-                "title": "Some name for an AI Apps session on the schedule",
-                "content": "<p><strong>The open source landscape today </strong></p><p>Two presentations from two different perspectives of tech </p><p>We'll cover: </p><ul><li>The changing landscape of mainstream </li><li>Consumer preferences</li></ul><p><strong>More speakers to be confirmed </strong></p>",
+                "timeSlot": "10:10 - 10:40",
+                "title": "Morning Coffee",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "10:40 - 11:20",
+                "title": "BAAI FlagGem",
+                "content": "",
                 "speakers": [
                     {
-                        "name": "Fiona McDonnell",
-                        "title": "VP Global Partner Services",
+                        "id": "yonghua-lin",
+                        "name": "Yonghua Lin",
+                        "roleOrg": "VP of BAAI",
                         "tags": [
-                            "Technology"
+                            "ai-infra"
                         ],
-                        "image": "speaker-placeholder.jpg"
-                    },
-                    {
-                        "name": "Dorothy Creamer",
-                        "title": "Senior Research Manager",
-                        "tags": [
-                            "Consultant"
-                        ],
-                        "image": "speaker-placeholder.jpg"
+                        "image": "yonghua-lin.png"
                     }
                 ]
             },
             {
                 "date": "May 6",
-                "timeSlot": "12:45-14:00",
-                "title": "Lunch",
+                "timeSlot": "11:20 - 12:00",
+                "title": "The best practice of training and inferencing on Ascend CANN",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "xiyuan-wang",
+                        "name": "Xiyuan Wang",
+                        "roleOrg": "Senior Software Engineer at Huawei",
+                        "tags": [
+                            "ai-infra"
+                        ],
+                        "image": "xiyuan-wang.jpeg"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "12:00 - 14:00",
+                "title": "Lunch Break",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "14:00 - 14:40",
+                "title": "SGLang: Efficient LLM Serving Engine",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "ke-bao",
+                        "name": "Ke Bao",
+                        "roleOrg": "Member of LMSYS Org",
+                        "tags": [
+                            "ai-infra"
+                        ],
+                        "image": "ke-bao.jpeg"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "14:40 - 15:20",
+                "title": "Open-source intelligent computing integrated management and utilization foundational software - SCOW and CraneSched",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "yinping-ma",
+                        "name": "Yinping Ma",
+                        "roleOrg": "Engineer at Peking University",
+                        "tags": [
+                            "ai-infra"
+                        ],
+                        "image": "yinping-ma.jpg"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "15:20 - 15:40",
+                "title": "Afternoon Coffee",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "15:40 - 16:20",
+                "title": "verl: Hybrid Controller-based RLHF System",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "yaowei-zheng",
+                        "name": "Yaowei Zheng",
+                        "roleOrg": "Ph.D. Student at Beihang University",
+                        "tags": [
+                            "ai-infra"
+                        ],
+                        "image": "yaowei-zheng.jpeg"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "16:20 - 17:00",
+                "title": "Datasets and Infrastructure for DeepSeek-R1 Style Reinforcement Learning (GRPO)",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "greg-schoeninger",
+                        "name": "Greg Schoeninger",
+                        "roleOrg": "CEO at Oxen.ai",
+                        "tags": [
+                            "ai-infra"
+                        ],
+                        "image": "greg-schoeninger.jpeg"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "17:00 - 18:00",
+                "title": "Spotlight Demo",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "18:00 - 21:00",
+                "title": "VIP Diner",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "9:30  - 10:00",
+                "title": "Keynote",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "10:10 - 10:40",
+                "title": "Morning Coffee",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "10:40 - 11:20",
+                "title": "LAION dataset and infra",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "tbd",
+                        "name": "TBD",
+                        "roleOrg": "",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "generic-profile.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "11:20 - 12:00",
+                "title": "OminiX Enables Conversational AI",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "yanzhi-wang",
+                        "name": "Yanzhi Wang",
+                        "roleOrg": "Associate Professor, Electrical and Computer Engineering of Northwestern University",
+                        "tags": [
+                            "ai-model"
+                        ],
+                        "image": "yanzhi-wang.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "12:00 - 14:00",
+                "title": "Lunch Break",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "14:00 - 14:40",
+                "title": "Docker",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "tbd",
+                        "name": "TBD",
+                        "roleOrg": "",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "generic-profile.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "14:40 - 15:20",
+                "title": "TBD",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "tbd",
+                        "name": "TBD",
+                        "roleOrg": "",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "generic-profile.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "15:20 - 15:40",
+                "title": "Afternoon Coffee",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "15:40 - 16:20",
+                "title": "Khronos in the World of Open Source and Machine Learning",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "markus-tavenrath",
+                        "name": "Markus Tavenrath",
+                        "roleOrg": "Principal Engineer Developer Technology at NVIDIA",
+                        "tags": [
+                            "ai-infra"
+                        ],
+                        "image": "markus-tavenrath.jpg"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "16:20 - 17:00",
+                "title": "WGML: the story of building a new high-performance, cross-platform, on-device inference frework.",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "sebastien-crozet",
+                        "name": "Sebastien Crozet",
+                        "roleOrg": "Co-founder and CTO Foresight Mining Software Corporation",
+                        "tags": [
+                            "ai-infra"
+                        ],
+                        "image": "sebastien-crozet.jpeg"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "17:00 - 18:00",
+                "title": "Spotlight Demo",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "18:00 - 21:00",
+                "title": "Social Gathering",
                 "content": "",
                 "speakers": []
             }
@@ -147,86 +633,581 @@
         "Embodied AI": [
             {
                 "date": "May 6",
-                "timeSlot": "10:05-10:50",
-                "title": "Some name for an Embodied AI session on the schedule",
-                "content": "<p><strong>The open source landscape today </strong></p><p>Two presentations from two different perspectives of tech </p><p>We'll cover: </p><ul><li>The changing landscape of mainstream </li><li>Consumer preferences</li></ul><p><strong>More speakers to be confirmed </strong></p>",
+                "timeSlot": "9:30  - 10:00",
+                "title": "Keynote",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "10:10 - 10:40",
+                "title": "Morning Coffee",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "10:40 - 11:20",
+                "title": "TBD",
+                "content": "",
                 "speakers": [
                     {
-                        "name": "Fiona McDonnell",
-                        "title": "VP Global Partner Services",
+                        "id": "tbd",
+                        "name": "TBD",
+                        "roleOrg": "",
                         "tags": [
-                            "Technology"
+                            "ai-apps"
                         ],
-                        "image": "speaker-placeholder.jpg"
-                    },
-                    {
-                        "name": "Dorothy Creamer",
-                        "title": "Senior Research Manager",
-                        "tags": [
-                            "Consultant"
-                        ],
-                        "image": "speaker-placeholder.jpg"
+                        "image": "generic-profile.png"
                     }
                 ]
             },
             {
                 "date": "May 6",
-                "timeSlot": "12:45-14:00",
-                "title": "Lunch",
+                "timeSlot": "11:20 - 12:00",
+                "title": "Zenoh Project",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "angelo-corsaro",
+                        "name": "Angelo Corsaro",
+                        "roleOrg": "CEO and CTO of ZettaScale Technology",
+                        "tags": [
+                            "embodied-ai"
+                        ],
+                        "image": "angelo-corsaro.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "12:00 - 14:00",
+                "title": "Lunch Break",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "14:00 - 14:40",
+                "title": "Distributed dataflows in Dora using Zenoh",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "philipp-oppermann",
+                        "name": "Philipp Oppermann",
+                        "roleOrg": "Dora Project Lead",
+                        "tags": [
+                            "embodied-ai"
+                        ],
+                        "image": "philipp-oppermann.jpeg"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "14:40 - 15:20",
+                "title": "Integrating Feedback and Learning in Closed Loop: Toward General-Purpose Embodied AI Systems",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "fan-wang",
+                        "name": "Fan Wang",
+                        "roleOrg": "Researcher at the Embodied AI Center, AIRS",
+                        "tags": [
+                            "embodied-ai"
+                        ],
+                        "image": "fan-wang.jpg"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "15:20 - 15:40",
+                "title": "Afternoon Coffee",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "15:40 - 16:20",
+                "title": "Building robotic applications with open-source VLA models",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "ville-kuosmanen",
+                        "name": "Ville Kuosmanen",
+                        "roleOrg": "Founder at Voyage Robotics",
+                        "tags": [
+                            "embodied-ai"
+                        ],
+                        "image": "ville-kuosmanen.jpg"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "16:20 - 17:00",
+                "title": "Spatial Reasoning LLM: Enhancing 2D & 3D Understanding for Robotic Manipulation and Navigation",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "huy-hoang-ha",
+                        "name": "Huy Hoang Ha",
+                        "roleOrg": "LLM Researcher",
+                        "tags": [
+                            "ai-model"
+                        ],
+                        "image": "huy-hoang-ha.jpg"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "17:00 - 18:00",
+                "title": "Spotlight Demo",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "18:00 - 21:00",
+                "title": "VIP Diner",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "9:30  - 10:00",
+                "title": "Keynote",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "10:10 - 10:40",
+                "title": "Morning Coffee",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "10:40 - 11:20",
+                "title": "How to Build Your Humanoid",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "martino-russi",
+                        "name": "Martino Russi",
+                        "roleOrg": "Embodied Robotics Engineer at Hugging Face",
+                        "tags": [
+                            "embodied-ai"
+                        ],
+                        "image": "martino-russi.jpeg"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "11:20 - 12:00",
+                "title": "Towards a Cerebrum-Cerebellum Collaboration Frework for Large Embodied Models",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "cheng-chi",
+                        "name": "Cheng Chi",
+                        "roleOrg": "Researcher at BAAI",
+                        "tags": [
+                            "embodied-ai"
+                        ],
+                        "image": "cheng-chi.jpeg"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "12:00 - 14:00",
+                "title": "Lunch Break",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "14:00 - 14:40",
+                "title": "G1 Open Source dataset and Humanoid Robot from Unitree Robotics",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "min-zhang",
+                        "name": "Min Zhang",
+                        "roleOrg": "EU Director of Unitree Robotics",
+                        "tags": [
+                            "embodied-ai"
+                        ],
+                        "image": "min-zhang.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "14:40 - 15:20",
+                "title": "Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "siao-liu",
+                        "name": "Siao Liu",
+                        "roleOrg": "Researcher at BAAI",
+                        "tags": [
+                            "embodied-ai"
+                        ],
+                        "image": "siao-liu.jpg"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "15:20 - 15:40",
+                "title": "Afternoon Coffee",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "15:40 - 16:20",
+                "title": "Rerun",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "tbd",
+                        "name": "TBD",
+                        "roleOrg": "",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "generic-profile.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "16:20 - 17:00",
+                "title": "Pollen Robots",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "tbd",
+                        "name": "TBD",
+                        "roleOrg": "",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "generic-profile.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "17:00 - 18:00",
+                "title": "Spotlight Demo",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "18:00 - 21:00",
+                "title": "Social Gathering",
                 "content": "",
                 "speakers": []
             }
         ],
-        "AI for Science": [
+        "AI Apps": [
             {
                 "date": "May 6",
-                "timeSlot": "10:05-10:50",
-                "title": "Some name for an AI for Science session on the schedule",
-                "content": "<p><strong>The open source landscape today </strong></p><p>Two presentations from two different perspectives of tech </p><p>We'll cover: </p><ul><li>The changing landscape of mainstream </li><li>Consumer preferences</li></ul><p><strong>More speakers to be confirmed </strong></p>",
-                "speakers": [
-                    {
-                        "name": "Fiona McDonnell",
-                        "title": "VP Global Partner Services",
-                        "tags": [
-                            "Technology"
-                        ],
-                        "image": "speaker-placeholder.jpg"
-                    },
-                    {
-                        "name": "Dorothy Creamer",
-                        "title": "Senior Research Manager",
-                        "tags": [
-                            "Consultant"
-                        ],
-                        "image": "speaker-placeholder.jpg"
-                    }
-                ]
-            }
-        ],
-        "Global Collaboration": [
+                "timeSlot": "9:30  - 10:00",
+                "title": "Keynote",
+                "content": "",
+                "speakers": []
+            },
             {
                 "date": "May 6",
-                "timeSlot": "10:05-10:50",
-                "title": "Some name for a Global Collaboration session on the schedule",
-                "content": "<p><strong>The open source landscape today </strong></p><p>Two presentations from two different perspectives of tech </p><p>We'll cover: </p><ul><li>The changing landscape of mainstream </li><li>Consumer preferences</li></ul><p><strong>More speakers to be confirmed </strong></p>",
+                "timeSlot": "10:10 - 10:40",
+                "title": "Morning Coffee",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "10:40 - 11:20",
+                "title": "AG2: The Open-Source AgentOS for Agentic AI",
+                "content": "",
                 "speakers": [
                     {
-                        "name": "Fiona McDonnell",
-                        "title": "VP Global Partner Services",
+                        "id": "chi-wang",
+                        "name": "Chi Wang",
+                        "roleOrg": "Research Scientist at Google DeepMind",
                         "tags": [
-                            "Technology"
+                            "ai-apps"
                         ],
-                        "image": "speaker-placeholder.jpg"
-                    },
-                    {
-                        "name": "Dorothy Creamer",
-                        "title": "Senior Research Manager",
-                        "tags": [
-                            "Consultant"
-                        ],
-                        "image": "speaker-placeholder.jpg"
+                        "image": "chi-wang.png"
                     }
                 ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "11:20 - 12:00",
+                "title": "CangjieMagic : New Choices for Developers in the Age of Large Models",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "xin-dong",
+                        "name": "Xin Dong",
+                        "roleOrg": "Technical Expert in the Programming Language Lab of Huawei",
+                        "tags": [
+                            "ai-model"
+                        ],
+                        "image": "xin-dong.jpg"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "12:00 - 14:00",
+                "title": "Lunch Break",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "14:00 - 14:40",
+                "title": "AI Coding",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "yongbin-li",
+                        "name": "Yongbin Li",
+                        "roleOrg": "Researcher of Alibaba Tongyi Lab",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "generic-profile.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "14:40 - 15:20",
+                "title": "TBD",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "tbd",
+                        "name": "TBD",
+                        "roleOrg": "",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "generic-profile.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "15:20 - 15:40",
+                "title": "Afternoon Coffee",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "15:40 - 16:20",
+                "title": "Makepad AI Coding",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "rik-arends",
+                        "name": "Rik Arends",
+                        "roleOrg": "Co-Founder of Makepad",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "rik-arends.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "16:20 - 17:00",
+                "title": "Tech together, Powered by Dify",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "xinrui-liu",
+                        "name": "Xinrui Liu",
+                        "roleOrg": "Developer Ecosystem Director at LangGenius",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "xinrui-liu.jpg"
+                    }
+                ]
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "17:00 - 18:00",
+                "title": "Spotlight Demo",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 6",
+                "timeSlot": "18:00 - 21:00",
+                "title": "VIP Diner",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "9:30  - 10:00",
+                "title": "Keynote",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "10:10 - 10:40",
+                "title": "Morning Coffee",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "10:40 - 11:20",
+                "title": "Cel.ai",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "guohao-li",
+                        "name": "Guohao Li",
+                        "roleOrg": "Founder of Camel-AI.org",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "guohao-li.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "11:20 - 12:00",
+                "title": "OpenManus: Empowering LLM-based Agent Applications via Frework and Capability Evolution",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "sirui-hong",
+                        "name": "Sirui Hong",
+                        "roleOrg": "Co-Founder of OpenManus",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "sirui-hong.jpg"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "12:00 - 14:00",
+                "title": "Lunch Break",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "14:00 - 14:40",
+                "title": "RAGFlow: Leading the Open-Source Revolution in Enterprise-Grade Retrieval-Augmented Generation",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "yingfeng-zhang",
+                        "name": "Yingfeng Zhang",
+                        "roleOrg": "Co-Founder of InfiniFlow",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "yingfeng-zhang.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "14:40 - 15:20",
+                "title": "OAKS: The Open Agentic AI Knowledge Stack",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "alexy-khrabrov",
+                        "name": "Alexy Khrabrov",
+                        "roleOrg": "AI Community Architect at Neo4j",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "alexy-khrabrov.jpg"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "15:20 - 15:40",
+                "title": "Afternoon Coffee",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "15:40 - 16:20",
+                "title": "TBD",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "tbd",
+                        "name": "TBD",
+                        "roleOrg": "",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "generic-profile.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "16:20 - 17:00",
+                "title": "TBD",
+                "content": "",
+                "speakers": [
+                    {
+                        "id": "tbd",
+                        "name": "TBD",
+                        "roleOrg": "",
+                        "tags": [
+                            "ai-apps"
+                        ],
+                        "image": "generic-profile.png"
+                    }
+                ]
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "17:00 - 18:00",
+                "title": "Spotlight Demo",
+                "content": "",
+                "speakers": []
+            },
+            {
+                "date": "May 7",
+                "timeSlot": "18:00 - 21:00",
+                "title": "Social Gathering",
+                "content": "",
+                "speakers": []
             }
         ]
     }

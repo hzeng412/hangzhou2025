@@ -1,55 +1,61 @@
 ---
 // Packages
-import { Picture } from "astro:assets";
-import type { ImageMetadata } from "astro";
+import { Picture } from "astro:assets"
+import type { ImageMetadata } from "astro"
 
 interface Speaker {
-  name: string;
-  title: string;
-  tags: string[];
-  image: string;
+  name: string
+  roleOrg: string
+  tags: string[]
+  image: string
 }
 
 interface Session {
-  date: string;
-  timeSlot: string;
-  title: string;
-  content: string;
-  speakers: Speaker[];
-  category?: string;
+  date: string
+  timeSlot: string
+  title: string
+  content: string
+  speakers: Speaker[]
+  category?: string
 }
 
 interface Props {
-  currentDay?: string;
-  activeCategory?: string;
+  currentDay?: string
+  activeCategory?: string
 }
 
 // Import the schedule data
-import scheduleData from "json/Schedule.json";
+import scheduleData from "json/Schedule.json"
 
 // Import all images
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "images/speakers/*.{jpeg,jpg,png,gif}"
-);
+)
 
 // Use the provided props or default values
-const { currentDay = "May 6", activeCategory = "All" } = Astro.props;
+const { currentDay = "May 6", activeCategory = "All" } = Astro.props
+
+// Helper function to get category name from tag ID
+const getCategoryNameFromTag = (tagId: string): string => {
+  const category = scheduleData.categories.find((cat) => cat.id === tagId)
+  return category ? category.name : tagId
+}
 
 // Improved function to sort sessions by time
 const sortSessionsByTime = (sessions: Session[]) => {
   return sessions.sort((a, b) => {
     // Extract start times from timeSlot
-    const [aStartTime] = a.timeSlot.split("-");
-    const [bStartTime] = b.timeSlot.split("-");
+    const [aStartTime] = a.timeSlot.split("-")
+    const [bStartTime] = b.timeSlot.split("-")
 
     // Split hours and minutes
-    const [aHour, aMinute] = aStartTime.split(":").map(Number);
-    const [bHour, bMinute] = bStartTime.split(":").map(Number);
+    const [aHour, aMinute] = aStartTime.split(":").map(Number)
+    const [bHour, bMinute] = bStartTime.split(":").map(Number)
 
     // Compare times
-    return aHour * 60 + aMinute - (bHour * 60 + bMinute);
-  });
-};
+    return aHour * 60 + aMinute - (bHour * 60 + bMinute)
+  })
+}
 
 // Prepare all sessions for the current day
 const allSessions: Session[] = Object.entries(scheduleData.sessions).flatMap(
@@ -62,14 +68,14 @@ const allSessions: Session[] = Object.entries(scheduleData.sessions).flatMap(
           scheduleData.categories.find((cat) => cat.id === categoryName)
             ?.name || categoryName,
       }))
-);
+)
 
 // Remove duplicates from all sessions while preserving the first occurrence
 const uniqueAllSessions = Array.from(
   new Map(allSessions.map((session) => [session.title, session])).values()
-);
+)
 
-const sortedAllSessions = sortSessionsByTime(uniqueAllSessions);
+const sortedAllSessions = sortSessionsByTime(uniqueAllSessions)
 ---
 
 <div class="filter-container filter-alpha-animate">
@@ -253,14 +259,14 @@ const sortedAllSessions = sortSessionsByTime(uniqueAllSessions);
                                       <div class="card-tags group-tags">
                                         {speaker.tags.map((tag) => (
                                           <div class="single-tag">
-                                            <p>{tag}</p>
+                                            <p>{getCategoryNameFromTag(tag)}</p>
                                           </div>
                                         ))}
                                       </div>
                                     </div>
                                     <div class="card-row card-row-info">
                                       <h3 class="h5">{speaker.name}</h3>
-                                      <p>{speaker.title}</p>
+                                      <p>{speaker.roleOrg}</p>
                                     </div>
                                   </a>
                                 </div>
@@ -283,8 +289,8 @@ const sortedAllSessions = sortSessionsByTime(uniqueAllSessions);
         scheduleData.categories.map((category) => {
           const categorySessions = allSessions.filter(
             (session) => session.category === category.name
-          );
-          const sortedCategorySessions = sortSessionsByTime(categorySessions);
+          )
+          const sortedCategorySessions = sortSessionsByTime(categorySessions)
 
           return (
             <div
@@ -366,14 +372,16 @@ const sortedAllSessions = sortSessionsByTime(uniqueAllSessions);
                                           <div class="card-tags group-tags">
                                             {speaker.tags.map((tag) => (
                                               <div class="single-tag">
-                                                <p>{tag}</p>
+                                                <p>
+                                                  {getCategoryNameFromTag(tag)}
+                                                </p>
                                               </div>
                                             ))}
                                           </div>
                                         </div>
                                         <div class="card-row card-row-info">
                                           <h3 class="h5">{speaker.name}</h3>
-                                          <p>{speaker.title}</p>
+                                          <p>{speaker.roleOrg}</p>
                                         </div>
                                       </a>
                                     </div>
@@ -391,7 +399,7 @@ const sortedAllSessions = sortSessionsByTime(uniqueAllSessions);
                 <p>No {category.name} sessions available for this day</p>
               )}
             </div>
-          );
+          )
         })
       }
     </div>
