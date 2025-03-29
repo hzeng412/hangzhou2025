@@ -1,27 +1,27 @@
 ---
 // Components
-import Layout from "layouts/Layout.astro";
-import Hero from "components/Hero.astro";
-import Intro from "components/Intro.astro";
-import Statistics from "components/Statistics.astro";
-import Tracks from "components/Tracks.astro";
-import FeaturedSpeakers from "components/FeaturedSpeakers.astro";
-import Cards from "components/Cards.astro";
-import TextAndImage from "components/TextAndImage.astro";
-import TextAndSponsors from "components/TextAndSponsors.astro";
-import VenueInfo from "components/VenueInfo.astro";
-import PreviousEvents from "components/PreviousEvents.astro";
-import GetTickets from "components/GetTickets.astro";
-import Marquee from "components/Marquee.astro";
+import Layout from "layouts/Layout.astro"
+import Hero from "components/Hero.astro"
+import Intro from "components/Intro.astro"
+import Statistics from "components/Statistics.astro"
+import Tracks from "components/Tracks.astro"
+import FeaturedSpeakers from "components/FeaturedSpeakers.astro"
+import Cards from "components/Cards.astro"
+import TextAndImage from "components/TextAndImage.astro"
+import TextAndSponsors from "components/TextAndSponsors.astro"
+import VenueInfo from "components/VenueInfo.astro"
+import PreviousEvents from "components/PreviousEvents.astro"
+import GetTickets from "components/GetTickets.astro"
+import Marquee from "components/Marquee.astro"
 
 // Images
-import Placeholder1 from "images/homepage/stats1.png";
-import Placeholder2 from "images/homepage/stats2.png";
-import Placeholder3 from "images/homepage/stats3.png";
-import SpotlightBlue from "images/homepage/spotlight-bl.svg";
-import GosimShanghai from "images/homepage/gosim-shanghai.png";
-import GosimAmsterdam from "images/homepage/gosim-amsterdam.png";
-import GosimBeijing from "images/homepage/gosim-beijing.png";
+import Placeholder1 from "images/homepage/stats1.png"
+import Placeholder2 from "images/homepage/stats2.png"
+import Placeholder3 from "images/homepage/stats3.png"
+import SpotlightBlue from "images/homepage/spotlight-bl.svg"
+import GosimShanghai from "images/homepage/gosim-shanghai.png"
+import GosimAmsterdam from "images/homepage/gosim-amsterdam.png"
+import GosimBeijing from "images/homepage/gosim-beijing.png"
 ---
 
 <Layout
@@ -93,7 +93,7 @@ import GosimBeijing from "images/homepage/gosim-beijing.png";
   </div>
 
   <Tracks
-    title="Tracks"
+    title="5 Conference Tracks"
     list={[
       {
         title: "AI Model",
@@ -112,12 +112,8 @@ import GosimBeijing from "images/homepage/gosim-beijing.png";
         text: `Propelling Open-Source Robotics Forward: Innovating community-driven robot design, expanding openly available datasets, developing advanced visual language models, and shaping policy frameworks that define the future of autonomous systems.`,
       },
       {
-        title: "AI For Science",
-        text: `Pushing the Frontiers of Scientific Discovery with AI: Empowering breakthroughs in mathematics, material design, drug discovery, astrophysics, and computer systems through open-source AI research.`,
-      },
-      {
-        title: "Global Open-Source AI Collaboration",
-        text: `Strengthening the AI Ecosystem: Expanding global knowledge-sharing, collaborative dataset development, transparent AI governance, and robust open-source infrastructure to drive worldwide innovation in AI.`,
+        title: "PyTorch AI Paris Day",
+        text: `A dedicated space for AI practitioners, researchers, and engineers to explore the latest advancements in deep learning with PyTorch. From cutting-edge model development to scalable deployment, this track offers expert insights, hands-on sessions, and discussions shaping the future of AI with PyTorch.`,
       },
     ]}
     ctaButton={{
@@ -135,7 +131,7 @@ import GosimBeijing from "images/homepage/gosim-beijing.png";
   />
 
   <Cards
-    title="Why you need to attend"
+    title="Régale-toi au festin de l’IA"
     description="From foundational models to open-source breakthroughs, this is where ideas ignite. Join leaders and experts as they explore the most pressing challenges and the most promising opportunities in AI, from ethical considerations to the AGI future."
     cards={[
       {
@@ -190,7 +186,7 @@ import GosimBeijing from "images/homepage/gosim-beijing.png";
   />
 
   <TextAndSponsors
-    title="Thank you to our sponsors"
+    title="Thank you to our partners"
     text="Unlock unique marketing opportunities and gain exposure by sponsoring GOSIM. As a sponsor, you'll reach a diverse audience of industry professionals and position your brand as a leader in the field."
     ctaButton={{
       text: "See all",
