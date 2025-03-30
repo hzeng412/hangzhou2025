@@ -663,21 +663,19 @@
                 ]
             },
             {
-                "date": "May 6",
-                "timeSlot": "11:20 - 12:00",
-                "title": "Zenoh Project",
-                "content": "",
-                "speakers": [
-                    {
-                        "id": "angelo-corsaro",
-                        "name": "Angelo Corsaro",
-                        "roleOrg": "CEO and CTO of ZettaScale Technology",
-                        "tags": [
-                            "embodied-ai"
-                        ],
-                        "image": "angelo-corsaro.png"
-                    }
-                ]
+              "date": "May 6",
+              "timeSlot": "11:20 - 12:00",
+              "title": "TBD",
+              "content": "",
+              "speakers": [
+                {
+                  "id": "tbd",
+                  "name": "TBD",
+                  "roleOrg": "",
+                  "tags": ["ai-apps"],
+                  "image": "generic-profile.png"
+                }
+              ]
             },
             {
                 "date": "May 6",

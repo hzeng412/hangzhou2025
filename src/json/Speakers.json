@@ -1,19 +1,24 @@
 {
     "categories": [
         {
-            "name": "All"
+            "name": "All",
+            "id": "all"
         },
         {
-            "name": "AI Model"
+            "name": "AI Model",
+            "id": "ai-model"
         },
         {
-            "name": "AI Infra"
+            "name": "AI Infra",
+            "id": "ai-infra"
         },
         {
-            "name": "AI Apps"
+            "name": "AI Apps",
+            "id": "ai-apps"
         },
         {
-            "name": "Embodied AI"
+            "name": "Embodied AI",
+            "id": "embodied-ai"
         }
     ],
     "speakers": [
@@ -27,15 +32,6 @@
             "org": "Neo4j"
         },
         {
-            "id": "angelo-corsaro",
-            "tag": "embodied-ai",
-            "name": "Angelo Corsaro",
-            "description": "CEO and CTO of ZettaScale Technology",
-            "full_description": "",
-            "image": "angelo-corsaro.png",
-            "org": "Zenoh"
-        },
-        {
             "id": "baosong-yang",
             "tag": "ai-model",
             "name": "Baosong Yang",
@@ -43,15 +39,6 @@
             "full_description": "Qwen",
             "image": "generic-profile.png",
             "org": "Alibaba Tongyi Lab"
-        },
-        {
-            "id": "cailean-osborne-phd",
-            "tag": "ai-model",
-            "name": "Cailean Osborne, PhD",
-            "description": "Senior Researcher at Linux Foundation",
-            "full_description": "Introducing the OpenMDW License for AI Models",
-            "image": "cailean-osborne-phd.png",
-            "org": "Linux Foundation"
         },
         {
             "id": "chao-jia",
