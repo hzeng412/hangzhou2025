@@ -1,10 +1,23 @@
 {
     "categories": [
         { "name": "All" },
+        { "name": "Sponsors" },
         { "name": "Supporting Organization" },
         { "name": "Speaker Affiliated" }
     ],
     "partners": [
+        {
+            "category": "Sponsors",
+            "image": "huawei.png"
+        },
+        {
+            "category": "Sponsors",
+            "image": "csdn.png"
+        },
+        {
+            "category": "Sponsors",
+            "image": "1msai.png"
+        },
         {
             "category": "Speaker Affiliated",
             "image": "ag2.png"
