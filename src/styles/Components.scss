@@ -1140,6 +1140,10 @@
    cursor: pointer;
 }
 
+.flickity-slide > .single-speakers-card {
+   cursor: grab;
+}
+
 .single-speakers-card .card-row-image {
    position: relative;
 }
