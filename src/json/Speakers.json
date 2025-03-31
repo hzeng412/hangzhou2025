@@ -229,15 +229,7 @@
             "image": "sebastien-crozet.jpeg",
             "org": "WGMath"
         },
-        {
-            "id": "shanghang-zhang",
-            "tag": "embodied-ai",
-            "name": "Shanghang Zhang",
-            "description": "Assistant Professor at the School of Computer Science, Peking University",
-            "full_description": "RoboMIND",
-            "image": "shanghang-zhang.png",
-            "org": "BAAI/PKU/Tsinghua"
-        },
+
         {
             "id": "shiwei-liu",
             "tag": "ai-model",
@@ -387,7 +379,7 @@
             "tag": "ai-infra",
             "name": "Yonghua Lin",
             "description": "VP of BAAI",
-            "full_description": "FlagGems and FlagOS",
+            "full_description": "Yonghua Lin is the Vice President and Chief Engineer of Beijing Academy of Artificial Intelligence, responsible for AI System, and Large Model Foundation Technology research, industry and open-source ecosystem cooperation. She is formerly the Director of IBM China Research Lab and Distinguished Engineer at IBM, she led global AI system innovation within IBM. She has been engaged in research on system architecture, cloud computing, AI systems, computer vision, and other fields for more than 20 years. She holds over 50 global patents and has won the ACM/IEEE Best Paper awards. She was named one of the \"50 Leading Female Tech Leaders in China\" by Forbes in 2019. She is member of IEEE Women in Engineering Asia Pacific Leadership Team and the founder of IEEE Women in Engineering Beijing affinity.",
             "image": "yonghua-lin.png",
             "org": "BAAI FlagGem"
         }
