@@ -1,27 +1,28 @@
 ---
 // Components
-import Layout from "layouts/Layout.astro"
-import Hero from "components/Hero.astro"
-import Intro from "components/Intro.astro"
-import Statistics from "components/Statistics.astro"
-import Tracks from "components/Tracks.astro"
-import FeaturedSpeakers from "components/FeaturedSpeakers.astro"
-import Cards from "components/Cards.astro"
-import TextAndImage from "components/TextAndImage.astro"
-import TextAndSponsors from "components/TextAndSponsors.astro"
-import VenueInfo from "components/VenueInfo.astro"
-import PreviousEvents from "components/PreviousEvents.astro"
-import GetTickets from "components/GetTickets.astro"
-import Marquee from "components/Marquee.astro"
+import Layout from "layouts/Layout.astro";
+import Hero from "components/Hero.astro";
+import Intro from "components/Intro.astro";
+import Statistics from "components/Statistics.astro";
+import Tracks from "components/Tracks.astro";
+import FeaturedSpeakers from "components/FeaturedSpeakers.astro";
+import Cards from "components/Cards.astro";
+import TextAndImage from "components/TextAndImage.astro";
+import TextAndSponsors from "components/TextAndSponsors.astro";
+import VenueInfo from "components/VenueInfo.astro";
+import PreviousEvents from "components/PreviousEvents.astro";
+import GetTickets from "components/GetTickets.astro";
+import Marquee from "components/Marquee.astro";
+import CardsSponsors from "components/CardsSponsors.astro";
 
 // Images
-import Placeholder1 from "images/homepage/stats1.png"
-import Placeholder2 from "images/homepage/stats2.png"
-import Placeholder3 from "images/homepage/stats3.png"
-import SpotlightBlue from "images/homepage/spotlight-bl.svg"
-import GosimShanghai from "images/homepage/gosim-shanghai.png"
-import GosimAmsterdam from "images/homepage/gosim-amsterdam.png"
-import GosimBeijing from "images/homepage/gosim-beijing.png"
+import Placeholder1 from "images/homepage/stats1.png";
+import Placeholder2 from "images/homepage/stats2.png";
+import Placeholder3 from "images/homepage/stats3.png";
+import SpotlightBlue from "images/homepage/spotlight-bl.svg";
+import GosimShanghai from "images/homepage/gosim-shanghai.png";
+import GosimAmsterdam from "images/homepage/gosim-amsterdam.png";
+import GosimBeijing from "images/homepage/gosim-beijing.png";
 ---
 
 <Layout
@@ -47,7 +48,23 @@ import GosimBeijing from "images/homepage/gosim-beijing.png"
       },
     ]}
   />
-
+  <CardsSponsors
+    title="Proudly Sponsored By"
+    sponsors={[
+      {
+        name: "1ms.ai",
+        image: "/images/sponsors/1msai.png",
+      },
+      {
+        name: "Huawei",
+        image: "/images/sponsors/huawei.png",
+      },
+      {
+        name: "CSDN",
+        image: "/images/sponsors/csdn.png",
+      },
+    ]}
+  />
   <div
     class="section-wrap"
     id="intro"
@@ -131,7 +148,7 @@ import GosimBeijing from "images/homepage/gosim-beijing.png"
   />
 
   <Cards
-    title="Régale-toi au festin de l’IA"
+    title="Régale-toi au festin de l'IA"
     description="From foundational models to open-source breakthroughs, this is where ideas ignite. Join leaders and experts as they explore the most pressing challenges and the most promising opportunities in AI, from ethical considerations to the AGI future."
     cards={[
       {
@@ -175,7 +192,7 @@ import GosimBeijing from "images/homepage/gosim-beijing.png"
 
   <TextAndImage
     title="GOSIM AI Spotlight"
-    text="Step into the realm of innovation at GOSIM AI Spotlight—where Europe’s rich tradition of creativity meets the cutting edge of open-source AI. Join us in this GOSIM AI co-located event that celebrates collaboration, diversity, and the pioneering spirit of our vibrant continent."
+    text="Step into the realm of innovation at GOSIM AI Spotlight—where Europe's rich tradition of creativity meets the cutting edge of open-source AI. Join us in this GOSIM AI co-located event that celebrates collaboration, diversity, and the pioneering spirit of our vibrant continent."
     image={SpotlightBlue}
     imageAlt="Gosim Spotlight AI badge"
     ctaButton={{
