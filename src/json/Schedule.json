@@ -212,13 +212,13 @@
             {
                 "date": "May 7",
                 "timeSlot": "10:40 - 11:20",
-                "title": "Qwen",
+                "title": "Multilingualism of Qwen: From Foundation Model to Applications",
                 "content": "",
                 "speakers": [
                     {
                         "id": "baosong-yang",
                         "name": "Baosong Yang",
-                        "roleOrg": "Research Engineer at Alibaba Tongyi Lab",
+                        "roleOrg": "Scientist at Alibaba's Tongyi Lab",
                         "tags": [
                             "ai-model"
                         ],
@@ -253,7 +253,7 @@
             {
                 "date": "May 7",
                 "timeSlot": "14:00 - 14:40",
-                "title": "Pre-training of smol and large LLM",
+                "title": "Pre-training of Smol and Large LLM",
                 "content": "",
                 "speakers": [
                     {
@@ -270,7 +270,7 @@
             {
                 "date": "May 7",
                 "timeSlot": "14:40 - 15:20",
-                "title": "Demysifying LLM training --- towards fully open-source LLM from pre-training to reinforcement learning",
+                "title": "Demysifying LLM training - towards fully open-source LLM from pre-training to reinforcement learning",
                 "content": "",
                 "speakers": [
                     {
@@ -294,7 +294,7 @@
             {
                 "date": "May 7",
                 "timeSlot": "15:40 - 16:20",
-                "title": "Google Gemma",
+                "title": "TBD",
                 "content": "",
                 "speakers": [
                     {
@@ -358,8 +358,8 @@
             {
                 "date": "May 6",
                 "timeSlot": "10:40 - 11:20",
-                "title": "BAAI FlagGem",
-                "content": "",
+                "title": "AI Open Source for Good: Inclusive Access, Equitable Data, and Accessible Compute",
+                "content": "This talk unveils how open source technologies act as catalysts for equitable AI across three pillars. First, inclusive access: We open-source voice datasets tailored for underrepresented groups—such as children and the elderly—to ensure multimodal AI systems understand diverse linguistic patterns and bridge generational divides. Second, equitable data: we have released nearly 100 globally accessible datasets, amassing over 680,000 downloads, empowering developers from any countries to innovate freely. Third, accessible compute: We present FlagOS, an open-source system software that facilitates AI development and deployment across diverse hardware ecosystems—including legacy GPUs and emerging accelerators—while significantly lowering the cost barrier to AI innovation. Collectively, these open-source efforts transform 'AI for Good' into a shared mission—breaking barriers of age, location, and resources to empower anyone to create and benefit from AI.",
                 "speakers": [
                     {
                         "id": "yonghua-lin",
@@ -375,7 +375,7 @@
             {
                 "date": "May 6",
                 "timeSlot": "11:20 - 12:00",
-                "title": "The best practice of training and inferencing on Ascend CANN",
+                "title": "The Best Practice of Training and Inferencing on Ascend CANN",
                 "content": "",
                 "speakers": [
                     {
@@ -416,13 +416,13 @@
             {
                 "date": "May 6",
                 "timeSlot": "14:40 - 15:20",
-                "title": "Open-source intelligent computing integrated management and utilization foundational software - SCOW and CraneSched",
+                "title": "Open-source Intelligent Computing Integrated Management and Utilization Foundational Software - SCOW and CraneSched",
                 "content": "",
                 "speakers": [
                     {
                         "id": "yinping-ma",
                         "name": "Yinping Ma",
-                        "roleOrg": "Engineer at Peking University",
+                        "roleOrg": "Deputy Leader of the Large Model Working Group at Peking University Computing Cente",
                         "tags": [
                             "ai-infra"
                         ],
@@ -510,7 +510,7 @@
                         "name": "TBD",
                         "roleOrg": "",
                         "tags": [
-                            "ai-apps"
+                            "ai-infra"
                         ],
                         "image": "generic-profile.png"
                     }
@@ -519,17 +519,17 @@
             {
                 "date": "May 7",
                 "timeSlot": "11:20 - 12:00",
-                "title": "OminiX Enables Conversational AI",
+                "title": "TBD",
                 "content": "",
                 "speakers": [
                     {
-                        "id": "yanzhi-wang",
-                        "name": "Yanzhi Wang",
-                        "roleOrg": "Associate Professor, Electrical and Computer Engineering of Northwestern University",
+                        "id": "TBD",
+                        "name": "TBD",
+                        "roleOrg": "TBD",
                         "tags": [
-                            "ai-model"
+                            "ai-infra"
                         ],
-                        "image": "yanzhi-wang.png"
+                        "image": "generic-profile.png"
                     }
                 ]
             },
@@ -542,21 +542,22 @@
             },
             {
                 "date": "May 7",
-                "timeSlot": "14:00 - 14:40",
-                "title": "Docker",
+                "timeSlot": "14:00 - 14:00",
+                "title": "Streamlining AI App Development with Docker: Models and AI Tools That Just Work",
                 "content": "",
                 "speakers": [
                     {
-                        "id": "tbd",
-                        "name": "TBD",
-                        "roleOrg": "",
+                        "id": "jean-Laurent-de-morlhon",
+                        "name": "Jean-Laurent de Morlhon",
+                        "roleOrg": "SVP of GenAI Acceleration at Docker",
                         "tags": [
-                            "ai-apps"
+                            "ai-infra"
                         ],
-                        "image": "generic-profile.png"
+                        "image": "jean-Laurent-de-morlhon.png"
                     }
                 ]
             },
+
             {
                 "date": "May 7",
                 "timeSlot": "14:40 - 15:20",
@@ -568,12 +569,13 @@
                         "name": "TBD",
                         "roleOrg": "",
                         "tags": [
-                            "ai-apps"
+                            "ai-infra"
                         ],
                         "image": "generic-profile.png"
                     }
                 ]
             },
+
             {
                 "date": "May 7",
                 "timeSlot": "15:20 - 15:40",
@@ -687,7 +689,7 @@
             {
                 "date": "May 6",
                 "timeSlot": "14:00 - 14:40",
-                "title": "Distributed dataflows in Dora using Zenoh",
+                "title": "Distributed Dataflows in Dora Using Zenoh",
                 "content": "",
                 "speakers": [
                     {
@@ -897,7 +899,7 @@
                         "name": "TBD",
                         "roleOrg": "",
                         "tags": [
-                            "ai-apps"
+                            "ai-embodied"
                         ],
                         "image": "generic-profile.png"
                     }
@@ -1080,7 +1082,7 @@
             {
                 "date": "May 7",
                 "timeSlot": "10:40 - 11:20",
-                "title": "Cel.ai",
+                "title": "Camel-AI.ai",
                 "content": "",
                 "speakers": [
                     {
