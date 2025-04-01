@@ -5,6 +5,9 @@ import type { ImageMetadata } from "astro";
 // Import the speakers data
 import speakersData from "json/Speakers.json";
 
+// Filter speakers to only include those where draft is false
+const filteredSpeakers = speakersData.speakers.filter(speaker => speaker.draft !== true);
+
 // Import all images
 const images = import.meta.glob<{ default: ImageMetadata }>(
     "images/speakers/*.{jpeg,jpg,png,gif}",
@@ -74,7 +77,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 
         <div class="row grid visible" data-filter-grid data-modal-grid>
             {
-                speakersData.speakers.map((speaker, index) => (
+                filteredSpeakers.map((speaker, index) => (
                     <div
                         class="col"
                         data-filter-status="active"
@@ -116,7 +119,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
                             </div>
                             <div class="card-row card-row-info">
                                 <h2 class="h5">{speaker.name}</h2>
-                                <p>{speaker.description}</p>
+                                <p>{speaker.roleOrg}</p>
                             </div>
                         </a>
                     </div>
