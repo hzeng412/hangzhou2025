@@ -1,7 +1,7 @@
 ---
 // Components
-import Button from "components/Button.astro";
-import Logo from "./Logo.astro";
+import Button from "components/Button.astro"
+import Logo from "./Logo.astro"
 
 const links = [
   {
@@ -29,8 +29,12 @@ const links = [
         openInNewTab: true,
       },
       {
-        text: "AI Strategy Forum",
+        text: "Open-Source AI Strategy Forum",
         link: "/ai-strategy-forum/",
+      },
+      {
+        text: "PyTorch AI Paris Day",
+        link: "#",
       },
     ],
   },
@@ -53,9 +57,9 @@ const links = [
       },
     ],
   },
-];
+]
 
-const slug = Astro.url.pathname;
+const slug = Astro.url.pathname
 ---
 
 <header>
