@@ -1,0 +1,172 @@
+---
+// Components
+import Layout from "layouts/Layout.astro";
+import Hero from "components/Hero.astro";
+import Intro from "components/Intro.astro";
+import Agenda from "components/Agenda.astro";
+import Cards from "components/Cards.astro";
+import TextAndImage from "components/TextAndImage.astro";
+
+// Images
+import ForumInvite from "images/homepage/forum-invite.webp";
+---
+
+<Layout
+  title="AI Strategy Forum"
+  description="AI Strategy Forum - GOSIM Paris, the City of Light, transforms into the City of Artificial Brilliance this May. GOSIM AI 2025 invites visionaries, disruptors, and pioneers to converge at Station F, a crucible of innovation, to shape the next frontier of AI."
+  navDarkMode={true}
+  navBackground="header-home"
+  pageTransitionName="AI Strategy Forum"
+>
+  <Hero date="May 5, 2025" location="Station F, Paris" links={[]} />
+  <div
+    class="section-wrap"
+    id="intro"
+    data-theme-section="light"
+    data-bg-section="lightgray"
+  >
+    <Intro>
+      <h1 class="h3 light split-words animate-read">
+        This exclusive forum will bring together global thought leaders,
+        policymakers, researchers, and open-source AI pioneers to discuss the
+        pressing challenges and opportunities in the open-source AI landscape.
+        The event will culminate in a networking dinner cruise along the Seine
+        River, providing a scenic and informal setting for further discussions
+        and collaborations.
+      </h1>
+    </Intro>
+  </div>
+  <Cards
+    title="Key Focus Areas"
+    description="The forum will explore five key themes shaping the future of open-source AI."
+    cards={[
+      {
+        title: "AI Models & Innovation",
+        description:
+          "Addressing the need for transparency, reproducibility, and accessibility in AI model development.",
+        image: "/icons/eiffel.svg",
+      },
+      {
+        title: "Openness & Collaboration",
+        description:
+          "Defining standards and best practices for open AI ecosystems.",
+        image: "/icons/collaboration.svg",
+      },
+      {
+        title: "Sustainability & Resources",
+        description:
+          "Ensuring the long-term viability of open-source AI through funding, infrastructure, and responsible energy use.",
+        image: "/icons/open-source-ai.svg",
+      },
+      {
+        title: "Governance & Ethics",
+        description:
+          "Navigating regulatory frameworks, ethical considerations, and trust mechanisms in open AI development.",
+        image: "/icons/networking.svg",
+      },
+      {
+        title: "Sovereignty & Strategic Autonomy",
+        description:
+          "Balancing global collaboration with national and regional sovereignty in AI infrastructure and policy.",
+        image: "/icons/workshops.svg",
+      },
+    ]}
+  />
+  <Agenda
+    title="Agenda"
+    list={[
+      {
+        title: "AI Model",
+        markdown: `
+        * **Registration and Networking Breakfast**
+        * **Keynote Address:** The State of Open-Source AI and Its Future
+        * **Panel Discussion:** Open AI Challenges - Perspectives from Industry, Academia, and Government
+        <ul>
+          <li>Model Panel</li>
+          <li>OSS Foundation Panel</li>
+          <li>International Standards Panel</li>
+        </ul>
+        * **Coffee Break**
+        * **Breakout Sessions Identifying and Analyzing Core Issues:**
+        <ul>
+          <li>Track 1: Open Models and Licensing Challenges</li>
+          <li>Track 2: AI Commons and Sustainable AI Infrastructure</li>
+          <li>Track 3: Policy and Governance Models for Open AI</li>
+        </ul>`,
+      },
+      {
+        title: "Afternoon Session: Solutions and Strategies",
+        markdown: `
+        * **Lightning Talks:** Case Studies in Open-Source AI Success and Failure
+        * **Roundtable Discussions:** Crafting a Collaborative Roadmap
+        * **Coffee Break** 
+        * **Forum Report Drafting:** Key Takeaways and Policy Recommendations Closing Remarks
+        `,
+      },
+      {
+        title: "Evening Program: Seine River Cruise Dinner",
+        markdown: `
+        * **Informal Networking & Social Discussions:** Exclusive networking dinner on a Seine river cruise
+        * Continue discussions in a relaxed setting while enjoying views of Paris
+        `,
+      },
+    ]}
+  />
+  <Cards
+    title="Forum Outputs"
+    description="Participants will contribute to developing tangible outcomes that influence the future of AI strategy."
+    cards={[
+      {
+        title: "Strategic Whitepaper",
+        description:
+          "GOSIM Open-Source AI Strategy Report: A synthesized document capturing key discussions, recommendations, and action points from the forum, to be published on the GOSIM website.",
+        image: "/icons/eiffel.svg",
+      },
+      {
+        title: "Position Paper",
+        description:
+          "Position Paper on Open AI Governance: A collaboratively drafted paper summarizing governance challenges and proposals for open-source AI policy frameworks.",
+        image: "/icons/collaboration.svg",
+      },
+      {
+        title: "Collaboration Roadmap",
+        description:
+          "AI Commons Collaboration Initiative: A proposal for a global coalition to ensure sustainable, ethical, and transparent development of open AI models and infrastructure.",
+        image: "/icons/open-source-ai.svg",
+      },
+    ]}
+  />
+  <Cards
+    title="Forum Participants"
+    description="An exclusive gathering of decision-makers and thought leaders across the AI ecosystem."
+    cards={[
+      {
+        title: "OSS AI Model Partners",
+        description: "BAAI, Qwen, Mistral, Llama, etc.",
+        image: "/icons/eiffel.svg",
+      },
+      {
+        title: "OSS Foundations",
+        description:
+          "Linux Foundation, LF EU, Eclipse, OpenAtom, OFE, NLnet, Software Heritage Foundation, Sustainable AI Coalition, etc.",
+        image: "/icons/collaboration.svg",
+      },
+      {
+        title: "International Organizations",
+        description: "UN, ITU AI4Goods, D20, etc.",
+        image: "/icons/open-source-ai.svg",
+      },
+    ]}
+  />
+  <TextAndImage
+    title="Forum Invitation"
+    text="This exclusive invitation-only event is designed for senior executives, policy experts, and open-source leaders with significant influence in the AI ecosystem. Participation is limited to ensure meaningful discussion and actionable outcomes. The Open-Source AI Strategy Forum offers a unique opportunity to shape the future landscape of AI development through collaborative dialogue and strategic planning. By bringing together diverse perspectives from industry, policy, and open-source communities, we aim to develop frameworks that enable innovation while addressing critical concerns around governance, safety, and fair competition. Participants will gain valuable insights into emerging trends, build meaningful connections with peers across sectors, and contribute to developing resources that will influence AI strategy globally. Your expertise and perspective are invaluable to this discussion. We hope you'll join us in Paris for this important dialogue on the future of AI innovation. To request an invitation or for more information, please contact strategy-forum@gosim.org"
+    image={ForumInvite}
+    imageAlt="Gosim Spotlight AI badge"
+    ctaButton={{
+      text: "Request Info",
+      link: "mailto:strategy-forum@gosim.org",
+      openInNewTab: true,
+    }}
+  />
+</Layout>
