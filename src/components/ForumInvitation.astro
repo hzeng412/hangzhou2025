@@ -33,8 +33,10 @@ const { title, text, image, imageAlt, ctaButton } = Astro.props;
           <h2 class="custom3">{title}</h2>
         </div>
 
-        <div class="col-row col-row-text styled-content">
-          <div class="card-row styled-content" set:html={text} />
+        <div class="col-row col-row-text">
+          <div class="card-row styled-content">
+            <div set:html={text} />
+          </div>
         </div>
 
         {
