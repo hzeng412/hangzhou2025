@@ -5,7 +5,7 @@ import Hero from "components/Hero.astro";
 import Intro from "components/Intro.astro";
 import Agenda from "components/Agenda.astro";
 import Cards from "components/Cards.astro";
-import TextAndImage from "components/TextAndImage.astro";
+import ForumInvitation from "components/ForumInvitation.astro";
 
 // Images
 import ForumInvite from "images/homepage/forum-invite.webp";
@@ -18,7 +18,7 @@ import ForumInvite from "images/homepage/forum-invite.webp";
   navBackground="header-home"
   pageTransitionName="AI Strategy Forum"
 >
-  <Hero date="May 5, 2025" location="Station F, Paris" links={[]} />
+  <Hero date="May 5, 2025" location="Invite Only" links={[]} />
   <div
     class="section-wrap"
     id="intro"
@@ -158,9 +158,13 @@ import ForumInvite from "images/homepage/forum-invite.webp";
       },
     ]}
   />
-  <TextAndImage
+  <ForumInvitation
     title="Forum Invitation"
-    text="This exclusive invitation-only event is designed for senior executives, policy experts, and open-source leaders with significant influence in the AI ecosystem. Participation is limited to ensure meaningful discussion and actionable outcomes. The Open-Source AI Strategy Forum offers a unique opportunity to shape the future landscape of AI development through collaborative dialogue and strategic planning. By bringing together diverse perspectives from industry, policy, and open-source communities, we aim to develop frameworks that enable innovation while addressing critical concerns around governance, safety, and fair competition. Participants will gain valuable insights into emerging trends, build meaningful connections with peers across sectors, and contribute to developing resources that will influence AI strategy globally. Your expertise and perspective are invaluable to this discussion. We hope you'll join us in Paris for this important dialogue on the future of AI innovation. To request an invitation or for more information, please contact strategy-forum@gosim.org"
+    text="This exclusive invitation-only event is designed for senior executives, policy experts, and open-source leaders with significant influence in the AI ecosystem. Participation is limited to ensure meaningful discussion and actionable outcomes.<br>
+The Open-Source AI Strategy Forum offers a unique opportunity to shape the future landscape of AI development through collaborative dialogue and strategic planning. By bringing together diverse perspectives from industry, policy, and open-source communities, we aim to develop frameworks that enable innovation while addressing critical concerns around governance, safety, and fair competition.<br>
+Participants will gain valuable insights into emerging trends, build meaningful connections with peers across sectors, and contribute to developing resources that will influence AI strategy globally.<br>
+Your expertise and perspective are invaluable to this discussion. We hope you'll join us in Paris for this important dialogue on the future of AI innovation.<br>
+To request an invitation or for more information, please use the button below."
     image={ForumInvite}
     imageAlt="Gosim Spotlight AI badge"
     ctaButton={{
