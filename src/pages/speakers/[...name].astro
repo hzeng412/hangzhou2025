@@ -11,8 +11,8 @@ import schedule from "json/Schedule.json";
 // Types
 interface Speaker {
   name: string;
-  description: string;
-  full_description: string;
+  roleOrg: string;
+  bio: string;
   image?: string;
   socialLinks?: {
     website?: string;
@@ -77,7 +77,7 @@ const socialIconMap: Record<string, string> = {
 
 <Layout
   title={`${speaker.name} – GOSIM AI Paris 2025`}
-  description={speaker.description}
+  description={speaker.roleOrg}
   navBackground="light"
   pageTransitionName={speaker.name}
 >
@@ -106,14 +106,15 @@ const socialIconMap: Record<string, string> = {
               )}
             <div class="speaker-row-meta">
               <h1 class="h2">{speaker.name}</h1>
-              <p>{speaker.description}</p>
+              <p>{speaker.roleOrg}</p>
             </div>
           </div>
 
           <div class="box-row box-row-tag">
             <div class="card-tags group-tags social-wrap" style="gap: 1rem; align-items: center;">
-              {Object.entries(speaker.socialLinks || {}).map(
-                ([platform, url]) => (
+              <!-- {Object.entries(speaker.socialLinks || {})
+                .filter(([_, url]) => url && url.trim() !== '' && url !== 'undefined')
+                .map(([platform, url]) => (
                   <a
                     href={url}
                     class="social-link"
@@ -132,12 +133,12 @@ const socialIconMap: Record<string, string> = {
                     />
                   </a>
                 )
-              )}
+              )} -->
             </div>
           </div>
 
           <div class="box-row box-row-text styled-content">
-            <p>{speaker.full_description}</p>
+            <p>{speaker.bio}</p>
           </div>
         </div>
       </div>
