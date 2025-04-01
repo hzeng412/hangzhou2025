@@ -7,7 +7,7 @@ import Button from "components/Button.astro";
 
 interface Props {
   title: string;
-  text: string; // Can now contain HTML/Markdown content
+  text: string; // Can contain HTML content like <br> tags
   image: any;
   imageAlt: string;
   ctaButton?: {
@@ -34,7 +34,7 @@ const { title, text, image, imageAlt, ctaButton } = Astro.props;
         </div>
 
         <div class="col-row col-row-text styled-content">
-          <p set:html={text} />
+          <div class="card-row styled-content" set:html={text} />
         </div>
 
         {
