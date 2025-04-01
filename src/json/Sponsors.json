@@ -1,154 +1,169 @@
 {
     "categories": [
-        { "name": "Partner" }
+        { "name": "All" },
+        { "name": "Sponsors" },
+        { "name": "Supporting Organization" },
+        { "name": "Speaker Affiliated" }
     ],
     "partners": [
         {
-            "category": "Partner",
+            "category": "Sponsors",
+            "image": "huawei.png"
+        },
+        {
+            "category": "Sponsors",
+            "image": "csdn.png"
+        },
+        {
+            "category": "Sponsors",
+            "image": "1msai.png"
+        },
+        {
+            "category": "Speaker Affiliated",
             "image": "ag2.png"
         },
         {
-            "category": "Partner",
+            "category": "Supporting Organization",
             "image": "aifc.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "airs.png"
         },
         {
-            "category": "Partner",
+            "category": "Supporting Organization",
             "image": "apache.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "baai.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "camelai.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "deepmind.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "dify.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "dora.png"
         },
         {
-            "category": "Partner",
+            "category": "Supporting Organization",
             "image": "eclipse-foundation.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "flagopen.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "huggingface.png"
         },
         {
-            "category": "Partner",
+            "category": "Supporting Organization",
             "image": "khronosgroup.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "koyeb.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "lerobot.png"
         },
         {
-            "category": "Partner",
+            "category": "Supporting Organization",
             "image": "lf-gen-ai.png"
         },
         {
-            "category": "Partner",
+            "category": "Supporting Organization",
             "image": "lf-research-color.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "makepad.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "metagpt.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "mianbi.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "moxin.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "neo4j.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "nvidia.png"
         },
         {
-            "category": "Partner",
+            "category": "Supporting Organization",
             "image": "openwallet.png"
         },
         {
-            "category": "Partner",
+            "category": "Supporting Organization",
             "image": "osi.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "peking-university.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "pytorch.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "qwen.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "ragflow.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "sgl.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "spring.png"
         },
         {
-            "category": "Partner",
+            "category": "Supporting Organization",
             "image": "sw-heritage.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "unitree.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "ustoc.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "vllm.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "zenoh.png"
         },
         {
-            "category": "Partner",
+            "category": "Speaker Affiliated",
             "image": "zhipuai.png"
         }
     ]

@@ -126,6 +126,40 @@
       width: 100%;
    }
 }
+
+.section-sponsors {
+   padding: 4rem 0;
+}
+
+.sponsor-card img {
+   max-height: 80px;
+   width: auto;
+}
+
+.proud-sponsors {
+   display: flex;
+   justify-content: center;
+}
+
+.proud-sponsors__flex {
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   margin: auto;
+   padding: 48px 0px;
+}
+
+@media only screen and (max-width: 810px) {
+   .proud-sponsors__flex {
+      width: 100%;
+   }
+
+   .sponsor-card img {
+      max-height: 60px;
+      width: auto;
+   }
+}
+
 /* ------------------------- Default Header -------------------------------------------------- */
 
 .default-header {
@@ -1104,6 +1138,10 @@
    flex-direction: column;
    gap: 1.25em;
    cursor: pointer;
+}
+
+.flickity-slide > .single-speakers-card {
+   cursor: grab;
 }
 
 .single-speakers-card .card-row-image {
