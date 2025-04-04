@@ -95,14 +95,19 @@ const socialIconMap: Record<string, string> = {
           <div class="row-speaker">
             {speaker?.image &&
               images[`/public/images/speakers/${speaker.image}`] && (
-                <Picture
-                  src={images[`/public/images/speakers/${speaker.image}`]()}
-                  formats={["webp", "jpg"]}
-                  alt={speaker.name}
-                  class="speaker-detail-image"
-                  widths={[275, 400, 500, 600, 750, 900]}
-                  sizes="(max-width: 700px) 58vw, 450px"
-                />
+                <div class="speaker-detail-image">
+                  <Picture
+                    src={images[`/public/images/speakers/${speaker.image}`]()}
+                    formats={["webp", "jpg"]}
+                    alt={speaker.name}
+                    class="speaker-detail-image"
+                    widths={[275, 400, 500, 600, 750, 900]}
+                    sizes="(max-width: 700px) 58vw, 450px"
+                    height={400}
+                    width={400}
+                    loading="eager"
+                  />
+                </div>
               )}
             <div class="speaker-row-meta">
               <h1 class="h2">{speaker.name}</h1>
