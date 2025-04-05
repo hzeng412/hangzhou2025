@@ -1722,6 +1722,19 @@ footer {
    width: 32%;
 }
 
+.footer .footer-socials {
+   margin-top: 1rem;
+   gap: 1rem;
+
+   a {
+      transition: opacity 0.2s;
+
+      &:hover {
+         opacity: 0.6;
+      }
+   }
+}
+
 /* Row Base */
 
 .footer .row-base {

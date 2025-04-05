@@ -2,9 +2,7 @@
 // Components
 import Header from 'components/Header.astro';
 import Footer from 'components/Footer.astro';
-import Loading from 'components/Loading.astro';
 import Seo from 'components/Seo.astro';
-import LoadVideos from 'components/LoadVideos.astro';
 
 // Styles
 import 'styles/Normalize.scss';
@@ -52,8 +50,6 @@ const { title, description, noindex, navDarkMode, navBackground, pageTransitionN
 		data-barba="wrapper"
 	>
 
-		<Loading />
-
 		<Header />
 
 		<main
@@ -70,13 +66,11 @@ const { title, description, noindex, navDarkMode, navBackground, pageTransitionN
 
 		<script defer src="https://code.jquery.com/jquery-3.7.0.min.js"/>
 		<script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"/>
-		<script defer src="https://cdn.jsdelivr.net/npm/@barba/core@2.9.7"/>
+		<!-- <script defer src="https://cdn.jsdelivr.net/npm/@barba/core@2.9.7"/> -->
 		<script defer src="https://unpkg.com/@studio-freight/lenis@1.0.36/dist/lenis.min.js"/>
 		<script defer src="https://unpkg.com/flickity@2.3.0/dist/flickity.pkgd.min.js"/>
 		<script defer src="/js/ScrollTrigger.min.js"/>
-		<script defer src="/js/Animations.min.js"/>
-
-		<LoadVideos />
+		<script defer src="/js/Animations.js"/>
 
 	</body>
 </html>

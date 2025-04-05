@@ -14,7 +14,7 @@ type Event = {
   content: string;
   date: string;
   timeSlot: string;
-  speakers?: { name: string; image?: string; title: string }[];
+  speakers?: { name: string; image?: string; roleOrg: string }[];
 };
 
 type Schedule = {
@@ -24,7 +24,7 @@ type Schedule = {
 };
 
 type Speakers = {
-  speakers: { name: string; image?: string; title: string }[];
+  speakers: { name: string; image?: string; roleOrg: string }[];
 };
 
 // Generate static paths for events
@@ -145,7 +145,7 @@ const eventCategory =
                                                                     </h3>
                                                                     <p>
                                                                         {
-                                                                            speaker.title
+                                                                            speaker.roleOrg
                                                                         }
                                                                     </p>
                                                                 </div>

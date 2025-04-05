@@ -33,10 +33,10 @@
       "role": "AI Community Architect",
       "socialLinks": {
         "mastodon": "undefined",
-        "twitter": "chiefscientist",
-        "github": "alexy",
-        "linkedin": "in/chiefscientist",
-        "website": "chiefscientist.org"
+        "twitter": "https://x.com/chiefscientist",
+        "github": "https://github.com/alexy",
+        "linkedin": "https://www.linkedin.com/in/chiefscientist/",
+        "website": "https://chiefscientist.org"
       },
       "status": "New",
       "draft": false
@@ -109,9 +109,9 @@
       "role": "Research Scientist",
       "socialLinks": {
         "mastodon": "undefined",
-        "twitter": "Chi_Wang_",
-        "github": "sonichi",
-        "linkedin": "chi-wang-autogen",
+        "twitter": "https://x.com/Chi_Wang_",
+        "github": "https://github.com/sonichi",
+        "linkedin": "https://www.linkedin.com/in/chi-wang-autogen/",
         "website": "undefined"
       },
       "status": "New",
@@ -128,8 +128,8 @@
       "tag": "ai-model",
       "socialLinks": {
         "mastodon": "undefined",
-        "twitter": "dhbrojas",
-        "github": "dhbrojas",
+        "twitter": "https://x.com/dhbrojas",
+        "github": "https://github.com/dhbrojas",
         "linkedin": "https://www.linkedin.com/in/dhbrojas/",
         "website": "undefined"
       },
@@ -186,8 +186,8 @@
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://x.com/gregschoeninger",
-        "github": "undefined",
-        "linkedin": "https://github.com/gschoeni",
+        "github": "https://github.com/gschoeni",
+        "linkedin": "undefined",
         "website": "https://www.oxen.ai/blog"
       },
       "status": "New",
@@ -384,7 +384,7 @@
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
-        "github": "phil-opp",
+        "github": "https://github.com/phil-opp",
         "linkedin": "undefined",
         "website": "https://os.phil-opp.com"
       },
@@ -402,10 +402,10 @@
       "role": "Founder",
       "socialLinks": {
         "mastodon": "undefined",
-        "twitter": "rikarends",
-        "github": "makepad/makepad",
-        "linkedin": "arendsrik",
-        "website": "makepad.nl"
+        "twitter": "https://x.com/rikarends",
+        "github": "https://github.com/makepad/makepad",
+        "linkedin": "https://www.linkedin.com/in/arendsrik/",
+        "website": "https://makepad.nl"
       },
       "status": "New",
       "draft": false
@@ -723,9 +723,9 @@
       "tag": "ai-infra",
       "socialLinks": {
         "mastodon": "gblaquiere",
-        "twitter": "gblaquiere",
-        "github": "guillaumeblaquiere",
-        "linkedin": "guillaume-blaquiere",
+        "twitter": "https://x.com/gblaquiere",
+        "github": "https://github.com/guillaumeblaquiere",
+        "linkedin": "https://www.linkedin.com/in/guillaume-blaquiere",
         "website": "https://medium.com/@guillaume-blaquiere"
       },
       "status": "New",
@@ -743,9 +743,9 @@
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "dxhuang",
-        "github": "c4pt0r",
+        "github": "https://github.com/c4pt0r",
         "linkedin": "undefined",
-        "website": "me.0xffff.me"
+        "website": "https://me.0xffff.me"
       },
       "status": "New",
       "draft": true
@@ -953,7 +953,7 @@
         "mastodon": "undefined",
         "twitter": "undefined",
         "github": "undefined",
-        "linkedin": "wangqincass@126.com",
+        "linkedin": "undefined",
         "website": "undefined"
       },
       "status": "New",
