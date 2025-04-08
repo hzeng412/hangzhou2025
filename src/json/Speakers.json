@@ -235,10 +235,20 @@
       "id": "guohao-li",
       "tag": "ai-apps",
       "name": "Guohao Li",
-      "roleOrg": "Founder of Camel-AI.org",
-      "bio": "",
+      "roleOrg": "Founder and CEO of Eigent.AI / CAMEL-AI.org",
+      "bio": "Guohao Li is the founder and CEO of Eigent.AI. He is an artificial intelligence researcher and an open-source contributor working on building intelligent agents that can perceive, learn, communicate, reason, and act. He is the core lead of the open source projects CAMEL-AI.org and DeepGCNs.org.\r\n\r\nGuohao Li was a postdoctoral researcher at University of Oxford with Prof. Philip Torr. He obtained his PhD degree in Computer Science at King Abdullah University of Science and Technology (KAUST) advised by Prof. Bernard Ghanem. During his Ph.D. studies, he was fortunate to work at Intel ISL with Dr. Vladlen Koltun and Dr. Matthias Müller as a research intern. He visited ETHz CVL as a visiting researcher. He also worked at Kumo AI and PyG.org with Prof. Jure Leskovec and Dr. Matthias Fey as a PhD intern. His primary research interests include Autonomous Agents, Graph Machine Learning, Computer Vision, and Embodied AI. He has published related papers in top-tier conferences and journals such as ICCV, CVPR, ICML, NeurIPS, RSS, 3DV, and TPAMI.",
       "image": "guohao-li.png",
-      "org": "Camel.ai"
+      "org": "Eigent.AI / CAMEL-AI.org",
+      "role": "Founder and CEO",
+      "socialLinks": {
+        "mastodon": null,
+        "twitter": "https://x.com/guohao_li",
+        "github": "https://github.com/lightaime",
+        "linkedin": "https://www.linkedin.com/in/guohao-li-9a573b136/",
+        "website": "https://ghli.org/"
+      },
+      "status": "New",
+      "draft": false
     },
     {
       "id": "han-xiao",
@@ -253,7 +263,7 @@
       "id": "huy-hoang-ha",
       "tag": "ai-model",
       "name": "Huy Hoang Ha",
-      "roleOrg": "LLM Researcher",
+      "roleOrg": "LLM Researcher at Menlo Research",
       "bio": "Rex is a master’s student specializing in the Application of AI for Healthcare at Université Grenoble Alpes, France. His research focuses on developing a large language model (LLM) to assist clinicians while minimizing hallucinations. With a background in pharmacy, Rex is dedicated to bridging the gap between AI and domain-specific challenges in healthcare.\r\n\r\nRex is also a research scientist at Menlo Research, an open weights and data AI lab dedicated to optimizing intelligence per watt. At Menlo Research, he is working on early fusion speech models, enhancing their capabilities for low-resource languages and integration within robotic embodiments.",
       "image": "huy-hoang-ha.jpg",
       "org": "Menlo Research",
@@ -471,7 +481,7 @@
       "id": "sirui-hong",
       "tag": "ai-apps",
       "name": "Sirui Hong",
-      "roleOrg": "Co-Founder of OpenManus",
+      "roleOrg": "Co-Founder of DeepWisdom, MetaGPT/OpenManus Team Leader",
       "bio": "Sirui Hong is currently the technical leader of NLP/AIGC Algorithms at DeepWisdom (MetaGPT), responsible for algorithm research and development. She has experience in NLP, automated complex data analysis, and intelligent multi-agent system design. She won the NeurIPS 2019 AutoDL Competition (NLP track), authored the MetaGPT paper (ICLR 2024 Oral) and Data Interpreter paper, and co-authored the AFLOW paper (ICLR 2025 Oral). She is a core contributor to OpenManus. Her research has been published in TPAMI and ICLR, with current interests in enhancing large language models, advanced code generation, and multi-agent performance optimization.",
       "image": "sirui-hong.jpg",
       "org": "OpenManus",
@@ -547,18 +557,34 @@
       "tag": "ai-model",
       "name": "Xin Dong",
       "roleOrg": "Technical Expert in the Programming Language Lab of Huawei",
-      "bio": "CangjieMagic : New Choices for Developers in the Age of Large Models",
+      "bio": "2008–2017 Microsoft | Technical Leader\r\nEngaged in the R&D of Microsoft Azure Enterprise Cloud and Dynamics 365 platforms.\r\n\r\n2017–Present Huawei Technologies | Technical Expert/Product Director\r\nLed R&D in core foundational software, including development toolchains, programming languages, and IDEs. During tenure at Huawei:\r\n\r\nServed as Chief Technical Expert and Project Manager, working on Huawei’s mobile AI development tools, the company-wide AI R&D platform, the Ascend AI chip toolchain, and the HarmonyOS toolchain.\r\n\r\nSince 2021, responsible for programming language and IDE foundational software R&D as Program Director, driving the development of self-controlled programming languages and IDE core technologies. Played a key role in the technical planning, productization, and industrial adoption of domestic application programming languages, making significant contributions to their advancement.",
       "image": "xin-dong.jpg",
-      "org": "HUAWEI"
+      "org": "HUAWEI",
+      "role": "Technical expert in the programming language lab of Huawei ",
+      "socialLinks": {
+        "mastodon": null,
+        "twitter": null,
+        "github": null,
+        "linkedin": null,
+        "website": null
+      }
     },
     {
       "id": "xinrui-liu",
       "tag": "ai-apps",
       "name": "Xinrui Liu",
       "roleOrg": "Developer Ecosystem Director at LangGenius",
-      "bio": "Tech together, Powered by Dify",
+      "bio": "Xinrui Liu, Developer Ecosystem Director at DIFY, is responsible for building DIFY's global open-source ecosystem partnership network and driving the deep integration of developer tools with commercial value.\r\n\r\nA graduate of Northwestern University, she specializes in designing commercialization pathways for open-source products and establishing compliance frameworks for open-source licenses. She is committed to finding a balance between community innovation and sustainable corporate growth.\r\n\r\nAs a next-generation AI-native application development platform, DIFY upholds the philosophy of open-source-driven innovation. Through technological empowerment, resource connectivity, and ecosystem incubation, DIFY aims to help developers and enterprises worldwide bridge the gap between code and commercial value.",
       "image": "xinrui-liu.jpg",
-      "org": "LangGenius"
+      "org": "LangGenius, Inc.",
+      "role": "Developer Ecosystem Director",
+      "socialLinks": {
+        "mastodon": null,
+        "twitter": null,
+        "github": null,
+        "linkedin": null,
+        "website": null
+      }
     },
     {
       "id": "xiyuan-wang",
@@ -979,14 +1005,14 @@
       "draft": true
     },
     {
-      "id": "jeanlaurent-de-morlhon",
+      "id": "jean-laurent-de-morlhon",
       "name": "Jean-Laurent de Morlhon",
       "bio": "Jean-Laurent de Morlhon is an Executive & SVP of Engineering at Docker, leading Generative AI initiatives to enhance the developer experience across the Docker ecosystem. With over nine years at Docker, he has played a key role in shaping its engineering culture, scaling teams, and driving innovation in cloud-native development. A seasoned engineering leader with deep expertise in developer tools, infrastructure, and software delivery, Jean-Laurent is passionate about automation, security, and AI-powered developer experiences. As an executive at Docker, he focuses on fostering high-performing teams, delivering impactful products, and pushing the boundaries of developer productivity. Beyond Docker, he actively engages with the tech community and shares his insights on Bluesky @morlhon.bsky.social. ",
       "role": "Sr Vice President, GenAI Acceleration",
       "org": "Docker ",
       "roleOrg": "Sr Vice President, GenAI Acceleration at Docker ",
-      "image": "jeanlaurent-de-morlhon.jpg",
-      "tag": "ai-apps",
+      "image": "jean-laurent-de-morlhon.png",
+      "tag": "ai-infra",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -995,7 +1021,7 @@
         "website": "undefined"
       },
       "status": "New",
-      "draft": true
+      "draft": false
     },
     {
       "id": "sray-agarwal",
@@ -1005,7 +1031,7 @@
       "org": "Infosys",
       "roleOrg": "Head of Responsible AI (EMEA & APAC) at Infosys",
       "image": "sray-agarwal.JPG",
-      "tag": "ai-apps",
+      "tag": "osaif",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1023,7 +1049,7 @@
       "role": "Professor",
       "org": "University of Science and Technology of China",
       "roleOrg": "Professor at University of Science and Technology of China",
-      "image": "james-yang.jpeg",
+      "image": "james-yang.png",
       "tag": "embodied-ai",
       "socialLinks": {
         "mastodon": "undefined",
@@ -1033,7 +1059,7 @@
         "website": "undefined"
       },
       "status": "New",
-      "draft": true
+      "draft": false
     },
     {
       "id": "christian-tzolov",
@@ -1052,7 +1078,83 @@
         "website": "https://spring.io/authors/tzolov"
       },
       "status": "New",
-      "draft": true
+      "draft": false
+    },
+    {
+      "id": "jenia-jitsev",
+      "name": "Jenia Jitsev",
+      "bio": "Scientific lead and co-founder at LAION. Open foundation models and datasets necessary for their creation, studying generalist transferable learning and its scaling laws. Machine learning and neuroscience. Senior researcher and lab leader at Juelich Supercomputer Center (JSC), Research Center Juelich, Helmholtz Association ",
+      "role": "Scientific lead",
+      "org": "LAION; Juelich Supercomputing Center, Research Center Juelich",
+      "roleOrg": "Scientific lead at LAION; Juelich Supercomputing Center, Research Center Juelich",
+      "image": "jenia-jitsev.jpg",
+      "tag": "ai-model",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "yajing-wang",
+      "name": "Yajing Wang",
+      "bio": "Yajing focuses on empowering developers through meaningful content, inclusive community engagement, and scalable solutions. With a passion for bridging the gap between technology and its users, Yajing brings technical expertise and creativity to foster thriving developer ecosystems. ",
+      "role": "Director of DevRel & Community",
+      "org": "Olares",
+      "roleOrg": "Director of DevRel & Community at Olares",
+      "image": "yajing-wang.jpeg",
+      "tag": "ai-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "angelo-corsaro",
+      "name": "Angelo Corsaro",
+      "bio": "Angelo Corsaro, Ph.D.\r\nCEO, CTO, and Co-Founder of ZettaScale Technology\r\n\r\nAngelo Corsaro, Ph.D., is the Chief Executive Officer (CEO), Chief Technology Officer (CTO), and co-founder of ZettaScale Technology. At ZettaScale, he leads a world-class team dedicated to revolutionizing distributed computing, ensuring that every connected human and machine can communicate, compute, and store data anywhere, at any scale, efficiently, and securely.\r\n\r\nA globally recognized expert in Cloud-to-Thing Continuum, high-performance distributed systems, and real-time computing, Angelo is the inventor of the Zenoh protocol and the lead of the Eclipse Zenoh project. His work is reshaping the future of data-centric and event-driven architectures, bridging the gap between cloud, edge, and embedded systems.\r\n\r\nWith a prolific research background, Angelo has authored over 100 publications in peer-reviewed journals, conferences, workshops, and industry magazines. He has also contributed to over ten international standards, shaping the evolution of real-time and large-scale distributed computing.\r\n\r\nAngelo was a founding Co-Chair of the OMG DDS standard, playing a key role in its development and adoption. His leadership in DDS continued until 2015, when he stepped away due to technical divergences and committed himself to designing and implementing the first Zenoh protocol, paving the way for the next generation of data-centric middleware.",
+      "role": "CEO/CTO",
+      "org": "ZettaScale",
+      "roleOrg": "CEO/CTO of ZettaScale",
+      "image": "angelo-corsaro.png",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/acorsaro",
+        "github": "http://github.com/kydos",
+        "linkedin": "https://www.linkedin.com/in/corsaro/",
+        "website": "https:/zettascale.tech"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "minglan-lin",
+      "name": "Minglan Lin",
+      "bio": "Minglan Lin possesses extensive expertise in training large models, including LLMs, VLMs, and embodied intelligence VLMs. At the BAAI Embodied Intelligence Team, Minglan spearheaded the development and open-sourcing of the RoboBrain large model and the hierarchical collaborative framework RoboOS.",
+      "role": "Embodied Intelligence Researcher",
+      "org": "Beijing Academy of Artificial Intelligence",
+      "roleOrg": "Embodied Intelligence Researcher at Beijing Academy of Artificial Intelligence",
+      "image": "minglan-lin.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
     }
   ]
 }
