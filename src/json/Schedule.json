@@ -55,7 +55,7 @@
       {
         "date": "May 6",
         "timeSlot": "10:40 - 11:20",
-        "title": "Open-R1: A fully open reproduction of DeepSeek-R1",
+        "title": "Open-R1: A Fully Open Reproduction of DeepSeek-R1",
         "content": "The recipe behind OpenAI’s reasoning models has been a well kept secret. That is, until earlier this year, when DeepSeek released their DeepSeek-R1 model and promptly broke the internet. While a detailed technical report was published, many open questions remain, chief among them the training data, which was not released. Open-R1 is Hugging Face's fully open effort to replicate DeepSeek-R1, with a strong focus on reasoning data curation.",
         "speakers": [
           {
@@ -92,7 +92,7 @@
       {
         "date": "May 6",
         "timeSlot": "14:00 - 14:40",
-        "title": "Decode DeepSeek: the Technological innovation and Its Influence on AI Ecosystem",
+        "title": "Decode DeepSeek: the Technological Innovation and Its Influence on AI Ecosystem",
         "content": "Recently, DeepSeek has attracted a great deal of attention with its outstanding technological innovations and is set to have a profound and extensive impact on the AI industry. This speech is divided into two parts. In the first part, we will  top-down walkthrough of DeepSeek’s technological innovations, including the paradigm shift in inference computing led by its open-source reinforcement learning solution, innovations in model architecture such as MLA and MOE, and performance optimizations in system engineering. In the second part, we will explore the transformations and impacts on global AI ecosystem triggered by DeepSeek, including its key influences on aspects such as AI applications、AI Agents, the computing power landscape, and AI open-source initiatives.",
         "speakers": [
           {
@@ -107,7 +107,7 @@
       {
         "date": "May 6",
         "timeSlot": "14:40 - 15:20",
-        "title": "Linear Next: The evolution of LLM Architecture",
+        "title": "Linear Next: The Evolution of LLM Architecture",
         "content": "The Transformer architecture, despite its popularity, suffers from quadratic computational complexity. Recent advances in computing hardware, such as the V100 to H200 series, have temporarily alleviated this issue, reducing the immediate need for alternatives in the industry. Linear-complexity solutions for large models are still in the research phase, lacking widespread validation in practical applications. Consequently, Transformer remains the preferred choice.\r\n\r\nHowever, as improvements in computing power slow down, the demand for architectures that surpass Transformer in efficiency will grow. Our team has developed Lightning Attention, a novel mechanism based on linear attention. By rearranging the QKV multiplication order (Q(KV)), Lightning Attention achieves linear computational complexity relative to sequence length. Experiments show it significantly outperforms the latest Transformers in both efficiency and performance, validated on a 456B MoE model (MiniMax 01). This innovation paves the way for more efficient large language models, offering new possibilities for future development.",
         "speakers": [
           {
@@ -209,7 +209,7 @@
       {
         "date": "May 7",
         "timeSlot": "11:20 - 12:00",
-        "title": "Open foundation models: scaling laws and generalization",
+        "title": "Open Foundation Models: Scaling Laws and Generalization",
         "content": "To study transferable learning and generalization, derivation of reproducible scaling laws is crucial. We highlight why open foundation models and datasets are essential for this research and highlight challenges in properly measuring generalization.",
         "speakers": [
           {
@@ -231,7 +231,7 @@
       {
         "date": "May 7",
         "timeSlot": "14:00 - 14:40",
-        "title": "Pre-training of smol and large LLM",
+        "title": "Pre-training of Smol and Large LLM",
         "content": "Explaining what's new in pre-training: optimization tricks, MoE, stability hacks, and handling long contexts—everything you need to build better LLMs.",
         "speakers": [
           {
@@ -246,7 +246,7 @@
       {
         "date": "May 7",
         "timeSlot": "14:40 - 15:20",
-        "title": "Demysifying LLM training --- towards fully open-source LLM from pre-training to reinforcement learning",
+        "title": "Demysifying LLM Training --- Towards Fully Open-source LLM from Pre-training to Reinforcement Learning",
         "content": "Recently, Large Language Models (LLMs) have undergone a significant transformation, marked by a rapid rise in both their popularity and capabilities. Leading this evolution are proprietary LLMs like GPT-4 and GPT-o1, which have captured widespread attention in the AI community for their power and versatility. Simultaneously, open-source LLMs, such as LLaMA and Mistral, have made great contributions to the ever-increasing popularity of LLMs due to the ease to customize and deploy the models across various applications. Although LLMs offer unprecedented opportunities for research and innovation, its commercialization has raised concerns about transparency, reproducibility, and safety. Many open LLM models lack the necessary components (such as training code and data) for full understanding and reproducibility, and some use restrictive licenses whilst claiming to be “open-source”, which may hinder further innovations on LLMs. To mitigate this issue, we follow the Model Openness Framework (MOF), a ranked classification system that rates machine learning models based on their completeness and openness, following principles of open science, open source, open data, and open access. We present a truly open source LLM Moxin 7B and release pre-training code and configurations, training and fine-tuning data, and intermediate and final checkpoints, aiming to make continuous commitments to fully open-source LLMs. We also finetune the Moxin Base model with SOTA post-training framework and instruction data to obtain Moxin Instruct model. To improve the reasoning capability, we further finetune our model with chain-of-thought data distilled from DeepSeek R1, and then use Group Relative Policy Optimization, an efficient and effective reinforcement learning algorithm following DeepSeek R1, to finetune our model, leading to the Moxin Reasoning model.",
         "speakers": [
           {
@@ -342,7 +342,7 @@
       {
         "date": "May 6",
         "timeSlot": "11:20 - 12:00",
-        "title": "The best practice of training and inferencing on Ascend CANN",
+        "title": "The Best Practice of Training and Inferencing on Ascend CANN",
         "content": "The AI-oriented, heterogeneous Compute Architecture for Neural Networks (CANN) is a key platform for improving the computing efficiency of Ascend AI processors. It serves as a bridge between upper-layer AI frameworks and lower-layer AI processors and programming. This topic will focus on OpenSource ecosystem about CANN, shows how CANN helps AI sofeware, such as pytorch, vllm and so on, efficiently running on Ascend.",
         "speakers": [
           {
@@ -379,7 +379,7 @@
       {
         "date": "May 6",
         "timeSlot": "14:40 - 15:20",
-        "title": "Open-source intelligent computing integrated management and utilization foundational software - SCOW and CraneSched",
+        "title": "Open-source Intelligent Computing Integrated Management and Utilization Foundational Software - SCOW and CraneSched",
         "content": "The Peking University Computing Center is dedicated to developing general foundational software for both supercomputing (HPC) and intelligent computing (AI computing). In the field of HPC and AI computing, it has developed several flagship foundational software systems, including SCOW and CraneSched.\r\nOpenSCOW (https://github.com/PKUHPC/OpenSCOW) provides a graphical user interface (GUI) that allows developers to flexibly manage supercomputing and AI computing resources for AI model training and inference. It has already been deployed across 56 computing centers, including 34 universities and 12 enterprises in China.\r\nCraneSched ( https://github.com/PKUHPC/CraneSched) is a high-performance scheduling and orchestration system for HPC and AI computing tasks. It supports large-scale model training with exceptional performance and has been adopted by 8 universities and 1 enterprise in China.",
         "speakers": [
           {
@@ -401,7 +401,7 @@
       {
         "date": "May 6",
         "timeSlot": "15:40 - 16:20",
-        "title": "verl: Hybrid Controller-based RLHF System",
+        "title": "Verl: Hybrid Controller-based RLHF System",
         "content": "verl is a flexible, efficient and production-ready RL training library for LLMs. This talk will share the ideas in designing a hybrid-controller system and the benefits of this system in efficient large-scale RL training.",
         "speakers": [
           {
@@ -479,7 +479,7 @@
         "speakers": [
           {
             "id": "hung-ying-tai",
-            "name": "Hung-Ying Tai",
+            "name": "Hung YIng Tai",
             "tags": ["ai-infra"],
             "roleOrg": "Engineering Leader at Second State",
             "image": "hung-ying-tai.jpg"
@@ -547,7 +547,7 @@
       {
         "date": "May 7",
         "timeSlot": "16:20 - 17:00",
-        "title": "WGML: the story of building a new high-performance, cross-platform, on-device inference framework.",
+        "title": "WGML: the Story of Building a New High-performance, Cross-platform, On-device Inference Framework.",
         "content": "Ever dreamed of writing a new low-level LLM inference library? Check out the making of WGML, an open-source high-performance cross-platform GPU inference framework using Rust and WebGPU. We will cover tips for discovering and implementing LLM inference.",
         "speakers": [
           {
@@ -607,7 +607,7 @@
       {
         "date": "May 6",
         "timeSlot": "11:20 - 12:00",
-        "title": "Distributed dataflows in Dora using Zenoh",
+        "title": "Distributed Dataflows in Dora Using Zenoh",
         "content": "The Dora framework makes it easy to create dataflows for robotics and AI. In this talk, we look into distributed dataflows that run on multiple machines and communicate through the network. Dora supports complex network topologies by using the Zenoh protocol. This way, it is possible to split Dora dataflows across private networks and cloud machines with minimal configuration.",
         "speakers": [
           {
@@ -666,7 +666,7 @@
       {
         "date": "May 6",
         "timeSlot": "15:40 - 16:20",
-        "title": "Building robotic applications with open-source VLA models",
+        "title": "Building Robotic Applications with Open-source VLA Models",
         "content": "Ville shares the successes and challenges in using open-source Vision-Language-Action (VLA) models on robots, and provides a full-stack \"starter guide\" for building VLA-powered robotic applications in 2025.",
         "speakers": [
           {
@@ -739,7 +739,7 @@
       {
         "date": "May 7",
         "timeSlot": "11:20 - 12:00",
-        "title": "RoboBrain: A Unified Brain Model for Robotic Manipulation & RoboOS: A hierarchical collaborative framework for RoboBrain and Robot Agents",
+        "title": "RoboBrain: A Unified Brain Model for Robotic Manipulation & RoboOS: A Hierarchical Collaborative Framework for RoboBrain and Robot Agents",
         "content": "RoboBrain is an MLLM-based model that enhances robotic manipulation by integrating task planning, object affordance, and trajectory prediction, addressing the limitations of MLLMs in robotic scenarios—particularly in long-horizon tasks—while achieving state-of-the-art performance. Building on RoboBrain’s planning capabilities, we propose the RoboOS hierarchical collaborative framework, which integrates the efficient execution of the robotic skills to enable cross-embodiment collaborative control of multiple robots.",
         "speakers": [
           {
@@ -761,7 +761,7 @@
       {
         "date": "May 7",
         "timeSlot": "14:00 - 14:40",
-        "title": "G1 Open Source dataset and Humanoid Robot from Unitree Robotics",
+        "title": "G1 Open Source Dataset and Humanoid Robot from Unitree Robotics",
         "content": "With artificial intelligence technology move very fast in the past two years, humanoid robot have been one of the most import form to realized embodied AI and AGI, Unitree have been working for more than 8 years in leg robot and 1 year in humanoid robot area. There are three most important parts, algorithm, data and computing capability for realized AGI. Those three part will finally running on physical robots, we believe build robust physical humanoid robot system is key for this ecosystem, and World Large-Scale Model (most people called foundation model) is the key to bring Embodied AI for for humanoid robot, we will share the most important progressing have been made on industry and research side in the past one year, and expect and excited for new progressing will happening in next few years soon.\r\nIn order to promote the development of the global embodied AI industry, the Unitree G1 robot operation data set is open sourced, adapted to a variety of open source solutions, and continuously updated.\r\n",
         "speakers": [
           {
@@ -893,7 +893,7 @@
       {
         "date": "May 6",
         "timeSlot": "14:00 - 14:40",
-        "title": "TONGYI Lingma: from Coding Copilot to Coding Agent based on Qwen Models",
+        "title": "TONGYI Lingma: from Coding Copilot to Coding Agent Based on Qwen Models",
         "content": "This presentation will take the perspective of intelligent development in the software engineering to outline and introduce the latest technological advancements and product applications of Code LLMs, Coding Copilot, and Coding Agents, as well as analyze and forecast future development trends. ",
         "speakers": [
           {
@@ -908,7 +908,7 @@
       {
         "date": "May 6",
         "timeSlot": "14:40 - 15:20",
-        "title": "Unifying AI integration with Model Context Protocol",
+        "title": "Unifying AI Integration with Model Context Protocol",
         "content": "The Model Context Protocol (MCP) standardizes how AI models interact with external tools and resources through a structured client-server architecture, facilitating robust agent development. The engineering community worldwide keeps sharing MCP servers that enable client interactions that open truly remarkable and innovative applications.\r\n\r\nThis talk delves into MCP's core capabilities and how the MCP Java SDK combined with Spring AI MCP can integrate AI with your existing resources and applications.\r\n\r\nToday's intelligent agents can understand context, guide decisions, and integrate seamlessly with external services. Through live coding and practical examples, we will illustrate how to implement both client and server components. By attending this session, you will gain a practical understanding of MCP's standardized interfaces and architectural best practices, empowering you to build and extend AI-powered applications with agent-like capabilities.\r\n\r\nWhether you're developing new AI-driven solutions or enhancing existing systems, this talk will equip you with the tools and strategies needed to leverage MCP effectively.",
         "speakers": [
           {
@@ -930,7 +930,7 @@
       {
         "date": "May 6",
         "timeSlot": "15:40 - 16:20",
-        "title": "Using AI to vibe code Rust UI's and shaders",
+        "title": "Using AI to Vibe Code Rust UI's and Shaders",
         "content": "In this talk i will show vibecoding makepad UIs and UI shaders with Makepad Studio and an LLM. Makepad Studio is our visual design / code environment and the vision is to bring back Visual Basic, but now for a modern language: Rust. ",
         "speakers": [
           {
@@ -945,7 +945,7 @@
       {
         "date": "May 6",
         "timeSlot": "16:20 - 17:00",
-        "title": "Tech together, Powered by Dify",
+        "title": "Tech Together, Powered by Dify",
         "content": "Dify is a next-generation AI-native application development platform that bridges cutting-edge technology with real-world business value. Built on a robust open-source foundation, Dify integrates modern tech stacks—including LLM orchestration, RAG (Retrieval-Augmented Generation), fine-tuning tools, and multi-agent workflows—to simplify the creation, deployment, and scaling of AI applications.\r\n\r\nOur global developer community has become a hub for innovation, with thousands of contributors and enterprise adopters leveraging Dify to build everything from intelligent chatbots to enterprise-grade automation systems. This talk will highlight:\r\n\r\nDify’s open-source ecosystem and its role in accelerating AI adoption;\r\nKey technologies powering the platform and how they solve real-world challenges;\r\nSuccess stories from developers and enterprises.",
         "speakers": [
           {
@@ -1003,7 +1003,7 @@
       {
         "date": "May 7",
         "timeSlot": "11:20 - 12:00",
-        "title": "OpenManus: Empowering LLM-based Agent Applications via Framework and Capability Evolution",
+        "title": "OpenManus: Empowering LLM-based Agent Applications Via Framework and Capability Evolution",
         "content": "We introduce OpenManus, a lightweight and versatile LLM-based multi-agent framework evolved from MetaGPT, designed to enhance adaptability, autonomy, and scalability through advanced reasoning, planning, and effective cross-environment operation.",
         "speakers": [
           {
