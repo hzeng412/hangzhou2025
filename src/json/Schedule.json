@@ -231,7 +231,7 @@
       {
         "date": "May 7",
         "timeSlot": "14:00 - 14:40",
-        "title": "Pre-training of Smol and Large LLM",
+        "title": "Pre-training of smol and large LLM",
         "content": "Explaining what's new in pre-training: optimization tricks, MoE, stability hacks, and handling long contexts—everything you need to build better LLMs.",
         "speakers": [
           {
@@ -459,28 +459,30 @@
       {
         "date": "May 7",
         "timeSlot": "10:40 - 11:20",
-        "title": "TBD",
-        "content": "",
+        "title": "Streamlining AI App Development with Docker: Models and AI Tools That Just Work",
+        "content": "Discover how Docker’s Model Runner enables fast, local AI inference with GPU support, and how the Docker makes it easy to integrate LLMs and agents using MCP —no complex setup required.",
         "speakers": [
           {
-            "id": "tbd",
-            "name": "Speaker to be Announced",
+            "id": "jeanlaurent-de-morlhon",
+            "name": "Jean-Laurent de Morlhon",
             "tags": ["ai-infra"],
-            "image": "generic-profile.png"
+            "roleOrg": "Sr Vice President, GenAI Acceleration at Docker ",
+            "image": "jean-laurent-de-morlhon.png"
           }
         ]
       },
       {
         "date": "May 7",
         "timeSlot": "11:20 - 12:00",
-        "title": "TBD",
-        "content": "",
+        "title": "Running GenAI Models on Edge Devices",
+        "content": "Run GenAI models on edge devices with LlamaEdge: multi-runtime support (llama.cpp, PyTorch, OpenVINO), small footprint, GPU support, and Rust SDK embeddability. Learn how it outperforms tools like Ollama for flexible, fast, on-device AI deployment.",
         "speakers": [
           {
-            "id": "tbd",
-            "name": "Speaker to be Announced",
+            "id": "hung-ying-tai",
+            "name": "Hung-Ying Tai",
             "tags": ["ai-infra"],
-            "image": "generic-profile.png"
+            "roleOrg": "Engineering Leader at Second State",
+            "image": "hung-ying-tai.jpg"
           }
         ]
       },
@@ -494,15 +496,14 @@
       {
         "date": "May 7",
         "timeSlot": "14:00 - 14:40",
-        "title": "Streamlining AI App Development with Docker: Models and AI Tools That Just Work",
-        "content": "Discover how Docker’s Model Runner enables fast, local AI inference with GPU support, and how the Docker makes it easy to integrate LLMs and agents using MCP —no complex setup required.",
+        "title": "TBD",
+        "content": "",
         "speakers": [
           {
-            "id": "jean-laurent-de-morlhon",
-            "name": "Jean-Laurent de Morlhon",
+            "id": "tbd",
+            "name": "Speaker to be Announced",
             "tags": ["ai-infra"],
-            "roleOrg": "Sr Vice President, GenAI Acceleration at Docker ",
-            "image": "jean-laurent-de-morlhon.png"
+            "image": "generic-profile.png"
           }
         ]
       },
@@ -591,6 +592,21 @@
       {
         "date": "May 6",
         "timeSlot": "10:40 - 11:20",
+        "title": "Mind, Body and Zenoh",
+        "content": "",
+        "speakers": [
+          {
+            "id": "angelo-corsaro",
+            "name": "Angelo Corsaro",
+            "tags": ["embodied-ai"],
+            "roleOrg": "CEO/CTO of ZettaScale",
+            "image": "angelo-corsaro.png"
+          }
+        ]
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "11:20 - 12:00",
         "title": "Distributed dataflows in Dora using Zenoh",
         "content": "The Dora framework makes it easy to create dataflows for robotics and AI. In this talk, we look into distributed dataflows that run on multiple machines and communicate through the network. Dora supports complex network topologies by using the Zenoh protocol. This way, it is possible to split Dora dataflows across private networks and cloud machines with minimal configuration.",
         "speakers": [
@@ -605,21 +621,6 @@
       },
       {
         "date": "May 6",
-        "timeSlot": "11:20 - 12:00",
-        "title": "Zenoh Project",
-        "content": "",
-        "speakers": [
-          {
-            "id": "angelo-corsaro",
-            "name": "Angelo Corsaro",
-            "tags": ["embodied-ai"],
-            "roleOrg": "CEO/CTO of ZettaScale",
-            "image": "angelo-corsaro.png"
-          }
-        ]
-      },
-      {
-        "date": "May 6",
         "timeSlot": "12:00 - 14:00",
         "title": "Lunch Break",
         "content": "",
@@ -629,7 +630,7 @@
         "date": "May 6",
         "timeSlot": "14:00 - 14:40",
         "title": "Adversarial Safety-Critical Scenario Generation for Autonomous Driving",
-        "content": "Valuating the decision-making system is indispensable in developing autonomous vehicles, while realistic and challenging safety-critical test scenarios play a crucial role. Obtaining these scenarios is non-trivial due to the long-tailed distribution, sparsity, and rarity in real-world data sets. To tackle this problem, we introduce a natural adversarial scenario generation solution using naturalistic human driving priors and reinforcement learning. Our experiments on public data sets demonstrate that our proposed model can generate realistic safety critical test scenarios covering both naturalness and adversariality with 44% efficiency gain over the baseline model.",
+        "content": "valuating the decision-making system is indispensable in developing autonomous vehicles, while realistic and challenging safety-critical test scenarios play a crucial role. Obtaining these scenarios is non-trivial due to the long-tailed distribution, sparsity, and rarity in real-world data sets. To tackle this problem, we introduce a natural adversarial scenario generation solution using naturalistic human driving priors and reinforcement learning. Our experiments on public data sets demonstrate that our proposed model can generate realistic safety critical test scenarios covering both naturalness and adversariality with 44% efficiency gain over the baseline model.",
         "speakers": [
           {
             "id": "james-yang",
@@ -687,7 +688,7 @@
             "id": "huy-hoang-ha",
             "name": "Huy Hoang Ha",
             "tags": ["embodied-ai"],
-            "roleOrg": "LLM Researcher",
+            "roleOrg": "LLM Researcher at Menlo Research",
             "image": "huy-hoang-ha.jpg"
           }
         ]
@@ -1009,7 +1010,7 @@
             "id": "sirui-hong",
             "name": "Sirui Hong",
             "tags": ["ai-apps"],
-            "roleOrg": "Co-Founder of OpenManus",
+            "roleOrg": "Co-Founder of DeepWisdom, MetaGPT/OpenManus Team Leader",
             "image": "sirui-hong.jpg"
           }
         ]

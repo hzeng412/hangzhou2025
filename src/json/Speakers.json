@@ -1155,6 +1155,25 @@
       },
       "status": "New",
       "draft": false
+    },
+    {
+      "id": "hung-ying-tai",
+      "name": "Hung-Ying Tai",
+      "bio": "Hung-Ying, Tai (hydai) is the maintainer of the WasmEdge Runtime project and an engineering leader at Second State. He is a prolific mentor in the Linux Foundation Mentorship program and a CNCF Ambassador. He also contributes to many high-profile open source projects within and beyond the CNCF. He is knowledgeable about AI inference frameworks such as llama.cpp, PyTorch, and TensorFlow.",
+      "role": "Engineering leader",
+      "org": "Second State",
+      "roleOrg": "Engineering Leader at Second State",
+      "image": "hung-ying-tai.jpg",
+      "tag": "ai-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/hydai_tw",
+        "github": "https://github.com/hydai",
+        "linkedin": "undefined",
+        "website": "https://hyd.ai"
+      },
+      "status": "New",
+      "draft": false
     }
   ]
 }
