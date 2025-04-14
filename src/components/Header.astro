@@ -1,7 +1,7 @@
 ---
 // Components
-import Button from "components/Button.astro"
-import Logo from "./Logo.astro"
+import Button from "components/Button.astro";
+import Logo from "./Logo.astro";
 
 const links = [
   {
@@ -42,8 +42,8 @@ const links = [
     subLinks: [
       {
         text: "Venue",
-        link: "/#venue",
-        anchor: "#venue",
+        link: "http://stationf.co/",
+        openInNewTab: true,
       },
       {
         text: "Volunteer",
@@ -56,9 +56,9 @@ const links = [
       },
     ],
   },
-]
+];
 
-const slug = Astro.url.pathname
+const slug = Astro.url.pathname;
 ---
 
 <header>
