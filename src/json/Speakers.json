@@ -896,15 +896,6 @@
       "draft": true
     },
     {
-      "id": "wei-jia",
-      "tag": "ai-model",
-      "name": "Wei Jia",
-      "roleOrg": "Director at Zhipu.AI",
-      "bio": "",
-      "image": "generic-profile.png",
-      "org": "Zhipu"
-    },
-    {
       "id": "xin-dong",
       "tag": "ai-model",
       "name": "Xin Dong",
