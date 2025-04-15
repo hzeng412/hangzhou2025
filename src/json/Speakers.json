@@ -45,11 +45,11 @@
       "id": "baosong-yang",
       "tag": "ai-model",
       "name": "Baosong Yang",
-      "roleOrg": "Research Engineer at Alibaba Tongyi Lab",
+      "roleOrg": "Scientist at Alibaba's Tongyi Lab",
       "bio": "Baosong Yang is a Scientist at Alibaba's Tongyi Lab, where he leads efforts to enhance the multilingual capabilities of the Qwen series models, including Qwen, Qwen-QwQ, Qwen-Audio, and Qwen-Omni. His team is also responsible for developing Alibaba's machine translation system, which is utilized over 1.7 billion times each day. Baosong earned his Ph.D. from the NLP2CT Lab at the University of Macau, specializing in multilingualism within the field of natural language processing (NLP). He has authored over 50 papers in prestigious NLP and AI journals and conferences, such as ACL, EMNLP, AAAI, and NeurIPS.",
       "image": "baosong-yang.png",
       "org": "Alibaba Tongyi Lab",
-      "role": "Scientist at Alibaba's Tongyi Lab",
+      "role": "Scientist",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -67,7 +67,7 @@
       "role": "Founding Partner",
       "org": "OpenBMB&Modelbest",
       "roleOrg": "Founding Partner at OpenBMB & Modelbest",
-      "image": "jia-chao.jpg",
+      "image": "chao-jia.jpg",
       "tag": "ai-model",
       "socialLinks": {
         "mastodon": "undefined",
@@ -197,7 +197,7 @@
       "id": "guang-liu",
       "tag": "ai-model",
       "name": "Guang Liu",
-      "roleOrg": "Head of OpenSeek",
+      "roleOrg": "Technical Lead of Data Research Team at BAAI",
       "bio": "Guang Liu, Technical Lead at BAAI's Data Research Team, directs the OpenSeek project. He is the architect behind the Aquila large language model series and the Infinity dataset family. His current research centers on Agentic Data Systems, innovating synthetic data generation for next-generation AI training.",
       "image": "guang-liu.jpg",
       "org": "BAAI",
@@ -249,15 +249,6 @@
       },
       "status": "New",
       "draft": false
-    },
-    {
-      "id": "han-xiao",
-      "tag": "ai-apps",
-      "name": "Han Xiao",
-      "roleOrg": "Founder & CEO of JinA AI",
-      "bio": "",
-      "image": "han-xiao.png",
-      "org": "Jina.ai"
     },
     {
       "id": "huy-hoang-ha",
@@ -443,7 +434,7 @@
       "id": "shiwei-liu",
       "tag": "ai-model",
       "name": "Shiwei Liu",
-      "roleOrg": "Royal Society Newton International Fellow",
+      "roleOrg": "Royal Society Newton International Fellow at University of Oxford",
       "bio": "Shiwei Liu is a Royal Society Newton International Fellow at the University of Oxford. He will join Max Planck Institute for Intelligent Systems as a group leader and ELLIS Institute Tubingen as a PI. He previously served as a Postdoctoral Fellow at the University of Texas at Austin. He obtained his Ph.D. with Cum Laude from Eindhoven University of Technology in 2022. His research focuses on leveraging, understanding, and expanding the role of sparsity and low-rank approximations in neural networks, whose impacts span many important topics, such as efficient training/inference/transfer of large-foundation models, robustness and trustworthiness, and generative AI. He received two Rising Star Awards from KAUST and the Conference on Parsimony and Learning (CPAL). ",
       "image": "shiwei-liu.jpg",
       "org": "University of Oxford",
@@ -547,7 +538,7 @@
       "id": "wei-jia",
       "tag": "ai-model",
       "name": "Wei Jia",
-      "roleOrg": "Director at Zhipu AI",
+      "roleOrg": "Director at Zhipu.AI",
       "bio": "",
       "image": "generic-profile.png",
       "org": "Zhipu"
@@ -567,7 +558,8 @@
         "github": null,
         "linkedin": null,
         "website": null
-      }
+      },
+      "draft": true
     },
     {
       "id": "xinrui-liu",
@@ -609,7 +601,7 @@
       "id": "yanzhi-wang",
       "tag": "ai-model",
       "name": "Yanzhi Wang",
-      "roleOrg": "Associate Professor, Electrical and Computer Engineering of Northwestern University",
+      "roleOrg": "Professor, Electrical and Computer Engineering at Northwestern University",
       "bio": "Yanzhi Wang is Professor in the Department of Electrical and Computer Engineering at Northeastern University, a senior member of IEEE. His research interests focus on real-time and energy-efficient deep learning and artificial intelligence systems, especially on efficient large language models and large-scale generative AI systems. His research works have been published broadly in (i) machine learning conferences such as AAAI, CVPR, NeurIPS, ICML, ICCV, ICLR, IJCAI, ECCV, KDD, ICRA, ACM MM, ICDM, etc., (ii) architecture and system conferences such as ASPLOS, ISCA, MICRO, HPCA, CCS, VLDB, PLDI, WWW, ICS, PACT, CGO, IPDPS, INFOCOM, ICDCS, DAC, ICCAD, FPGA, FCCM, ISSCC, CICC, RTAS, RTSS, etc., and (iii) IEEE and ACM transactions. His research works have been cited over 22,500 times. He has received six Best Paper Awards and another 12 Best Paper Nominations. He has received the U.S. Army Research Office Young Investigator Program Award (YIP), IEEE TC-SDM Early Career Award, Asia Pacific Signal and Information Processing Association Distinguished Leader Award, Massachusetts Acorn Innovation Award, design contest awards from multiple conferences, and other research awards from Google, MathWorks, etc. His research work has been reported and cited by around 500 media. He has 13 academic descendents as tenure-track faculty members at University of Minnesota, Michigan State University, University of Georgia, Clemson University, etc.\r\n",
       "image": "yanzhi-wang.png",
       "org": "Northeastern University",
@@ -647,7 +639,7 @@
       "id": "yingfeng-zhang",
       "tag": "ai-apps",
       "name": "Yingfeng Zhang",
-      "roleOrg": "Co-Founder of InfiniFlow",
+      "roleOrg": "CEO of InfiniFlow",
       "bio": "Co-founder of InfinFlow and a seasoned entrepreneur, has for years spearheaded Infrastructure R&D across search engines, database engines, cloud infrastructure, and big data architecture. With extensive AI expertise in advertising, recommender systems, and computer vision (notably developing InsightFace, a top facial recognition algorithm), he has successfully led the digital transformation of multiple large enterprises and robustly supported internet services boasting over 10 million daily active users and 200 million daily dynamic search requests.\r\n\r\n英飞流联合创始人，连续创业者，先后负责多年Infrastructure研发，涵盖搜索引擎，数据库内核，云计算基础架构和大数据架构等，从事多年人工智能核心算法研发，包括广告、推荐引擎和计算机视觉。先后主导并参与多家大型企业数字化转型，支撑过日活千万，日均两亿搜索动态请求的互联网业务",
       "image": "yingfeng-zhang.png",
       "org": "InfiniFlow",
@@ -685,7 +677,7 @@
       "id": "yiran-zhong",
       "tag": "ai-model",
       "name": "Yiran Zhong",
-      "roleOrg": "Director of Research at MiniMax",
+      "roleOrg": "Senior Research Director at MiniMax",
       "bio": "Dr. Yiran Zhong is the Senior Research Director at MiniMax, where he leads the design of large model network architectures and the development of multimodal deep reasoning models. Previously, he served as a Young Scientist at the Shanghai Artificial Intelligence Laboratory, heading the New Architecture Exploration Group as the Principal Investigator (PI).\r\n\r\nDr. Zhong earned his Ph.D. from the Australian National University, under the guidance of Professor Hongdong Li and Professor Richard Hartley, a Fellow of the Royal Society. He has authored over 20 papers in leading international conferences and journals, advancing non-Transformer architectures such as Linear Attention Mechanisms, Long Convolutions, and Linear Recurrent Networks (Linear RNN).",
       "image": "yiran-zhong.png",
       "org": "MiniMax",
@@ -704,11 +696,11 @@
       "id": "yongbin-li",
       "tag": "ai-apps",
       "name": "Yongbin Li",
-      "roleOrg": "Researcher of Alibaba Tongyi Lab",
+      "roleOrg": "Senior Algorithm Expert at Alibaba Tongyi Lab",
       "bio": "Yongbin LI graduated from Tsinghua University and is a senior algorithm expert at Alibaba's TONGYI Lab. His research focuses on LLMs, including code models, character models, post-training and agents. He has developed the Tongyi Lingma coding copilot and AI programmer (coding agent), which is currently the largest and most popular coding product in China, and has recently launched the international version of Tongyi Lingma. Additionally, he is responsible for the LLM technologies such as Tongyi Xingchen (Character Model/Role-playing Agent), Tongyi Xiaomi (Intelligent Customer Service), and Tongyi Tingwu (Audio and Video Assistant). \r\nSince 2020, he has published over 90 papers in top international conferences (ICLR, NeurIPS, ICML, ACL, EMNLP, CVPR, etc.) on topics related to LLMs, code models and character models, achieving an H-index of 27. He has also served as a area chair for ACL, NAACL, and WSDM.",
       "image": "yongbin-li.png",
       "org": "Alibaba Tongyi Lab",
-      "role": "senior algorithm expert",
+      "role": "Senior Algorithm Expert",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1116,7 +1108,7 @@
         "website": "undefined"
       },
       "status": "New",
-      "draft": false
+      "draft": true
     },
     {
       "id": "angelo-corsaro",

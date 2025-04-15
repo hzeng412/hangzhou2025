@@ -930,7 +930,7 @@
       {
         "date": "May 6",
         "timeSlot": "15:40 - 16:20",
-        "title": "Using AI to Vibe Code Rust UI's and Shaders",
+        "title": "Using AI to Vibe Code Rust UI's for Mobile, Web and Mixed Reality.",
         "content": "In this talk i will show vibecoding makepad UIs and UI shaders with Makepad Studio and an LLM. Makepad Studio is our visual design / code environment and the vision is to bring back Visual Basic, but now for a modern language: Rust. ",
         "speakers": [
           {
