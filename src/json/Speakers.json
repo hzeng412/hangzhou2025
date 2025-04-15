@@ -42,6 +42,25 @@
       "draft": false
     },
     {
+      "id": "angelo-corsaro",
+      "name": "Angelo Corsaro",
+      "bio": "Angelo Corsaro, Ph.D.\r\nCEO, CTO, and Co-Founder of ZettaScale Technology\r\n\r\nAngelo Corsaro, Ph.D., is the Chief Executive Officer (CEO), Chief Technology Officer (CTO), and co-founder of ZettaScale Technology. At ZettaScale, he leads a world-class team dedicated to revolutionizing distributed computing, ensuring that every connected human and machine can communicate, compute, and store data anywhere, at any scale, efficiently, and securely.\r\n\r\nA globally recognized expert in Cloud-to-Thing Continuum, high-performance distributed systems, and real-time computing, Angelo is the inventor of the Zenoh protocol and the lead of the Eclipse Zenoh project. His work is reshaping the future of data-centric and event-driven architectures, bridging the gap between cloud, edge, and embedded systems.\r\n\r\nWith a prolific research background, Angelo has authored over 100 publications in peer-reviewed journals, conferences, workshops, and industry magazines. He has also contributed to over ten international standards, shaping the evolution of real-time and large-scale distributed computing.\r\n\r\nAngelo was a founding Co-Chair of the OMG DDS standard, playing a key role in its development and adoption. His leadership in DDS continued until 2015, when he stepped away due to technical divergences and committed himself to designing and implementing the first Zenoh protocol, paving the way for the next generation of data-centric middleware.",
+      "role": "CEO/CTO",
+      "org": "ZettaScale",
+      "roleOrg": "CEO/CTO of ZettaScale",
+      "image": "angelo-corsaro.png",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/acorsaro",
+        "github": "http://github.com/kydos",
+        "linkedin": "https://www.linkedin.com/in/corsaro/",
+        "website": "https:/zettascale.tech"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "baosong-yang",
       "tag": "ai-model",
       "name": "Baosong Yang",
@@ -59,6 +78,25 @@
       },
       "status": "New",
       "draft": false
+    },
+    {
+      "id": "cailean-osborne-phd",
+      "name": "Cailean Osborne, PhD",
+      "bio": "Cailean Osborne is a senior researcher at the Linux Foundation, who leads strategic research on open source AI. Cailean has a PhD in Social Data Science from the University of Oxford, where he researched commercial interests and collaboration dynamics in open source AI developer communities, and in 2023-2024 he was a visiting researcher at Peking University’s Open Source Software Data Analytics Lab. Previously, Cailean worked in AI policy at the UK Government and was a UK government delegate at the OECD’s Global Partnership on AI and the Council of Europe’s Committee on AI. Cailean is based in Berlin, Germany.",
+      "role": "Senior Researcher",
+      "org": "Linux Foundation",
+      "roleOrg": "Senior Researcher at Linux Foundation",
+      "image": "cailean-osborne-phd.png",
+      "tag": "osaisf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "https://www.linkedin.com/in/caileanosborne/",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": true
     },
     {
       "id": "chao-jia",
@@ -118,6 +156,44 @@
       "draft": false
     },
     {
+      "id": "christian-tzolov",
+      "name": "Christian Tzolov",
+      "bio": "Christian Tzolov, R&D Software Engineer at Broadcom's Spring team, leads the Spring AI and MCP Java SDK projects. He specializes in connecting enterprise systems with AI capabilities, helping Java developers build intelligent applications. Christian brings hands-on experience and a pragmatic approach to making advanced AI concepts accessible and useful for real-world applications.",
+      "role": "R&D Software Engineer",
+      "org": "Spring team at Broadcom",
+      "roleOrg": "R&D Software Engineer at Spring team at Broadcom",
+      "image": "christian-tzolov.png",
+      "tag": "ai-apps",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/christzolov",
+        "github": "https://github.com/tzolov",
+        "linkedin": "https://www.linkedin.com/in/tzolov/",
+        "website": "https://spring.io/authors/tzolov"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "daniel-goldscheider",
+      "name": "Daniel Goldscheider",
+      "bio": "Daniel Goldscheider is founder and Executive Director of the OpenWallet Foundation and serves as Vice Chair of the Supervisory Board of Valamar Riviera d.d., Croatia’s largest tourism company. \r\n\r\nBefore that he started yes.com, an open banking scheme and co-founded Mediaguide with the American Society of Composers, Authors and Publishers as well as Aureus Private Equity (today Invision).",
+      "role": "Executive Director",
+      "org": "OpenWallet",
+      "roleOrg": "Executive Director at OpenWallet",
+      "image": "daniel-goldscheider.jpeg",
+      "tag": "osaisf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/goldscheider",
+        "github": "undefined",
+        "linkedin": "https://www.linkedin.com/in/goldscheider",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": true
+    },
+    {
       "id": "diego-rojas",
       "name": "Diego Rojas",
       "roleOrg": "Research Engineer at Zhipu.AI",
@@ -131,6 +207,82 @@
         "twitter": "https://x.com/dhbrojas",
         "github": "https://github.com/dhbrojas",
         "linkedin": "https://www.linkedin.com/in/dhbrojas/",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "dong-xin",
+      "name": "DONG XIN",
+      "bio": "2008–2017 Microsoft | Technical Leader\r\nEngaged in the R&D of Microsoft Azure Enterprise Cloud and Dynamics 365 platforms.\r\n\r\n2017–Present Huawei Technologies | Technical Expert/Product Director\r\nLed R&D in core foundational software, including development toolchains, programming languages, and IDEs. During tenure at Huawei:\r\n\r\nServed as Chief Technical Expert and Project Manager, working on Huawei’s mobile AI development tools, the company-wide AI R&D platform, the Ascend AI chip toolchain, and the HarmonyOS toolchain.\r\n\r\nSince 2021, responsible for programming language and IDE foundational software R&D as Program Director, driving the development of self-controlled programming languages and IDE core technologies. Played a key role in the technical planning, productization, and industrial adoption of domestic application programming languages, making significant contributions to their advancement.",
+      "role": "Technical expert in the programming language lab of Huawei ",
+      "org": "HUAWEI",
+      "roleOrg": "Technical expert in the programming language lab of Huawei  at HUAWEI",
+      "image": "dong-xin.jpg",
+      "tag": "ai-model",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": true
+    },
+    {
+      "id": "dongjie-chen",
+      "name": "Dongjie Chen",
+      "bio": "2021--2025 Huawei Programming Language Laboratory Software Engineer\r\nEngaged in the development of the Cangjie programming language, serving as the key contributor for concurrent programming design and AI programming design",
+      "role": "Software Engineer",
+      "org": "Huawei",
+      "roleOrg": "Software Engineer at Huawei",
+      "image": "dongjie-chen.jpg",
+      "tag": "ai-apps",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "dongxu-huang",
+      "name": "Dongxu Huang",
+      "bio": "Cofounder / CTO, TiDB",
+      "role": "CTO",
+      "org": "PingCAP",
+      "roleOrg": "CTO at PingCAP",
+      "image": "dongxu-huang.jpeg",
+      "tag": "ai-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "dxhuang",
+        "github": "https://github.com/c4pt0r",
+        "linkedin": "undefined",
+        "website": "https://me.0xffff.me"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "donny-greenberg",
+      "name": "Donny Greenberg",
+      "bio": "Donny is the co-founder and CEO of 🏃‍♀️Runhouse🏠. He was previously the product lead for PyTorch at Meta, supporting the AI community across research, production, OSS, and enterprise. Notable projects include TorchRec, the open-sourcing of Meta's large-scale recommendations infra, TorchArrow & TorchData, PyTorch's next generation of data APIs, and unifying training infrastructure at Meta.",
+      "role": "Co-founder / CEO",
+      "org": "Runhouse",
+      "roleOrg": "Co-founder / CEO at Runhouse",
+      "image": "donny-greenberg.jpeg",
+      "tag": "ai-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "https://www.linkedin.com/in/greenbergdon/",
         "website": "undefined"
       },
       "status": "New",
@@ -170,6 +322,25 @@
         "github": "https://github.com/airs-cuhk/airsoul",
         "linkedin": "undefined",
         "website": "https://scholar.google.com/citations?user=vgFErZQAAAAJ&hl=en"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "florian-hnicke",
+      "name": "Florian Hönicke",
+      "bio": "Florian has 10 years of experience in the Field of AI, working at Axel-Springer, Deloitte, and SoundCloud. He works as a Principal Engineer at Jina AI, rapidly prototyping AI solutions. His expert domain is Agentic Search and synthetic data generation. Florian is serving as an AI policy advisor, providing explanations and insights to members of the European Parliament to enhance their understanding of artificial intelligence.",
+      "role": "Principal AI Engineer",
+      "org": "Jina AI",
+      "roleOrg": "Principal AI Engineer at Jina AI",
+      "image": "florian-hnicke.jpg",
+      "tag": "ai-apps",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/florianhoenicke",
+        "github": "https://github.com/florian-hoenicke",
+        "linkedin": "https://www.linkedin.com/in/florian-h%C3%B6nicke-b902b6aa",
+        "website": "undefined"
       },
       "status": "New",
       "draft": false
@@ -232,6 +403,25 @@
       "draft": false
     },
     {
+      "id": "guillaume-blaquiere",
+      "name": "Guillaume Blaquiere",
+      "bio": "Guillaume is a Google Developer Expert on Cloud Platform since 2019 and works at Carrefour as Group Data Architect. \r\n\r\nJava developer for more than 15 years, and despite positions of responsibilities, he has always kept his wish to create, develop, discover and test new solutions, especially in the Cloud, the machine learning or Python and Go language. \r\n\r\nInnovation addict and Google Cloud 3x certified, writer and speaker in his free time, he's fascinated by the serverless solution and all the \"usual\" problems that it solves.\r\n\r\nMore generally, he likes helping people stuck on Google Cloud; you can find him on Stack Overflow (guillaume-blaquiere), Medium (@guillaume-blaquiere) and Twitter (@gblaquiere)",
+      "role": "Group Data Architect",
+      "org": "Carrefour",
+      "roleOrg": "Group Data Architect at Carrefour",
+      "image": "guillaume-blaquiere.png",
+      "tag": "ai-infra",
+      "socialLinks": {
+        "mastodon": "gblaquiere",
+        "twitter": "https://x.com/gblaquiere",
+        "github": "https://github.com/guillaumeblaquiere",
+        "linkedin": "https://www.linkedin.com/in/guillaume-blaquiere",
+        "website": "https://medium.com/@guillaume-blaquiere"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "guohao-li",
       "tag": "ai-apps",
       "name": "Guohao Li",
@@ -246,6 +436,25 @@
         "github": "https://github.com/lightaime",
         "linkedin": "https://www.linkedin.com/in/guohao-li-9a573b136/",
         "website": "https://ghli.org/"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "hung-ying-tai",
+      "name": "Hung-Ying Tai",
+      "bio": "Hung-Ying, Tai (hydai) is the maintainer of the WasmEdge Runtime project and an engineering leader at Second State. He is a prolific mentor in the Linux Foundation Mentorship program and a CNCF Ambassador. He also contributes to many high-profile open source projects within and beyond the CNCF. He is knowledgeable about AI inference frameworks such as llama.cpp, PyTorch, and TensorFlow.",
+      "role": "Engineering leader",
+      "org": "Second State",
+      "roleOrg": "Engineering Leader at Second State",
+      "image": "hung-ying-tai.jpg",
+      "tag": "ai-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/hydai_tw",
+        "github": "https://github.com/hydai",
+        "linkedin": "undefined",
+        "website": "https://hyd.ai"
       },
       "status": "New",
       "draft": false
@@ -270,6 +479,44 @@
       "draft": false
     },
     {
+      "id": "jack-huang",
+      "name": "Jack Huang",
+      "bio": "Jack Huang is the Chairman and CEO of Gizwits, a well-known Chinese IoT solutions company. He holds an EMBA from Columbia University and London Business School, and a Bachelor's degree in Computer Science from the University of Kentucky in the United States. As a serial entrepreneur in the TMT (Technology, Media, and Telecommunications) sector and a Chinese-American entrepreneur who returned to China after studying in the US, Jack Huang is a representative figure in the field of IoT cloud services. He has been engaged in research and application work in TMT-related industries for many years and has unique insights and practical experience in using IoT to transform traditional industries. In 2014, he launched China's first IoT self-service development platform, pioneering the operation of an IoT developer ecosystem. He has been selected as one of the 100 Most Creative Business Figures in China by Fast Company, and one of the Top 30 Leaders in China's Globalization and Overseas Expansion by Forbes China.",
+      "role": "Chairman & CEO",
+      "org": "Gizwits",
+      "roleOrg": "Chairman & CEO at Gizwits",
+      "image": "jack-huang.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "www.gizwits.com"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "james-yang",
+      "name": "James Yang",
+      "bio": "James Yang holds a PhD from the University of Pennsylvania, a master's degree from Rice University, and a bachelor's degree from the University of Science and Technology of China. He is the Founder and CEO of Synkrotron Inc and a professor at the University of Science and Technology of China. He served as a professor in the Department of Computer Science at Western Michigan University and a visiting professor in the Department of Electrical Engineering and Computer Science at the University of Michigan. Currently he is a co-Chair of the IEEE Electric and Autonomous Vehicle Technical Committee and Vice Chair of the IEEE Autonomous Driving Standards Working Group. Dr. Yang has published more than 100 papers and more than 20 Chinese and American patents, and won the ACM SIGSOFT Outstanding Paper Award and ACM TODAES Best Journal Paper Award.",
+      "role": "Professor",
+      "org": "University of Science and Technology of China",
+      "roleOrg": "Professor at University of Science and Technology of China",
+      "image": "james-yang.png",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "jason-li",
       "tag": "ai-model",
       "name": "Jason Li",
@@ -283,6 +530,44 @@
         "twitter": "undefined",
         "github": "undefined",
         "linkedin": "https://www.linkedin.com/in/jianzhongli/",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "jean-laurent-de-morlhon",
+      "name": "Jean-Laurent de Morlhon",
+      "bio": "Jean-Laurent de Morlhon is an Executive & SVP of Engineering at Docker, leading Generative AI initiatives to enhance the developer experience across the Docker ecosystem. With over nine years at Docker, he has played a key role in shaping its engineering culture, scaling teams, and driving innovation in cloud-native development. A seasoned engineering leader with deep expertise in developer tools, infrastructure, and software delivery, Jean-Laurent is passionate about automation, security, and AI-powered developer experiences. As an executive at Docker, he focuses on fostering high-performing teams, delivering impactful products, and pushing the boundaries of developer productivity. Beyond Docker, he actively engages with the tech community and shares his insights on Bluesky @morlhon.bsky.social. ",
+      "role": "Sr Vice President, GenAI Acceleration",
+      "org": "Docker",
+      "roleOrg": "Sr Vice President, GenAI Acceleration at Docker ",
+      "image": "jean-laurent-de-morlhon.png",
+      "tag": "ai-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "https://www.linkedin.com/in/morlhon/",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "jenia-jitsev",
+      "name": "Jenia Jitsev",
+      "bio": "Scientific lead and co-founder at LAION. Open foundation models and datasets necessary for their creation, studying generalist transferable learning and its scaling laws. Machine learning and neuroscience. Senior researcher and lab leader at Juelich Supercomputer Center (JSC), Research Center Juelich, Helmholtz Association ",
+      "role": "Scientific lead",
+      "org": "LAION; Juelich Supercomputing Center, Research Center Juelich",
+      "roleOrg": "Scientific lead at LAION; Juelich Supercomputing Center, Research Center Juelich",
+      "image": "jenia-jitsev.jpg",
+      "tag": "ai-model",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
         "website": "undefined"
       },
       "status": "New",
@@ -374,6 +659,25 @@
       "draft": false
     },
     {
+      "id": "minglan-lin",
+      "name": "Minglan Lin",
+      "bio": "Minglan Lin possesses extensive expertise in training large models, including LLMs, VLMs, and embodied intelligence VLMs. At the BAAI Embodied Intelligence Team, Minglan spearheaded the development and open-sourcing of the RoboBrain large model and the hierarchical collaborative framework RoboOS.",
+      "role": "Embodied Intelligence Researcher",
+      "org": "Beijing Academy of Artificial Intelligence",
+      "roleOrg": "Embodied Intelligence Researcher at Beijing Academy of Artificial Intelligence",
+      "image": "minglan-lin.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "philipp-oppermann",
       "tag": "embodied-ai",
       "name": "Philipp Oppermann",
@@ -412,6 +716,25 @@
       "draft": false
     },
     {
+      "id": "roberto-di-cosmo",
+      "name": "Roberto Di Cosmo",
+      "bio": "Roberto Di Cosmo is a computer scientist whose recent work bridges AI and software. After a career in programming languages and formal methods, he now focuses on large-scale software analysis and code transparency. A long-time advocate of Free Software, he founded and directs Software Heritage, the largest archive of public source code, used today to train responsible AI models. He also chairs the Software chapter of France’s National Committee for Open Science and sits on the board of the IMDEA Software Institute.",
+      "role": "Director",
+      "org": "Software Heritage / Inria",
+      "roleOrg": "Director at Software Heritage / Inria",
+      "image": "roberto-di-cosmo.png",
+      "tag": "osaisf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "rdicosmo",
+        "github": "rdicosmo",
+        "linkedin": "https://www.linkedin.com/in/roberto-di-cosmo/",
+        "website": "https://dicosmo.org"
+      },
+      "status": "New",
+      "draft": true
+    },
+    {
       "id": "sebastien-crozet",
       "name": "Sebastien Crozet",
       "bio": "Sébastien Crozet has been in love with the Rust programming language since its earliest days. He is the creator and maintainer of popular open-source libraries, including nalgebra and Rapier, for the Rust ecosystem that specialize in linear algebra, geometry, physics, and AI. He is the founder of Dimforge where he focuses on developing the future of AI, geometry and physics for engineering, games, and the metaverse.",
@@ -428,7 +751,7 @@
         "website": "https://dimforge.com"
       },
       "status": "New",
-      "draft": true
+      "draft": false
     },
     {
       "id": "shiwei-liu",
@@ -497,6 +820,25 @@
       "org": ""
     },
     {
+      "id": "sray-agarwal",
+      "name": "Sray Agarwal",
+      "bio": "Sray Agarwal has applied AI and analytics from Financial Services to Hospitality and has led the development of Responsible AI framework for multiple banks in the UK and the US.  Based out of London, his is conversant in Predictive Modelling, Forecasting and advanced Machine Learning with profound knowledge of algorithms and advanced statistic, Sray is Head of Responsible AI (EMEA & APAC) at Infosys. He is an active blogger and has given his talks on Ethical AI at major AI conferences across the globe (more than 20) and has podcasts, video interviews and lectures on reputed websites and social media at United Nations, Microsoft, ODSC to name a few. His contribution to the development of the technology was recognised by Microsoft when he won the Most Valued Professional in AI award in 2020 to 2025. He is also an expert for United Nations (UNCEFACT) and have recently authored a book on Responsible AI published by Springer.  He has been a trainer with leading consulting firms and have delivered training on business transformation using AI. He is guest lecturer at Jio institute. He holds patents on RAI system and methods.\r\n",
+      "role": "Head of Responsible AI (EMEA & APAC)",
+      "org": "Infosys",
+      "roleOrg": "Head of Responsible AI (EMEA & APAC) at Infosys",
+      "image": "sray-agarwal.JPG",
+      "tag": "osaif",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "https://www.linkedin.com/in/srayagarwal/",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": true
+    },
+    {
       "id": "tianyu-chen",
       "tag": "ai-model",
       "name": "Tianyu Chen",
@@ -533,6 +875,25 @@
       },
       "status": "New",
       "draft": false
+    },
+    {
+      "id": "wang-qin",
+      "name": "Wang Qin",
+      "bio": "Dr. Qin Wang holds the position of Senior Research Fellow at the Institute of Industrial Economics, Chinese Academy of Social Sciences, and is a Professor at the University of Chinese Academy of Social Sciences. He also serves as the Director of the Management Science and Innovation Development Centre at the Chinese Academy of Social Sciences and holds the role of Executive Vice Chairman at the China Enterprise Management Research Association. Professor Wang has dedicated an extensive period to researching innovation management and organizational change. His notable achievements include receiving the Second China Soft Science Award (Deep Research Award) and the Third Jiang Yiwei Enterprise Reform and Development Fund Works Award for his outstanding contributions. Professor Wang has published more than 100 articles in academic journals such as Harvard Business Review (Chinese version), Tsinghua Management Review, China Industrial Economy, and Economic Management. He has also authored various monographs, including \"The Transformation of China's Manufacturing Industry Driven by Information Network Technology,\" \"The Innovation Strategy of Chinese Enterprises,\" and \"RenDanHeYi Management\" (available in both Simplified and Traditional Chinese versions). In addition, he co-authored \"The Path of Independent Innovation with Chinese Characteristics\" and \"The Regional Innovation Systems in China,\" among others.",
+      "role": "Professor",
+      "org": "Chinese Academy of Social Sciences",
+      "roleOrg": "Professor at Chinese Academy of Social Sciences",
+      "image": "wang-qin.jpg",
+      "tag": "osaisf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": true
     },
     {
       "id": "wei-jia",
@@ -596,6 +957,25 @@
       },
       "status": "New",
       "draft": false
+    },
+    {
+      "id": "yajing-wang",
+      "name": "Yajing Wang",
+      "bio": "Yajing focuses on empowering developers through meaningful content, inclusive community engagement, and scalable solutions. With a passion for bridging the gap between technology and its users, Yajing brings technical expertise and creativity to foster thriving developer ecosystems. ",
+      "role": "Director of DevRel & Community",
+      "org": "Olares",
+      "roleOrg": "Director of DevRel & Community at Olares",
+      "image": "yajing-wang.jpeg",
+      "tag": "ai-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": true
     },
     {
       "id": "yanzhi-wang",
@@ -731,215 +1111,6 @@
       "draft": false
     },
     {
-      "id": "guillaume-blaquiere",
-      "name": "Guillaume Blaquiere",
-      "bio": "Guillaume is a Google Developer Expert on Cloud Platform since 2019 and works at Carrefour as Group Data Architect. \r\n\r\nJava developer for more than 15 years, and despite positions of responsibilities, he has always kept his wish to create, develop, discover and test new solutions, especially in the Cloud, the machine learning or Python and Go language. \r\n\r\nInnovation addict and Google Cloud 3x certified, writer and speaker in his free time, he's fascinated by the serverless solution and all the \"usual\" problems that it solves.\r\n\r\nMore generally, he likes helping people stuck on Google Cloud; you can find him on Stack Overflow (guillaume-blaquiere), Medium (@guillaume-blaquiere) and Twitter (@gblaquiere)",
-      "role": "Group Data Architect",
-      "org": "Carrefour",
-      "roleOrg": "Group Data Architect at Carrefour",
-      "image": "guillaume-blaquiere.png",
-      "tag": "ai-infra",
-      "socialLinks": {
-        "mastodon": "gblaquiere",
-        "twitter": "https://x.com/gblaquiere",
-        "github": "https://github.com/guillaumeblaquiere",
-        "linkedin": "https://www.linkedin.com/in/guillaume-blaquiere",
-        "website": "https://medium.com/@guillaume-blaquiere"
-      },
-      "status": "New",
-      "draft": true
-    },
-    {
-      "id": "dongxu-huang",
-      "name": "Dongxu Huang",
-      "bio": "Cofounder / CTO, TiDB",
-      "role": "CTO",
-      "org": "PingCAP",
-      "roleOrg": "CTO at PingCAP",
-      "image": "dongxu-huang.jpeg",
-      "tag": "ai-infra",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "dxhuang",
-        "github": "https://github.com/c4pt0r",
-        "linkedin": "undefined",
-        "website": "https://me.0xffff.me"
-      },
-      "status": "New",
-      "draft": true
-    },
-    {
-      "id": "cailean-osborne-phd",
-      "name": "Cailean Osborne, PhD",
-      "bio": "Cailean Osborne is a senior researcher at the Linux Foundation, who leads strategic research on open source AI. Cailean has a PhD in Social Data Science from the University of Oxford, where he researched commercial interests and collaboration dynamics in open source AI developer communities, and in 2023-2024 he was a visiting researcher at Peking University’s Open Source Software Data Analytics Lab. Previously, Cailean worked in AI policy at the UK Government and was a UK government delegate at the OECD’s Global Partnership on AI and the Council of Europe’s Committee on AI. Cailean is based in Berlin, Germany.",
-      "role": "Senior Researcher",
-      "org": "Linux Foundation",
-      "roleOrg": "Senior Researcher at Linux Foundation",
-      "image": "cailean-osborne-phd.png",
-      "tag": "osaisf",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "https://www.linkedin.com/in/caileanosborne/",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": true
-    },
-    {
-      "id": "xiaozhang",
-      "name": "xiaozhang",
-      "bio": "Founder and CEO of dynamia.ai, initiator and maintainer of CNCF HAMi, mainly provides general technical solutions for HAMi to maximize GPU utilization",
-      "role": "Founder & CEO ",
-      "org": "dynamia.ai",
-      "roleOrg": "Founder & CEO  at dynamia.ai",
-      "image": "xiaozhang.jpg",
-      "tag": "ai-infra",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "https://github.com/wawa0210",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": true
-    },
-    {
-      "id": "susobhit-panigrahi",
-      "name": "Susobhit Panigrahi",
-      "bio": "Working on cool DevOps and Developer related stuff\r\n\r\nAs a Developer and DevOps Engineer at VMware, I specialize in developing scalable cloud software. My focus includes deploying and managing services with Kubernetes, Helm, and Istio. I'm keen to contribute to the open-source community, especially in Kubernetes and other CNCF projects, given its rising popularity and the vibrant community both within and outside VMware. Attending conferences would provide an excellent opportunity to exchange ideas with industry experts.",
-      "role": "Senior Software Developer",
-      "org": "VMware",
-      "roleOrg": "Senior Software Developer at VMware",
-      "image": "susobhit-panigrahi.jpeg",
-      "tag": "ai-infra",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": true
-    },
-    {
-      "id": "daniel-jarjoura",
-      "name": "Daniel Jarjoura",
-      "bio": "Daniel is a Managing Director at Avolta, a European technology investment bank, advising entrepreneurs on M&A and growth fundraising. At Avolta, Daniel focuses on developer tools, AI, data, infrastructure and open-source companies.\r\n\r\nA graduate of EPITA School of Engineering, where he founded the Startup42 accelerator and the Entrepreneurship department, Daniel has helped hundreds of software engineers start and scale technology companies over the past ten years.\r\n\r\nMore recently, Daniel has supported founders and CTOs of venture-backed companies, helping them improve their operational efficiency in preparing for fundraising or M&A events.",
-      "role": "Managing Director",
-      "org": "Avolta",
-      "roleOrg": "Managing Director at Avolta",
-      "image": "daniel-jarjoura.png",
-      "tag": "assign-me",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "https://www.linkedin.com/in/danieljarjoura",
-        "website": "https://open.substack.com/pub/developerfirst"
-      },
-      "status": "New",
-      "draft": true
-    },
-    {
-      "id": "roberto-di-cosmo",
-      "name": "Roberto Di Cosmo",
-      "bio": "Roberto Di Cosmo is a computer scientist whose recent work bridges AI and software. After a career in programming languages and formal methods, he now focuses on large-scale software analysis and code transparency. A long-time advocate of Free Software, he founded and directs Software Heritage, the largest archive of public source code, used today to train responsible AI models. He also chairs the Software chapter of France’s National Committee for Open Science and sits on the board of the IMDEA Software Institute.",
-      "role": "Director",
-      "org": "Software Heritage / Inria",
-      "roleOrg": "Director at Software Heritage / Inria",
-      "image": "roberto-di-cosmo.png",
-      "tag": "osaisf",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "rdicosmo",
-        "github": "rdicosmo",
-        "linkedin": "https://www.linkedin.com/in/roberto-di-cosmo/",
-        "website": "https://dicosmo.org"
-      },
-      "status": "New",
-      "draft": true
-    },
-    {
-      "id": "martin-leclercq",
-      "name": "Martin Leclercq",
-      "bio": "Martin has been involved in the Web3 ecosystem for over 5 years, contributing to projects such as TalentLayer Protocol and FiftyWei. Now a DevRel at iExec, his mission is to simplify, educate, and onboard builders into the fascinating world of DeCC (decentralized confidential computing). ",
-      "role": "DevRel",
-      "org": "iExec",
-      "roleOrg": "DevRel at iExec",
-      "image": "martin-leclercq.jpg",
-      "tag": "ai-infra",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "https://x.com/martinlecl",
-        "github": "https://github.com/iExecBlockchainComputing",
-        "linkedin": "https://www.linkedin.com/in/leclercqmartin/",
-        "website": "https://www.iex.ec/"
-      },
-      "status": "New",
-      "draft": true
-    },
-    {
-      "id": "liu-xinrui",
-      "name": "Liu Xinrui",
-      "bio": "Liu Xinrui, Developer Ecosystem Director at DIFY, is responsible for building DIFY's global open-source ecosystem partnership network and driving the deep integration of developer tools with commercial value.\r\n\r\nA graduate of Northwestern University, she specializes in designing commercialization pathways for open-source products and establishing compliance frameworks for open-source licenses. She is committed to finding a balance between community innovation and sustainable corporate growth.\r\n\r\nAs a next-generation AI-native application development platform, DIFY upholds the philosophy of open-source-driven innovation. Through technological empowerment, resource connectivity, and ecosystem incubation, DIFY aims to help developers and enterprises worldwide bridge the gap between code and commercial value.",
-      "role": "Developer Ecosystem Director",
-      "org": "LangGenius, Inc.",
-      "roleOrg": "Developer Ecosystem Director at LangGenius, Inc.",
-      "image": "liu-xinrui.jpg",
-      "tag": "ai-infra",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": true
-    },
-    {
-      "id": "dong-xin",
-      "name": "DONG XIN",
-      "bio": "2008–2017 Microsoft | Technical Leader\r\nEngaged in the R&D of Microsoft Azure Enterprise Cloud and Dynamics 365 platforms.\r\n\r\n2017–Present Huawei Technologies | Technical Expert/Product Director\r\nLed R&D in core foundational software, including development toolchains, programming languages, and IDEs. During tenure at Huawei:\r\n\r\nServed as Chief Technical Expert and Project Manager, working on Huawei’s mobile AI development tools, the company-wide AI R&D platform, the Ascend AI chip toolchain, and the HarmonyOS toolchain.\r\n\r\nSince 2021, responsible for programming language and IDE foundational software R&D as Program Director, driving the development of self-controlled programming languages and IDE core technologies. Played a key role in the technical planning, productization, and industrial adoption of domestic application programming languages, making significant contributions to their advancement.",
-      "role": "Technical expert in the programming language lab of Huawei ",
-      "org": "HUAWEI",
-      "roleOrg": "Technical expert in the programming language lab of Huawei  at HUAWEI",
-      "image": "dong-xin.jpg",
-      "tag": "ai-model",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": true
-    },
-    {
-      "id": "daniel-goldscheider",
-      "name": "Daniel Goldscheider",
-      "bio": "Daniel Goldscheider is founder and Executive Director of the OpenWallet Foundation and serves as Vice Chair of the Supervisory Board of Valamar Riviera d.d., Croatia’s largest tourism company. \r\n\r\nBefore that he started yes.com, an open banking scheme and co-founded Mediaguide with the American Society of Composers, Authors and Publishers as well as Aureus Private Equity (today Invision).",
-      "role": "Executive Director",
-      "org": "OpenWallet",
-      "roleOrg": "Executive Director at OpenWallet",
-      "image": "daniel-goldscheider.jpeg",
-      "tag": "osaisf",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "https://x.com/goldscheider",
-        "github": "undefined",
-        "linkedin": "https://www.linkedin.com/in/goldscheider",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": true
-    },
-    {
       "id": "yumei-he",
       "name": "Yumei He",
       "bio": "undefined",
@@ -957,215 +1128,6 @@
       },
       "status": "New",
       "draft": true
-    },
-    {
-      "id": "wang-qin",
-      "name": "Wang Qin",
-      "bio": "Dr. Qin Wang holds the position of Senior Research Fellow at the Institute of Industrial Economics, Chinese Academy of Social Sciences, and is a Professor at the University of Chinese Academy of Social Sciences. He also serves as the Director of the Management Science and Innovation Development Centre at the Chinese Academy of Social Sciences and holds the role of Executive Vice Chairman at the China Enterprise Management Research Association. Professor Wang has dedicated an extensive period to researching innovation management and organizational change. His notable achievements include receiving the Second China Soft Science Award (Deep Research Award) and the Third Jiang Yiwei Enterprise Reform and Development Fund Works Award for his outstanding contributions. Professor Wang has published more than 100 articles in academic journals such as Harvard Business Review (Chinese version), Tsinghua Management Review, China Industrial Economy, and Economic Management. He has also authored various monographs, including \"The Transformation of China's Manufacturing Industry Driven by Information Network Technology,\" \"The Innovation Strategy of Chinese Enterprises,\" and \"RenDanHeYi Management\" (available in both Simplified and Traditional Chinese versions). In addition, he co-authored \"The Path of Independent Innovation with Chinese Characteristics\" and \"The Regional Innovation Systems in China,\" among others.",
-      "role": "Professor",
-      "org": "Chinese Academy of Social Sciences",
-      "roleOrg": "Professor at Chinese Academy of Social Sciences",
-      "image": "wang-qin.jpg",
-      "tag": "osaisf",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": true
-    },
-    {
-      "id": "junkai-zhao",
-      "name": "Junkai Zhao",
-      "bio": "I am a Robotics Algorithm Engineer at the Beijing Academy of Artificial Intelligence, where I focus on developing general-purpose robotic manipulation models. Prior to this, I worked at Agibot and the Shanghai Qizhi Institute, contributing to projects involving motion planning, control systems, and long-horizon robotic manipulation. My expertise spans robot control, simulation environments, and learning-based action modeling.",
-      "role": "robot algorithm engineer",
-      "org": "Beijing academy of artificial intelligence",
-      "roleOrg": "robot algorithm engineer at Beijing academy of artificial intelligence",
-      "image": "junkai-zhao.jpg",
-      "tag": "embodied-ai",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": true
-    },
-    {
-      "id": "jean-laurent-de-morlhon",
-      "name": "Jean-Laurent de Morlhon",
-      "bio": "Jean-Laurent de Morlhon is an Executive & SVP of Engineering at Docker, leading Generative AI initiatives to enhance the developer experience across the Docker ecosystem. With over nine years at Docker, he has played a key role in shaping its engineering culture, scaling teams, and driving innovation in cloud-native development. A seasoned engineering leader with deep expertise in developer tools, infrastructure, and software delivery, Jean-Laurent is passionate about automation, security, and AI-powered developer experiences. As an executive at Docker, he focuses on fostering high-performing teams, delivering impactful products, and pushing the boundaries of developer productivity. Beyond Docker, he actively engages with the tech community and shares his insights on Bluesky @morlhon.bsky.social. ",
-      "role": "Sr Vice President, GenAI Acceleration",
-      "org": "Docker ",
-      "roleOrg": "Sr Vice President, GenAI Acceleration at Docker ",
-      "image": "jean-laurent-de-morlhon.png",
-      "tag": "ai-infra",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "https://www.linkedin.com/in/morlhon/",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "sray-agarwal",
-      "name": "Sray Agarwal",
-      "bio": "Sray Agarwal has applied AI and analytics from Financial Services to Hospitality and has led the development of Responsible AI framework for multiple banks in the UK and the US.  Based out of London, his is conversant in Predictive Modelling, Forecasting and advanced Machine Learning with profound knowledge of algorithms and advanced statistic, Sray is Head of Responsible AI (EMEA & APAC) at Infosys. He is an active blogger and has given his talks on Ethical AI at major AI conferences across the globe (more than 20) and has podcasts, video interviews and lectures on reputed websites and social media at United Nations, Microsoft, ODSC to name a few. His contribution to the development of the technology was recognised by Microsoft when he won the Most Valued Professional in AI award in 2020 to 2025. He is also an expert for United Nations (UNCEFACT) and have recently authored a book on Responsible AI published by Springer.  He has been a trainer with leading consulting firms and have delivered training on business transformation using AI. He is guest lecturer at Jio institute. He holds patents on RAI system and methods.\r\n",
-      "role": "Head of Responsible AI (EMEA & APAC)",
-      "org": "Infosys",
-      "roleOrg": "Head of Responsible AI (EMEA & APAC) at Infosys",
-      "image": "sray-agarwal.JPG",
-      "tag": "osaif",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "https://www.linkedin.com/in/srayagarwal/",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": true
-    },
-    {
-      "id": "james-yang",
-      "name": "James Yang",
-      "bio": "James Yang holds a PhD from the University of Pennsylvania, a master's degree from Rice University, and a bachelor's degree from the University of Science and Technology of China. He is the Founder and CEO of Synkrotron Inc and a professor at the University of Science and Technology of China. He served as a professor in the Department of Computer Science at Western Michigan University and a visiting professor in the Department of Electrical Engineering and Computer Science at the University of Michigan. Currently he is a co-Chair of the IEEE Electric and Autonomous Vehicle Technical Committee and Vice Chair of the IEEE Autonomous Driving Standards Working Group. Dr. Yang has published more than 100 papers and more than 20 Chinese and American patents, and won the ACM SIGSOFT Outstanding Paper Award and ACM TODAES Best Journal Paper Award.",
-      "role": "Professor",
-      "org": "University of Science and Technology of China",
-      "roleOrg": "Professor at University of Science and Technology of China",
-      "image": "james-yang.png",
-      "tag": "embodied-ai",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "christian-tzolov",
-      "name": "Christian Tzolov",
-      "bio": "Christian Tzolov, R&D Software Engineer at Broadcom's Spring team, leads the Spring AI and MCP Java SDK projects. He specializes in connecting enterprise systems with AI capabilities, helping Java developers build intelligent applications. Christian brings hands-on experience and a pragmatic approach to making advanced AI concepts accessible and useful for real-world applications.",
-      "role": "R&D Software Engineer",
-      "org": "Spring team at Broadcom",
-      "roleOrg": "R&D Software Engineer at Spring team at Broadcom",
-      "image": "christian-tzolov.png",
-      "tag": "assign-me",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "https://x.com/christzolov",
-        "github": "https://github.com/tzolov",
-        "linkedin": "https://www.linkedin.com/in/tzolov/",
-        "website": "https://spring.io/authors/tzolov"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "jenia-jitsev",
-      "name": "Jenia Jitsev",
-      "bio": "Scientific lead and co-founder at LAION. Open foundation models and datasets necessary for their creation, studying generalist transferable learning and its scaling laws. Machine learning and neuroscience. Senior researcher and lab leader at Juelich Supercomputer Center (JSC), Research Center Juelich, Helmholtz Association ",
-      "role": "Scientific lead",
-      "org": "LAION; Juelich Supercomputing Center, Research Center Juelich",
-      "roleOrg": "Scientific lead at LAION; Juelich Supercomputing Center, Research Center Juelich",
-      "image": "jenia-jitsev.jpg",
-      "tag": "ai-model",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "yajing-wang",
-      "name": "Yajing Wang",
-      "bio": "Yajing focuses on empowering developers through meaningful content, inclusive community engagement, and scalable solutions. With a passion for bridging the gap between technology and its users, Yajing brings technical expertise and creativity to foster thriving developer ecosystems. ",
-      "role": "Director of DevRel & Community",
-      "org": "Olares",
-      "roleOrg": "Director of DevRel & Community at Olares",
-      "image": "yajing-wang.jpeg",
-      "tag": "ai-infra",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": true
-    },
-    {
-      "id": "angelo-corsaro",
-      "name": "Angelo Corsaro",
-      "bio": "Angelo Corsaro, Ph.D.\r\nCEO, CTO, and Co-Founder of ZettaScale Technology\r\n\r\nAngelo Corsaro, Ph.D., is the Chief Executive Officer (CEO), Chief Technology Officer (CTO), and co-founder of ZettaScale Technology. At ZettaScale, he leads a world-class team dedicated to revolutionizing distributed computing, ensuring that every connected human and machine can communicate, compute, and store data anywhere, at any scale, efficiently, and securely.\r\n\r\nA globally recognized expert in Cloud-to-Thing Continuum, high-performance distributed systems, and real-time computing, Angelo is the inventor of the Zenoh protocol and the lead of the Eclipse Zenoh project. His work is reshaping the future of data-centric and event-driven architectures, bridging the gap between cloud, edge, and embedded systems.\r\n\r\nWith a prolific research background, Angelo has authored over 100 publications in peer-reviewed journals, conferences, workshops, and industry magazines. He has also contributed to over ten international standards, shaping the evolution of real-time and large-scale distributed computing.\r\n\r\nAngelo was a founding Co-Chair of the OMG DDS standard, playing a key role in its development and adoption. His leadership in DDS continued until 2015, when he stepped away due to technical divergences and committed himself to designing and implementing the first Zenoh protocol, paving the way for the next generation of data-centric middleware.",
-      "role": "CEO/CTO",
-      "org": "ZettaScale",
-      "roleOrg": "CEO/CTO of ZettaScale",
-      "image": "angelo-corsaro.png",
-      "tag": "embodied-ai",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "https://x.com/acorsaro",
-        "github": "http://github.com/kydos",
-        "linkedin": "https://www.linkedin.com/in/corsaro/",
-        "website": "https:/zettascale.tech"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "minglan-lin",
-      "name": "Minglan Lin",
-      "bio": "Minglan Lin possesses extensive expertise in training large models, including LLMs, VLMs, and embodied intelligence VLMs. At the BAAI Embodied Intelligence Team, Minglan spearheaded the development and open-sourcing of the RoboBrain large model and the hierarchical collaborative framework RoboOS.",
-      "role": "Embodied Intelligence Researcher",
-      "org": "Beijing Academy of Artificial Intelligence",
-      "roleOrg": "Embodied Intelligence Researcher at Beijing Academy of Artificial Intelligence",
-      "image": "minglan-lin.jpg",
-      "tag": "embodied-ai",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "hung-ying-tai",
-      "name": "Hung-Ying Tai",
-      "bio": "Hung-Ying, Tai (hydai) is the maintainer of the WasmEdge Runtime project and an engineering leader at Second State. He is a prolific mentor in the Linux Foundation Mentorship program and a CNCF Ambassador. He also contributes to many high-profile open source projects within and beyond the CNCF. He is knowledgeable about AI inference frameworks such as llama.cpp, PyTorch, and TensorFlow.",
-      "role": "Engineering leader",
-      "org": "Second State",
-      "roleOrg": "Engineering Leader at Second State",
-      "image": "hung-ying-tai.jpg",
-      "tag": "ai-infra",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "https://x.com/hydai_tw",
-        "github": "https://github.com/hydai",
-        "linkedin": "undefined",
-        "website": "https://hyd.ai"
-      },
-      "status": "New",
-      "draft": false
     }
   ]
 }

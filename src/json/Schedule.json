@@ -47,14 +47,14 @@
       },
       {
         "date": "May 6",
-        "timeSlot": "10:10 - 10:40",
+        "timeSlot": "10:00 - 10:30",
         "title": "Morning Coffee",
         "content": "",
         "speakers": []
       },
       {
         "date": "May 6",
-        "timeSlot": "10:40 - 11:20",
+        "timeSlot": "10:30 - 11:10",
         "title": "Open-R1: A Fully Open Reproduction of DeepSeek-R1",
         "content": "The recipe behind OpenAI’s reasoning models has been a well kept secret. That is, until earlier this year, when DeepSeek released their DeepSeek-R1 model and promptly broke the internet. While a detailed technical report was published, many open questions remain, chief among them the training data, which was not released. Open-R1 is Hugging Face's fully open effort to replicate DeepSeek-R1, with a strong focus on reasoning data curation.",
         "speakers": [
@@ -69,7 +69,7 @@
       },
       {
         "date": "May 6",
-        "timeSlot": "11:20 - 12:00",
+        "timeSlot": "11:10 - 11:50",
         "title": "OpenSeek: Collaborative Innovation for Next-Gen Models",
         "content": "OpenSeek aims to unite the global open-source community to drive collaborative innovation in algorithms, data, and systems to develop next-generation models that surpass DeepSeek.",
         "speakers": [
@@ -77,7 +77,7 @@
             "id": "guang-liu",
             "name": "Guang Liu",
             "tags": ["ai-model"],
-            "roleOrg": "Head of OpenSeek",
+            "roleOrg": "Technical Lead of Data Research Team at BAAI",
             "image": "guang-liu.jpg"
           }
         ]
@@ -114,7 +114,7 @@
             "id": "yiran-zhong",
             "name": "Yiran Zhong",
             "tags": ["ai-model"],
-            "roleOrg": "Director of Research at MiniMax",
+            "roleOrg": "Senior Research Director at MiniMax",
             "image": "yiran-zhong.png"
           }
         ]
@@ -136,7 +136,7 @@
             "id": "shiwei-liu",
             "name": "Shiwei Liu",
             "tags": ["ai-model"],
-            "roleOrg": "Royal Society Newton International Fellow",
+            "roleOrg": "Royal Society Newton International Fellow at University of Oxford",
             "image": "shiwei-liu.jpg"
           }
         ]
@@ -159,14 +159,14 @@
       {
         "date": "May 6",
         "timeSlot": "17:00 - 18:00",
-        "title": "Spotlight Demo",
-        "content": "",
+        "title": "Spotlight Demos",
+        "content": "GOSIM AI Spotlight Finalists will present their projects in a short pitch.",
         "speakers": []
       },
       {
         "date": "May 6",
         "timeSlot": "18:00 - 21:00",
-        "title": "VIP Diner",
+        "title": "VIP Dinner",
         "content": "",
         "speakers": []
       },
@@ -186,14 +186,14 @@
       },
       {
         "date": "May 7",
-        "timeSlot": "10:10 - 10:40",
+        "timeSlot": "10:00 - 10:30",
         "title": "Morning Coffee",
         "content": "",
         "speakers": []
       },
       {
         "date": "May 7",
-        "timeSlot": "10:40 - 11:20",
+        "timeSlot": "10:30 - 11:10",
         "title": "Multilingualism of Qwen: From Foundation Model to Applications",
         "content": "Multilingual and cross-lingual capabilities significantly boost the flexibility and usefulness of large language models (LLMs). Using Qwen as an example, we'll explore methods to enhance multilingual performance in LLMs, including pre-training, post-training, and evaluation strategies. Additionally, we'll examine the real-world applications of these advancements, demonstrating how multilingual capabilities can create practical solutions that overcome language barriers and promote smooth communication.",
         "speakers": [
@@ -201,14 +201,14 @@
             "id": "baosong-yang",
             "name": "Baosong Yang",
             "tags": ["ai-model"],
-            "roleOrg": "Research Engineer at Alibaba Tongyi Lab",
+            "roleOrg": "Scientist at Alibaba's Tongyi Lab",
             "image": "baosong-yang.png"
           }
         ]
       },
       {
         "date": "May 7",
-        "timeSlot": "11:20 - 12:00",
+        "timeSlot": "11:10 - 11:50",
         "title": "Open Foundation Models: Scaling Laws and Generalization",
         "content": "To study transferable learning and generalization, derivation of reproducible scaling laws is crucial. We highlight why open foundation models and datasets are essential for this research and highlight challenges in properly measuring generalization.",
         "speakers": [
@@ -231,15 +231,15 @@
       {
         "date": "May 7",
         "timeSlot": "14:00 - 14:40",
-        "title": "Pre-training of Smol and Large LLM",
-        "content": "Explaining what's new in pre-training: optimization tricks, MoE, stability hacks, and handling long contexts—everything you need to build better LLMs.",
+        "title": "Automated Proof Generation for Rust Code Via Self-Evolution",
+        "content": "Ensuring correctness is crucial for code generation. Formal verification offers a definitive assurance of correctness, but demands substantial human effort in proof construction and hence raises a pressing need for automation. The primary obstacle lies in the severe lack of data—there are much fewer proofs than code snippets for Large Language Models (LLMs) to train upon. In this paper, we introduce SAFE, a framework that overcomes the lack of human-written proofs to enable automated proof generation of Rust code. SAFE establishes a self-evolving cycle where data synthesis and fine-tuning collaborate to enhance the model capability, leveraging the definitive power of a symbolic verifier in telling correct proofs from incorrect ones. SAFE also re-purposes the large number of synthesized incorrect proofs to train the self-debugging capability of the fine-tuned models, empowering them to fix incorrect proofs based on the verifier’s feedback. SAFE demonstrates superior efficiency and precision compared to GPT-4o. Through tens of thousands of synthesized proofs and the self-debugging mechanism, we improve the capability of open-source models, initially unacquainted with formal verification, to automatically write proofs for Rust code. This advancement leads to a significant improvement in performance, achieving a 52.52% accuracy rate in a benchmark crafted by human experts, a significant leap over GPT-4o’s performance of 14.39%.",
         "speakers": [
           {
-            "id": "elie-bakouch",
-            "name": "Elie Bakouch",
+            "id": "tianyu-chen",
+            "name": "Tianyu Chen",
             "tags": ["ai-model"],
-            "roleOrg": "Research Engineer at Hugging Face",
-            "image": "elie-bakouch.jpeg"
+            "roleOrg": "Ph.D Candidate at Peking University",
+            "image": "tianyu-chen.jpeg"
           }
         ]
       },
@@ -253,7 +253,7 @@
             "id": "yanzhi-wang",
             "name": "Yanzhi Wang",
             "tags": ["ai-model"],
-            "roleOrg": "Associate Professor, Electrical and Computer Engineering of Northwestern University",
+            "roleOrg": "Professor, Electrical and Computer Engineering at Northwestern University",
             "image": "yanzhi-wang.png"
           }
         ]
@@ -269,36 +269,37 @@
         "date": "May 7",
         "timeSlot": "15:40 - 16:20",
         "title": "Small but Mighty: How MiniCPM Made Breakthroughs in the Global Open-Source AI Landscape",
-        "content": "",
+        "content": "MiniCPM, nicknamed 'ModelBest's Little Steel Cannon'—which includes the large language model MiniCPM and the multimodal large model MiniCPM-V—has gained widespread recognition in the global AI community due to its highly efficient and cost-effective nature, embodying the principle of 'punching above its weight'  These projects have cumulatively received over 26,000 stars on GitHub, with total downloads exceeding 7 million across the web, becoming benchmark works in the field of on-device AI.",
         "speakers": [
           {
             "id": "chao-jia",
             "name": "Chao Jia",
             "tags": ["ai-model"],
             "roleOrg": "Founding Partner at OpenBMB & Modelbest",
-            "image": "jia-chao.jpg"
+            "image": "chao-jia.jpg"
           }
         ]
       },
       {
         "date": "May 7",
         "timeSlot": "16:20 - 17:00",
-        "title": "TBD",
-        "content": "",
+        "title": "Pre-training of Smol and Large LLM",
+        "content": "Explaining what's new in pre-training: optimization tricks, MoE, stability hacks, and handling long contexts—everything you need to build better LLMs.",
         "speakers": [
           {
-            "id": "tbd",
-            "name": "Speaker to be Announced",
+            "id": "elie-bakouch",
+            "name": "Elie Bakouch",
             "tags": ["ai-model"],
-            "image": "generic-profile.png"
+            "roleOrg": "Research Engineer at Hugging Face",
+            "image": "elie-bakouch.jpeg"
           }
         ]
       },
       {
         "date": "May 7",
         "timeSlot": "17:00 - 18:00",
-        "title": "Spotlight Demo",
-        "content": "",
+        "title": "Spotlight Demos",
+        "content": "GOSIM AI Spotlight Finalists will present their projects in a short pitch.",
         "speakers": []
       },
       {
@@ -319,146 +320,14 @@
       },
       {
         "date": "May 6",
-        "timeSlot": "10:10 - 10:40",
+        "timeSlot": "10:00 - 10:30",
         "title": "Morning Coffee",
         "content": "",
         "speakers": []
       },
       {
         "date": "May 6",
-        "timeSlot": "10:40 - 11:20",
-        "title": "AI Open Source for Good: Inclusive Access, Equitable Data, and Accessible Compute",
-        "content": "This talk unveils how open source technologies act as catalysts for equitable AI across three pillars. First, inclusive access: We open-source voice datasets tailored for underrepresented groups—such as children and the elderly—to ensure multimodal AI systems understand diverse linguistic patterns and bridge generational divides. Second, equitable data: we have released nearly 100 globally accessible datasets, amassing over 680,000 downloads, empowering developers from any countries to innovate freely. Third, accessible compute: We present FlagOS, an open-source system software that facilitates AI development and deployment across diverse hardware ecosystems—including legacy GPUs and emerging accelerators—while significantly lowering the cost barrier to AI innovation. Collectively, these open-source efforts transform 'AI for Good' into a shared mission—breaking barriers of age, location, and resources to empower anyone to create and benefit from AI.",
-        "speakers": [
-          {
-            "id": "yonghua-lin",
-            "name": "Yonghua Lin",
-            "tags": ["ai-infra"],
-            "roleOrg": "VP of BAAI",
-            "image": "yonghua-lin.png"
-          }
-        ]
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "11:20 - 12:00",
-        "title": "The Best Practice of Training and Inferencing on Ascend CANN",
-        "content": "The AI-oriented, heterogeneous Compute Architecture for Neural Networks (CANN) is a key platform for improving the computing efficiency of Ascend AI processors. It serves as a bridge between upper-layer AI frameworks and lower-layer AI processors and programming. This topic will focus on OpenSource ecosystem about CANN, shows how CANN helps AI sofeware, such as pytorch, vllm and so on, efficiently running on Ascend.",
-        "speakers": [
-          {
-            "id": "xiyuan-wang",
-            "name": "Xiyuan Wang",
-            "tags": ["ai-infra"],
-            "roleOrg": "Senior Software Engineer at Huawei",
-            "image": "xiyuan-wang.jpeg"
-          }
-        ]
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "12:00 - 14:00",
-        "title": "Lunch Break",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "14:00 - 14:40",
-        "title": "SGLang: Efficient LLM Serving Engine",
-        "content": "SGLang is a fast serving engine for LLMs and VLMs. It's fully open-source, incubated by LMSYS Org, with 300+ contributors worldwide. \r\nIn this talk, we will introduce the key features and performance optimizations in SGLang. ",
-        "speakers": [
-          {
-            "id": "ke-bao",
-            "name": "Ke Bao",
-            "tags": ["ai-infra"],
-            "roleOrg": "Member of LMSYS Org",
-            "image": "ke-bao.jpeg"
-          }
-        ]
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "14:40 - 15:20",
-        "title": "Open-source Intelligent Computing Integrated Management and Utilization Foundational Software - SCOW and CraneSched",
-        "content": "The Peking University Computing Center is dedicated to developing general foundational software for both supercomputing (HPC) and intelligent computing (AI computing). In the field of HPC and AI computing, it has developed several flagship foundational software systems, including SCOW and CraneSched.\r\nOpenSCOW (https://github.com/PKUHPC/OpenSCOW) provides a graphical user interface (GUI) that allows developers to flexibly manage supercomputing and AI computing resources for AI model training and inference. It has already been deployed across 56 computing centers, including 34 universities and 12 enterprises in China.\r\nCraneSched ( https://github.com/PKUHPC/CraneSched) is a high-performance scheduling and orchestration system for HPC and AI computing tasks. It supports large-scale model training with exceptional performance and has been adopted by 8 universities and 1 enterprise in China.",
-        "speakers": [
-          {
-            "id": "yinping-ma",
-            "name": "Yinping Ma",
-            "tags": ["ai-infra"],
-            "roleOrg": "Engineer at Peking University",
-            "image": "yinping-ma.jpg"
-          }
-        ]
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "15:20 - 15:40",
-        "title": "Afternoon Coffee",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "15:40 - 16:20",
-        "title": "Verl: Hybrid Controller-based RLHF System",
-        "content": "verl is a flexible, efficient and production-ready RL training library for LLMs. This talk will share the ideas in designing a hybrid-controller system and the benefits of this system in efficient large-scale RL training.",
-        "speakers": [
-          {
-            "id": "yaowei-zheng",
-            "name": "Yaowei Zheng",
-            "tags": ["ai-infra"],
-            "roleOrg": "Ph.D. Student at Beihang University",
-            "image": "yaowei-zheng.jpeg"
-          }
-        ]
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "16:20 - 17:00",
-        "title": "Datasets and Infrastructure for DeepSeek-R1 Style Reinforcement Learning (GRPO)",
-        "content": "We will walk through everything you need to know about the latest in reinforcement learning for LLMs, datasets and infrastructure, down to training your own small reasoning LLM that can write code locally. ",
-        "speakers": [
-          {
-            "id": "greg-schoeninger",
-            "name": "Greg Schoeninger",
-            "tags": ["ai-infra"],
-            "roleOrg": "CEO at Oxen.ai",
-            "image": "greg-schoeninger.jpeg"
-          }
-        ]
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "17:00 - 18:00",
-        "title": "Spotlight Demo",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "18:00 - 21:00",
-        "title": "VIP Diner",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "9:30 - 10:00",
-        "title": "Keynote",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "10:10 - 10:40",
-        "title": "Morning Coffee",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "10:40 - 11:20",
+        "timeSlot": "10:30 - 11:10",
         "title": "Streamlining AI App Development with Docker: Models and AI Tools That Just Work",
         "content": "Discover how Docker’s Model Runner enables fast, local AI inference with GPU support, and how the Docker makes it easy to integrate LLMs and agents using MCP —no complex setup required.",
         "speakers": [
@@ -472,65 +341,66 @@
         ]
       },
       {
-        "date": "May 7",
-        "timeSlot": "11:20 - 12:00",
-        "title": "Running GenAI Models on Edge Devices",
-        "content": "Run GenAI models on edge devices with LlamaEdge: multi-runtime support (llama.cpp, PyTorch, OpenVINO), small footprint, GPU support, and Rust SDK embeddability. Learn how it outperforms tools like Ollama for flexible, fast, on-device AI deployment.",
+        "date": "May 6",
+        "timeSlot": "11:10 - 11:50",
+        "title": "Make Your LLMs Serverless",
+        "content": "LLMs require GPUs, causing scarcity. Overprovisioning them is expensive and a waste. Google Cloud Run now offers serverless GPU support, enabling cost-effective LLM deployment. A live demo will compare Gemma model performance with and without GPUs.",
         "speakers": [
           {
-            "id": "hung-ying-tai",
-            "name": "Hung YIng Tai",
+            "id": "guillaume-blaquiere",
+            "name": "Guillaume Blaquiere",
             "tags": ["ai-infra"],
-            "roleOrg": "Engineering Leader at Second State",
-            "image": "hung-ying-tai.jpg"
+            "roleOrg": "Group Data Architect at Carrefour",
+            "image": "guillaume-blaquiere.png"
           }
         ]
       },
       {
-        "date": "May 7",
+        "date": "May 6",
         "timeSlot": "12:00 - 14:00",
         "title": "Lunch Break",
         "content": "",
         "speakers": []
       },
       {
-        "date": "May 7",
+        "date": "May 6",
         "timeSlot": "14:00 - 14:40",
-        "title": "TBD",
-        "content": "",
+        "title": "Kubetorch: A Modern Kubernetes-Native Approach to ML Execution and Production",
+        "content": "Mature organizations run ML workloads on Kubernetes, but implementations vary widely, and ML engineers rarely enjoy the streamlined development and deployment experiences that platform engineering teams provide for software engineers. Making small changes takes an hour to test and moving from research to production frequently takes multiple weeks – these unergonomic and inefficient processes are unthinkable for software, but standard in ML. Kubetorch is an introduction of a novel compute platform that is Kubernetes-native that offers a great, iterable, and debuggable interface into powerful compute for developers, without introducing new pitfalls of brittle infrastructure or long deployment times. ",
         "speakers": [
           {
-            "id": "tbd",
-            "name": "Speaker to be Announced",
+            "id": "donny-greenberg",
+            "name": "Donny Greenberg",
             "tags": ["ai-infra"],
-            "image": "generic-profile.png"
+            "roleOrg": "Co-founder / CEO at Runhouse",
+            "image": "donny-greenberg.jpeg"
           }
         ]
       },
       {
-        "date": "May 7",
+        "date": "May 6",
         "timeSlot": "14:40 - 15:20",
-        "title": "Olares: An Open-Source Sovereign Cloud OS for Local AI",
-        "content": "Olares provides a straightforward, open-source solution for Local AI. This talk highlights its design philosophy, focusing on how it empowers users to securely manage data and run AI applications with minimal overhead.",
+        "title": "RAGFlow: Leading the Open-Source Revolution in Enterprise-Grade Retrieval-Augmented Generation",
+        "content": "RAGFlow tackles core RAG challenges—data quality, semantic gaps, low hit rates—with open-source solutions. This talk demonstrates enhanced retrieval, reasoning, and multimodal capabilities for robust enterprise AI applications.\r\n",
         "speakers": [
           {
-            "id": "yajing-wang",
-            "name": "Yajing Wang",
+            "id": "yingfeng-zhang",
+            "name": "Yingfeng Zhang",
             "tags": ["ai-infra"],
-            "roleOrg": "Director of DevRel & Community at Olares",
-            "image": "yajing-wang.jpeg"
+            "roleOrg": "CEO of InfiniFlow",
+            "image": "yingfeng-zhang.png"
           }
         ]
       },
       {
-        "date": "May 7",
+        "date": "May 6",
         "timeSlot": "15:20 - 15:40",
         "title": "Afternoon Coffee",
         "content": "",
         "speakers": []
       },
       {
-        "date": "May 7",
+        "date": "May 6",
         "timeSlot": "15:40 - 16:20",
         "title": "Khronos in the World of Open Source and Machine Learning",
         "content": "TBD",
@@ -545,7 +415,7 @@
         ]
       },
       {
-        "date": "May 7",
+        "date": "May 6",
         "timeSlot": "16:20 - 17:00",
         "title": "WGML: the Story of Building a New High-performance, Cross-platform, On-device Inference Framework.",
         "content": "Ever dreamed of writing a new low-level LLM inference library? Check out the making of WGML, an open-source high-performance cross-platform GPU inference framework using Rust and WebGPU. We will cover tips for discovering and implementing LLM inference.",
@@ -560,10 +430,407 @@
         ]
       },
       {
+        "date": "May 6",
+        "timeSlot": "17:00 - 18:00",
+        "title": "Spotlight Demos",
+        "content": "GOSIM AI Spotlight Finalists will present their projects in a short pitch.",
+        "speakers": []
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "18:00 - 21:00",
+        "title": "VIP Dinner",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "9:30 - 10:00",
+        "title": "Keynote",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "10:00 - 10:30",
+        "title": "Morning Coffee",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "10:30 - 11:10",
+        "title": "AI Open Source for Good: Inclusive Access, Equitable Data, and Accessible Compute",
+        "content": "This talk unveils how open source technologies act as catalysts for equitable AI across three pillars. First, inclusive access: We open-source voice datasets tailored for underrepresented groups—such as children and the elderly—to ensure multimodal AI systems understand diverse linguistic patterns and bridge generational divides. Second, equitable data: we have released nearly 100 globally accessible datasets, amassing over 680,000 downloads, empowering developers from any countries to innovate freely. Third, accessible compute: We present FlagOS, an open-source system software that facilitates AI development and deployment across diverse hardware ecosystems—including legacy GPUs and emerging accelerators—while significantly lowering the cost barrier to AI innovation. Collectively, these open-source efforts transform 'AI for Good' into a shared mission—breaking barriers of age, location, and resources to empower anyone to create and benefit from AI.",
+        "speakers": [
+          {
+            "id": "yonghua-lin",
+            "name": "Yonghua Lin",
+            "tags": ["ai-infra"],
+            "roleOrg": "VP of BAAI",
+            "image": "yonghua-lin.png"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "11:10 - 11:50",
+        "title": "The Best Practice of Training and Inferencing on Ascend CANN",
+        "content": "The AI-oriented, heterogeneous Compute Architecture for Neural Networks (CANN) is a key platform for improving the computing efficiency of Ascend AI processors. It serves as a bridge between upper-layer AI frameworks and lower-layer AI processors and programming. This topic will focus on OpenSource ecosystem about CANN, shows how CANN helps AI sofeware, such as pytorch, vllm and so on, efficiently running on Ascend.",
+        "speakers": [
+          {
+            "id": "xiyuan-wang",
+            "name": "Xiyuan Wang",
+            "tags": ["ai-infra"],
+            "roleOrg": "Senior Software Engineer at Huawei",
+            "image": "xiyuan-wang.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "12:00 - 14:00",
+        "title": "Lunch Break",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "14:00 - 14:40",
+        "title": "SGLang: Efficient LLM Serving Engine",
+        "content": "SGLang is a fast serving engine for LLMs and VLMs. It's fully open-source, incubated by LMSYS Org, with 300+ contributors worldwide. \r\nIn this talk, we will introduce the key features and performance optimizations in SGLang. ",
+        "speakers": [
+          {
+            "id": "ke-bao",
+            "name": "Ke Bao",
+            "tags": ["ai-infra"],
+            "roleOrg": "Member of LMSYS Org",
+            "image": "ke-bao.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "14:40 - 15:20",
+        "title": "Open-source Intelligent Computing Integrated Management and Utilization Foundational Software - SCOW and CraneSched",
+        "content": "The Peking University Computing Center is dedicated to developing general foundational software for both supercomputing (HPC) and intelligent computing (AI computing). In the field of HPC and AI computing, it has developed several flagship foundational software systems, including SCOW and CraneSched.\r\nOpenSCOW (https://github.com/PKUHPC/OpenSCOW) provides a graphical user interface (GUI) that allows developers to flexibly manage supercomputing and AI computing resources for AI model training and inference. It has already been deployed across 56 computing centers, including 34 universities and 12 enterprises in China.\r\nCraneSched ( https://github.com/PKUHPC/CraneSched) is a high-performance scheduling and orchestration system for HPC and AI computing tasks. It supports large-scale model training with exceptional performance and has been adopted by 8 universities and 1 enterprise in China.",
+        "speakers": [
+          {
+            "id": "yinping-ma",
+            "name": "Yinping Ma",
+            "tags": ["ai-infra"],
+            "roleOrg": "Engineer at Peking University",
+            "image": "yinping-ma.jpg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "15:20 - 15:40",
+        "title": "Afternoon Coffee",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "15:40 - 16:20",
+        "title": "Verl: Hybrid Controller-based RLHF System",
+        "content": "verl is a flexible, efficient and production-ready RL training library for LLMs. This talk will share the ideas in designing a hybrid-controller system and the benefits of this system in efficient large-scale RL training.",
+        "speakers": [
+          {
+            "id": "yaowei-zheng",
+            "name": "Yaowei Zheng",
+            "tags": ["ai-infra"],
+            "roleOrg": "Ph.D. Student at Beihang University",
+            "image": "yaowei-zheng.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "16:20 - 17:00",
+        "title": "Datasets and Infrastructure for DeepSeek-R1 Style Reinforcement Learning (GRPO)",
+        "content": "We will walk through everything you need to know about the latest in reinforcement learning for LLMs, datasets and infrastructure, down to training your own small reasoning LLM that can write code locally. ",
+        "speakers": [
+          {
+            "id": "greg-schoeninger",
+            "name": "Greg Schoeninger",
+            "tags": ["ai-infra"],
+            "roleOrg": "CEO at Oxen.ai",
+            "image": "greg-schoeninger.jpeg"
+          }
+        ]
+      },
+      {
         "date": "May 7",
         "timeSlot": "17:00 - 18:00",
-        "title": "Spotlight Demo",
+        "title": "Spotlight Demos",
+        "content": "GOSIM AI Spotlight Finalists will present their projects in a short pitch.",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "18:00 - 21:00",
+        "title": "Social Gathering",
         "content": "",
+        "speakers": []
+      }
+    ],
+    "AI Apps": [
+      {
+        "date": "May 6",
+        "timeSlot": "9:30 - 10:00",
+        "title": "Keynote",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "10:00 - 10:30",
+        "title": "Morning Coffee",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "10:30 - 11:10",
+        "title": "AG2: The Open-Source AgentOS for Agentic AI",
+        "content": "This presentation will examine the trend of agentic AI and the fundamental design considerations for agentic AI programming frameworks. It will introduce a pioneering initiative, AG2. It will explain the primary concepts and its application across a diverse range of tasks and industries.",
+        "speakers": [
+          {
+            "id": "chi-wang",
+            "name": "Chi Wang",
+            "tags": ["ai-apps"],
+            "roleOrg": "Research Scientist at Google DeepMind",
+            "image": "chi-wang.png"
+          }
+        ]
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "11:10 - 11:50",
+        "title": "CangjieMagic : New Choices for Developers in the Age of Large Models",
+        "content": "With the surge in popularity of various AI large models, the trend of agent-oriented development in large model applications has become increasingly evident. Agents are gradually becoming a core element in the development of large model applications. This topic shares an AI large model Agent development framework based on the Cangjie programming language. This framework supports Agent-oriented programming, providing developers with an efficient Agent DSL for Agent programming. Its main features include: support for the MCP protocol to facilitate mutual invocation between Agents and tools, support for modular invocation, and support for intelligent task planning. It enhances the efficiency of developers in creating smart HarmonyOS applications, delivers an exceptional development experience, and explores new paradigms for future large model application development",
+        "speakers": [
+          {
+            "id": "dongjie-chen",
+            "name": "Dongjie Chen",
+            "tags": ["ai-apps"],
+            "roleOrg": "Software Engineer at Huawei",
+            "image": "dongjie-chen.jpg"
+          }
+        ]
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "12:00 - 14:00",
+        "title": "Lunch Break",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "14:00 - 14:40",
+        "title": "TONGYI Lingma: from Coding Copilot to Coding Agent Based on Qwen Models",
+        "content": "This presentation will take the perspective of intelligent development in the software engineering to outline and introduce the latest technological advancements and product applications of Code LLMs, Coding Copilot, and Coding Agents, as well as analyze and forecast future development trends. ",
+        "speakers": [
+          {
+            "id": "yongbin-li",
+            "name": "Yongbin Li",
+            "tags": ["ai-apps"],
+            "roleOrg": "Senior Algorithm Expert at Alibaba Tongyi Lab",
+            "image": "yongbin-li.png"
+          }
+        ]
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "14:40 - 15:20",
+        "title": "Unifying AI Integration with Model Context Protocol",
+        "content": "The Model Context Protocol (MCP) standardizes how AI models interact with external tools and resources through a structured client-server architecture, facilitating robust agent development. The engineering community worldwide keeps sharing MCP servers that enable client interactions that open truly remarkable and innovative applications.\r\n\r\nThis talk delves into MCP's core capabilities and how the MCP Java SDK combined with Spring AI MCP can integrate AI with your existing resources and applications.\r\n\r\nToday's intelligent agents can understand context, guide decisions, and integrate seamlessly with external services. Through live coding and practical examples, we will illustrate how to implement both client and server components. By attending this session, you will gain a practical understanding of MCP's standardized interfaces and architectural best practices, empowering you to build and extend AI-powered applications with agent-like capabilities.\r\n\r\nWhether you're developing new AI-driven solutions or enhancing existing systems, this talk will equip you with the tools and strategies needed to leverage MCP effectively.",
+        "speakers": [
+          {
+            "id": "christian-tzolov",
+            "name": "Christian Tzolov",
+            "tags": ["ai-apps"],
+            "roleOrg": "R&D Software Engineer at Spring team at Broadcom",
+            "image": "christian-tzolov.png"
+          }
+        ]
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "15:20 - 15:40",
+        "title": "Afternoon Coffee",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "15:40 - 16:20",
+        "title": "Using AI to Vibe Code Rust UI's for Mobile, Web and Mixed Reality",
+        "content": "In this talk i will show vibecoding makepad UIs and UI shaders with Makepad Studio and an LLM. Makepad Studio is our visual design / code environment and the vision is to bring back Visual Basic, but now for a modern language: Rust.",
+        "speakers": [
+          {
+            "id": "rik-arends",
+            "name": "Rik Arends",
+            "tags": ["ai-apps"],
+            "roleOrg": "Co-Founder of Makepad",
+            "image": "rik-arends.png"
+          }
+        ]
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "16:20 - 17:00",
+        "title": "Tech Together, Powered by Dify",
+        "content": "Dify is a next-generation AI-native application development platform that bridges cutting-edge technology with real-world business value. Built on a robust open-source foundation, Dify integrates modern tech stacks—including LLM orchestration, RAG (Retrieval-Augmented Generation), fine-tuning tools, and multi-agent workflows—to simplify the creation, deployment, and scaling of AI applications.\r\n\r\nOur global developer community has become a hub for innovation, with thousands of contributors and enterprise adopters leveraging Dify to build everything from intelligent chatbots to enterprise-grade automation systems. This talk will highlight:\r\n\r\nDify’s open-source ecosystem and its role in accelerating AI adoption;\r\nKey technologies powering the platform and how they solve real-world challenges;\r\nSuccess stories from developers and enterprises.",
+        "speakers": [
+          {
+            "id": "xinrui-liu",
+            "name": "Xinrui Liu",
+            "tags": ["ai-apps"],
+            "roleOrg": "Developer Ecosystem Director at LangGenius",
+            "image": "xinrui-liu.jpg"
+          }
+        ]
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "17:00 - 18:00",
+        "title": "Spotlight Demos",
+        "content": "GOSIM AI Spotlight Finalists will present their projects in a short pitch.",
+        "speakers": []
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "18:00 - 21:00",
+        "title": "VIP Dinner",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "9:30 - 10:00",
+        "title": "Keynote",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "10:00 - 10:30",
+        "title": "Morning Coffee",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "10:30 - 11:10",
+        "title": "Finding the Scaling Law of Agents",
+        "content": "This talk explores the potential of building scalable techniques to facilitate autonomous cooperation among communicative agents. To address the challenges of achieving autonomous cooperation, we propose a novel communicative agent framework named CAMEL. We showcase how role-playing can be used to generate conversational data for studying the behaviors and capabilities of a society of agents. In particular, we conduct comprehensive studies on cooperation in multi-agent settings. Our contributions include introducing a novel communicative agent framework, offering a scalable approach for studying the cooperative behaviors and capabilities of multi-agent systems, and open-sourcing our library to support research on communicative agents and beyond: https://github.com/camel-ai/camel.",
+        "speakers": [
+          {
+            "id": "guohao-li",
+            "name": "Guohao Li",
+            "tags": ["ai-apps"],
+            "roleOrg": "Founder and CEO of Eigent.AI / CAMEL-AI.org",
+            "image": "guohao-li.png"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "11:10 - 11:50",
+        "title": "OpenManus: Empowering LLM-based Agent Applications Via Framework and Capability Evolution",
+        "content": "We introduce OpenManus, a lightweight and versatile LLM-based multi-agent framework evolved from MetaGPT, designed to enhance adaptability, autonomy, and scalability through advanced reasoning, planning, and effective cross-environment operation.",
+        "speakers": [
+          {
+            "id": "sirui-hong",
+            "name": "Sirui Hong",
+            "tags": ["ai-apps"],
+            "roleOrg": "Co-Founder of DeepWisdom, MetaGPT/OpenManus Team Leader",
+            "image": "sirui-hong.jpg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "12:00 - 14:00",
+        "title": "Lunch Break",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "14:00 - 14:40",
+        "title": "TBD",
+        "content": "TBD",
+        "speakers": [
+          {
+            "id": "tbd",
+            "name": "Speaker to be Announced",
+            "tags": ["ai-apps"],
+            "image": "generic-profile.png"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "14:40 - 15:20",
+        "title": "OAKS: The Open Agentic AI Knowledge Stack",
+        "content": "In this talk, we present an OSS AI architecture for Agentic AI+Knowledge.  Encapsulating business knowledge is key for agents, and focusing on AI memory and scalable frameworks around Knowledge Graphs is a good foundation to build an OSS AI ecosystem for agents.",
+        "speakers": [
+          {
+            "id": "alexy-khrabrov",
+            "name": "Alexy Khrabrov",
+            "tags": ["ai-apps"],
+            "roleOrg": "AI Community Architect at Neo4j",
+            "image": "alexy-khrabrov.jpg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "15:20 - 15:40",
+        "title": "Afternoon Coffee",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "15:40 - 16:20",
+        "title": "Database for Agents Memory, The Right Way",
+        "content": "In this session, we will explore best practices for leveraging serverless SQL databases to support the sophisticated memory requirements of AI agents. We will delve into essential technical requirements, including schema design considerations, efficient indexing strategies, consistency vs. availability trade-offs, handling real-time updates, and seamless integration with AI workflows. Additionally, we'll discuss common pitfalls, performance optimization techniques, and how to achieve cost-efficiency without sacrificing responsiveness or data integrity.\r\n\r\nAttendees will gain actionable insights into architecting robust, scalable memory storage solutions that enhance the capability, adaptability, and overall effectiveness of AI agents in production environments.",
+        "speakers": [
+          {
+            "id": "dongxu-huang",
+            "name": "Dongxu Huang",
+            "tags": ["ai-apps"],
+            "roleOrg": "CTO at PingCAP",
+            "image": "dongxu-huang.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "16:20 - 17:00",
+        "title": "Agentic Search",
+        "content": "The talk covers basic concepts and use-cases of agentic search.",
+        "speakers": [
+          {
+            "id": "florian-hnicke",
+            "name": "Florian Hönicke",
+            "tags": ["ai-apps"],
+            "roleOrg": "Principal AI Engineer at Jina AI",
+            "image": "florian-hnicke.jpg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "17:00 - 18:00",
+        "title": "Spotlight Demos",
+        "content": "GOSIM AI Spotlight Finalists will present their projects in a short pitch.",
         "speakers": []
       },
       {
@@ -584,16 +851,16 @@
       },
       {
         "date": "May 6",
-        "timeSlot": "10:10 - 10:40",
+        "timeSlot": "10:00 - 10:30",
         "title": "Morning Coffee",
         "content": "",
         "speakers": []
       },
       {
         "date": "May 6",
-        "timeSlot": "10:40 - 11:20",
+        "timeSlot": "10:30 - 11:10",
         "title": "Mind, Body and Zenoh",
-        "content": "",
+        "content": "As Robotics and Artificial Intelligence continue to evolve at an unprecedented pace, a critical gap has emerged in their ability to scale and operate seamlessly across diverse environments: the absence of an efficient, intelligent \"nervous system.\" Much like biological organisms rely on their nervous system to connect the body and the brain, autonomous systems require a foundational layer that enables real-time communication, adaptability, and distributed cognition.\r\n\r\nThis talk introduces Zenoh, a cutting-edge Open Source protocol that is rapidly gaining traction in the robotics community and beyond. Zenoh bridges the traditional divide between data in motion, data at rest, and computation, enabling seamless data exchange from the edge to the cloud. \r\n\r\nZenoh it's the missing link to unify sensing, actuation, and cognition. It is, in essence, the nervous system for the intelligent robots age.",
         "speakers": [
           {
             "id": "angelo-corsaro",
@@ -606,7 +873,7 @@
       },
       {
         "date": "May 6",
-        "timeSlot": "11:20 - 12:00",
+        "timeSlot": "11:10 - 11:50",
         "title": "Distributed Dataflows in Dora Using Zenoh",
         "content": "The Dora framework makes it easy to create dataflows for robotics and AI. In this talk, we look into distributed dataflows that run on multiple machines and communicate through the network. Dora supports complex network topologies by using the Zenoh protocol. This way, it is possible to split Dora dataflows across private networks and cloud machines with minimal configuration.",
         "speakers": [
@@ -696,14 +963,14 @@
       {
         "date": "May 6",
         "timeSlot": "17:00 - 18:00",
-        "title": "Spotlight Demo",
-        "content": "",
+        "title": "Spotlight Demos",
+        "content": "GOSIM AI Spotlight Finalists will present their projects in a short pitch.",
         "speakers": []
       },
       {
         "date": "May 6",
         "timeSlot": "18:00 - 21:00",
-        "title": "VIP Diner",
+        "title": "VIP Dinner",
         "content": "",
         "speakers": []
       },
@@ -716,14 +983,14 @@
       },
       {
         "date": "May 7",
-        "timeSlot": "10:10 - 10:40",
+        "timeSlot": "10:00 - 10:30",
         "title": "Morning Coffee",
         "content": "",
         "speakers": []
       },
       {
         "date": "May 7",
-        "timeSlot": "10:40 - 11:20",
+        "timeSlot": "10:30 - 11:10",
         "title": "How to Build Your Humanoid",
         "content": "In 2021, desperate need for human connection led me to the creation of a 16-DOF data glove. Open-sourcing it made the glove find its way to Rob Knight, creator of the 16-DOF DexHand, who had just begun developing a humanoid with Rémi Cadène's LeRobot.",
         "speakers": [
@@ -738,7 +1005,7 @@
       },
       {
         "date": "May 7",
-        "timeSlot": "11:20 - 12:00",
+        "timeSlot": "11:10 - 11:50",
         "title": "RoboBrain: A Unified Brain Model for Robotic Manipulation & RoboOS: A Hierarchical Collaborative Framework for RoboBrain and Robot Agents",
         "content": "RoboBrain is an MLLM-based model that enhances robotic manipulation by integrating task planning, object affordance, and trajectory prediction, addressing the limitations of MLLMs in robotic scenarios—particularly in long-horizon tasks—while achieving state-of-the-art performance. Building on RoboBrain’s planning capabilities, we propose the RoboOS hierarchical collaborative framework, which integrates the efficient execution of the robotic skills to enable cross-embodiment collaborative control of multiple robots.",
         "speakers": [
@@ -799,7 +1066,7 @@
         "date": "May 7",
         "timeSlot": "15:40 - 16:20",
         "title": "TBD",
-        "content": "",
+        "content": "TBD",
         "speakers": [
           {
             "id": "tbd",
@@ -812,286 +1079,23 @@
       {
         "date": "May 7",
         "timeSlot": "16:20 - 17:00",
-        "title": "Pollen Robots",
-        "content": "",
+        "title": "AI Empowers IoT Devices to Drive the Dual Engines of Industrial Transformation",
+        "content": "Amidst the contemporary surge of digital transformation, the symbiotic convergence of artificial intelligence (AI) and IoT devices has emerged as a pivotal catalyst for industrial evolution. AI's infusion of autonomous learning, intelligent decision-making, and seamless interaction capabilities into intelligent hardware has redefined the paradigm, elevating conventional tools to the status of sophisticated, intelligent collaborators. This technological metamorphosis is evident across a spectrum of applications, from the bespoke experiences delivered by smart home ecosystems to the pinpoint precision of operations within industrial automation frameworks. The ramifications of this fusion extend beyond mere enhancement; it has become a driving force propelling the digital reinvention of traditional industries and the emergence of new sectors. In this presentation, we will delve into the intricate dynamics of the integration trends between AI and IoT devices, explore groundbreaking technological innovations, examine a diverse array of application scenarios, and assess the profound and far-reaching impacts on industrial transformation. By doing so, we aim to peer into the future, where the potential for growth and innovation is boundless, and to chart a course that offers novel insights and strategic directions for the continued advancement of our industry.",
         "speakers": [
           {
-            "id": "tbd",
-            "name": "Speaker to be Announced",
+            "id": "jack-huang",
+            "name": "Jack Huang",
             "tags": ["embodied-ai"],
-            "image": "generic-profile.png"
+            "roleOrg": "Chairman & CEO at Gizwits",
+            "image": "jack-huang.jpg"
           }
         ]
       },
       {
         "date": "May 7",
         "timeSlot": "17:00 - 18:00",
-        "title": "Spotlight Demo",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "18:00 - 21:00",
-        "title": "Social Gathering",
-        "content": "",
-        "speakers": []
-      }
-    ],
-    "AI Apps": [
-      {
-        "date": "May 6",
-        "timeSlot": "9:30 - 10:00",
-        "title": "Keynote",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "10:10 - 10:40",
-        "title": "Morning Coffee",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "10:40 - 11:20",
-        "title": "AG2: The Open-Source AgentOS for Agentic AI",
-        "content": "This presentation will examine the trend of agentic AI and the fundamental design considerations for agentic AI programming frameworks. It will introduce a pioneering initiative, AG2. It will explain the primary concepts and its application across a diverse range of tasks and industries.",
-        "speakers": [
-          {
-            "id": "chi-wang",
-            "name": "Chi Wang",
-            "tags": ["ai-apps"],
-            "roleOrg": "Research Scientist at Google DeepMind",
-            "image": "chi-wang.png"
-          }
-        ]
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "11:20 - 12:00",
-        "title": "CangjieMagic : New Choices for Developers in the Age of Large Models",
-        "content": "With the surge in popularity of various AI large models, the trend of agent-oriented development in large model applications has become increasingly evident. Agents are gradually becoming a core element in the development of large model applications. This topic shares an AI large model Agent development framework based on the Cangjie programming language. This framework supports Agent-oriented programming, providing developers with an efficient Agent DSL for Agent programming. Its main features include: support for the MCP protocol to facilitate mutual invocation between Agents and tools, support for modular invocation, and support for intelligent task planning. It enhances the efficiency of developers in creating smart HarmonyOS applications, delivers an exceptional development experience, and explores new paradigms for future large model application development",
-        "speakers": [
-          {
-            "id": "xin-dong",
-            "name": "Xin Dong",
-            "tags": ["ai-apps"],
-            "roleOrg": "Technical Expert in the Programming Language Lab of Huawei",
-            "image": "xin-dong.jpg"
-          }
-        ]
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "12:00 - 14:00",
-        "title": "Lunch Break",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "14:00 - 14:40",
-        "title": "TONGYI Lingma: from Coding Copilot to Coding Agent Based on Qwen Models",
-        "content": "This presentation will take the perspective of intelligent development in the software engineering to outline and introduce the latest technological advancements and product applications of Code LLMs, Coding Copilot, and Coding Agents, as well as analyze and forecast future development trends. ",
-        "speakers": [
-          {
-            "id": "yongbin-li",
-            "name": "Yongbin Li",
-            "tags": ["ai-apps"],
-            "roleOrg": "Researcher of Alibaba Tongyi Lab",
-            "image": "yongbin-li.png"
-          }
-        ]
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "14:40 - 15:20",
-        "title": "Unifying AI Integration with Model Context Protocol",
-        "content": "The Model Context Protocol (MCP) standardizes how AI models interact with external tools and resources through a structured client-server architecture, facilitating robust agent development. The engineering community worldwide keeps sharing MCP servers that enable client interactions that open truly remarkable and innovative applications.\r\n\r\nThis talk delves into MCP's core capabilities and how the MCP Java SDK combined with Spring AI MCP can integrate AI with your existing resources and applications.\r\n\r\nToday's intelligent agents can understand context, guide decisions, and integrate seamlessly with external services. Through live coding and practical examples, we will illustrate how to implement both client and server components. By attending this session, you will gain a practical understanding of MCP's standardized interfaces and architectural best practices, empowering you to build and extend AI-powered applications with agent-like capabilities.\r\n\r\nWhether you're developing new AI-driven solutions or enhancing existing systems, this talk will equip you with the tools and strategies needed to leverage MCP effectively.",
-        "speakers": [
-          {
-            "id": "christian-tzolov",
-            "name": "Christian Tzolov",
-            "tags": ["ai-apps"],
-            "roleOrg": "R&D Software Engineer at Spring team at Broadcom",
-            "image": "christian-tzolov.png"
-          }
-        ]
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "15:20 - 15:40",
-        "title": "Afternoon Coffee",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "15:40 - 16:20",
-        "title": "Using AI to Vibe Code Rust UI's for Mobile, Web and Mixed Reality.",
-        "content": "In this talk i will show vibecoding makepad UIs and UI shaders with Makepad Studio and an LLM. Makepad Studio is our visual design / code environment and the vision is to bring back Visual Basic, but now for a modern language: Rust. ",
-        "speakers": [
-          {
-            "id": "rik-arends",
-            "name": "Rik Arends",
-            "tags": ["ai-apps"],
-            "roleOrg": "Co-Founder of Makepad",
-            "image": "rik-arends.png"
-          }
-        ]
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "16:20 - 17:00",
-        "title": "Tech Together, Powered by Dify",
-        "content": "Dify is a next-generation AI-native application development platform that bridges cutting-edge technology with real-world business value. Built on a robust open-source foundation, Dify integrates modern tech stacks—including LLM orchestration, RAG (Retrieval-Augmented Generation), fine-tuning tools, and multi-agent workflows—to simplify the creation, deployment, and scaling of AI applications.\r\n\r\nOur global developer community has become a hub for innovation, with thousands of contributors and enterprise adopters leveraging Dify to build everything from intelligent chatbots to enterprise-grade automation systems. This talk will highlight:\r\n\r\nDify’s open-source ecosystem and its role in accelerating AI adoption;\r\nKey technologies powering the platform and how they solve real-world challenges;\r\nSuccess stories from developers and enterprises.",
-        "speakers": [
-          {
-            "id": "xinrui-liu",
-            "name": "Xinrui Liu",
-            "tags": ["ai-apps"],
-            "roleOrg": "Developer Ecosystem Director at LangGenius",
-            "image": "xinrui-liu.jpg"
-          }
-        ]
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "17:00 - 18:00",
-        "title": "Spotlight Demo",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 6",
-        "timeSlot": "18:00 - 21:00",
-        "title": "VIP Diner",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "9:30 - 10:00",
-        "title": "Keynote",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "10:10 - 10:40",
-        "title": "Morning Coffee",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "10:40 - 11:20",
-        "title": "Finding the Scaling Law of Agents",
-        "content": "This talk explores the potential of building scalable techniques to facilitate autonomous cooperation among communicative agents. To address the challenges of achieving autonomous cooperation, we propose a novel communicative agent framework named CAMEL. We showcase how role-playing can be used to generate conversational data for studying the behaviors and capabilities of a society of agents. In particular, we conduct comprehensive studies on cooperation in multi-agent settings. Our contributions include introducing a novel communicative agent framework, offering a scalable approach for studying the cooperative behaviors and capabilities of multi-agent systems, and open-sourcing our library to support research on communicative agents and beyond: https://github.com/camel-ai/camel.",
-        "speakers": [
-          {
-            "id": "guohao-li",
-            "name": "Guohao Li",
-            "tags": ["ai-apps"],
-            "roleOrg": "Founder and CEO of Eigent.AI / CAMEL-AI.org",
-            "image": "guohao-li.png"
-          }
-        ]
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "11:20 - 12:00",
-        "title": "OpenManus: Empowering LLM-based Agent Applications Via Framework and Capability Evolution",
-        "content": "We introduce OpenManus, a lightweight and versatile LLM-based multi-agent framework evolved from MetaGPT, designed to enhance adaptability, autonomy, and scalability through advanced reasoning, planning, and effective cross-environment operation.",
-        "speakers": [
-          {
-            "id": "sirui-hong",
-            "name": "Sirui Hong",
-            "tags": ["ai-apps"],
-            "roleOrg": "Co-Founder of DeepWisdom, MetaGPT/OpenManus Team Leader",
-            "image": "sirui-hong.jpg"
-          }
-        ]
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "12:00 - 14:00",
-        "title": "Lunch Break",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "14:00 - 14:40",
-        "title": "RAGFlow: Leading the Open-Source Revolution in Enterprise-Grade Retrieval-Augmented Generation",
-        "content": "RAGFlow tackles core RAG challenges—data quality, semantic gaps, low hit rates—with open-source solutions. This talk demonstrates enhanced retrieval, reasoning, and multimodal capabilities for robust enterprise AI applications.\r\n",
-        "speakers": [
-          {
-            "id": "yingfeng-zhang",
-            "name": "Yingfeng Zhang",
-            "tags": ["ai-apps"],
-            "roleOrg": "Co-Founder of InfiniFlow",
-            "image": "yingfeng-zhang.png"
-          }
-        ]
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "14:40 - 15:20",
-        "title": "OAKS: The Open Agentic AI Knowledge Stack",
-        "content": "In this talk, we present an OSS AI architecture for Agentic AI+Knowledge.  Encapsulating business knowledge is key for agents, and focusing on AI memory and scalable frameworks around Knowledge Graphs is a good foundation to build an OSS AI ecosystem for agents.",
-        "speakers": [
-          {
-            "id": "alexy-khrabrov",
-            "name": "Alexy Khrabrov",
-            "tags": ["ai-apps"],
-            "roleOrg": "AI Community Architect at Neo4j",
-            "image": "alexy-khrabrov.jpg"
-          }
-        ]
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "15:20 - 15:40",
-        "title": "Afternoon Coffee",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "15:40 - 16:20",
-        "title": "TBD",
-        "content": "",
-        "speakers": [
-          {
-            "id": "tbd",
-            "name": "Speaker to be Announced",
-            "tags": ["ai-apps"],
-            "image": "generic-profile.png"
-          }
-        ]
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "16:20 - 17:00",
-        "title": "TBD",
-        "content": "",
-        "speakers": [
-          {
-            "id": "tbd",
-            "name": "Speaker to be Announced",
-            "tags": ["ai-apps"],
-            "image": "generic-profile.png"
-          }
-        ]
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "17:00 - 18:00",
-        "title": "Spotlight Demo",
-        "content": "",
+        "title": "Spotlight Demos",
+        "content": "GOSIM AI Spotlight Finalists will present their projects in a short pitch.",
         "speakers": []
       },
       {
