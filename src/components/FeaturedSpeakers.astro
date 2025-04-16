@@ -7,7 +7,11 @@ import type { ImageMetadata } from "astro"
 import Button from "components/Button.astro"
 
 // JSON
-import JSON from "json/Speakers.json"
+import speakersData from "json/Speakers.json"
+
+const filteredSpeakers = speakersData.speakers.filter(
+  (speaker) => speaker.draft !== true
+)
 
 // Import all images
 const images = import.meta.glob<{ default: ImageMetadata }>(
@@ -26,7 +30,7 @@ const { title, ctaButton } = Astro.props
 
 // Function to map tag ID to category name
 const getCategoryNameFromTag = (tagId: string): string => {
-  const category = JSON.categories.find((cat) => cat.id === tagId)
+  const category = speakersData.categories.find((cat) => cat.id === tagId)
   return category ? category.name : tagId
 }
 ---
@@ -49,7 +53,7 @@ const getCategoryNameFromTag = (tagId: string): string => {
     >
       <div class="flickity-carousel" style="outline: none;">
         {
-          JSON.speakers?.map(
+          filteredSpeakers?.map(
             (loop, i) =>
               i < 11 && (
                 <div class="flickity-slide" data-cursor-bubble-text="Drag">
@@ -73,9 +77,7 @@ const getCategoryNameFromTag = (tagId: string): string => {
 
                       <div class="card-tags group-tags">
                         <div class="single-tag">
-                          <p>
-                            {getCategoryNameFromTag(loop.tag)}
-                          </p>
+                          <p>{getCategoryNameFromTag(loop.tag)}</p>
                         </div>
                       </div>
                     </div>
