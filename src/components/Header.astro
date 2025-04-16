@@ -1,7 +1,8 @@
 ---
 // Components
-import Button from "components/Button.astro";
-import Logo from "./Logo.astro";
+import Button from "components/Button.astro"
+import Logo from "./Logo.astro"
+import NotificationBar from "components/NotificationBar.astro"
 
 const links = [
   {
@@ -56,18 +57,25 @@ const links = [
       },
     ],
   },
-];
+]
 
-const slug = Astro.url.pathname;
+const slug = Astro.url.pathname
 ---
 
 <header>
-  <Button
-    text="Get Tickets"
-    link="https://www.eventbrite.com/e/gosim-ai-paris-tickets-1265928669729?aff=oddtdtcreator"
-    openInNewTab
-    class="btn primary btn-floating btn-hover"
+  <NotificationBar
+    text="🎉 Try the GOSIM Ticket 🎟 Lucky Draw! ✨"
+    link="https://x.com/gosimfoundation/status/1912386325178904925"
   />
+
+  <div class="floating-ticket-button">
+    <Button
+      text="Get Tickets"
+      link="https://www.eventbrite.com/e/gosim-ai-paris-tickets-1265928669729?aff=oddtdtcreator"
+      openInNewTab
+      class="btn primary btn-floating btn-hover"
+    />
+  </div>
 
   <div class="mobile-nav">
     <div class="overlay overlay-dark" data-navigation-toggle="close"></div>
@@ -76,7 +84,11 @@ const slug = Astro.url.pathname;
       <div class="box-row box-row-logo">
         <Logo />
       </div>
-      <nav class="box-row box-row-nav" aria-label="Navigation Mobile">
+      <nav
+        class="box-row box-row-nav"
+        aria-label="Navigation Mobile"
+        style="padding-top: 25px;"
+      >
         <ul>
           {
             links.map((loop) => (
@@ -132,6 +144,7 @@ const slug = Astro.url.pathname;
     class="hamburger btn-floating"
     aria-label="Open menu"
     data-navigation-toggle="toggle"
+    style="margin-top: 35px;"
   >
     <div class="hamburger-fill"></div>
     <div class="bar bar-top"></div>
@@ -153,14 +166,14 @@ const slug = Astro.url.pathname;
     <div class="row">
       <div class="border-bottom"></div>
 
-      <div class="logo">
+      <div class="logo" style="padding-top: 25px;">
         <a href="/" aria-label="Go to homepage" class="logo-click">
           <Logo />
           <Logo />
         </a>
       </div>
 
-      <nav aria-label="Navigation Desktop">
+      <nav aria-label="Navigation Desktop" style="padding-top: 35px;">
         <ul>
           {
             links.map((loop) => (
@@ -203,14 +216,19 @@ const slug = Astro.url.pathname;
         </ul>
       </nav>
 
-      <Button
-        text="Get Tickets"
-        link="https://www.eventbrite.com/e/gosim-ai-paris-tickets-1265928669729?aff=oddtdtcreator"
-        openInNewTab
-        class="btn outline btn-hover"
-      />
-
-      <div class="hamburger outline" data-navigation-toggle="toggle">
+      <div style="padding-top: 40px;">
+        <Button
+          text="Get Tickets"
+          link="https://www.eventbrite.com/e/gosim-ai-paris-tickets-1265928669729?aff=oddtdtcreator"
+          openInNewTab
+          class="btn outline btn-hover"
+        />
+      </div>
+      <div
+        class="hamburger outline"
+        data-navigation-toggle="toggle"
+        style="margin-top: 35px;"
+      >
         <div class="hamburger-fill"></div>
         <div class="bar bar-top"></div>
         <div class="bar bar-bottom"></div>
@@ -228,3 +246,19 @@ const slug = Astro.url.pathname;
     </div>
   </div>
 </header>
+
+<style>
+  .floating-ticket-button {
+    position: relative;
+    top: -15px;
+    z-index: 10;
+  }
+
+  /* Ensure notification bar is clickable */
+  :global(.notification-bar) {
+    position: relative;
+    z-index: 20; /* Higher than other header elements */
+    width: 100%;
+    pointer-events: auto;
+  }
+</style>
