@@ -403,7 +403,7 @@
         "date": "May 6",
         "timeSlot": "15:40 - 16:20",
         "title": "Khronos in the World of Open Source and Machine Learning",
-        "content": "TBD",
+        "content": "Discover the Khronos Group's vital role at the intersection of machine learning, open source, and open standards. Learn how Khronos, an open, non-profit, member-driven consortium, creates royalty-free standards for compute, graphics, ML, and more, fosters innovation and interoperability. This talk explores Khronos's use of open source principles and highlights key Khronos APIs accelerating ML, including OpenCL, SYCL, OpenVX with NNEF, and the increasingly important Vulkan API for high-performance inference and cross-platform deployment. Join this session for insights into how Khronos standards and open source collaboration are shaping the future of hardware-accelerated machine learning.",
         "speakers": [
           {
             "id": "markus-tavenrath",
