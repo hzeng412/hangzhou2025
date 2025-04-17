@@ -1,17 +1,14 @@
 ---
 export interface Props {
-  text: string
-  link: string
+  text: string;
+  link: string;
 }
 
-const { text, link } = Astro.props
+const { text, link } = Astro.props;
 ---
 
 <div class="notification-bar">
-  <a
-    href={link}
-    target="_blank"
-    rel="noopener noreferrer">
+  <a href={link} target="_blank" rel="noopener noreferrer">
     {text}
   </a>
 </div>
@@ -19,7 +16,7 @@ const { text, link } = Astro.props
 <style>
   .notification-bar {
     width: 100%;
-    background-color: rgba(60, 4, 203, 0.8);
+    background-color: #4d4bb4d9;
     color: white;
     padding: 10px 0;
     text-align: center;
