@@ -5,8 +5,8 @@ import type { ImageMetadata } from "astro";
 // Import the speakers data
 import speakersData from "json/Speakers.json";
 
-// Filter speakers to only include those where draft is false
-const filteredSpeakers = speakersData.speakers.filter(speaker => speaker.draft !== true);
+// Filter speakers to only include those where draft is false and id is not "tbd"
+const filteredSpeakers = speakersData.speakers.filter(speaker => speaker.draft !== true && speaker.id !== "tbd");
 
 // Import all images
 const images = import.meta.glob<{ default: ImageMetadata }>(

@@ -10,8 +10,7 @@ import Button from "components/Button.astro"
 import speakersData from "json/Speakers.json"
 
 const filteredSpeakers = speakersData.speakers.filter(
-  (speaker) => speaker.draft !== true
-)
+  (speaker) => speaker.draft !== true && speaker.id !== "tbd")
 
 // Import all images
 const images = import.meta.glob<{ default: ImageMetadata }>(
