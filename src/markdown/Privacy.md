@@ -1,7 +1,7 @@
 Privacy Policy
 ==============
 
-_Last updated_: March 17, 2025
+_Last updated_: April 18, 2025
 
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.
 
@@ -90,6 +90,8 @@ The Company may use Personal Data for the following purposes:
 *   **To manage Your requests:** To attend and manage Your requests to Us.
 *   **For business transfers:** We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition.
 *   **For other purposes**: Such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns.
+
+> ⚠️ **Please note that for this event, your personal information will be shared with the event’s sponsors and partners such as the PyTorch Foundation (an affiliate of Linux Foundation <https://www.linuxfoundation.org/legal/privacy-policy>). Visit gosim.org for our privacy policy as well as links to our partners’ privacy policies.**
 
 Retention of Your Personal Data
 -------------------------------
