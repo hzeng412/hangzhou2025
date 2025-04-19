@@ -55,6 +55,25 @@
       "org": ""
     },
     {
+      "id": "luca-antiga",
+      "name": "Luca Antiga",
+      "bio": "",
+      "role": "CTO",
+      "org": "Lightning AI",
+      "roleOrg": "CTO at Lightning AI",
+      "image": "luca-antiga.jpeg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "rik-arends",
       "tag": "pytorch",
       "name": "Rik Arends",
@@ -106,6 +125,25 @@
         "twitter": "https://x.com/ispobaoke",
         "github": "https://github.com/ispobock",
         "linkedin": "https://www.linkedin.com/in/kebao/",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "meriem-bendris",
+      "name": "Meriem Bendris",
+      "bio": "",
+      "role": "Conversational AI Solutions Architect Manager",
+      "org": "NVIDIA",
+      "roleOrg": "Conversational AI Solutions Architect Manager at NVIDIA",
+      "image": "meriem-bendris.jpg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
         "website": "undefined"
       },
       "status": "New",
@@ -263,6 +301,25 @@
       "draft": true
     },
     {
+      "id": "erwan-gallen",
+      "name": "Erwan Gallen",
+      "bio": "",
+      "role": "Senior Principal Product Manager",
+      "org": "RedHat",
+      "roleOrg": "Senior Principal Product Manager at RedHat",
+      "image": "erwan-gallen.jpeg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "daniel-goldscheider",
       "name": "Daniel Goldscheider",
       "bio": "Daniel Goldscheider is founder and Executive Director of the OpenWallet Foundation and serves as Vice Chair of the Supervisory Board of Valamar Riviera d.d., Croatia’s largest tourism company. \r\n\r\nBefore that he started yes.com, an open banking scheme and co-founded Mediaguide with the American Society of Composers, Authors and Publishers as well as Aureus Private Equity (today Invision).",
@@ -280,6 +337,25 @@
       },
       "status": "New",
       "draft": true
+    },
+    {
+      "id": "garrett-goon",
+      "name": "Garrett Goon",
+      "bio": "",
+      "role": "Research Scientist",
+      "org": "IBM",
+      "roleOrg": "Research Scientist at IBM",
+      "image": "garrett-goon.jpeg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
     },
     {
       "id": "donny-greenberg",
@@ -453,6 +529,25 @@
       "draft": false
     },
     {
+      "id": "christian-keller",
+      "name": "Christian Keller",
+      "bio": "",
+      "role": "Product Lead - Generative AI Research",
+      "org": "Meta",
+      "roleOrg": "Product Lead - Generative AI Research at Meta",
+      "image": "christian-keller.jpeg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "alexy-khrabrov",
       "tag": "ai-apps",
       "name": "Alexy Khrabrov",
@@ -486,6 +581,25 @@
         "github": "https://github.com/villekuosmanen",
         "linkedin": "https://www.linkedin.com/in/ville-kuosmanen-891889154/",
         "website": "https://villekuosmanen.com/"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "eldar-kurtic",
+      "name": "Eldar Kurtic",
+      "bio": "",
+      "role": "Senior ML Research Engineer",
+      "org": "RedHat",
+      "roleOrg": "Senior ML Research Engineer at RedHat",
+      "image": "eldar-kurtic.jpeg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
       },
       "status": "New",
       "draft": false
@@ -660,6 +774,25 @@
       }
     },
     {
+      "id": "remi-louf",
+      "name": "Rémi Louf",
+      "bio": "",
+      "role": "Co-Founder and CEO",
+      "org": "DotTXT",
+      "roleOrg": "Co-Founder and CEO at DotTXT",
+      "image": "remi-louf.png",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "yinping-ma",
       "tag": "ai-infra",
       "name": "Yinping Ma",
@@ -668,6 +801,25 @@
       "image": "yinping-ma.jpg",
       "org": "Peking University",
       "role": "Engineer",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "pablo-montalvo",
+      "name": "Pablo Montalvo",
+      "bio": "",
+      "role": "Machine Learning Engineer",
+      "org": "Hugging Face",
+      "roleOrg": "Machine Learning Engineer at Hugging Face",
+      "image": "pablo-montalvo.jpeg",
+      "tag": "pytorch",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -812,6 +964,25 @@
       "draft": false
     },
     {
+      "id": "olatunji-ruwase",
+      "name": "Olatunji Ruwase",
+      "bio": "",
+      "role": "Deep Learnning Expert",
+      "org": "Ex-SnowFlake",
+      "roleOrg": "Deep Learnning Expert",
+      "image": "olatunji-ruwase.jpeg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "greg-schoeninger",
       "tag": "ai-infra",
       "name": "Greg Schoeninger",
@@ -863,6 +1034,25 @@
         "twitter": "undefined",
         "github": "undefined",
         "linkedin": "https://www.linkedin.com/in/markus-tavenrath",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "nouamane-tazi",
+      "name": "Nouamane Tazi",
+      "bio": "",
+      "role": "Machine Learning Engineer",
+      "org": "Hugging Face",
+      "roleOrg": "Machine Learning Engineer at Hugging Face",
+      "image": "nouamane-tazi.jpeg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
         "website": "undefined"
       },
       "status": "New",
@@ -1124,196 +1314,6 @@
       "image": "yiran-zhong.png",
       "org": "MiniMax",
       "role": "Senior Research Director",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "erwan-gallen",
-      "name": "Erwan Gallen",
-      "bio": "",
-      "role": "Senior Principal Product Manager",
-      "org": "RedHat",
-      "roleOrg": "Senior Principal Product Manager at RedHat",
-      "image": "erwan-gallen.jpeg",
-      "tag": "pytorch",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "eldar-kurtic",
-      "name": "Eldar Kurtic",
-      "bio": "",
-      "role": "Senior ML Research Engineer",
-      "org": "RedHat",
-      "roleOrg": "Senior ML Research Engineer at RedHat",
-      "image": "eldar-kurtic.jpeg",
-      "tag": "pytorch",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "christian-keller",
-      "name": "Christian Keller",
-      "bio": "",
-      "role": "Product Lead - Generative AI Research",
-      "org": "Meta",
-      "roleOrg": "Product Lead - Generative AI Research at Meta",
-      "image": "christian-keller.jpeg",
-      "tag": "pytorch",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "nouamane-tazi",
-      "name": "Nouamane Tazi",
-      "bio": "",
-      "role": "Machine Learning Engineer",
-      "org": "Hugging Face",
-      "roleOrg": "Machine Learning Engineer at Hugging Face",
-      "image": "nouamane-tazi.jpeg",
-      "tag": "pytorch",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "meriem-bendris",
-      "name": "Meriem Bendris",
-      "bio": "",
-      "role": "Conversational AI Solutions Architect Manager",
-      "org": "NVIDIA",
-      "roleOrg": "Conversational AI Solutions Architect Manager at NVIDIA",
-      "image": "meriem-bendris.jpg",
-      "tag": "pytorch",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "olatunji-ruwase",
-      "name": "Olatunji Ruwase",
-      "bio": "",
-      "role": "Deep Learnning Expert",
-      "org": "Ex-SnowFlake",
-      "roleOrg": "Deep Learnning Expert",
-      "image": "olatunji-ruwase.jpeg",
-      "tag": "pytorch",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "garrett-goon",
-      "name": "Garrett Goon",
-      "bio": "",
-      "role": "Research Scientist",
-      "org": "IBM",
-      "roleOrg": "Research Scientist at IBM",
-      "image": "garrett-goon.jpeg",
-      "tag": "pytorch",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "luca-antiga",
-      "name": "Luca Antiga",
-      "bio": "",
-      "role": "CTO",
-      "org": "Lightning AI",
-      "roleOrg": "CTO at Lightning AI",
-      "image": "luca-antiga.jpeg",
-      "tag": "pytorch",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "remi-louf",
-      "name": "Rémi Louf",
-      "bio": "",
-      "role": "Co-Founder and CEO",
-      "org": "DotTXT",
-      "roleOrg": "Co-Founder and CEO at DotTXT",
-      "image": "remi-louf.png",
-      "tag": "pytorch",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "pablo-montalvo",
-      "name": "Pablo Montalvo",
-      "bio": "",
-      "role": "Machine Learning Engineer",
-      "org": "Hugging Face",
-      "roleOrg": "Machine Learning Engineer at Hugging Face",
-      "image": "pablo-montalvo.jpeg",
-      "tag": "pytorch",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
