@@ -19,6 +19,10 @@
     {
       "name": "Embodied AI",
       "id": "embodied-ai"
+    },
+    {
+      "name": "PyTorch Day France",
+      "id": "pytorch"
     }
   ],
   "speakers": [
@@ -52,7 +56,7 @@
     },
     {
       "id": "rik-arends",
-      "tag": "ai-apps",
+      "tag": "pytorch",
       "name": "Rik Arends",
       "roleOrg": "Co-Founder of Makepad",
       "bio": "With 20+ years’ experience as a C/C++, JavaScript and more recently Rust developer, I've always been excited by using computation for visuals and audio. For this to work you need performance, and a smooth workflow enabled by the right tooling. After having everything I wanted with C except stable code I moved to JavaScript and web technologies. However, this never got to the point of being able to make fast applications that use modern CPU and GPU power. Now with Rust we have a new chance. I've been an entrepreneur my entire life building VJ software in the 00's, then web UI technology and web IDEs with Cloud9, and am now reimagining the developer workflow in Rust with Makepad. And lately how to leverage AI to write Rust and UI code.\r\n",
@@ -980,12 +984,22 @@
     },
     {
       "id": "matt-white",
-      "tag": "ai-infra",
       "name": "Matt White",
-      "roleOrg": "GM of AI of Linux Foundation",
-      "bio": "Pytorch",
+      "role": "Executive Director, PyTorch Foundation",
+      "roleOrg": "Executive Director, PyTorch Foundation at Linux Foundation",
+      "bio": "",
       "image": "matt-white.png",
-      "org": "Pytorch"
+      "org": "PyTorch",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
     },
     {
       "id": "dong-xin",
@@ -1110,6 +1124,196 @@
       "image": "yiran-zhong.png",
       "org": "MiniMax",
       "role": "Senior Research Director",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "erwan-gallen",
+      "name": "Erwan Gallen",
+      "bio": "",
+      "role": "Senior Principal Product Manager",
+      "org": "RedHat",
+      "roleOrg": "Senior Principal Product Manager at RedHat",
+      "image": "erwan-gallen.jpeg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "eldar-kurtic",
+      "name": "Eldar Kurtic",
+      "bio": "",
+      "role": "Senior ML Research Engineer",
+      "org": "RedHat",
+      "roleOrg": "Senior ML Research Engineer at RedHat",
+      "image": "eldar-kurtic.jpeg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "christian-keller",
+      "name": "Christian Keller",
+      "bio": "",
+      "role": "Product Lead - Generative AI Research",
+      "org": "Meta",
+      "roleOrg": "Product Lead - Generative AI Research at Meta",
+      "image": "christian-keller.jpeg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "nouamane-tazi",
+      "name": "Nouamane Tazi",
+      "bio": "",
+      "role": "Machine Learning Engineer",
+      "org": "Hugging Face",
+      "roleOrg": "Machine Learning Engineer at Hugging Face",
+      "image": "nouamane-tazi.jpeg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "meriem-bendris",
+      "name": "Meriem Bendris",
+      "bio": "",
+      "role": "Conversational AI Solutions Architect Manager",
+      "org": "NVIDIA",
+      "roleOrg": "Conversational AI Solutions Architect Manager at NVIDIA",
+      "image": "meriem-bendris.jpg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "olatunji-ruwase",
+      "name": "Olatunji Ruwase",
+      "bio": "",
+      "role": "Deep Learnning Expert",
+      "org": "Ex-SnowFlake",
+      "roleOrg": "Deep Learnning Expert",
+      "image": "olatunji-ruwase.jpeg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "garrett-goon",
+      "name": "Garrett Goon",
+      "bio": "",
+      "role": "Research Scientist",
+      "org": "IBM",
+      "roleOrg": "Research Scientist at IBM",
+      "image": "garrett-goon.jpeg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "luca-antiga",
+      "name": "Luca Antiga",
+      "bio": "",
+      "role": "CTO",
+      "org": "Lightning AI",
+      "roleOrg": "CTO at Lightning AI",
+      "image": "luca-antiga.jpeg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "remi-louf",
+      "name": "Rémi Louf",
+      "bio": "",
+      "role": "Co-Founder and CEO",
+      "org": "DotTXT",
+      "roleOrg": "Co-Founder and CEO at DotTXT",
+      "image": "remi-louf.png",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "pablo-montalvo",
+      "name": "Pablo Montalvo",
+      "bio": "",
+      "role": "Machine Learning Engineer",
+      "org": "Hugging Face",
+      "roleOrg": "Machine Learning Engineer at Hugging Face",
+      "image": "pablo-montalvo.jpeg",
+      "tag": "pytorch",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",

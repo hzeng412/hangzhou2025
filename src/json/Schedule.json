@@ -27,6 +27,10 @@
     {
       "name": "Embodied AI",
       "id": "embodied-ai"
+    },
+    {
+      "name": "PyTorch Day France",
+      "id": "pytorch"
     }
   ],
   "sessions": {
@@ -763,8 +767,8 @@
       {
         "date": "May 7",
         "timeSlot": "14:00 - 14:40",
-        "title": "TBD",
-        "content": "TBD",
+        "title": "To Be Announced",
+        "content": "",
         "speakers": [
           {
             "id": "tbd",
@@ -1065,8 +1069,8 @@
       {
         "date": "May 7",
         "timeSlot": "15:40 - 16:20",
-        "title": "TBD",
-        "content": "TBD",
+        "title": "To Be Announced",
+        "content": "",
         "speakers": [
           {
             "id": "tbd",
@@ -1104,6 +1108,221 @@
         "title": "Social Gathering",
         "content": "",
         "speakers": []
+      }
+    ],
+    "PyTorch Day France": [
+      {
+        "date": "May 7",
+        "timeSlot": "10:00 - 10:30",
+        "title": "Morning Coffee",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "10:30 - 10:50",
+        "title": "Welcome & Opening Remarks",
+        "content": "",
+        "speakers": [
+          {
+            "id": "matt-white",
+            "name": "Matt White",
+            "tags": ["pytorch"],
+            "roleOrg": "Executive Director, PyTorch Foundation at Linux Foundation",
+            "image": "matt-white.png"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "10:50 - 11:10",
+        "title": "To Be Announced",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "11:10 - 11:30",
+        "title": "To Be Announced",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "11:30 - 11:50",
+        "title": "Scaling LLM Inference with vLLM: Multi‑Accelerator Serving and Quantized LLMs",
+        "content": "vLLM has become the community-standard engine for low-latency LLM inference, achieving a 10× increase in usage in 2024 and surpassing 100,000 daily installs by January 2025. Supported by hundreds of contributors and productized through Red Hat AI, vLLM provides a vendor-neutral solution for serving cutting-edge models at scale. This talk outlines a practical blueprint for scaling LLM inference using vLLM, integrating both system-level techniques and model-level optimizations.\\r\\nWe begin by addressing the challenges of deploying LLMs with chain-of-thought reasoning in production. Leveraging vLLM’s engine architecture, multi-accelerator deployments using tensor parallelism, paged attention scheduling, and prefill–decode disaggregation demonstrate how a single node can efficiently drive multiple AI accelerators, enhancing throughput without compromising latency.\\r\\nThe second optimization layer focuses on quantization. Based on over 500,000 evaluations across language and vision-language models, we examine the accuracy–speed trade-offs of weight and activation quantization. We introduce new pathways that significantly reduce memory usage while maintaining model quality. Attendees will leave with data-driven insights and ready-to-use configurations for deploying state-of-the-art quantized models in scalable enterprise inference pipelines.",
+        "speakers": [
+          {
+            "id": "erwan-gallen",
+            "name": "Erwan Gallen",
+            "tags": ["pytorch"],
+            "roleOrg": "Senior Principal Product Manager at RedHat",
+            "image": "erwan-gallen.jpeg"
+          },
+          {
+            "id": "eldar-kurtic",
+            "name": "Eldar Kurtic",
+            "tags": ["pytorch"],
+            "roleOrg": "Senior ML Research Engineer at RedHat",
+            "image": "eldar-kurtic.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "12:00 - 14:00",
+        "title": "Lunch Break",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "14:00 - 14:20",
+        "title": "Llama 4",
+        "content": "This presentation explores the development of Llama 4, a state-of-the-art foundation model designed to excel in various tasks. We will discuss its key features, including long=context and multimodal understanding.\n We will also examine Llama 4's potential uses in agentic settings, such as autonomous decision-making and human-AI collaboration, through real-world examples and case studies.",
+        "speakers": [
+          {
+            "id": "christian-keller",
+            "name": "Christian Keller",
+            "tags": ["pytorch"],
+            "roleOrg": "Product Lead - Generative AI Research at Meta",
+            "image": "christian-keller.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "14:20 - 14:40",
+        "title": "To Be Announced",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "14:40 - 15:00",
+        "title": "The Ultra-Scale Talk: Scaling Training to Thousands of GPUs",
+        "content": "Training large language models (LLMs) demands more than just raw compute—it requires infrastructure, strategy, and a deep understanding of parallelism. What begins as a single-GPU prototype must eventually scale across thousands of devices, each step introducing new complexity.\n\n This talk dives into the practicalities of ultra-scale training. We'll explore how 5D parallelism—spanning data, tensor, pipeline, context, and expert dimensions—makes it possible to stretch a single training run across massive GPU clusters. Along the way, we’ll cover performance tuning, communication patterns, and architecture choices that impact throughput and hardware efficiency.\n\n A key reference for this session is the Ultra-Scale Playbook, which distills best practices and hard-earned lessons from real-world LLM scaling efforts. We’ll walk through highlights of the playbook, tying them into case studies, benchmarks, and hands-on recommendations.\n\n Scaling isn’t just about size—it’s about doing more with what you have. This webinar offers a comprehensive look at what it really takes to train state-of-the-art models at scale, designed for engineers, researchers, and practitioners ready to move beyond “it fits on one GPU” toward infrastructure that powers trillion-parameter models—efficiently, and at speed.",
+        "speakers": [
+          {
+            "id": "nouamane-tazi",
+            "name": "Nouamane Tazi",
+            "tags": ["pytorch"],
+            "roleOrg": "Machine Learning Engineer at Hugging Face",
+            "image": "nouamane-tazi.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "15:00 - 15:20",
+        "title": "Teaching Mistral to Reason: Post-Training with PyTorch and NVIDIA",
+        "content": "Post-training techniques have become essential as demand for Reasoning AI systems explodes. This talk provides a practical overview of how to enhance the reasoning capabilities of open-weight models—using Mistral as a working example. We’ll explore the full pipeline: sourcing high-quality reasoning datasets, selecting the right model checkpoints, and using tools that extend the functionality of PyTorch like NVIDIA NeMo and TensorRT-LLM. Whether you’re working on chatbots, agents, or task-specific models, you’ll leave with a clear understanding of the tools and workflows to take advantage of open models.",
+        "speakers": [
+          {
+            "id": "meriem-bendris",
+            "name": "Meriem Bendris",
+            "tags": ["pytorch"],
+            "roleOrg": "Conversational AI Solutions Architect Manager at NVIDIA",
+            "image": "meriem-bendris.jpg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "15:20 - 15:40",
+        "title": "Afternoon Coffee",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "15:40 - 16:00",
+        "title": "DeepSpeed – Efficient Training Scalability for Deep Learning Models",
+        "content": "Deep Learning (DL) is driving unprecedented progress across Artificial Intelligence domains, including natural language processing, vision, speech, and multimodal. Sustaining this rapid pace of AI revolution, however, requires practical solutions to the extreme demands of scaling on the compute, memory, communication, and storage components of modern computing hardware. To address this challenge, we created a deep learning optimization library called DeepSpeed to make distributed model training efficient, effective, and easy on commodity hardware. This talk will focus on DeepSpeed optimizations for improving compute, communication, and I/O of extreme-scale model training.",
+        "speakers": [
+          {
+            "id": "olatunji-ruwase",
+            "name": "Olatunji Ruwase",
+            "tags": ["pytorch"],
+            "roleOrg": "Deep Learnning Expert",
+            "image": "olatunji-ruwase.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "16:00 - 16:20",
+        "title": "Advancing Mamba in PyTorch",
+        "content": "Mamba layers are efficient alternatives to standard attention: their training complexity is linear in sequence length, while inference is sequence-length-independent and only requires a small cache. I will discuss a selection of IBM's ongoing work in advancing the state of mamba training in pytorch, including: context-parallel training for long-sequence data, mamba + mixture-of-expert support with expert parallelism, torch-native associative scan ops, and improved DTensor op support.",
+        "speakers": [
+          {
+            "id": "garrett-goon",
+            "name": "Garrett Goon",
+            "tags": ["pytorch"],
+            "roleOrg": "Research Scientist at IBM",
+            "image": "garrett-goon.png"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "16:20 - 16:40",
+        "title": "Thunder: Supercharged PyTorch for Modern Hardware",
+        "content": "Modern GPUs like Hopper and Blackwell are fast, but only after careful optimization. Thunder compiles “education-style” PyTorch models into optimized, distributed PyTorch code. Through a composable plugin system, Thunder lets developers layer in kernel fusion, low-precision operations, memory optimizations, and flexible parallelism strategies, to achieve performance and scale while leaving the original PyTorch code unchanged. This talk will cover how Thunder bridges the gap between ease-of-use and peak performance, and enables teams to easily write custom code transformations to scale models efficiently, reduce GPU waste, and stay in control of their stack.",
+        "speakers": [
+          {
+            "id": "luca-antiga",
+            "name": "Luca Antiga",
+            "tags": ["pytorch"],
+            "roleOrg": "CTO at Lightning AI",
+            "image": "luca-antiga.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "16:40 - 17:00",
+        "title": "LLM Constrained Generation in PyTorch with Outlines",
+        "content": "Parsing errors, unexpected outputs. If you've felt the frustration of trying to wrangle LLMs into producing consistently formatted results, you've likely built complex post-processing pipelines and elaborate prompting schemes. What if there was a way to guarantee structured outputs without these workarounds? Enter structured outputs.\n\n In this talk, we'll explore how model outputs can be precisely constrained using formal specifications (e.g. JSON Schema), why this dramatically improves reliability, and how it reduces sensitivity to prompt engineering. We'll demonstrate advanced use cases using our open source library Outlines, which add structured outputs the `transformers`, `vllm`, etc inference libraries.\n\n By the end of the session, you'll understand how to implement these techniques in your applications today, enabling your models to generate flawless JSON with minimal latency overhead compared to unconstrained generation.",
+        "speakers": [
+          {
+            "id": "remi-louf",
+            "name": "Rémi Louf",
+            "tags": ["pytorch"],
+            "roleOrg": "Co-Founder and CEO at DotTXT",
+            "image": "remi-louf.png"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "17:00 - 17:20",
+        "title": "To Be Announced",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "17:20 - 17:40",
+        "title": "To Be Announced",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "17:40 - 18:00",
+        "title": "PyTorch x Transformers Journey: Pythonicity, Autodiff and Modularity Defining Modern AI",
+        "content": "The HuggingFace Transformers library is a flagship example of what makes PyTorch special: a dynamic, readable, and hackable framework that scales from quick experiments to production-ready architectures. It began as an implementation of BERT, continued to a \"\"one model, one file\"\" setup—ideal for iteration—and grew into a modular codebase now defining 315+ models. Transformers has become a reference implementation for the field: a source of truth for model architectures, behaviors, and pretraining conventions. Its evolution reflects PyTorch’s own: grounded in Pythonic values, but pragmatic enough to diverge when needed.\n\n PyTorch’s ecosystem has replaced entire toolchains. Scaling models has become simpler: torch.compile brings compiler-level speedups with minimal code changes, and new abstractions like DTensor offer serious performance gains without the low-level complexity.\n\n Both PyTorch and Transformers inherit Python’s spirit—clarity, flexibility, expressiveness—without being bound by it. PyTorch leans on ATen and C++ kernels under the hood; Transformers increasingly rely on optimized community kernels and hardware-aware implementations from the hub.\n\n Modularity and readability didn’t just improve maintainability—they grew the community. Lowering the barrier to entry encourages experimentation, contributions, and faster innovation. This talk tracks that journey—from how PyTorch enabled Transformers, to how the virtuous cycle of design, performance, and pragmatism continues to shape the tools driving modern AI.",
+        "speakers": [
+          {
+            "id": "pablo-montalvo",
+            "name": "Pablo Montalvo",
+            "tags": ["pytorch"],
+            "roleOrg": "Machine Learning Engineer at Hugging Face",
+            "image": "pablo-montalvo.jpeg"
+          }
+        ]
       }
     ]
   }
