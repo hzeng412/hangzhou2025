@@ -40,6 +40,23 @@ const { text, link } = Astro.props;
     animation: rotate 3s infinite linear;
     -webkit-animation: rotate 3s infinite linear;
   }
+
+  @-webkit-keyframes rotate {
+    from {
+      background-position: -3000px;
+    }
+    to {
+      background-position: 0px;
+    }
+  }
+  @keyframes rotate {
+    from {
+      background-position: -3000px;
+    }
+    to {
+      background-position: 0px;
+    }
+  }
   .gradient {
     background: #30ff90;
     /* Old browsers */
