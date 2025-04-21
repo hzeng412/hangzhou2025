@@ -516,7 +516,7 @@
       "role": "Scientific lead",
       "org": "LAION; Juelich Supercomputing Center, Research Center Juelich",
       "roleOrg": "Scientific lead at LAION; Juelich Supercomputing Center, Research Center Juelich",
-      "image": "jenia-jitsev.jpg",
+      "image": "jenia-jitsev.jpeg",
       "tag": "ai-model",
       "socialLinks": {
         "mastodon": "undefined",
@@ -907,25 +907,6 @@
       "draft": true
     },
     {
-      "id": "wang-qin",
-      "name": "Wang Qin",
-      "bio": "Dr. Qin Wang holds the position of Senior Research Fellow at the Institute of Industrial Economics, Chinese Academy of Social Sciences, and is a Professor at the University of Chinese Academy of Social Sciences. He also serves as the Director of the Management Science and Innovation Development Centre at the Chinese Academy of Social Sciences and holds the role of Executive Vice Chairman at the China Enterprise Management Research Association. Professor Wang has dedicated an extensive period to researching innovation management and organizational change. His notable achievements include receiving the Second China Soft Science Award (Deep Research Award) and the Third Jiang Yiwei Enterprise Reform and Development Fund Works Award for his outstanding contributions. Professor Wang has published more than 100 articles in academic journals such as Harvard Business Review (Chinese version), Tsinghua Management Review, China Industrial Economy, and Economic Management. He has also authored various monographs, including \"The Transformation of China's Manufacturing Industry Driven by Information Network Technology,\" \"The Innovation Strategy of Chinese Enterprises,\" and \"RenDanHeYi Management\" (available in both Simplified and Traditional Chinese versions). In addition, he co-authored \"The Path of Independent Innovation with Chinese Characteristics\" and \"The Regional Innovation Systems in China,\" among others.",
-      "role": "Professor",
-      "org": "Chinese Academy of Social Sciences",
-      "roleOrg": "Professor at Chinese Academy of Social Sciences",
-      "image": "wang-qin.jpg",
-      "tag": "osaisf",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": true
-    },
-    {
       "id": "diego-rojas",
       "name": "Diego Rojas",
       "roleOrg": "Research Engineer at Zhipu.AI",
@@ -1116,6 +1097,44 @@
       "draft": false
     },
     {
+      "id": "qin-wang",
+      "name": "Qin Wang",
+      "bio": "Dr. Qin Wang holds the position of Senior Research Fellow at the Institute of Industrial Economics, Chinese Academy of Social Sciences, and is a Professor at the University of Chinese Academy of Social Sciences. He also serves as the Director of the Management Science and Innovation Development Centre at the Chinese Academy of Social Sciences and holds the role of Executive Vice Chairman at the China Enterprise Management Research Association. Professor Wang has dedicated an extensive period to researching innovation management and organizational change. His notable achievements include receiving the Second China Soft Science Award (Deep Research Award) and the Third Jiang Yiwei Enterprise Reform and Development Fund Works Award for his outstanding contributions. Professor Wang has published more than 100 articles in academic journals such as Harvard Business Review (Chinese version), Tsinghua Management Review, China Industrial Economy, and Economic Management. He has also authored various monographs, including \"The Transformation of China's Manufacturing Industry Driven by Information Network Technology,\" \"The Innovation Strategy of Chinese Enterprises,\" and \"RenDanHeYi Management\" (available in both Simplified and Traditional Chinese versions). In addition, he co-authored \"The Path of Independent Innovation with Chinese Characteristics\" and \"The Regional Innovation Systems in China,\" among others.",
+      "role": "Professor",
+      "org": "Chinese Academy of Social Sciences",
+      "roleOrg": "Professor at Chinese Academy of Social Sciences",
+      "image": "qin-wang.jpg",
+      "tag": "osaisf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": true
+    },
+    {
+      "id": "will-wang",
+      "name": "Will Wang",
+      "bio": "Will Wang is the Founder and CEO of Even Realities, a global AI+hardware startup building the next generation of ambient, screenless interfaces powered by embedded AI and open-source infrastructure. Will previously led product and R&D teams at Apple, Anker, OPPO, and JMGO, contributing to iconic products such as the iPhone and Apple Watch.\r\nIn 2023, he founded Even Realities, with global headquarters in Germany, Switzerland, the U.S., and China. The company’s first product, Even G1, launched in 2024, is a category-defining smart eyewear platform combining waveguide optics, LLM integration, and multimodal, privacy-first interaction.\r\nWill speaks globally on deeptech entrepreneurship, open AI infrastructure, wearable UX, and human-AI collaboration. His work bridges software and hardware, and he’s passionate about helping developers bring open AI “beyond the browser” into the real world.",
+      "role": "Founder and CEO",
+      "org": "Even Realities",
+      "roleOrg": "Founder and CEO at Even Realities",
+      "image": "will-wang.jpeg",
+      "tag": "assign-me",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "https://www.linkedin.com/in/will-wang-80609159/?originalSubdomain=hk",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "xiyuan-wang",
       "tag": "ai-infra",
       "name": "Xiyuan Wang",
@@ -1282,6 +1301,25 @@
         "github": "https://github.com/infiniflow",
         "linkedin": "https://www.linkedin.com/company/infiniflow/",
         "website": "https://ragflow.io/"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "junkai-zhao",
+      "name": "Junkai Zhao",
+      "bio": "I am a Robotics Algorithm Engineer at the Beijing Academy of Artificial Intelligence, where I focus on developing general-purpose robotic manipulation models. Prior to this, I worked at Agibot and the Shanghai Qizhi Institute, contributing to projects involving motion planning, control systems, and long-horizon robotic manipulation. My expertise spans robot control, simulation environments, and learning-based action modeling.",
+      "role": "Robot Algorithm Engineer",
+      "org": "Beijing Academy of Artificial Intelligence",
+      "roleOrg": "Robot Algorithm Engineer at Beijing Academy of Artificial Intelligence",
+      "image": "junkai-zhao.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
       },
       "status": "New",
       "draft": false

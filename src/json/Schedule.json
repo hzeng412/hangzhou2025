@@ -40,14 +40,7 @@
         "timeSlot": "9:30 - 10:00",
         "title": "Keynote",
         "content": "",
-        "speakers": [
-          {
-            "id": "tbd",
-            "name": "Speaker to be Announced",
-            "tags": ["ai-model"],
-            "image": "generic-profile.png"
-          }
-        ]
+        "speakers": []
       },
       {
         "date": "May 6",
@@ -179,14 +172,7 @@
         "timeSlot": "9:30 - 10:00",
         "title": "Keynote",
         "content": "",
-        "speakers": [
-          {
-            "id": "tbd",
-            "name": "Speaker to be Announced",
-            "tags": ["ai-model"],
-            "image": "generic-profile.png"
-          }
-        ]
+        "speakers": []
       },
       {
         "date": "May 7",
@@ -407,7 +393,7 @@
         "date": "May 6",
         "timeSlot": "15:40 - 16:20",
         "title": "Khronos in the World of Open Source and Machine Learning",
-        "content": "Discover the Khronos Group's vital role at the intersection of machine learning, open source, and open standards. Learn how Khronos, an open, non-profit, member-driven consortium, creates royalty-free standards for compute, graphics, ML, and more, fosters innovation and interoperability. This talk explores Khronos's use of open source principles and highlights key Khronos APIs accelerating ML, including OpenCL, SYCL, OpenVX with NNEF, and the increasingly important Vulkan API for high-performance inference and cross-platform deployment. Join this session for insights into how Khronos standards and open source collaboration are shaping the future of hardware-accelerated machine learning.",
+        "content": "Discover the Khronos Group's vital role at the intersection of machine learning, open source, and open standards. Learn how Khronos, an open, non-profit, member-driven consortium, creates royalty-free standards for compute, graphics, ML, and more, fosters innovation and interoperability.\r\n\r\nThis talk explores Khronos's use of open source principles and highlights key Khronos APIs accelerating ML, including OpenCL, SYCL, OpenVX with NNEF, and the increasingly important Vulkan API for high-performance inference and cross-platform deployment.\r\n\r\nJoin this session for insights into how Khronos standards and open source collaboration are shaping the future of hardware-accelerated machine learning.",
         "speakers": [
           {
             "id": "markus-tavenrath",
@@ -571,13 +557,6 @@
         "title": "Spotlight Demos",
         "content": "GOSIM AI Spotlight Finalists will present their projects in a short pitch.",
         "speakers": []
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "18:00 - 21:00",
-        "title": "Social Gathering",
-        "content": "",
-        "speakers": []
       }
     ],
     "AI Apps": [
@@ -673,7 +652,7 @@
         "date": "May 6",
         "timeSlot": "15:40 - 16:20",
         "title": "Using AI to Vibe Code Rust UI's for Mobile, Web and Mixed Reality",
-        "content": "In this talk i will show vibecoding makepad UIs and UI shaders with Makepad Studio and an LLM. Makepad Studio is our visual design / code environment and the vision is to bring back Visual Basic, but now for a modern language: Rust.",
+        "content": "In this talk I will show vibecoding makepad UIs and UI shaders with Makepad Studio and an LLM. Makepad Studio is our visual design / code environment and the vision is to bring back Visual Basic, but now for a modern language: Rust.",
         "speakers": [
           {
             "id": "rik-arends",
@@ -769,14 +748,7 @@
         "timeSlot": "14:00 - 14:40",
         "title": "To Be Announced",
         "content": "",
-        "speakers": [
-          {
-            "id": "tbd",
-            "name": "Speaker to be Announced",
-            "tags": ["ai-apps"],
-            "image": "generic-profile.png"
-          }
-        ]
+        "speakers": []
       },
       {
         "date": "May 7",
@@ -864,7 +836,7 @@
         "date": "May 6",
         "timeSlot": "10:30 - 11:10",
         "title": "Mind, Body and Zenoh",
-        "content": "As Robotics and Artificial Intelligence continue to evolve at an unprecedented pace, a critical gap has emerged in their ability to scale and operate seamlessly across diverse environments: the absence of an efficient, intelligent \"nervous system.\" Much like biological organisms rely on their nervous system to connect the body and the brain, autonomous systems require a foundational layer that enables real-time communication, adaptability, and distributed cognition.\r\n\r\nThis talk introduces Zenoh, a cutting-edge Open Source protocol that is rapidly gaining traction in the robotics community and beyond. Zenoh bridges the traditional divide between data in motion, data at rest, and computation, enabling seamless data exchange from the edge to the cloud. \r\n\r\nZenoh it's the missing link to unify sensing, actuation, and cognition. It is, in essence, the nervous system for the intelligent robots age.",
+        "content": "",
         "speakers": [
           {
             "id": "angelo-corsaro",
@@ -915,15 +887,15 @@
       {
         "date": "May 6",
         "timeSlot": "14:40 - 15:20",
-        "title": "Integrating Feedback and Learning in Closed Loop: Toward General-Purpose Embodied AI Systems",
-        "content": "A crucial piece missing from the foundation model for Embodied AI (EAI) is plasticity—the ability of continual learning without human intervention. While the emergence of In-Context Learning (ICL) has been pivotal to the success of Large Language Models (LLMs), its limitations and underlying mechanisms remain underexplored. This study illuminates the potential of large-scale meta-training, which prioritizes acquiring general-purpose ICL capabilities over mastering specific skills. We believe this technique could form a cornerstone of the next generation of general-purpose foundation models for EAI. Additionally, we introduce two open-source projects that are designed to advance the development of these foundation models.",
+        "title": "RoboBrain: A Unified Brain Model for Robotic Manipulation & RoboOS: A Hierarchical Collaborative Framework for RoboBrain and Robot Agents",
+        "content": "RoboBrain is an MLLM-based model that enhances robotic manipulation by integrating task planning, object affordance, and trajectory prediction, addressing the limitations of MLLMs in robotic scenarios—particularly in long-horizon tasks—while achieving state-of-the-art performance. Building on RoboBrain’s planning capabilities, we propose the RoboOS hierarchical collaborative framework, which integrates the efficient execution of the robotic skills to enable cross-embodiment collaborative control of multiple robots.",
         "speakers": [
           {
-            "id": "fan-wang",
-            "name": "Fan Wang",
+            "id": "minglan-lin",
+            "name": "Minglan Lin",
             "tags": ["embodied-ai"],
-            "roleOrg": "Researcher at the Embodied AI Center, AIRS",
-            "image": "fan-wang.jpg"
+            "roleOrg": "Embodied Intelligence Researcher at Beijing Academy of Artificial Intelligence",
+            "image": "minglan-lin.jpg"
           }
         ]
       },
@@ -1010,28 +982,6 @@
       {
         "date": "May 7",
         "timeSlot": "11:10 - 11:50",
-        "title": "RoboBrain: A Unified Brain Model for Robotic Manipulation & RoboOS: A Hierarchical Collaborative Framework for RoboBrain and Robot Agents",
-        "content": "RoboBrain is an MLLM-based model that enhances robotic manipulation by integrating task planning, object affordance, and trajectory prediction, addressing the limitations of MLLMs in robotic scenarios—particularly in long-horizon tasks—while achieving state-of-the-art performance. Building on RoboBrain’s planning capabilities, we propose the RoboOS hierarchical collaborative framework, which integrates the efficient execution of the robotic skills to enable cross-embodiment collaborative control of multiple robots.",
-        "speakers": [
-          {
-            "id": "minglan-lin",
-            "name": "Minglan Lin",
-            "tags": ["embodied-ai"],
-            "roleOrg": "Embodied Intelligence Researcher at Beijing Academy of Artificial Intelligence",
-            "image": "minglan-lin.jpg"
-          }
-        ]
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "12:00 - 14:00",
-        "title": "Lunch Break",
-        "content": "",
-        "speakers": []
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "14:00 - 14:40",
         "title": "G1 Open Source Dataset and Humanoid Robot from Unitree Robotics",
         "content": "With artificial intelligence technology move very fast in the past two years, humanoid robot have been one of the most import form to realized embodied AI and AGI, Unitree have been working for more than 8 years in leg robot and 1 year in humanoid robot area. There are three most important parts, algorithm, data and computing capability for realized AGI. Those three part will finally running on physical robots, we believe build robust physical humanoid robot system is key for this ecosystem, and World Large-Scale Model (most people called foundation model) is the key to bring Embodied AI for for humanoid robot, we will share the most important progressing have been made on industry and research side in the past one year, and expect and excited for new progressing will happening in next few years soon.\r\nIn order to promote the development of the global embodied AI industry, the Unitree G1 robot operation data set is open sourced, adapted to a variety of open source solutions, and continuously updated.\r\n",
         "speakers": [
@@ -1046,16 +996,30 @@
       },
       {
         "date": "May 7",
+        "timeSlot": "12:00 - 14:00",
+        "title": "Lunch Break",
+        "content": "",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "14:00 - 14:40",
+        "title": "Pollen Robotic",
+        "content": "To Be Announced",
+        "speakers": []
+      },
+      {
+        "date": "May 7",
         "timeSlot": "14:40 - 15:20",
-        "title": "Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation",
-        "content": "To accelerate continuous skill acquisition through reusable motion-aware primitives, we propose Primitive Prompt Learning (PPL). PPL enables lifelong robot manipulation by optimizing new prompts alongside pretrained ones and demonstrates superior performance in both simulated and real-world tasks.",
+        "title": "Learning from Human Demonstrations: A New Paradigm for Scalable Robot Data Acquisition",
+        "content": "Acquiring diverse and large-scale real-world robot data remains a critical bottleneck in training generalizable robotic action models. Efficient and scalable data collection has thus emerged as a key research focus in robotics.\r\nA widely used method is teleoperation, where humans either wear VR devices or operate a secondary robot to guide actions. While effective, these approaches are limited by hardware-specific constraints and require complex setups, hindering scalability.\r\nAn emerging alternative is to learn directly from human demonstrations without relying on teleoperation hardware. This paradigm allows robots to acquire task-relevant motion data by observing or interpreting natural human movements, offering a more flexible and hardware-agnostic solution.\r\nIn this talk, I will introduce a novel framework for robot data acquisition from human demonstrations. I will detail how it bypasses traditional teleoperation limitations and enables scalable learning across varied tasks and environments. By bridging the gap between human intent and robot execution, this method opens a promising direction for general-purpose robotic learning in the real world.",
         "speakers": [
           {
-            "id": "siao-liu",
-            "name": "Siao Liu",
+            "id": "junkai-zhao",
+            "name": "Junkai Zhao",
             "tags": ["embodied-ai"],
-            "roleOrg": "Researcher at BAAI",
-            "image": "siao-liu.jpg"
+            "roleOrg": "Robot Algorithm Engineer at Beijing Academy of Artificial Intelligence",
+            "image": "junkai-zhao.jpg"
           }
         ]
       },
@@ -1069,14 +1033,15 @@
       {
         "date": "May 7",
         "timeSlot": "15:40 - 16:20",
-        "title": "To Be Announced",
-        "content": "",
+        "title": "Human-AI Collaboration at the Edge",
+        "content": "To Be Announced",
         "speakers": [
           {
-            "id": "tbd",
-            "name": "Speaker to be Announced",
+            "id": "will-wang",
+            "name": "Will Wang",
             "tags": ["embodied-ai"],
-            "image": "generic-profile.png"
+            "roleOrg": "Founder and CEO at Even Realities",
+            "image": "will-wang.jpeg"
           }
         ]
       },
@@ -1111,6 +1076,13 @@
       }
     ],
     "PyTorch Day France": [
+      {
+        "date": "May 7",
+        "timeSlot": "9:30 - 10:00",
+        "title": "Keynote",
+        "content": "GOSIM Keynote",
+        "speakers": []
+      },
       {
         "date": "May 7",
         "timeSlot": "10:00 - 10:30",
