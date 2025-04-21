@@ -4,6 +4,7 @@ import { Picture } from "astro:assets"
 import type { ImageMetadata } from "astro"
 
 interface Speaker {
+  id: string
   name: string
   roleOrg: string
   tags: string[]
@@ -234,7 +235,7 @@ const sortedAllSessions = sortSessionsByTime(uniqueAllSessions)
                                 <div class="card-col">
                                   <a
                                     class="single-speakers-card"
-                                    href={`/speakers/${speaker.name.toLowerCase().replace(/\s+/g, "-")}/`}
+                                    href={`/speakers/${speaker.id}/`}
                                   >
                                     <div class="card-row card-row-image">
                                       <div class="card-image">
@@ -346,7 +347,7 @@ const sortedAllSessions = sortSessionsByTime(uniqueAllSessions)
                                     <div class="card-col">
                                       <a
                                         class="single-speakers-card"
-                                        href={`/speakers/${speaker.name.toLowerCase().replace(/\s+/g, "-")}/`}
+                                        href={`/speakers/${speaker.id}/`}
                                       >
                                         <div class="card-row card-row-image">
                                           <div class="card-image">

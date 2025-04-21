@@ -77,13 +77,13 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
             data-filter-status="active"
             data-filter-index={index}
             data-filter-index-even={index % 2 === 0}
-            data-filter-category={speaker.tag.toLowerCase().replace(/ /g, "-")}
+            data-filter-category={speaker.tag}
           >
             <a
-              href={`/speakers/${speaker.name.toLowerCase().replace(/\s+/g, "-")}/`}
+              href={`/speakers/${speaker.id}/`}
               class="single-speakers-card"
               data-modal-card-status="not-active"
-              data-modal-card-id={speaker.name.toLowerCase().replace(/ /g, "-")}
+              data-modal-card-id={speaker.id}
             >
               <div class="card-row card-row-image">
                 <div class="card-image">
