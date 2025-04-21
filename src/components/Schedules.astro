@@ -18,6 +18,7 @@ interface Session {
   content: string
   speakers: Speaker[]
   category?: string
+  isSpecialEvent?: boolean
 }
 
 interface Props {
@@ -68,6 +69,7 @@ const allSessions: Session[] = Object.entries(scheduleData.sessions).flatMap(
         category:
           scheduleData.categories.find((cat) => cat.id === categoryName)
             ?.name || categoryName,
+        isSpecialEvent: session.title === "Keynote" || session.title === "Lunch Break"
       }))
 )
 
@@ -215,7 +217,7 @@ const sortedAllSessions = sortSessionsByTime(uniqueAllSessions)
                     </div>
                     <div class="tracks">
                       <div class="single-filter">
-                        <span>{session.category}</span>
+                        <span>{session.isSpecialEvent ? "All" : session.category}</span>
                       </div>
                     </div>
                   </div>
@@ -327,7 +329,7 @@ const sortedAllSessions = sortSessionsByTime(uniqueAllSessions)
                         </div>
                         <div class="tracks">
                           <div class="single-filter">
-                            <span>{session.category}</span>
+                            <span>{session.isSpecialEvent ? "All" : session.category}</span>
                           </div>
                         </div>
                       </div>
