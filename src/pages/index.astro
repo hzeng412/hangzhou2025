@@ -1,28 +1,29 @@
 ---
 // Components
-import Layout from "layouts/Layout.astro"
-import Hero from "components/Hero.astro"
-import Intro from "components/Intro.astro"
-import Statistics from "components/Statistics.astro"
-import Tracks from "components/Tracks.astro"
-import FeaturedSpeakers from "components/FeaturedSpeakers.astro"
-import Cards from "components/Cards.astro"
-import TextAndImage from "components/TextAndImage.astro"
-import TextAndSponsors from "components/TextAndSponsors.astro"
-import VenueInfo from "components/VenueInfo.astro"
-import PreviousEvents from "components/PreviousEvents.astro"
-import GetTickets from "components/GetTickets.astro"
-import Marquee from "components/Marquee.astro"
-import CardsSponsors from "components/CardsSponsors.astro"
+import Layout from "layouts/Layout.astro";
+import Hero from "components/Hero.astro";
+import Intro from "components/Intro.astro";
+import Statistics from "components/Statistics.astro";
+import Tracks from "components/Tracks.astro";
+import FeaturedSpeakers from "components/FeaturedSpeakers.astro";
+import Cards from "components/Cards.astro";
+import TextAndImage from "components/TextAndImage.astro";
+import TextAndSponsors from "components/TextAndSponsors.astro";
+import VenueInfo from "components/VenueInfo.astro";
+import PreviousEvents from "components/PreviousEvents.astro";
+import GetTickets from "components/GetTickets.astro";
+import Marquee from "components/Marquee.astro";
+import CardsSponsors from "components/CardsSponsors.astro";
+import Notify from "components/Notify.astro";
 
 // Images
-import Placeholder1 from "images/homepage/stats1.png"
-import Placeholder2 from "images/homepage/stats2.png"
-import Placeholder3 from "images/homepage/stats3.png"
-import SpotlightBlue from "images/homepage/spotlight-badge-ai-2025.svg"
-import GosimShanghai from "images/homepage/gosim-shanghai.png"
-import GosimAmsterdam from "images/homepage/gosim-amsterdam.png"
-import GosimBeijing from "images/homepage/gosim-beijing.png"
+import Placeholder1 from "images/homepage/stats1.png";
+import Placeholder2 from "images/homepage/stats2.png";
+import Placeholder3 from "images/homepage/stats3.png";
+import SpotlightBlue from "images/homepage/spotlight-badge-ai-2025.svg";
+import GosimShanghai from "images/homepage/gosim-shanghai.png";
+import GosimAmsterdam from "images/homepage/gosim-amsterdam.png";
+import GosimBeijing from "images/homepage/gosim-beijing.png";
 ---
 
 <Layout
@@ -109,7 +110,6 @@ import GosimBeijing from "images/homepage/gosim-beijing.png"
 
     <Marquee />
   </div>
-
   <Tracks
     title="5 Conference Tracks"
     list={[
@@ -139,7 +139,22 @@ import GosimBeijing from "images/homepage/gosim-beijing.png"
       link: "/schedule/",
     }}
   />
-
+  <Notify
+    title="Try the GOSIM ticket lucky draw!"
+    text="Join our Lucky Draw for a chance to unlock MASSIVE DISCOUNTS on your conference ticket!"
+    buttons={[
+      {
+        text: "X (Twitter)",
+        link: "https://x.com/gosimfoundation/status/1912744752925282408?s=46",
+        openInNewTab: true,
+      },
+      {
+        text: "LinkedIn",
+        link: "https://www.linkedin.com/posts/gosim-foundation_opensource-paris-gosim-activity-7320228660119056384-8G0N/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADy6IEBVFnqXCcxI2wwmkLQxsENI_ltXOc",
+        openInNewTab: true,
+      },
+    ]}
+  />
   <FeaturedSpeakers
     title="Featured Speakers"
     ctaButton={{
