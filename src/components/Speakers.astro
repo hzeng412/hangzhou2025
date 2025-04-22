@@ -58,7 +58,9 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
             speakersData.categories.map((category) => (
               <div
                 class="single-filter"
-                data-filter-status={category.id === "all" ? "active" : "not-active"}
+                data-filter-status={
+                  category.id === "all" ? "active" : "not-active"
+                }
                 data-filter-category={category.id}
               >
                 <span>{category.name}</span>
@@ -110,6 +112,9 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
           </div>
         ))
       }
+      <p style="text-align: center; width: 100%; margin: 1rem 0;">
+        Speakers are subject to change
+      </p>
     </div>
   </div>
 </section>
