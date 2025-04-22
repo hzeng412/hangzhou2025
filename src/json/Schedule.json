@@ -291,13 +291,6 @@
         "title": "Spotlight Demos",
         "content": "GOSIM AI Spotlight Finalists will present their projects in a short pitch.",
         "speakers": []
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "18:00 - 21:00",
-        "title": "Social Gathering",
-        "content": "",
-        "speakers": []
       }
     ],
     "AI Infra": [
@@ -808,13 +801,6 @@
         "title": "Spotlight Demos",
         "content": "GOSIM AI Spotlight Finalists will present their projects in a short pitch.",
         "speakers": []
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "18:00 - 21:00",
-        "title": "Social Gathering",
-        "content": "",
-        "speakers": []
       }
     ],
     "Embodied AI": [
@@ -1066,13 +1052,6 @@
         "title": "Spotlight Demos",
         "content": "GOSIM AI Spotlight Finalists will present their projects in a short pitch.",
         "speakers": []
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "18:00 - 21:00",
-        "title": "Social Gathering",
-        "content": "",
-        "speakers": []
       }
     ],
     "PyTorch Day France": [
@@ -1295,13 +1274,6 @@
             "image": "pablo-montalvo.jpeg"
           }
         ]
-      },
-      {
-        "date": "May 7",
-        "timeSlot": "18:00 - 21:00",
-        "title": "Social Gathering",
-        "content": "",
-        "speakers": []
       }
     ]
   }
