@@ -69,7 +69,14 @@ const allSessions: Session[] = Object.entries(scheduleData.sessions).flatMap(
         category:
           scheduleData.categories.find((cat) => cat.id === categoryName)
             ?.name || categoryName,
-        isSpecialEvent: session.title === "Keynote" || session.title === "Lunch Break"
+        isSpecialEvent:
+          session.title === "Keynote" ||
+          session.title === "Morning Coffee" ||
+          session.title === "Lunch Break" ||
+          session.title === "Afternoon Coffee" ||
+          session.title === "Spotlight Demos" ||
+          session.title === "Social Gathering" ||
+          session.title === "VIP Dinner",
       }))
 )
 
@@ -217,7 +224,9 @@ const sortedAllSessions = sortSessionsByTime(uniqueAllSessions)
                     </div>
                     <div class="tracks">
                       <div class="single-filter">
-                        <span>{session.isSpecialEvent ? "All" : session.category}</span>
+                        <span>
+                          {session.isSpecialEvent ? "All" : session.category}
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -329,7 +338,11 @@ const sortedAllSessions = sortSessionsByTime(uniqueAllSessions)
                         </div>
                         <div class="tracks">
                           <div class="single-filter">
-                            <span>{session.isSpecialEvent ? "All" : session.category}</span>
+                            <span>
+                              {session.isSpecialEvent
+                                ? "All"
+                                : session.category}
+                            </span>
                           </div>
                         </div>
                       </div>
