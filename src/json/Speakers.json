@@ -1116,25 +1116,6 @@
       "draft": true
     },
     {
-      "id": "will-wang",
-      "name": "Will Wang",
-      "bio": "Will Wang is the Founder and CEO of Even Realities, a global AI+hardware startup building the next generation of ambient, screenless interfaces powered by embedded AI and open-source infrastructure. Will previously led product and R&D teams at Apple, Anker, OPPO, and JMGO, contributing to iconic products such as the iPhone and Apple Watch.\r\nIn 2023, he founded Even Realities, with global headquarters in Germany, Switzerland, the U.S., and China. The company’s first product, Even G1, launched in 2024, is a category-defining smart eyewear platform combining waveguide optics, LLM integration, and multimodal, privacy-first interaction.\r\nWill speaks globally on deeptech entrepreneurship, open AI infrastructure, wearable UX, and human-AI collaboration. His work bridges software and hardware, and he’s passionate about helping developers bring open AI “beyond the browser” into the real world.",
-      "role": "Founder and CEO",
-      "org": "Even Realities",
-      "roleOrg": "Founder and CEO at Even Realities",
-      "image": "will-wang.jpeg",
-      "tag": "embodied-ai",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "https://www.linkedin.com/in/will-wang-80609159/?originalSubdomain=hk",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
       "id": "xiyuan-wang",
       "tag": "ai-infra",
       "name": "Xiyuan Wang",

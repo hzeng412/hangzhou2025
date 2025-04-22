@@ -1019,17 +1019,9 @@
       {
         "date": "May 7",
         "timeSlot": "15:40 - 16:20",
-        "title": "Human-AI Collaboration at the Edge",
+        "title": "To Be Announced",
         "content": "To Be Announced",
-        "speakers": [
-          {
-            "id": "will-wang",
-            "name": "Will Wang",
-            "tags": ["embodied-ai"],
-            "roleOrg": "Founder and CEO at Even Realities",
-            "image": "will-wang.jpeg"
-          }
-        ]
+        "speakers": []
       },
       {
         "date": "May 7",
