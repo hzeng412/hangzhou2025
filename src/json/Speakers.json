@@ -93,6 +93,25 @@
       "draft": false
     },
     {
+      "id": "catherine-arnett",
+      "name": "Catherine Arnett",
+      "bio": "",
+      "role": "NPL Researcher",
+      "org": "EleutherAI",
+      "roleOrg": "NPL Researcher at EleutherAI",
+      "image": "catherine-arnett.jpg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "elie-bakouch",
       "tag": "ai-model",
       "name": "Elie Bakouch",
@@ -486,6 +505,25 @@
         "github": "undefined",
         "linkedin": "undefined",
         "website": "www.gizwits.com"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "nicolas-hug",
+      "name": "Nicolas Hug",
+      "bio": "",
+      "role": "ML Research Engineer",
+      "org": "Meta",
+      "roleOrg": "ML Research Engineer at Meta",
+      "image": "nicolas-hug.jpg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
       },
       "status": "New",
       "draft": false
