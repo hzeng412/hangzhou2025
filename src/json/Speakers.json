@@ -34,7 +34,7 @@
       "org": "Infosys",
       "roleOrg": "Head of Responsible AI (EMEA & APAC) at Infosys",
       "image": "sray-agarwal.JPG",
-      "tag": "osaif",
+      "tag": "osaisf",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -207,25 +207,6 @@
       "draft": false
     },
     {
-      "id": "tianyu-chen",
-      "tag": "ai-model",
-      "name": "Tianyu Chen",
-      "roleOrg": "Ph.D Candidate at Peking University",
-      "bio": "Tianyu Chen is a fifth-year Ph.D. candidate in the School of Computer Science at Peking University, advised by Prof. Tao Xie. He has published four first-author papers in top-tier AI, software engineering conferences and journals, e.g., ACL, ICLR, and TOSEM. His research centers on AI for Software Engineering, Security, and program formal verification via Large Language Models (LLMs). He was a research intern at Huawei Cloud for two years and at Microsoft Research Asia (MSRA) for one year. At MSRA, he contributed to automated Verus verification.",
-      "image": "tianyu-chen.jpeg",
-      "org": "Peking University",
-      "role": "Ph.D Candidate",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "https://scholar.google.com/citations?user=qLLb65kAAAAJ&hl=zh-CN"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
       "id": "cheng-chi",
       "tag": "embodied-ai",
       "name": "Cheng Chi",
@@ -300,24 +281,6 @@
       },
       "status": "New",
       "draft": false
-    },
-    {
-      "id": "xin-dong",
-      "tag": "ai-model",
-      "name": "Xin Dong",
-      "roleOrg": "Technical Expert in the Programming Language Lab of Huawei",
-      "bio": "2008–2017 Microsoft | Technical Leader\r\nEngaged in the R&D of Microsoft Azure Enterprise Cloud and Dynamics 365 platforms.\r\n\r\n2017–Present Huawei Technologies | Technical Expert/Product Director\r\nLed R&D in core foundational software, including development toolchains, programming languages, and IDEs. During tenure at Huawei:\r\n\r\nServed as Chief Technical Expert and Project Manager, working on Huawei’s mobile AI development tools, the company-wide AI R&D platform, the Ascend AI chip toolchain, and the HarmonyOS toolchain.\r\n\r\nSince 2021, responsible for programming language and IDE foundational software R&D as Program Director, driving the development of self-controlled programming languages and IDE core technologies. Played a key role in the technical planning, productization, and industrial adoption of domestic application programming languages, making significant contributions to their advancement.",
-      "image": "xin-dong.jpg",
-      "org": "HUAWEI",
-      "role": "Technical expert in the programming language lab of Huawei ",
-      "socialLinks": {
-        "mastodon": null,
-        "twitter": null,
-        "github": null,
-        "linkedin": null,
-        "website": null
-      },
-      "draft": true
     },
     {
       "id": "erwan-gallen",
@@ -776,25 +739,6 @@
       "draft": false
     },
     {
-      "id": "siao-liu",
-      "tag": "embodied-ai",
-      "name": "Siao Liu",
-      "roleOrg": "Researcher at BAAI",
-      "bio": "Siao Liu is a fifth-year Ph.D. Candidate at Academy for Engineering and Technology of Fudan University. As a part of the Multi-agent robotic systems lab, Siao is advised by Prof. Zhongxue Gan (Former Chief Scientist for ABB Group). His main research directions include multimodal learning, skill learning, visual reinforcement learning and embodied AI. He have published 10+ papers at the reputable journals and top international conferences, including ICCV、ECCV、CVPR、ACM-MM and TII. In the third quarter of 2025, Siao will serve as a scientific researcher in Embodied Large Model Department of Beijing Academy of Artificial Intelligence (BAAI), lead a portion of the  VLA projects.",
-      "image": "siao-liu.jpg",
-      "org": "Beijing Academy of Artificial Intelligence",
-      "role": "Researcher",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
       "id": "xinrui-liu",
       "tag": "ai-apps",
       "name": "Xinrui Liu",
@@ -850,6 +794,25 @@
       "draft": false
     },
     {
+      "id": "michel-marie-maudet",
+      "name": "Michel-Marie Maudet",
+      "bio": "Michel-Marie MAUDET has led LINAGORA (https://www.linagora.com/) as its Managing Director and co-founder for almost 25 years. He is a pioneer in the world of the free software in France and Europe since thirty years.\r\n\r\nWith Artificial Intelligence becoming more common in our lives and the dominance of large tech companies like GAFAM, Michel-Marie sees the need for alternative technologies. In 2016, he launched LinTO (https://www.linto.ai/), an entirely Open Source personal assistant, reflecting his vision for open and accessible technology for everyone. \r\n\r\nIn June 2023, he started the OpenLLM France (https://www.openllm-france.fr/)  community. This community brings together experts to share knowledge and work together on developing a French, sovereign, and truly Open Source LLM. For us, truly Open Source requires three conditions :\r\n    • Open Source code\r\n        ◦ Source code of the code model, pre training tool released under OSI compliant Open Source Licence\r\n    • Open Model\r\n        ◦ Licence and user agreement without any restrictions on who may use it and for what \r\n    • Open Training Datasets\r\n        ◦ 100% of training data must be publicly available in a format that allows for investigation of the model's biases (preferences) and for retraining\r\n\r\nDuring the FOSDEM 2024, the OpenLLM France community has been changed to OpenLLM Europe in order to make possible the creation of digital commons in the field of Generative AI at European level by federating other national initiatives. \r\n\r\nIn the AI area, we need Digital Bioversity : Michel-Marie and LINAGORA work on this challenge by continuing to support open standards and aiming for an open, ethical, and responsible digital future.",
+      "role": "General Manager",
+      "org": "LINAGORA - OpenLLM France",
+      "roleOrg": "General Manager at LINAGORA - OpenLLM France",
+      "image": "michelmarie-maudet.png",
+      "tag": "ai-model",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/mmaudet",
+        "github": "https://github.com/mmaudet",
+        "linkedin": "https://www.linkedin.com/in/mmaudet/",
+        "website": "https://www.6sn.ai/"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "pablo-montalvo",
       "name": "Pablo Montalvo",
       "bio": "",
@@ -888,6 +851,44 @@
       "draft": false
     },
     {
+      "id": "marianna-nezhurina",
+      "name": "Marianna Nezhurina",
+      "bio": "LAION core researcher, open foundation models and datasets",
+      "role": "Researcher",
+      "org": "Juelich Supercomputing Centre",
+      "roleOrg": "Researcher at Juelich Supercomputing Centre",
+      "image": "marianna-nezhurina.jpg",
+      "tag": "osaisf",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "",
+        "github": "marianna13",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": true
+    },
+    {
+      "id": "hong-thai-nguyen",
+      "name": "Hong-Thai Nguyen",
+      "bio": "As an Engineering Manager at Cegid, I support and guide the development of Cegid Pulse OS, a cutting-edge platform designed to orchestrate seamless collaboration between humans and machines through intelligent agents. Leveraging large language models (LLMs) and advanced AI capabilities, the platform dynamically interprets user intent and executes tailored tasks with precision and efficiency.\r\n\r\nPreviously, I led the development of Cegid Concilator, a production-grade platform for automated invoice extraction and transformation using AI and OCR technologies. This solution helped streamline financial workflows by accurately parsing and processing complex invoice data at scale.\r\n\r\n🔧 Key responsibilities:\r\n- Enabling product teams to build production-ready agent systems, aligned with business needs and technical standards.\r\n\r\n- Promoting best practices in Prompt Engineering, LLM-friendly API design, and secure, privacy-conscious agent architecture.\r\n\r\n- Addressing LLM-specific challenges: debugging, improving observability, and enhancing explainability for trustworthy and transparent agent behavior.\r\n\r\n🚀 Passionate about applied AI, I focus on delivering impactful, intelligent solutions with production grade that elevate user experiences and transform enterprise workflows.",
+      "role": "Software Engineering Manager",
+      "org": "Cegid",
+      "roleOrg": "Software Engineering Manager at Cegid",
+      "image": "hongthai-nguyen.jpg",
+      "tag": "ai-apps",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "https://github.com/cegid",
+        "linkedin": "https://www.linkedin.com/in/hong-thai-nguyen/",
+        "website": "https://www.cegid.com/global/ai/"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "philipp-oppermann",
       "tag": "embodied-ai",
       "name": "Philipp Oppermann",
@@ -902,6 +903,25 @@
         "github": "https://github.com/phil-opp",
         "linkedin": "undefined",
         "website": "https://os.phil-opp.com"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "anne-charlotte-passanisi",
+      "name": "Anne-Charlotte Passanisi",
+      "bio": "Anne-Charlotte Passanisi is a Senior Product Manager at Pollen Robotics, where she explores how emotional design can help make robots more understandable, relatable, and accepted by humans. With over 10 years of experience in digital product development, from events and startups to gaming, she now focuses on how artificial empathy can support better adoption, engagement, and retention. She doesn’t build AI from scratch, but loves shaping the way people experience it.",
+      "role": "Senior Product Manager",
+      "org": "Pollen Robotics",
+      "roleOrg": "Senior Product Manager at Pollen Robotics",
+      "image": "annecharlotte-passanisi.png",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/pollenrobotics",
+        "github": "https://github.com/pollen-robotics",
+        "linkedin": "https://www.linkedin.com/in/annecharlottepassanisi/",
+        "website": "https://www.pollen-robotics.com/"
       },
       "status": "New",
       "draft": false
@@ -1037,7 +1057,7 @@
         "website": "https://hyd.ai"
       },
       "status": "New",
-      "draft": false
+      "draft": true
     },
     {
       "id": "markus-tavenrath",
@@ -1097,44 +1117,6 @@
       "draft": false
     },
     {
-      "id": "chi-wang",
-      "tag": "ai-apps",
-      "name": "Chi Wang",
-      "roleOrg": "Research Scientist at Google DeepMind",
-      "bio": "Chi created AG2 (formerly known as AutoGen), the open-source AgentOS to support agentic AI, and its parent open-source project FLAML, a fast library for AutoML & tuning. He has received multiple awards such as best paper of ICLR’24 LLM Agents Workshop, Open100, and SIGKDD Data Science/Data Mining PhD Dissertation Award. Chi runs the AG2 community with 20K+ members.",
-      "image": "chi-wang.png",
-      "org": "Google DeepMind",
-      "role": "Research Scientist",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "https://x.com/Chi_Wang_",
-        "github": "https://github.com/sonichi",
-        "linkedin": "https://www.linkedin.com/in/chi-wang-autogen/",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "fan-wang",
-      "tag": "embodied-ai",
-      "name": "Fan Wang",
-      "roleOrg": "Researcher at the Embodied AI Center, AIRS",
-      "bio": "Mr. Fan Wang is currently a Researcher at the Embodied AI Center, Shenzhen Institute of Artificial Intelligence and Robotics for Society. Previously, he served as a Distinguished Architect at Baidu Inc. He has authored over 30 peer-reviewed publications in top-tier conferences and journals, with seminal contributions spanning reinforcement learning, large language models (LLMs), and AI-driven bio-computing. His current research focuses on developing general-purpose foundation models and self-learning agents for next-generation embodied AI systems.",
-      "image": "fan-wang.jpg",
-      "org": "ARIS",
-      "role": "Researcher",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "https://github.com/airs-cuhk/airsoul",
-        "linkedin": "undefined",
-        "website": "https://scholar.google.com/citations?user=vgFErZQAAAAJ&hl=en"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
       "id": "qin-wang",
       "name": "Qin Wang",
       "bio": "Dr. Qin Wang holds the position of Senior Research Fellow at the Institute of Industrial Economics, Chinese Academy of Social Sciences, and is a Professor at the University of Chinese Academy of Social Sciences. He also serves as the Director of the Management Science and Innovation Development Centre at the Chinese Academy of Social Sciences and holds the role of Executive Vice Chairman at the China Enterprise Management Research Association. Professor Wang has dedicated an extensive period to researching innovation management and organizational change. His notable achievements include receiving the Second China Soft Science Award (Deep Research Award) and the Third Jiang Yiwei Enterprise Reform and Development Fund Works Award for his outstanding contributions. Professor Wang has published more than 100 articles in academic journals such as Harvard Business Review (Chinese version), Tsinghua Management Review, China Industrial Economy, and Economic Management. He has also authored various monographs, including \"The Transformation of China's Manufacturing Industry Driven by Information Network Technology,\" \"The Innovation Strategy of Chinese Enterprises,\" and \"RenDanHeYi Management\" (available in both Simplified and Traditional Chinese versions). In addition, he co-authored \"The Path of Independent Innovation with Chinese Characteristics\" and \"The Regional Innovation Systems in China,\" among others.",
@@ -1171,25 +1153,6 @@
       },
       "status": "New",
       "draft": false
-    },
-    {
-      "id": "yajing-wang",
-      "name": "Yajing Wang",
-      "bio": "Yajing focuses on empowering developers through meaningful content, inclusive community engagement, and scalable solutions. With a passion for bridging the gap between technology and its users, Yajing brings technical expertise and creativity to foster thriving developer ecosystems. ",
-      "role": "Director of DevRel & Community",
-      "org": "Olares",
-      "roleOrg": "Director of DevRel & Community at Olares",
-      "image": "yajing-wang.jpeg",
-      "tag": "ai-infra",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": true
     },
     {
       "id": "yanzhi-wang",
@@ -1230,25 +1193,6 @@
       "draft": false
     },
     {
-      "id": "dong-xin",
-      "name": "DONG XIN",
-      "bio": "2008–2017 Microsoft | Technical Leader\r\nEngaged in the R&D of Microsoft Azure Enterprise Cloud and Dynamics 365 platforms.\r\n\r\n2017–Present Huawei Technologies | Technical Expert/Product Director\r\nLed R&D in core foundational software, including development toolchains, programming languages, and IDEs. During tenure at Huawei:\r\n\r\nServed as Chief Technical Expert and Project Manager, working on Huawei’s mobile AI development tools, the company-wide AI R&D platform, the Ascend AI chip toolchain, and the HarmonyOS toolchain.\r\n\r\nSince 2021, responsible for programming language and IDE foundational software R&D as Program Director, driving the development of self-controlled programming languages and IDE core technologies. Played a key role in the technical planning, productization, and industrial adoption of domestic application programming languages, making significant contributions to their advancement.",
-      "role": "Technical expert in the programming language lab of Huawei ",
-      "org": "HUAWEI",
-      "roleOrg": "Technical expert in the programming language lab of Huawei  at HUAWEI",
-      "image": "dong-xin.jpg",
-      "tag": "ai-model",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": true
-    },
-    {
       "id": "baosong-yang",
       "tag": "ai-model",
       "name": "Baosong Yang",
@@ -1281,6 +1225,25 @@
         "twitter": "undefined",
         "github": "undefined",
         "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "eitan-yarmush",
+      "name": "Eitan Yarmush",
+      "bio": "I am a software engineer currently working at Solo.io In Boston Massachusetts. I am a skilled problem solver, communicator, and mentor. My current passion and focus is reimagining AI in the Open Source, and how that can help enterprises succeed.",
+      "role": "Senior Architect",
+      "org": "solo.io",
+      "roleOrg": "Senior Architect at solo.io",
+      "image": "eitan-yarmush.jpg",
+      "tag": "ai-apps",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "https://github.com/EItanya",
+        "linkedin": "https://www.linkedin.com/in/eitan-yarmush-82890595/",
         "website": "undefined"
       },
       "status": "New",

@@ -1,7 +1,7 @@
 ---
 // Components
-import Button from "components/Button.astro";
-import Logo from "./Logo.astro";
+import Button from "components/Button.astro"
+import Logo from "./Logo.astro"
 
 const firstColumnLinks = [
   {
@@ -25,7 +25,7 @@ const firstColumnLinks = [
   //   text: "FAQ",
   //   link: "/faq/",
   // },
-];
+]
 
 const secondColumnLinks = [
   {
@@ -38,17 +38,25 @@ const secondColumnLinks = [
     link: "/volunteers/",
   },
   {
-    text: "Open-Source AI Strategy Forum",
-    link: "/os-ai-strategy-forum/",
-  },
-  {
     text: "GOSIM AI Spotlight ",
     link: "https://spotlight.gosim.org/ai2025",
     openInNewTab: true,
   },
-];
+  {
+    text: "GOSIM Open-Source AI Strategy Forum",
+    link: "/os-ai-strategy-forum/",
+  },
+  {
+    text: "PyTorch Day France",
+    link: "https://events.linuxfoundation.org/pytorch-day-france/",
+  },
+  {
+    text: "Seeed Embodied AI Hackathon",
+    link: "https://lu.ma/7djaix39",
+  },
+]
 
-const slug = Astro.url.pathname;
+const slug = Astro.url.pathname
 ---
 
 <footer class="section footer" data-theme-section="dark" data-bg-section="dark">
