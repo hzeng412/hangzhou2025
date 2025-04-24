@@ -120,7 +120,7 @@ const eventCategory =
 
                                                 return (
                                                     <div class="card-col">
-                                                        <a href={`/speakers/${speaker.name.toLowerCase().replace(/\s+/g, "-")}/`}>
+                                                        <a href={`/speakers/${fullSpeakerDetails?.id || speaker.name.toLowerCase().replace(/\s+/g, "-")}/`}>
                                                             <div class="single-speakers-card">
                                                                 <div class="card-row card-row-image">
                                                                     <div class="card-image">
