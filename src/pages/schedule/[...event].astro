@@ -31,7 +31,10 @@ type Speakers = {
 
 // Generate static paths for events
 export async function getStaticPaths() {
-  const events: { params: { event: string }; props: { event: Event; category: string } }[] = [];
+  const events: {
+    params: { event: string };
+    props: { event: Event; category: string };
+  }[] = [];
 
   // Collect all sessions from all categories in main schedule
   Object.entries(schedule.sessions).forEach(([category, categoryEvents]) => {
@@ -60,7 +63,10 @@ export async function getStaticPaths() {
 
 // Get the event from the route parameter
 const { event } = Astro.params as { event: string };
-const { event: eventDetails, category } = Astro.props as { event: Event; category: string };
+const { event: eventDetails, category } = Astro.props as {
+  event: Event;
+  category: string;
+};
 
 // Import all images
 const images = import.meta.glob<{ default: ImageMetadata }>(
@@ -72,106 +78,99 @@ const eventCategory = category || "Uncategorized";
 ---
 
 <Layout
-    title={`${eventDetails.title} – GOSIM AI Paris 2025`}
-    description={eventDetails.content.replace(/<[^>]*>/g, "").substring(0, 160)}
-    navBackground="light"
-    pageTransitionName={eventDetails.title}
+  title={`${eventDetails.title} – GOSIM AI Paris 2025`}
+  description={eventDetails.content.replace(/<[^>]*>/g, "").substring(0, 160)}
+  navBackground="light"
+  pageTransitionName={eventDetails.title}
 >
-    <section
-        class="section speaker-detail-header"
-        data-theme-section="light"
-        data-bg-section="light"
-    >
-        <div class="gradient-circle-wrap">
-            <div class="gradient-circle"></div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-speaker">
-                    <div class="row-speaker">
-                        <div class="speaker-row-meta">
-                            <div class="card-tags group-tags event-tag">
-                                <div class="single-tag">
-                                    <p>{eventCategory}</p>
-                                </div>
-                            </div>
-                            <h1 class="h2">{eventDetails.title}</h1>
-                            <div class="flex-event">
-                                <p class="timedate">{eventDetails.date}</p>
-                                <p>{eventDetails.timeSlot}</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="box-row box-row-text styled-content">
-                        <Fragment set:html={eventDetails.content} />
-                    </div>
-
-                    {
-                        eventDetails.speakers &&
-                            eventDetails.speakers.length > 0 && (
-                                <>
-                    <SocialShare 
-                        title={`${eventDetails.title} - GOSIM AI Paris 2025`}
-                        description={eventDetails.content.replace(/<[^>]*>/g, "").substring(0, 160)}
-                    />
-                                    <h2 class="h4 event-speaker-title">
-                                        Speakers
-                                    </h2>
-                                    <div class="card-row card-row-speakers event-detail_speakers">
-                                        {eventDetails.speakers.map(
-                                            (speaker) => {
-                                                // Find full speaker details from speakers.json
-                                                const fullSpeakerDetails =
-                                                    speakers.speakers.find(
-                                                        (s) =>
-                                                            s.name ===
-                                                            speaker.name,
-                                                    );
-
-                                                return (
-                                                    <div class="card-col">
-                                                        <a href={`/speakers/${fullSpeakerDetails?.id || speaker.name.toLowerCase().replace(/\s+/g, "-")}/`}>
-                                                            <div class="single-speakers-card">
-                                                                <div class="card-row card-row-image">
-                                                                    <div class="card-image">
-                                                                        {speaker?.image &&
-                                                                            images[`/public/images/speakers/${speaker.image}`] && (
-                                                                            <Picture
-                                                                                src={images[`/public/images/speakers/${speaker.image}`]()}
-                                                                                formats={["webp", "jpg"]}
-                                                                                alt={speaker.name}
-                                                                                class="overlay"
-                                                                                widths={[275, 400, 500, 600, 750, 900]}
-                                                                                sizes="(max-width: 700px) 58vw, 450px"
-                                                                            />
-                                                                        )}
-                                                                    </div>
-                                                                </div>
-                                                                <div class="card-row card-row-info">
-                                                                    <h3 class="h5">
-                                                                        {
-                                                                            speaker.name
-                                                                        }
-                                                                    </h3>
-                                                                    <p>
-                                                                        {
-                                                                            speaker.roleOrg
-                                                                        }
-                                                                    </p>
-                                                                </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                );
-                                            },
-                                        )}
-                                    </div>
-                                </>
-                            )
-                    }               
+  <section
+    class="section speaker-detail-header"
+    data-theme-section="light"
+    data-bg-section="light"
+  >
+    <div class="gradient-circle-wrap">
+      <div class="gradient-circle"></div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-speaker">
+          <div class="row-speaker">
+            <div class="speaker-row-meta">
+              <div class="card-tags group-tags event-tag">
+                <div class="single-tag">
+                  <p>{eventCategory}</p>
                 </div>
+              </div>
+              <h1 class="h2">{eventDetails.title}</h1>
+              <div class="flex-event">
+                <p class="timedate">{eventDetails.date}</p>
+                <p>◘</p>
+                <p>{eventDetails.timeSlot}</p>
+              </div>
             </div>
+          </div>
+
+          <div class="box-row box-row-text styled-content">
+            <Fragment set:html={eventDetails.content} />
+          </div>
+
+          {
+            eventDetails.speakers && eventDetails.speakers.length > 0 && (
+              <>
+                <SocialShare
+                  title={`${eventDetails.title} - GOSIM AI Paris 2025`}
+                  description={eventDetails.content
+                    .replace(/<[^>]*>/g, "")
+                    .substring(0, 160)}
+                />
+                <h2 class="h4 event-speaker-title">Speakers</h2>
+                <div class="card-row card-row-speakers event-detail_speakers">
+                  {eventDetails.speakers.map((speaker) => {
+                    // Find full speaker details from speakers.json
+                    const fullSpeakerDetails = speakers.speakers.find(
+                      (s) => s.name === speaker.name
+                    );
+
+                    return (
+                      <div class="card-col">
+                        <a
+                          href={`/speakers/${fullSpeakerDetails?.id || speaker.name.toLowerCase().replace(/\s+/g, "-")}/`}
+                        >
+                          <div class="single-speakers-card">
+                            <div class="card-row card-row-image">
+                              <div class="card-image">
+                                {speaker?.image &&
+                                  images[
+                                    `/public/images/speakers/${speaker.image}`
+                                  ] && (
+                                    <Picture
+                                      src={images[
+                                        `/public/images/speakers/${speaker.image}`
+                                      ]()}
+                                      formats={["webp", "jpg"]}
+                                      alt={speaker.name}
+                                      class="overlay"
+                                      widths={[275, 400, 500, 600, 750, 900]}
+                                      sizes="(max-width: 700px) 58vw, 450px"
+                                    />
+                                  )}
+                              </div>
+                            </div>
+                            <div class="card-row card-row-info">
+                              <h3 class="h5">{speaker.name}</h3>
+                              <p>{speaker.roleOrg}</p>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    );
+                  })}
+                </div>
+              </>
+            )
+          }
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 </Layout>
