@@ -1,0 +1,335 @@
+[
+  {
+    "date": "May 5",
+    "timeSlot": "09:00 - 10:00",
+    "title": "Registration/Welcome coffee",
+    "content": "",
+    "speakers": []
+  },
+  {
+    "date": "May 5",
+    "timeSlot": "10:00 - 10:15",
+    "title": "Opening Remarks",
+    "content": "",
+    "speakers": [
+      {
+        "id": "gal-blondelle",
+        "name": "Gaël Blondelle",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "Eclipse Foundation",
+        "image": "gal-blondelle.jpeg"
+      }
+    ]
+  },
+  {
+    "date": "May 5",
+    "timeSlot": "10:15 - 11:45",
+    "title": "Global Digital Collaboration",
+    "content": "",
+    "speakers": [
+      {
+        "id": "daniel-goldscheider",
+        "name": "Daniel Goldscheider",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "OWF",
+        "image": "daniel-goldscheider.jpeg"
+      },
+      {
+        "id": "stefano-mafulli",
+        "name": "Stefano Mafulli",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "OSI",
+        "image": "stefano-mafulli.jpeg"
+      },
+      {
+        "id": "ciarn-oriordan",
+        "name": "Ciarán O'Riordan",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "OFE",
+        "image": "ciarn-oriordan.jpeg"
+      },
+      {
+        "id": "manuel-btin",
+        "name": "Manuel Bétin",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "OCDE",
+        "image": "manuel-btin.jpeg"
+      },
+      {
+        "id": "professor-qin-wang",
+        "name": "Professor Qin Wang",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "CAAS",
+        "image": "professor-qin-wang.jpeg"
+      },
+      {
+        "id": "yonghua-lin",
+        "name": "Yonghua Lin",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "BAAI",
+        "image": "yonghua-lin.jpeg"
+      }
+    ]
+  },
+  {
+    "date": "May 5",
+    "timeSlot": "11:45 - 12:00",
+    "title": "Coffee break",
+    "content": "",
+    "speakers": []
+  },
+  {
+    "date": "May 5",
+    "timeSlot": "12:00 - 13:00",
+    "title": "Open Source AI enables Sovereignty and Digital Autonomy",
+    "content": "",
+    "speakers": [
+      {
+        "id": "michael-plagge",
+        "name": "Michael Plagge",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "EF",
+        "image": "michael-plagge.jpeg"
+      },
+      {
+        "id": "yann-lechelle",
+        "name": "Yann Lechelle",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "Probabl.ai",
+        "image": "yann-lechelle.jpeg"
+      },
+      {
+        "id": "michel-marie-maudet",
+        "name": "Michel-Marie Maudet",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "Linagora",
+        "image": "michel-marie-maudet.jpeg"
+      },
+      {
+        "id": "cailean-osborne",
+        "name": "Cailean Osborne",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "Linux Foundation",
+        "image": "cailean-osborne.jpeg"
+      }
+    ]
+  },
+  {
+    "date": "May 5",
+    "timeSlot": "13:00 - 14:00",
+    "title": "Lunch",
+    "content": "",
+    "speakers": []
+  },
+  {
+    "date": "May 5",
+    "timeSlot": "14:00 - 14:30",
+    "title": "Lightning talks about tools: LMOS, PyTorch, Qwen",
+    "content": "",
+    "speakers": [
+      {
+        "id": "arun-joseph",
+        "name": "Arun Joseph",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "Deutsch Telekom",
+        "image": "arun-joseph.jpeg"
+      },
+      {
+        "id": "matt-white",
+        "name": "Matt White",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "Pytorch Foundation",
+        "image": "matt-white.jpeg"
+      },
+      {
+        "id": "baosong-yang",
+        "name": "Baosong Yang",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "Alibaba",
+        "image": "baosong-yang.jpeg"
+      }
+    ]
+  },
+  {
+    "date": "May 5",
+    "timeSlot": "14:30 - 15:30",
+    "title": "Open-Source AI and Research",
+    "content": "",
+    "speakers": [
+      {
+        "id": "gal-blondelle",
+        "name": "Gaël Blondelle",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "EF",
+        "image": "gal-blondelle.jpeg"
+      },
+      {
+        "id": "ovidiu-vermesan",
+        "name": "Ovidiu Vermesan",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "SINTEF",
+        "image": "ovidiu-vermesan.jpeg"
+      },
+      {
+        "id": "pierre-gaillard",
+        "name": "Pierre Gaillard",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "CEA",
+        "image": "pierre-gaillard.jpeg"
+      },
+      {
+        "id": "yumei-he",
+        "name": "Yumei He",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "Tulane University",
+        "image": "yumei-he.jpeg"
+      },
+      {
+        "id": "jenia-jitsev-marianna-nezhurina",
+        "name": "Jenia Jitsev, Marianna Nezhurina",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "Laion",
+        "image": "jenia-jitsev-marianna-nezhurina.jpeg"
+      }
+    ]
+  },
+  {
+    "date": "May 5",
+    "timeSlot": "15:30 - 15:45",
+    "title": "Coffee break",
+    "content": "",
+    "speakers": []
+  },
+  {
+    "date": "May 5",
+    "timeSlot": "15:45 - 16:45",
+    "title": "Open-Source AI Solutions",
+    "content": "",
+    "speakers": [
+      {
+        "id": "alexy-khrabrov",
+        "name": "Alexy Khrabrov",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "Neo4J",
+        "image": "alexy-khrabrov.jpeg"
+      },
+      {
+        "id": "quentin-adam",
+        "name": "Quentin Adam",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "CleverCloud",
+        "image": "quentin-adam.jpeg"
+      },
+      {
+        "id": "arun-joseph",
+        "name": "Arun Joseph",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "Deutsche Telekom",
+        "image": "arun-joseph.jpeg"
+      }
+    ]
+  },
+  {
+    "date": "May 5",
+    "timeSlot": "16:45 - 17:45",
+    "title": "Responsible AI",
+    "content": "",
+    "speakers": [
+      {
+        "id": "volha",
+        "name": "Volha",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "Olga",
+        "image": "volha.jpeg"
+      },
+      {
+        "id": "roberto-di-cosmo",
+        "name": "Roberto Di Cosmo",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "SW Heritage",
+        "image": "roberto-di-cosmo.jpeg"
+      },
+      {
+        "id": "sray-agarwal",
+        "name": "Sray Agarwal",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "Infosys",
+        "image": "sray-agarwal.jpeg"
+      }
+    ]
+  },
+  {
+    "date": "May 5",
+    "timeSlot": "17:45 - 18:00",
+    "title": "Conclusion / Closing Remarks",
+    "content": "",
+    "speakers": [
+      {
+        "id": "gal-blondelle",
+        "name": "Gaël Blondelle",
+        "tags": [
+          "forum"
+        ],
+        "roleOrg": "EF",
+        "image": "gal-blondelle.jpeg"
+      }
+    ]
+  },
+  {
+    "date": "May 5",
+    "timeSlot": "18:30 - 22:00",
+    "title": "Seine River Cruise Dinner",
+    "content": "",
+    "speakers": []
+  }
+]

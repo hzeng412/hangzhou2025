@@ -3,9 +3,10 @@
 import Layout from "layouts/Layout.astro";
 import ForumHero from "components/ForumHero.astro";
 import Intro from "components/Intro.astro";
-import Agenda from "components/Agenda.astro";
+/*import Agenda from "components/Agenda.astro";*/
 import Cards from "components/Cards.astro";
 import ForumInvitation from "components/TextAndImage.astro";
+import ForumSchedule from "components/Forumschedule.astro";
 
 // Images
 import ForumInvite from "images/homepage/forum-invite.webp";
@@ -72,7 +73,8 @@ import ForumInvite from "images/homepage/forum-invite.webp";
       },
     ]}
   />
-  <Agenda
+  <ForumSchedule />
+  <!-- <Agenda
     title="Agenda"
     list={[
       {
@@ -111,7 +113,7 @@ import ForumInvite from "images/homepage/forum-invite.webp";
         `,
       },
     ]}
-  />
+  /> -->
   <Cards
     title="Forum Outputs"
     description="Participants will contribute to developing tangible outcomes that influence the future of AI strategy."
