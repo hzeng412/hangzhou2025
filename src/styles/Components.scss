@@ -848,8 +848,10 @@
   margin-bottom: 20px;
 }
 .event-detail_speakers {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  width: 100%;
 }
 .flex-event {
   display: flex;
@@ -1577,4 +1579,16 @@
 [data-modal-prelaunch-status="active"] .modal-container-prelaunch .overlay-dark {
    opacity: 1;
    visibility: visible;
+}
+
+@media screen and (max-width: 768px) {
+  .event-detail_speakers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .event-detail_speakers {
+    grid-template-columns: 1fr;
+  }
 }
