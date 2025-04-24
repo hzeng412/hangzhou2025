@@ -7,6 +7,7 @@ import Intro from "components/Intro.astro";
 import Cards from "components/Cards.astro";
 import ForumInvitation from "components/TextAndImage.astro";
 import ForumSchedule from "components/Forumschedule.astro";
+import TextAndSponsors from "components/TextAndSponsors.astro";
 
 // Images
 import ForumInvite from "images/homepage/forum-invite.webp";
@@ -28,43 +29,76 @@ import ForumInvite from "images/homepage/forum-invite.webp";
   >
     <Intro>
       <h1 class="h3 light split-words animate-read mb-4" style="font-size:1.5rem; text-align: justify;">    
-        Co-organized by the <b><a href="https://www.eclipse.org/" target="_blank" rel="noopener noreferrer">Eclipse Foundation</a></b> and <b><a href="https://gosim.org/" target="_blank" rel="noopener noreferrer">GOSIM</a></b>, the Open Source AI Strategy Forum brings together global thought leaders, researchers, and open-source AI pioneers, and digital sovereignty advocates to reflect on the strategic role of open source AI in global collaboration and the pressing challenges we are facing. The Forum adopts a hybrid format with short presentations and a priority on open dialogue and collective thinking, operating under the Chatham House Rule to ensure that all participants can freely exchange ideas.
+        Co-organized by the <b><a href="https://www.eclipse.org/" target="_blank" rel="noopener noreferrer">Eclipse Foundation</a></b> and <b><a href="https://gosim.org/" target="_blank" rel="noopener noreferrer">GOSIM</a></b>, the Open Source AI Strategy Forum brings together global thought leaders, researchers, and open-source AI pioneers, and digital sovereignty advocates to reflect on the strategic role of open source AI in global collaboration and the pressing challenges we are facing. The Forum adopts a hybrid format with short presentations and a priority on open dialogue and collective thinking, operating under the <b><a href="https://www.chathamhouse.org/about-us/chatham-house-rule" target="_blank" rel="noopener noreferrer">Chatham House Rule</a></b> to ensure that all participants can freely exchange ideas.
         The event will culminate in a networking dinner cruise along the Seine River, providing a scenic and informal setting for further discussions and collaborations.        
       </h1>
     </Intro>
   </div>
+
+  <TextAndSponsors
+  title="Proudly Supported By"
+  text="This event is generously supported by our Supporting Organizations."
+
+  logos={[
+        {
+      image: "eclipse-foundation.png",
+      imageAlt: "Eclipse Foundation logo",
+    },
+    {
+      image: "openwallet.png",
+      imageAlt: "OpenWallet logo",
+    },
+    {
+      image: "sw-heritage.png",
+      imageAlt: "Software Heritage Foundation logo",
+    },
+    {
+      image: "linux-foundation-research.png",
+      imageAlt: "Linux Foundation Research logo",
+    },
+    {
+      image: "lf-gen-ai.png",
+      imageAlt: "Linux Foudnation logo",
+    },
+
+    {
+      image: "osi.png",
+      imageAlt: "Open Source Initiative logo",
+    },
+  ]}
+/>
   <Cards
     title="Key Focus Areas"
     description="The forum will explore five key themes shaping the future of open-source AI."
     cards={[
       {
-        title: "AI Models & Innovation",
+        title: "Global Digital Collaboration",
         description:
-          "Addressing the need for transparency, reproducibility, and accessibility in AI model development.",
+          "How open-source AI bridges divides and accelerates innovation globally. Highlighting best practices, successful initiatives, and overcoming barriers.",
         image: "/icons/aimodels.svg",
       },
       {
-        title: "Openness & Collaboration",
+        title: "Open-Source AI: Enabling Sovereignty and Digital Autonomy",
         description:
-          "Defining standards and best practices for open AI ecosystems.",
-        image: "/icons/collaboration.svg",
-      },
-      {
-        title: "Sustainability & Resources",
-        description:
-          "Ensuring the long-term viability of open-source AI through funding, infrastructure, and responsible energy use.",
-        image: "/icons/sustainability.svg",
-      },
-      {
-        title: "Governance & Ethics",
-        description:
-          "Navigating regulatory frameworks, ethical considerations, and trust mechanisms in open AI development.",
+          "Balancing global collaboration with national digital autonomy through policies, frameworks, and technologies.",
         image: "/icons/governance.svg",
       },
       {
-        title: "Sovereignty & Strategic Autonomy",
+        title: "Open-Source AI and Research",
         description:
-          "Balancing global collaboration with national and regional sovereignty in AI infrastructure and policy.",
+          "The synergy between open-source communities and academic research, including successful partnerships and knowledge sharing.",
+        image: "/icons/sustainability.svg",
+      },
+      {
+        title: "Open-Source AI Solutions",
+        description:
+          "Leveraging open-source AI for business innovation, efficiency, and competitive advantage, with real-world examples and adoption strategies.",
+        image: "/icons/collaboration.svg",
+      },
+      {
+        title: "Responsible AI",
+        description:
+          "Community-driven approaches to ethical, transparent, and accountable AI, emphasizing governance and unbiased solutions.",
         image: "/icons/sovereignty.svg",
       },
     ]}
@@ -134,28 +168,23 @@ import ForumInvite from "images/homepage/forum-invite.webp";
       },
     ]}
   />
-  <Cards
+ <!--  <Cards
     title="Forum Participants"
     description="An exclusive gathering of decision-makers and thought leaders across the AI ecosystem."
     cards={[
       {
         title: "OSS AI Model Partners",
-        description: "BAAI, Qwen, Mistral, Llama, etc.",
+        description: "BAAI, Qwen, LAION, HuggingFace, etc.",
         image: "/icons/ossmodels.svg",
       },
       {
         title: "OSS Foundations",
         description:
-          "Linux Foundation, LF EU, Eclipse, OpenAtom, OFE, NLnet, Software Heritage Foundation, Sustainable AI Coalition, etc.",
+          "Linux Foundation, OpenWallet Foundation, Open-Source Initiative, Eclipse Foundation, OpenForum Europe, Software Heritage Foundation etc.",
         image: "/icons/foundation.svg",
-      },
-      {
-        title: "International Organizations",
-        description: "UN, ITU AI4Goods, D20, etc.",
-        image: "/icons/international.svg",
-      },
+      }
     ]}
-  />
+  /> -->
   <ForumInvitation
     title="Forum Invitation"
     text="Join us for an exclusive gathering of AI leaders and innovators. This invitation-only forum will bring together the brightest minds in open-source AI to shape the future of artificial intelligence. Request more information below to learn about participation opportunities."
