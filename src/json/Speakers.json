@@ -23,6 +23,10 @@
     {
       "name": "PyTorch Day France",
       "id": "pytorch"
+    },
+    {
+      "name": "Forum",
+      "id": "forum"
     }
   ],
   "speakers": [
@@ -1402,12 +1406,108 @@
       "draft": false
     },
     {
+      "id": "quentin-adam",
+      "name": "Quentin Adam",
+      "bio": "",
+      "role": "",
+      "org": "CleverCloud",
+      "roleOrg": "CleverCloud",
+      "image": "generic-profile.png",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+
+    {
+      "id": "manuel-betin",
+      "name": "Manuel Bétin",
+      "bio": "",
+      "role": "",
+      "org": "OCDE",
+      "roleOrg": "OCDE",
+      "image": "generic-profile.png",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "pierre-gaillard",
+      "name": "Pierre Gaillard",
+      "bio": "",
+      "role": "",
+      "org": "CEA",
+      "roleOrg": "CEA",
+      "image": "generic-profile.png",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "gael-blondelle",
       "name": "Gaël Blondelle",
       "bio": "",
       "role": "",
       "org": "Eclipse Foundation",
       "roleOrg": "Eclipse Foundation",
+      "image": "generic-profile.png",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "arun-joseph",
+      "name": "Arun Joseph",
+      "bio": "",
+      "role": "",
+      "org": "Deutsch Telekom",
+      "roleOrg": "Deutsch Telekom",
+      "image": "generic-profile.png",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "yann-lechelle",
+      "name": "Yann Lechelle",
+      "bio": "",
+      "role": "",
+      "org": "Probabl.ai",
+      "roleOrg": "Probabl.ai",
       "image": "generic-profile.png",
       "tag": "forum",
       "socialLinks": {
@@ -1459,26 +1559,6 @@
       "draft": false
     },
     {
-      "id": "manuel-betin",
-      "name": "Manuel Bétin",
-      "bio": "",
-      "role": "",
-      "org": "OCDE",
-      "roleOrg": "OCDE",
-      "image": "generic-profile.png",
-      "tag": "forum",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-
-    {
       "id": "michael-plagge",
       "name": "Michael Plagge",
       "bio": "",
@@ -1498,89 +1578,12 @@
       "draft": false
     },
     {
-      "id": "yann-lechelle",
-      "name": "Yann Lechelle",
-      "bio": "",
-      "role": "",
-      "org": "Probabl.ai",
-      "roleOrg": "Probabl.ai",
-      "image": "generic-profile.png",
-      "tag": "forum",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-
-    {
-      "id": "arun-joseph",
-      "name": "Arun Joseph",
-      "bio": "",
-      "role": "",
-      "org": "Deutsch Telekom",
-      "roleOrg": "Deutsch Telekom",
-      "image": "generic-profile.png",
-      "tag": "forum",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
       "id": "ovidiu-vermesan",
       "name": "Ovidiu Vermesan",
       "bio": "",
       "role": "",
       "org": "SINTEF",
       "roleOrg": "SINTEF",
-      "image": "generic-profile.png",
-      "tag": "forum",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "pierre-gaillard",
-      "name": "Pierre Gaillard",
-      "bio": "",
-      "role": "",
-      "org": "CEA",
-      "roleOrg": "CEA",
-      "image": "generic-profile.png",
-      "tag": "forum",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "quentin-adam",
-      "name": "Quentin Adam",
-      "bio": "",
-      "role": "",
-      "org": "CleverCloud",
-      "roleOrg": "CleverCloud",
       "image": "generic-profile.png",
       "tag": "forum",
       "socialLinks": {
