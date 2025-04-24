@@ -5,9 +5,9 @@ import ForumHero from "components/ForumHero.astro"
 import Intro from "components/Intro.astro"
 /*import Agenda from "components/Agenda.astro";*/
 import Cards from "components/Cards.astro"
-// import CardsSponsors from "components/CardsSponsors.astro"
 import ForumInvitation from "components/TextAndImage.astro"
 import ForumSchedule from "components/Forumschedule.astro"
+import TextAndSponsors from "components/TextAndSponsors.astro"
 
 // Images
 import ForumInvite from "images/homepage/forum-invite.webp"
@@ -49,38 +49,82 @@ import ForumInvite from "images/homepage/forum-invite.webp"
         sovereignty advocates to reflect on the strategic role of open source AI
         in global collaboration and the pressing challenges we are facing. The
         Forum adopts a hybrid format with short presentations and a priority on
-        open dialogue and collective thinking, operating under the Chatham House
-        Rule to ensure that all participants can freely exchange ideas. The
-        event will culminate in a networking dinner cruise along the Seine
-        River, providing a scenic and informal setting for further discussions
-        and collaborations.
+        open dialogue and collective thinking, operating under the <b
+          ><a
+            href="https://www.chathamhouse.org/about-us/chatham-house-rule"
+            target="_blank"
+            rel="noopener noreferrer">Chatham House Rule</a
+          ></b
+        > to ensure that all participants can freely exchange ideas. The event will
+        culminate in a networking dinner cruise along the Seine River, providing
+        a scenic and informal setting for further discussions and collaborations.
       </h1>
     </Intro>
   </div>
+
+  <TextAndSponsors
+    title="Proudly Supported By"
+    text="This event is generously supported by our Supporting Organizations."
+    logos={[
+      {
+        image: "eclipse-foundation.png",
+        imageAlt: "Eclipse Foundation logo",
+      },
+      {
+        image: "openwallet.png",
+        imageAlt: "OpenWallet logo",
+      },
+      {
+        image: "sw-heritage.png",
+        imageAlt: "Software Heritage Foundation logo",
+      },
+      {
+        image: "linux-foundation-research.png",
+        imageAlt: "Linux Foundation Research logo",
+      },
+      {
+        image: "lf-gen-ai.png",
+        imageAlt: "Linux Foudnation logo",
+      },
+
+      {
+        image: "osi.png",
+        imageAlt: "Open Source Initiative logo",
+      },
+    ]}
+  />
   <Cards
     title="Key Focus Areas"
     description="The forum will explore these key themes shaping the future of open-source AI."
     cards={[
       {
         title: "Global Digital Collaboration",
-        description: "How can open source AI foster global collaboration?",
+        description:
+          "How open-source AI bridges divides and accelerates innovation globally. Highlighting best practices, successful initiatives, and overcoming barriers.",
         image: "/icons/collaboration.svg",
       },
       {
-        title: "Open Source AI Enabling Sovereignty and Digital Autonomy",
+        title: "Open-Source AI: Enabling Sovereignty and Digital Autonomy",
         description:
-          "Balancing global collaboration with sovereignty in AI infrastructure.",
+          "Balancing global collaboration with national digital autonomy through policies, frameworks, and technologies.",
         image: "/icons/sovereignty.svg",
       },
       {
-        title: "Open Source AI in Research",
-        description: "Exploring the relationship between research and AI",
+        title: "Open-Source AI and Research",
+        description:
+          "The synergy between open-source communities and academic research, including successful partnerships and knowledge sharing.",
+        image: "/icons/governance.svg",
+      },
+      {
+        title: "Open-Source AI Solutions",
+        description:
+          "Leveraging open-source AI for business innovation, efficiency, and competitive advantage, with real-world examples and adoption strategies.",
         image: "/icons/aimodels.svg",
       },
       {
         title: "Responsible AI",
         description:
-          "How can open source communities contribute to ethical, transparent, and accountable AI?",
+          "Community-driven approaches to ethical, transparent, and accountable AI, emphasizing governance and unbiased solutions.",
         image: "/icons/sustainability.svg",
       },
     ]}
@@ -150,28 +194,23 @@ import ForumInvite from "images/homepage/forum-invite.webp"
       },
     ]}
   />
-  <Cards
+  <!--  <Cards
     title="Forum Participants"
     description="An exclusive gathering of decision-makers and thought leaders across the AI ecosystem."
     cards={[
       {
         title: "OSS AI Model Partners",
-        description: "BAAI, Qwen, Mistral, Llama, etc.",
+        description: "BAAI, Qwen, LAION, HuggingFace, etc.",
         image: "/icons/ossmodels.svg",
       },
       {
         title: "OSS Foundations",
         description:
-          "Linux Foundation, LF EU, Eclipse, OpenAtom, OFE, NLnet, Software Heritage Foundation, Sustainable AI Coalition, etc.",
+          "Linux Foundation, OpenWallet Foundation, Open-Source Initiative, Eclipse Foundation, OpenForum Europe, Software Heritage Foundation etc.",
         image: "/icons/foundation.svg",
-      },
-      {
-        title: "International Organizations",
-        description: "UN, ITU AI4Goods, D20, etc.",
-        image: "/icons/international.svg",
-      },
+      }
     ]}
-  />
+  /> -->
   <ForumInvitation
     title="Forum Invitation"
     text="Join us for an exclusive gathering of AI leaders and innovators. This invitation-only forum will bring together the brightest minds in open-source AI to shape the future of artificial intelligence. Request more information below to learn about participation opportunities."
