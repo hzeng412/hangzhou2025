@@ -33,8 +33,8 @@
       "role": "Head of Responsible AI (EMEA & APAC)",
       "org": "Infosys",
       "roleOrg": "Head of Responsible AI (EMEA & APAC) at Infosys",
-      "image": "sray-agarwal.JPG",
-      "tag": "osaisf",
+      "image": "sray-agarwal.jpg",
+      "tag": "forum",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -43,7 +43,7 @@
         "website": "undefined"
       },
       "status": "New",
-      "draft": true
+      "draft": false
     },
     {
       "id": "tbd",
@@ -271,7 +271,7 @@
       "org": "Software Heritage / Inria",
       "roleOrg": "Director at Software Heritage / Inria",
       "image": "roberto-di-cosmo.png",
-      "tag": "osaisf",
+      "tag": "forum",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "rdicosmo",
@@ -280,7 +280,7 @@
         "website": "https://dicosmo.org"
       },
       "status": "New",
-      "draft": true
+      "draft": false
     },
     {
       "id": "sebastien-crozet",
@@ -328,7 +328,7 @@
       "org": "OpenWallet",
       "roleOrg": "Executive Director at OpenWallet",
       "image": "daniel-goldscheider.jpeg",
-      "tag": "osaisf",
+      "tag": "forum",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://x.com/goldscheider",
@@ -337,7 +337,7 @@
         "website": "undefined"
       },
       "status": "New",
-      "draft": true
+      "draft": false
     },
     {
       "id": "garrett-goon",
@@ -404,7 +404,7 @@
       "org": "Tulane University",
       "roleOrg": "Assistant Professor at Tulane University",
       "image": "yumei-he.jpeg",
-      "tag": "osaisf",
+      "tag": "forum",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -413,7 +413,7 @@
         "website": "https://freeman.tulane.edu/faculty-research/management-science/yumei-he"
       },
       "status": "New",
-      "draft": true
+      "draft": false
     },
     {
       "id": "sirui-hong",
@@ -720,6 +720,25 @@
       "draft": false
     },
     {
+      "id": "volha-litvinets",
+      "name": "Volha Litvinets",
+      "bio": "As a Digital Ethics Lead at Ernst & Young Advisory, France, Volha (Olga) is experienced in innovation and Responsible Artificial Intelligence (AI). With a PhD in AI ethics from Sorbonne University and an INSEAD Business School diploma, she drives responsible technology initiatives, bringing a wealth of experience from the private sector, public sector and Non-Governmental Organizations (NGOs), having worked in strategy, development, research and education.\r\n\r\nAt the Global EY organization, Olga has led projects for key clients and developed methodologies focused on responsible AI and risk management. She led several workshops and published articles related to responsible AI and operational ethics and represented the organization at internal and external events.\r\n\r\nPreviously, Olga was a research fellow at the Carnegie Council for Ethics in International Affairs and analyzed lethal autonomous weapons conventions at the United Nations Office for Disarmament Affairs.\r\n\r\nOlga is at the forefront of integrating responsible AI practices within client operations. She employs a dual approach: driving top-down implementation of AI governance while fostering bottom-up engagement through AI literacy trainings. Her initiatives aim to raise awareness and to help ensure AI technologies are developed and deployed ethically and sustainably, aligned with human rights, to help clients navigate the complexities of AI responsibly, reinforcing core business values.",
+      "role": "Digital Ethics Lead / Responsible AI",
+      "org": "Ernst&Young Advisory",
+      "roleOrg": "Digital Ethics Lead / Responsible AI at Ernst&Young Advisory",
+      "image": "volha-litvinets.jpg",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "https://www.linkedin.com/in/litvinets/",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "guang-liu",
       "tag": "ai-model",
       "name": "Guang Liu",
@@ -819,7 +838,7 @@
       "role": "General Manager",
       "org": "LINAGORA - OpenLLM France",
       "roleOrg": "General Manager at LINAGORA - OpenLLM France",
-      "image": "michelmarie-maudet.png",
+      "image": "michel-marie-maudet.png",
       "tag": "ai-model",
       "socialLinks": {
         "mastodon": "undefined",
@@ -877,16 +896,16 @@
       "org": "Juelich Supercomputing Centre",
       "roleOrg": "Researcher at Juelich Supercomputing Centre",
       "image": "marianna-nezhurina.jpg",
-      "tag": "osaisf",
+      "tag": "forum",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "",
-        "github": "marianna13",
+        "github": "https://github.com/marianna13",
         "linkedin": "undefined",
         "website": "undefined"
       },
       "status": "New",
-      "draft": true
+      "draft": false
     },
     {
       "id": "hong-thai-nguyen",
@@ -965,14 +984,14 @@
       "draft": false
     },
     {
-      "id": "cailean-osborne-phd",
+      "id": "cailean-osborne",
       "name": "Cailean Osborne, PhD",
       "bio": "Cailean Osborne is a senior researcher at the Linux Foundation, who leads strategic research on open source AI. Cailean has a PhD in Social Data Science from the University of Oxford, where he researched commercial interests and collaboration dynamics in open source AI developer communities, and in 2023-2024 he was a visiting researcher at Peking University’s Open Source Software Data Analytics Lab. Previously, Cailean worked in AI policy at the UK Government and was a UK government delegate at the OECD’s Global Partnership on AI and the Council of Europe’s Committee on AI. Cailean is based in Berlin, Germany.",
       "role": "Senior Researcher",
       "org": "Linux Foundation",
       "roleOrg": "Senior Researcher at Linux Foundation",
-      "image": "cailean-osborne-phd.png",
-      "tag": "osaisf",
+      "image": "cailean-osborne.png",
+      "tag": "forum",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -981,7 +1000,7 @@
         "website": "undefined"
       },
       "status": "New",
-      "draft": true
+      "draft": false
     },
     {
       "id": "diego-rojas",
@@ -1143,7 +1162,7 @@
       "org": "Chinese Academy of Social Sciences",
       "roleOrg": "Professor at Chinese Academy of Social Sciences",
       "image": "qin-wang.jpg",
-      "tag": "osaisf",
+      "tag": "forum",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1152,7 +1171,7 @@
         "website": "undefined"
       },
       "status": "New",
-      "draft": true
+      "draft": false
     },
     {
       "id": "xiyuan-wang",
@@ -1372,6 +1391,198 @@
       "image": "yiran-zhong.png",
       "org": "MiniMax",
       "role": "Senior Research Director",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "gael-blondelle",
+      "name": "Gaël Blondelle",
+      "bio": "",
+      "role": "",
+      "org": "Eclipse Foundation",
+      "roleOrg": "Eclipse Foundation",
+      "image": "generic-profile.png",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "stefano-mafulli",
+      "name": "Stefano Mafulli",
+      "bio": "",
+      "role": "",
+      "org": "OSI",
+      "roleOrg": "OSI",
+      "image": "generic-profile.png",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "ciaran-oriordan",
+      "name": "Ciarán O'Riordan",
+      "bio": "",
+      "role": "",
+      "org": "OFE",
+      "roleOrg": "OFE",
+      "image": "generic-profile.png",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "manuel-betin",
+      "name": "Manuel Bétin",
+      "bio": "",
+      "role": "",
+      "org": "OCDE",
+      "roleOrg": "OCDE",
+      "image": "generic-profile.png",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+
+    {
+      "id": "michael-plagge",
+      "name": "Michael Plagge",
+      "bio": "",
+      "role": "",
+      "org": "EF",
+      "roleOrg": "EF",
+      "image": "generic-profile.png",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "yann-lechelle",
+      "name": "Yann Lechelle",
+      "bio": "",
+      "role": "",
+      "org": "Probabl.ai",
+      "roleOrg": "Probabl.ai",
+      "image": "generic-profile.png",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+
+    {
+      "id": "arun-joseph",
+      "name": "Arun Joseph",
+      "bio": "",
+      "role": "",
+      "org": "Deutsch Telekom",
+      "roleOrg": "Deutsch Telekom",
+      "image": "generic-profile.png",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "ovidiu-vermesan",
+      "name": "Ovidiu Vermesan",
+      "bio": "",
+      "role": "",
+      "org": "SINTEF",
+      "roleOrg": "SINTEF",
+      "image": "generic-profile.png",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "pierre-gaillard",
+      "name": "Pierre Gaillard",
+      "bio": "",
+      "role": "",
+      "org": "CEA",
+      "roleOrg": "CEA",
+      "image": "generic-profile.png",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "quentin-adam",
+      "name": "Quentin Adam",
+      "bio": "",
+      "role": "",
+      "org": "CleverCloud",
+      "roleOrg": "CleverCloud",
+      "image": "generic-profile.png",
+      "tag": "forum",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",

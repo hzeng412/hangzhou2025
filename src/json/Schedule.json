@@ -46,7 +46,7 @@
         "date": "May 6",
         "timeSlot": "10:00 - 10:30",
         "title": "Morning Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {
@@ -83,7 +83,7 @@
         "date": "May 6",
         "timeSlot": "12:00 - 14:00",
         "title": "Lunch Break",
-        "content": "",
+        "content": "Food & drinks",
         "speakers": []
       },
       {
@@ -127,7 +127,7 @@
         "date": "May 6",
         "timeSlot": "15:20 - 15:40",
         "title": "Afternoon Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {
@@ -178,7 +178,7 @@
         "date": "May 7",
         "timeSlot": "10:00 - 10:30",
         "title": "Morning Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {
@@ -215,7 +215,7 @@
         "date": "May 7",
         "timeSlot": "12:00 - 14:00",
         "title": "Lunch Break",
-        "content": "",
+        "content": "Food & drinks",
         "speakers": []
       },
       {
@@ -236,7 +236,7 @@
             "name": "Michel-Marie Maudet",
             "tags": ["ai-model"],
             "roleOrg": "General Manager at LINAGORA - OpenLLM France",
-            "image": "michelmarie-maudet.png"
+            "image": "michel-marie-maudet.png"
           }
         ]
       },
@@ -259,7 +259,7 @@
         "date": "May 7",
         "timeSlot": "15:20 - 15:40",
         "title": "Afternoon Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {
@@ -312,7 +312,7 @@
         "date": "May 6",
         "timeSlot": "10:00 - 10:30",
         "title": "Morning Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {
@@ -349,7 +349,7 @@
         "date": "May 6",
         "timeSlot": "12:00 - 14:00",
         "title": "Lunch Break",
-        "content": "",
+        "content": "Food & drinks",
         "speakers": []
       },
       {
@@ -393,7 +393,7 @@
         "date": "May 6",
         "timeSlot": "15:20 - 15:40",
         "title": "Afternoon Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {
@@ -444,7 +444,7 @@
         "date": "May 7",
         "timeSlot": "10:00 - 10:30",
         "title": "Morning Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {
@@ -481,7 +481,7 @@
         "date": "May 7",
         "timeSlot": "12:00 - 14:00",
         "title": "Lunch Break",
-        "content": "",
+        "content": "Food & drinks",
         "speakers": []
       },
       {
@@ -525,7 +525,7 @@
         "date": "May 7",
         "timeSlot": "15:20 - 15:40",
         "title": "Afternoon Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {
@@ -578,7 +578,7 @@
         "date": "May 6",
         "timeSlot": "10:00 - 10:30",
         "title": "Morning Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {
@@ -619,7 +619,7 @@
         "date": "May 6",
         "timeSlot": "12:00 - 14:00",
         "title": "Lunch Break",
-        "content": "",
+        "content": "Food & drinks",
         "speakers": []
       },
       {
@@ -667,7 +667,7 @@
         "date": "May 6",
         "timeSlot": "15:20 - 15:40",
         "title": "Afternoon Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {
@@ -739,7 +739,7 @@
         "date": "May 7",
         "timeSlot": "10:00 - 10:30",
         "title": "Morning Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {
@@ -780,7 +780,7 @@
         "date": "May 7",
         "timeSlot": "12:00 - 14:00",
         "title": "Lunch Break",
-        "content": "",
+        "content": "Food & drinks",
         "speakers": []
       },
       {
@@ -811,7 +811,7 @@
         "date": "May 7",
         "timeSlot": "15:20 - 15:40",
         "title": "Afternoon Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {
@@ -868,7 +868,7 @@
         "date": "May 6",
         "timeSlot": "10:00 - 10:30",
         "title": "Morning Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {
@@ -905,7 +905,7 @@
         "date": "May 6",
         "timeSlot": "12:00 - 14:00",
         "title": "Lunch Break",
-        "content": "",
+        "content": "Food & drinks",
         "speakers": []
       },
       {
@@ -949,7 +949,7 @@
         "date": "May 6",
         "timeSlot": "15:20 - 15:40",
         "title": "Afternoon Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {
@@ -1000,7 +1000,7 @@
         "date": "May 7",
         "timeSlot": "10:00 - 10:30",
         "title": "Morning Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {
@@ -1037,7 +1037,7 @@
         "date": "May 7",
         "timeSlot": "12:00 - 14:00",
         "title": "Lunch Break",
-        "content": "",
+        "content": "Food & drinks",
         "speakers": []
       },
       {
@@ -1081,7 +1081,7 @@
         "date": "May 7",
         "timeSlot": "15:20 - 15:40",
         "title": "Afternoon Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {
@@ -1134,7 +1134,7 @@
         "date": "May 7",
         "timeSlot": "10:00 - 10:30",
         "title": "Morning Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {
@@ -1200,7 +1200,7 @@
         "date": "May 7",
         "timeSlot": "12:00 - 14:00",
         "title": "Lunch Break",
-        "content": "",
+        "content": "Food & drinks",
         "speakers": []
       },
       {
@@ -1259,7 +1259,7 @@
         "date": "May 7",
         "timeSlot": "15:20 - 15:40",
         "title": "Afternoon Coffee",
-        "content": "",
+        "content": "Coffee & hors d’oeuvres",
         "speakers": []
       },
       {

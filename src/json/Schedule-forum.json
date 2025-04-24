@@ -13,13 +13,11 @@
     "content": "",
     "speakers": [
       {
-        "id": "gal-blondelle",
+        "id": "gael-blondelle",
         "name": "Gaël Blondelle",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "Eclipse Foundation",
-        "image": "gal-blondelle.jpeg"
+        "image": "generic-profile.png"
       }
     ]
   },
@@ -32,56 +30,44 @@
       {
         "id": "daniel-goldscheider",
         "name": "Daniel Goldscheider",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "OWF",
         "image": "daniel-goldscheider.jpeg"
       },
       {
         "id": "stefano-mafulli",
         "name": "Stefano Mafulli",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "OSI",
-        "image": "stefano-mafulli.jpeg"
+        "image": "generic-profile.png"
       },
       {
-        "id": "ciarn-oriordan",
+        "id": "ciaran-oriordan",
         "name": "Ciarán O'Riordan",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "OFE",
-        "image": "ciarn-oriordan.jpeg"
+        "image": "generic-profile.png"
       },
       {
-        "id": "manuel-btin",
+        "id": "manuel-betin",
         "name": "Manuel Bétin",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "OCDE",
-        "image": "manuel-btin.jpeg"
+        "image": "generic-profile.png"
       },
       {
-        "id": "professor-qin-wang",
+        "id": "qin-wang",
         "name": "Professor Qin Wang",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "CAAS",
-        "image": "professor-qin-wang.jpeg"
+        "image": "qin-wang.jpg"
       },
       {
         "id": "yonghua-lin",
         "name": "Yonghua Lin",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "BAAI",
-        "image": "yonghua-lin.jpeg"
+        "image": "yonghua-lin.png"
       }
     ]
   },
@@ -101,38 +87,30 @@
       {
         "id": "michael-plagge",
         "name": "Michael Plagge",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "EF",
-        "image": "michael-plagge.jpeg"
+        "image": "generic-profile.png"
       },
       {
         "id": "yann-lechelle",
         "name": "Yann Lechelle",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "Probabl.ai",
-        "image": "yann-lechelle.jpeg"
+        "image": "generic-profile.png"
       },
       {
         "id": "michel-marie-maudet",
         "name": "Michel-Marie Maudet",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "Linagora",
-        "image": "michel-marie-maudet.jpeg"
+        "image": "michel-marie-maudet.png"
       },
       {
         "id": "cailean-osborne",
         "name": "Cailean Osborne",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "Linux Foundation",
-        "image": "cailean-osborne.jpeg"
+        "image": "cailean-osborne.png"
       }
     ]
   },
@@ -152,29 +130,23 @@
       {
         "id": "arun-joseph",
         "name": "Arun Joseph",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "Deutsch Telekom",
-        "image": "arun-joseph.jpeg"
+        "image": "generic-profile.png"
       },
       {
         "id": "matt-white",
         "name": "Matt White",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "Pytorch Foundation",
-        "image": "matt-white.jpeg"
+        "image": "matt-white.png"
       },
       {
         "id": "baosong-yang",
         "name": "Baosong Yang",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "Alibaba",
-        "image": "baosong-yang.jpeg"
+        "image": "baosong-yang.png"
       }
     ]
   },
@@ -185,49 +157,46 @@
     "content": "",
     "speakers": [
       {
-        "id": "gal-blondelle",
+        "id": "gael-blondelle",
         "name": "Gaël Blondelle",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "EF",
-        "image": "gal-blondelle.jpeg"
+        "image": "generic-profile.png"
       },
       {
         "id": "ovidiu-vermesan",
         "name": "Ovidiu Vermesan",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "SINTEF",
-        "image": "ovidiu-vermesan.jpeg"
+        "image": "generic-profile.png"
       },
       {
         "id": "pierre-gaillard",
         "name": "Pierre Gaillard",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "CEA",
-        "image": "pierre-gaillard.jpeg"
+        "image": "generic-profile.png"
       },
       {
         "id": "yumei-he",
         "name": "Yumei He",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "Tulane University",
         "image": "yumei-he.jpeg"
       },
       {
-        "id": "jenia-jitsev-marianna-nezhurina",
-        "name": "Jenia Jitsev, Marianna Nezhurina",
-        "tags": [
-          "forum"
-        ],
+        "id": "jenia-jitsev",
+        "name": "Jenia Jitseva",
+        "tags": ["forum"],
         "roleOrg": "Laion",
-        "image": "jenia-jitsev-marianna-nezhurina.jpeg"
+        "image": "jenia-jitsev.jpeg"
+      },
+      {
+        "id": "marianna-nezhurina",
+        "name": "Marianna Nezhurina",
+        "tags": ["forum"],
+        "roleOrg": "Laion",
+        "image": "marianna-nezhurina.jpg"
       }
     ]
   },
@@ -247,29 +216,23 @@
       {
         "id": "alexy-khrabrov",
         "name": "Alexy Khrabrov",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "Neo4J",
-        "image": "alexy-khrabrov.jpeg"
+        "image": "alexy-khrabrov.jpg"
       },
       {
         "id": "quentin-adam",
         "name": "Quentin Adam",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "CleverCloud",
-        "image": "quentin-adam.jpeg"
+        "image": "generic-profile.png"
       },
       {
         "id": "arun-joseph",
         "name": "Arun Joseph",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "Deutsche Telekom",
-        "image": "arun-joseph.jpeg"
+        "image": "generic-profile.png"
       }
     ]
   },
@@ -280,31 +243,25 @@
     "content": "",
     "speakers": [
       {
-        "id": "volha",
-        "name": "Volha",
-        "tags": [
-          "forum"
-        ],
-        "roleOrg": "Olga",
-        "image": "volha.jpeg"
+        "id": "volha-litvinets",
+        "name": "Volha Litvinets",
+        "tags": ["forum"],
+        "roleOrg": "EY",
+        "image": "volha-litvinets.jpg"
       },
       {
         "id": "roberto-di-cosmo",
         "name": "Roberto Di Cosmo",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "SW Heritage",
-        "image": "roberto-di-cosmo.jpeg"
+        "image": "roberto-di-cosmo.png"
       },
       {
         "id": "sray-agarwal",
         "name": "Sray Agarwal",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "Infosys",
-        "image": "sray-agarwal.jpeg"
+        "image": "sray-agarwal.jpg"
       }
     ]
   },
@@ -315,13 +272,11 @@
     "content": "",
     "speakers": [
       {
-        "id": "gal-blondelle",
+        "id": "gael-blondelle",
         "name": "Gaël Blondelle",
-        "tags": [
-          "forum"
-        ],
+        "tags": ["forum"],
         "roleOrg": "EF",
-        "image": "gal-blondelle.jpeg"
+        "image": "generic-profile.png"
       }
     ]
   },
