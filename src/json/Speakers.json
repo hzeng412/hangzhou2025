@@ -226,6 +226,25 @@
       "draft": false
     },
     {
+      "id": "wenjing-chu",
+      "name": "Wenjing Chu",
+      "bio": "Wenjing leads Futurewei's technology strategy on AI and Human Trust. He is an experienced technologist with a broad career spanning Internet, digital trust & security, and AI technologies.  He is the chair of the AI and Human Trust Working Group (AIMWG) in the Trust over IP (ToIP) project. AIMWG is developing a technical stack for trust in autonomous AI agents such as systems for identity, communication, delegation and accountability of AI agents. As a founding governing board member and a TAC member of the OpenWallet Foundation (OWF), he champions the development of AI digital trust technology available for everyone around the world. He has contributed significantly to the ToIP project of the LF Decentralized Trust community, authoring the Trust Spanning Protocol (TSP) Specification and the related technologies. Wenjing has long been an advocate and leader in the development of trustworthy AI, underpinned by a solid foundation of authenticity and digital trust.",
+      "role": "Senior Director of Technology Strategy",
+      "org": "Futurewei Technologies, Inc.",
+      "roleOrg": "Senior Director of Technology Strategy at Futurewei Technologies, Inc.",
+      "image": "wenjing-chu.png",
+      "tag": "ai-apps",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "https://www.linkedin.com/in/wenjingchu/",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "angelo-corsaro",
       "name": "Angelo Corsaro",
       "bio": "Angelo Corsaro, Ph.D.\r\nCEO, CTO, and Co-Founder of ZettaScale Technology\r\n\r\nAngelo Corsaro, Ph.D., is the Chief Executive Officer (CEO), Chief Technology Officer (CTO), and co-founder of ZettaScale Technology. At ZettaScale, he leads a world-class team dedicated to revolutionizing distributed computing, ensuring that every connected human and machine can communicate, compute, and store data anywhere, at any scale, efficiently, and securely.\r\n\r\nA globally recognized expert in Cloud-to-Thing Continuum, high-performance distributed systems, and real-time computing, Angelo is the inventor of the Zenoh protocol and the lead of the Eclipse Zenoh project. His work is reshaping the future of data-centric and event-driven architectures, bridging the gap between cloud, edge, and embedded systems.\r\n\r\nWith a prolific research background, Angelo has authored over 100 publications in peer-reviewed journals, conferences, workshops, and industry magazines. He has also contributed to over ten international standards, shaping the evolution of real-time and large-scale distributed computing.\r\n\r\nAngelo was a founding Co-Chair of the OMG DDS standard, playing a key role in its development and adoption. His leadership in DDS continued until 2015, when he stepped away due to technical divergences and committed himself to designing and implementing the first Zenoh protocol, paving the way for the next generation of data-centric middleware.",
@@ -356,7 +375,7 @@
         "website": "undefined"
       },
       "status": "New",
-      "draft": false
+      "draft": true
     },
     {
       "id": "huy-hoang-ha",
@@ -1220,6 +1239,25 @@
       "roleOrg": "Professor at University of Science and Technology of China",
       "image": "james-yang.png",
       "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "paul-yang",
+      "name": "Paul Yang",
+      "bio": "At Runhouse, Paul is helping to build, test, and deploy Kubetorch, spending most of his time recently on product discovery and partner engineering for scaled ML use cases as Kubetorch prepares for public launch. Previously, he worked across a range of ML/DS domain areas, from language model tuning and evaluations for contextually aware code generation to productizing causal ML / pseudo-causal inference. ",
+      "role": "ML Engineering",
+      "org": "Runhouse",
+      "roleOrg": "ML Engineering at Runhouse",
+      "image": "paul-yang.jpeg",
+      "tag": "ai-infra",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
