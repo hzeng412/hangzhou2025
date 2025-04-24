@@ -950,6 +950,25 @@
       "draft": false
     },
     {
+      "id": "ciaran-oriordan",
+      "name": "Ciarán O'Riordan",
+      "bio": "Senior Policy Advisor at OFE, Ciarán O’Riordan has been working in Brussels since 2004 with a focus on EU policy and free and open source software. His work in the sector includes copyright and patent policy in the EU, patent policy in the US, and community engagement for the drafting of version 3 of the GNU General Public License. He also brings policy experience from the automotive sector, GDPR, and corporate finance. He studied law at UCLouvain Saint-Louis Bruxelles. A user of GNU/Linux since 1998, Ciarán worked as a software developer in Dublin before his move to Brussels.",
+      "role": "Senior Policy Advisor",
+      "org": "OFE",
+      "roleOrg": "Senior Policy Advisor at OFE",
+      "image": "ciaran-oriordan.jpg",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "philipp-oppermann",
       "tag": "embodied-ai",
       "name": "Philipp Oppermann",
@@ -1527,25 +1546,6 @@
       "role": "",
       "org": "OSI",
       "roleOrg": "OSI",
-      "image": "generic-profile.png",
-      "tag": "forum",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "ciaran-oriordan",
-      "name": "Ciarán O'Riordan",
-      "bio": "",
-      "role": "",
-      "org": "OFE",
-      "roleOrg": "OFE",
       "image": "generic-profile.png",
       "tag": "forum",
       "socialLinks": {
