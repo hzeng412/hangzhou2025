@@ -7,6 +7,7 @@ import type { ImageMetadata } from "astro";
 import Layout from "layouts/Layout.astro";
 import speakers from "json/Speakers.json";
 import schedule from "json/Schedule.json";
+import scheduleForum from "json/Schedule-forum.json";
 
 // Types
 interface Speaker {
@@ -51,20 +52,36 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
   "images/speakers/*.{jpeg,jpg,png,gif}"
 );
 
-// Find speaker's sessions across all categories
-const speakerSessions = Object.entries(schedule.sessions).reduce(
-  (acc: Session[], [category, sessions]: [string, Session[]]) => {
-    const matchingSessions = sessions
-      .filter((session) => session.speakers.some((s) => s.name === speaker.name))
-      .map((session) => ({
-        ...session,
-        category,
-      }));
+// Find speaker's sessions across all categories and forum schedule
+const speakerSessions = [
+  // Get sessions from main schedule
+  ...Object.entries(schedule.sessions).reduce(
+    (acc: Session[], [category, sessions]: [string, Session[]]) => {
+      const matchingSessions = sessions
+        .filter((session) => session.speakers.some((s) => s.name === speaker.name))
+        .map((session) => ({
+          ...session,
+          category,
+        }));
 
-    return [...acc, ...matchingSessions];
-  },
-  []
-);
+      return [...acc, ...matchingSessions];
+    },
+    []
+  ),
+  // Get sessions from forum schedule
+  ...scheduleForum
+    .filter((session) => 
+      session.speakers && 
+      session.speakers.some((s) => s.name === speaker.name)
+    )
+    .map((session) => ({
+      title: session.title,
+      speakers: session.speakers,
+      date: session.date,
+      timeSlot: session.timeSlot,
+      category: "Forum"
+    }))
+];
 
 // Social links mapping for icons
 const socialIconMap: Record<string, string> = {

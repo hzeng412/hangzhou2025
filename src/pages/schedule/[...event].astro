@@ -6,6 +6,7 @@ import type { ImageMetadata } from "astro";
 // Components
 import Layout from "layouts/Layout.astro";
 import schedule from "json/Schedule.json";
+import scheduleForum from "json/Schedule-forum.json";
 import speakers from "json/Speakers.json";
 
 // Types
@@ -31,7 +32,7 @@ type Speakers = {
 export async function getStaticPaths() {
   const events: { params: { event: string }; props: { event: Event; category: string } }[] = [];
 
-  // Collect all sessions from all categories
+  // Collect all sessions from all categories in main schedule
   Object.entries(schedule.sessions).forEach(([category, categoryEvents]) => {
     categoryEvents.forEach((event: Event) => {
       events.push({
@@ -40,6 +41,16 @@ export async function getStaticPaths() {
         },
         props: { event, category },
       });
+    });
+  });
+
+  // Add forum events
+  scheduleForum.forEach((event: Event) => {
+    events.push({
+      params: {
+        event: event.title.toLowerCase().replace(/\s+/g, "-"),
+      },
+      props: { event, category: "Forum" },
     });
   });
 
@@ -56,12 +67,7 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
 );
 
 // Find the first matching category for the event
-const eventCategory =
-  Object.keys(schedule.sessions).find((cat) => // @ts-ignore
-    schedule.sessions[cat].some(
-      (e: Event) => e.title.toLowerCase().replace(/\s+/g, "-") === event,
-    ),
-  ) || "Uncategorized";
+const eventCategory = category || "Uncategorized";
 ---
 
 <Layout
