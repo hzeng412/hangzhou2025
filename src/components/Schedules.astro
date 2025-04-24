@@ -91,7 +91,10 @@ const sortedAllSessions = sortSessionsByTime(uniqueAllSessions)
 
 // Helper function to generate event URL
 const getEventUrl = (title: string): string => {
-  return `/schedule/${title.toLowerCase().replace(/\s+/g, "-")}/`
+  // Get the current URL origin (domain)
+  const origin = Astro.url.origin;
+  // Create the full URL with domain
+  return `${origin}/schedule/${title.toLowerCase().replace(/\s+/g, "-")}/`;
 }
 ---
 
