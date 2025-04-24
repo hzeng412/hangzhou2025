@@ -59,7 +59,7 @@
         "id": "qin-wang",
         "name": "Professor Qin Wang",
         "tags": ["forum"],
-        "roleOrg": "CAAS",
+        "roleOrg": "CASS",
         "image": "qin-wang.jpg"
       },
       {
@@ -131,7 +131,7 @@
         "id": "arun-joseph",
         "name": "Arun Joseph",
         "tags": ["forum"],
-        "roleOrg": "Deutsch Telekom",
+        "roleOrg": "Deutsche Telekom",
         "image": "generic-profile.png"
       },
       {
