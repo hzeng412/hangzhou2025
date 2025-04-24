@@ -201,7 +201,7 @@ const sortedAllSessions = sortSessionsByTime(uniqueAllSessions)
             <ul class="row row-list">
               {sortedAllSessions.map((session: Session) => (
                 <li
-                  class="single-agenda-card single-accordion-item card-hover"
+                  class={`single-agenda-card single-accordion-item card-hover ${session.isSpecialEvent ? 'special-event' : ''}`}
                   data-accordion-status="not-active"
                   data-filter-status="active"
                   data-filter-category="All"
@@ -315,7 +315,7 @@ const sortedAllSessions = sortSessionsByTime(uniqueAllSessions)
                 <ul class="row row-list">
                   {sortedCategorySessions.map((session: Session) => (
                     <li
-                      class="single-agenda-card single-accordion-item card-hover"
+                      class={`single-agenda-card single-accordion-item card-hover ${session.isSpecialEvent ? 'special-event' : ''}`}
                       data-accordion-status="not-active"
                       data-filter-status="active"
                       data-filter-category={category.name}
@@ -423,3 +423,9 @@ const sortedAllSessions = sortSessionsByTime(uniqueAllSessions)
     </div>
   </div>
 </section>
+
+<style>
+  .special-event {
+    background-color: #e5e4ef;
+  }
+</style>
