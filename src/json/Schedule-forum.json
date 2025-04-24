@@ -138,7 +138,7 @@
         "id": "matt-white",
         "name": "Matt White",
         "tags": ["forum"],
-        "roleOrg": "Pytorch Foundation",
+        "roleOrg": "Executive Director, PyTorch Foundation. GM of AI, Linux Foundation.",
         "image": "matt-white.png"
       },
       {
@@ -174,8 +174,8 @@
         "id": "pierre-gaillard",
         "name": "Pierre Gaillard",
         "tags": ["forum"],
-        "roleOrg": "CEA",
-        "image": "generic-profile.png"
+        "roleOrg": "Embedded AI Program Manager at CEA",
+        "image": "pierre-gaillard.png"
       },
       {
         "id": "yumei-he",

@@ -306,6 +306,25 @@
       "draft": false
     },
     {
+      "id": "pierre-gaillard",
+      "name": "Pierre Gaillard",
+      "bio": "He holds a Ph.D. in Machine Learning from the University of Technology of Compiègne, along with engineering and master's degrees in computer science and information systems. With over a decade of experience leading data-driven innovation, he thrives on bridging the gap between advanced data processing, artificial intelligence, and real-world industrial applications. Currently program manager at CEA, he leads the DeepGreen project, an initiative to develop Eclipse Aidge, an open source platform dedicated to embedded AI.",
+      "role": "Embedded AI Program Manager",
+      "org": "CEA",
+      "roleOrg": "Embedded AI Program Manager at CEA",
+      "image": "pierre-gaillard.png",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "erwan-gallen",
       "name": "Erwan Gallen",
       "bio": "",
@@ -1219,10 +1238,10 @@
       "id": "matt-white",
       "name": "Matt White",
       "role": "Executive Director, PyTorch Foundation",
-      "roleOrg": "Executive Director, PyTorch Foundation at Linux Foundation",
-      "bio": "",
+      "roleOrg": "Executive Director, PyTorch Foundation. GM of AI, Linux Foundation.",
+      "bio": "Matt White is the Executive Director of the PyTorch Foundation and GM of AI at the Linux Foundation, as well as the Director of the Generative AI Commons under the LF AI & Data Foundation. With nearly 30 years of experience in AI research, standards, and applications across telecom, media, and gaming, he has specialized since 2012 in machine learning, simulations, and multi-sensory learning. He previously co-founded the Open Metaverse Foundation, chairs the Metaverse Standards Forum, and co-organizes both the Silicon Valley Generative AI paper reading group and the GenAI Collective.",
       "image": "matt-white.png",
-      "org": "PyTorch",
+      "org": "PyTorch Foundation, Linux Foundation",
       "tag": "pytorch",
       "socialLinks": {
         "mastodon": "undefined",
@@ -1432,25 +1451,6 @@
       "role": "",
       "org": "OCDE",
       "roleOrg": "OCDE",
-      "image": "generic-profile.png",
-      "tag": "forum",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "pierre-gaillard",
-      "name": "Pierre Gaillard",
-      "bio": "",
-      "role": "",
-      "org": "CEA",
-      "roleOrg": "CEA",
       "image": "generic-profile.png",
       "tag": "forum",
       "socialLinks": {

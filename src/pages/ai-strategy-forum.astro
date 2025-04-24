@@ -1,15 +1,16 @@
 ---
 // Components
-import Layout from "layouts/Layout.astro";
-import ForumHero from "components/ForumHero.astro";
-import Intro from "components/Intro.astro";
+import Layout from "layouts/Layout.astro"
+import ForumHero from "components/ForumHero.astro"
+import Intro from "components/Intro.astro"
 /*import Agenda from "components/Agenda.astro";*/
-import Cards from "components/Cards.astro";
-import ForumInvitation from "components/TextAndImage.astro";
-import ForumSchedule from "components/Forumschedule.astro";
+import Cards from "components/Cards.astro"
+// import CardsSponsors from "components/CardsSponsors.astro"
+import ForumInvitation from "components/TextAndImage.astro"
+import ForumSchedule from "components/Forumschedule.astro"
 
 // Images
-import ForumInvite from "images/homepage/forum-invite.webp";
+import ForumInvite from "images/homepage/forum-invite.webp"
 ---
 
 <Layout
@@ -27,45 +28,60 @@ import ForumInvite from "images/homepage/forum-invite.webp";
     data-bg-section="lightgray"
   >
     <Intro>
-      <h1 class="h3 light split-words animate-read mb-4" style="font-size:1.5rem; text-align: justify;">    
-        Co-organized by the <b><a href="https://www.eclipse.org/" target="_blank" rel="noopener noreferrer">Eclipse Foundation</a></b> and <b><a href="https://gosim.org/" target="_blank" rel="noopener noreferrer">GOSIM</a></b>, the Open Source AI Strategy Forum brings together global thought leaders, researchers, and open-source AI pioneers, and digital sovereignty advocates to reflect on the strategic role of open source AI in global collaboration and the pressing challenges we are facing. The Forum adopts a hybrid format with short presentations and a priority on open dialogue and collective thinking, operating under the Chatham House Rule to ensure that all participants can freely exchange ideas.
-        The event will culminate in a networking dinner cruise along the Seine River, providing a scenic and informal setting for further discussions and collaborations.        
+      <h1
+        class="h3 light split-words animate-read mb-4"
+        style="font-size:1.5rem; text-align: justify;"
+      >
+        Co-organized by the <b
+          ><a
+            href="https://www.eclipse.org/"
+            target="_blank"
+            rel="noopener noreferrer">Eclipse Foundation</a
+          ></b
+        > and <b
+          ><a
+            href="https://gosim.org/"
+            target="_blank"
+            rel="noopener noreferrer">GOSIM</a
+          ></b
+        >, the Open Source AI Strategy Forum brings together global thought
+        leaders, researchers, and open-source AI pioneers, and digital
+        sovereignty advocates to reflect on the strategic role of open source AI
+        in global collaboration and the pressing challenges we are facing. The
+        Forum adopts a hybrid format with short presentations and a priority on
+        open dialogue and collective thinking, operating under the Chatham House
+        Rule to ensure that all participants can freely exchange ideas. The
+        event will culminate in a networking dinner cruise along the Seine
+        River, providing a scenic and informal setting for further discussions
+        and collaborations.
       </h1>
     </Intro>
   </div>
   <Cards
     title="Key Focus Areas"
-    description="The forum will explore five key themes shaping the future of open-source AI."
+    description="The forum will explore these key themes shaping the future of open-source AI."
     cards={[
       {
-        title: "AI Models & Innovation",
-        description:
-          "Addressing the need for transparency, reproducibility, and accessibility in AI model development.",
-        image: "/icons/aimodels.svg",
-      },
-      {
-        title: "Openness & Collaboration",
-        description:
-          "Defining standards and best practices for open AI ecosystems.",
+        title: "Global Digital Collaboration",
+        description: "How can open source AI foster global collaboration?",
         image: "/icons/collaboration.svg",
       },
       {
-        title: "Sustainability & Resources",
+        title: "Open Source AI Enabling Sovereignty and Digital Autonomy",
         description:
-          "Ensuring the long-term viability of open-source AI through funding, infrastructure, and responsible energy use.",
-        image: "/icons/sustainability.svg",
-      },
-      {
-        title: "Governance & Ethics",
-        description:
-          "Navigating regulatory frameworks, ethical considerations, and trust mechanisms in open AI development.",
-        image: "/icons/governance.svg",
-      },
-      {
-        title: "Sovereignty & Strategic Autonomy",
-        description:
-          "Balancing global collaboration with national and regional sovereignty in AI infrastructure and policy.",
+          "Balancing global collaboration with sovereignty in AI infrastructure.",
         image: "/icons/sovereignty.svg",
+      },
+      {
+        title: "Open Source AI in Research",
+        description: "Exploring the relationship between research and AI",
+        image: "/icons/aimodels.svg",
+      },
+      {
+        title: "Responsible AI",
+        description:
+          "How can open source communities contribute to ethical, transparent, and accountable AI?",
+        image: "/icons/sustainability.svg",
       },
     ]}
   />
