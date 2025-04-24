@@ -8,6 +8,7 @@ import Layout from "layouts/Layout.astro";
 import schedule from "json/Schedule.json";
 import scheduleForum from "json/Schedule-forum.json";
 import speakers from "json/Speakers.json";
+import SocialShare from "components/SocialShare.astro";
 
 // Types
 type Event = {
@@ -110,6 +111,10 @@ const eventCategory = category || "Uncategorized";
                         eventDetails.speakers &&
                             eventDetails.speakers.length > 0 && (
                                 <>
+                    <SocialShare 
+                        title={`${eventDetails.title} - GOSIM AI Paris 2025`}
+                        description={eventDetails.content.replace(/<[^>]*>/g, "").substring(0, 160)}
+                    />
                                     <h2 class="h4 event-speaker-title">
                                         Speakers
                                     </h2>
@@ -164,7 +169,7 @@ const eventCategory = category || "Uncategorized";
                                     </div>
                                 </>
                             )
-                    }
+                    }               
                 </div>
             </div>
         </div>
