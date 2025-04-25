@@ -5,6 +5,7 @@ import Button from "components/Button.astro";
 interface Props {
   date?: string;
   location?: string;
+  description?: string; // Add the description attribute
   links?: Array<{
     text: string;
     link: string;
@@ -12,7 +13,7 @@ interface Props {
   }>;
 }
 
-const { date, location, links } = Astro.props;
+const { date, location, description, links } = Astro.props;
 ---
 
 <section
@@ -179,8 +180,21 @@ const { date, location, links } = Astro.props;
 
         <div class="event-facts">
           {date && <p>{date}</p>}
-
           {location && <p>{location}</p>}
+        </div>
+
+        <div>
+          {description && <p class="description" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: white;">{description}</p>}
+        </div>
+
+        <div class="logo-eclipse" style="margin-top: 10px;">
+          <img 
+            src="/images/sponsors/eclipse-foundation.png" 
+            alt="Eclipse Foundation Logo" 
+            width="150" 
+            height="auto" 
+            loading="lazy" 
+          />
         </div>
 
         <div class="btn-home-wrap">
