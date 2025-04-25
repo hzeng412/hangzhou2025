@@ -1,8 +1,8 @@
 ---
 // Components
-import Button from "components/Button.astro";
-import Logo from "./Logo.astro";
-import NotificationBar from "components/NotificationBar.astro";
+import Button from "components/Button.astro"
+import Logo from "./Logo.astro"
+import NotificationBar from "components/NotificationBar.astro"
 
 const links = [
   {
@@ -46,8 +46,12 @@ const links = [
     text: "More",
     subLinks: [
       {
-        text: "Venue",
+        text: "Conference Venue",
         link: "/#venue",
+      },
+      {
+        text: "Forum Venue",
+        link: "/os-ai-strategy-forum/#venue",
       },
       // {
       //   text: "Volunteer",
@@ -60,9 +64,9 @@ const links = [
       },
     ],
   },
-];
+]
 
-const slug = Astro.url.pathname;
+const slug = Astro.url.pathname
 ---
 
 <header>
