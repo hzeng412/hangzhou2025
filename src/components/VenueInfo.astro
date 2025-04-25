@@ -6,6 +6,7 @@ interface Props {
     subtitle: string;
     title: string;
     location: string;
+    image: string;
     text: string;
     ctaButton?: {
         text: string;
@@ -14,7 +15,7 @@ interface Props {
     };
 }
 
-const { subtitle, title, location, text, ctaButton } = Astro.props;
+const { subtitle, title, location, image, text, ctaButton } = Astro.props;
 ---
 
 <section
@@ -32,11 +33,11 @@ const { subtitle, title, location, text, ctaButton } = Astro.props;
                             <source src="/videos/gosim-paris-compressed.mp4" type="video/mp4">
                         </video> -->
                         <img
-                            src="/images/homepage/station-f.jpg"
+                            src={image}
                             alt="Station F"
                             class="overlay"
                             loading="lazy"
-                        />
+                        >
                     </div>
 
                     {ctaButton?.text &&
