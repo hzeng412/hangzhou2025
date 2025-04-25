@@ -31,6 +31,25 @@
   ],
   "speakers": [
     {
+      "id": "quentin-adam",
+      "name": "Quentin Adam",
+      "bio": "",
+      "role": "",
+      "org": "CleverCloud",
+      "roleOrg": "CleverCloud",
+      "image": "quentin-adam.png",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "sray-agarwal",
       "name": "Sray Agarwal",
       "bio": "Sray Agarwal has applied AI and analytics from Financial Services to Hospitality and has led the development of Responsible AI framework for multiple banks in the UK and the US.  Based out of London, his is conversant in Predictive Modelling, Forecasting and advanced Machine Learning with profound knowledge of algorithms and advanced statistic, Sray is Head of Responsible AI (EMEA & APAC) at Infosys. He is an active blogger and has given his talks on Ethical AI at major AI conferences across the globe (more than 20) and has podcasts, video interviews and lectures on reputed websites and social media at United Nations, Microsoft, ODSC to name a few. His contribution to the development of the technology was recognised by Microsoft when he won the Most Valued Professional in AI award in 2020 to 2025. He is also an expert for United Nations (UNCEFACT) and have recently authored a book on Responsible AI published by Springer.  He has been a trainer with leading consulting firms and have delivered training on business transformation using AI. He is guest lecturer at Jio institute. He holds patents on RAI system and methods.\r\n",
@@ -48,15 +67,6 @@
       },
       "status": "New",
       "draft": false
-    },
-    {
-      "id": "tbd",
-      "tag": "ai-apps",
-      "name": "Speaker to be Announced",
-      "roleOrg": "",
-      "bio": "Speaker to be announced soon",
-      "image": "generic-profile.png",
-      "org": ""
     },
     {
       "id": "luca-antiga",
@@ -173,6 +183,25 @@
       "draft": false
     },
     {
+      "id": "manuel-betin",
+      "name": "Manuel Bétin",
+      "bio": "",
+      "role": "",
+      "org": "OCDE",
+      "roleOrg": "Economist, OCDE",
+      "image": "manuel-bétin.jpg",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "guillaume-blaquiere",
       "name": "Guillaume Blaquiere",
       "bio": "Guillaume is a Google Developer Expert on Cloud Platform since 2019 and works at Carrefour as Group Data Architect. \r\n\r\nJava developer for more than 15 years, and despite positions of responsibilities, he has always kept his wish to create, develop, discover and test new solutions, especially in the Cloud, the machine learning or Python and Go language. \r\n\r\nInnovation addict and Google Cloud 3x certified, writer and speaker in his free time, he's fascinated by the serverless solution and all the \"usual\" problems that it solves.\r\n\r\nMore generally, he likes helping people stuck on Google Cloud; you can find him on Stack Overflow (guillaume-blaquiere), Medium (@guillaume-blaquiere) and Twitter (@gblaquiere)",
@@ -187,6 +216,25 @@
         "github": "https://github.com/guillaumeblaquiere",
         "linkedin": "https://www.linkedin.com/in/guillaume-blaquiere",
         "website": "https://medium.com/@guillaume-blaquiere"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "gael-blondelle",
+      "name": "Gaël Blondelle",
+      "bio": "",
+      "role": "",
+      "org": "Eclipse Foundation",
+      "roleOrg": "VP of the Eclipse Foundation",
+      "image": "gael-blondelle.png",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
       },
       "status": "New",
       "draft": false
@@ -217,7 +265,7 @@
       "roleOrg": "Researcher at BAAI",
       "bio": "I am a researcher at the Beijing Academy of Artificial Intelligence (BAAI), focusing on embodied AI. My work explores large-scale multimodal models and cognitive architectures to enhance the perception, reasoning, and control capabilities of embodied AI systems.",
       "image": "cheng-chi.jpeg",
-      "org": "Beijing Academy of Artificial Intelligence",
+      "org": "BAAI",
       "role": "Researcher",
       "socialLinks": {
         "mastodon": "undefined",
@@ -301,6 +349,25 @@
         "github": "https://github.com/dimforge",
         "linkedin": "undefined",
         "website": "https://dimforge.com"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "nicolas-flores-herr",
+      "name": "Nicolas Flores-Herr",
+      "bio": "I'm Nicolas Flores Herr team lead at the Fraunhofer IAIS site in Dresden focused on training open-source generative AI models like Teuken. While we develop tailored AI solutions across industries our core passion lies in building and training large language and multilingual models from the ground up.\r\n\r\nWe work extensively on continued pretraining, fine-tuning, and instruction tuning, using both established frameworks and our own RAG-based technology stack. \r\n\r\nMuch of this work takes place in the context of leading European AI initiatives, including:\r\n\r\nOpenGPT-X – building large-scale, trustworthy, and open LLM “Made in Germany” called Teuken\r\nEuroLingua-GPT – training models that support all official European languages to foster digital inclusion.\r\nTrustLLM – advancing transparent and culturally sensitive AI for European languages and use cases.\r\nOpenEuroLLM – developing multilingual, open-source language models aligned with EU values and regulations.\r\n\r\nMy background is in physics (PhD), with over a decade of research experience in neuroscience and cell physiology. ",
+      "role": "Team Lead Foundation Models",
+      "org": "Fraunhofer IAIS",
+      "roleOrg": "Team Lead Foundation Models at Fraunhofer IAIS",
+      "image": "nicolas-flores-herr.jpeg",
+      "tag": "ai-model",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "https://github.com/Modalities/modalities",
+        "linkedin": "https://www.linkedin.com/in/floresherr/",
+        "website": "https://huggingface.co/openGPT-X"
       },
       "status": "New",
       "draft": false
@@ -648,6 +715,25 @@
       "draft": false
     },
     {
+      "id": "yann-lechelle",
+      "name": "Yann Lechelle",
+      "bio": "",
+      "role": "",
+      "org": "Probabl.ai",
+      "roleOrg": "Co-founder CEO at Probabl.ai",
+      "image": "yann-lechelle.jpg",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "guohao-li",
       "tag": "ai-apps",
       "name": "Guohao Li",
@@ -709,8 +795,8 @@
       "name": "Minglan Lin",
       "bio": "Minglan Lin possesses extensive expertise in training large models, including LLMs, VLMs, and embodied intelligence VLMs. At the BAAI Embodied Intelligence Team, Minglan spearheaded the development and open-sourcing of the RoboBrain large model and the hierarchical collaborative framework RoboOS.",
       "role": "Embodied Intelligence Researcher",
-      "org": "Beijing Academy of Artificial Intelligence",
-      "roleOrg": "Embodied Intelligence Researcher at Beijing Academy of Artificial Intelligence",
+      "org": "BAAI",
+      "roleOrg": "Embodied Intelligence Researcher at BAAI",
       "image": "minglan-lin.jpg",
       "tag": "embodied-ai",
       "socialLinks": {
@@ -844,6 +930,25 @@
       "image": "yinping-ma.jpg",
       "org": "Peking University",
       "role": "Engineer",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "stefano-mafulli",
+      "name": "Stefano Mafulli",
+      "bio": "",
+      "role": "",
+      "org": "OSI",
+      "roleOrg": "ED of the OSI",
+      "image": "stefano-maffulli.jpg",
+      "tag": "forum",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -1045,6 +1150,25 @@
       "draft": false
     },
     {
+      "id": "michael-plagge",
+      "name": "Michael Plagge",
+      "bio": "",
+      "role": "",
+      "org": "Eclipse Foundation",
+      "roleOrg": "VP of the Eclipse Foundation",
+      "image": "plagge-michael.jpg",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "diego-rojas",
       "name": "Diego Rojas",
       "roleOrg": "Research Engineer at Zhipu.AI",
@@ -1192,6 +1316,25 @@
         "github": "https://github.com/tzolov",
         "linkedin": "https://www.linkedin.com/in/tzolov/",
         "website": "https://spring.io/authors/tzolov"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "ovidiu-vermesan",
+      "name": "Ovidiu Vermesan",
+      "bio": "",
+      "role": "",
+      "org": "SINTEF",
+      "roleOrg": "Chief Scientist at SINTEF",
+      "image": "ovidiu-vermesan.jpg",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
       },
       "status": "New",
       "draft": false
@@ -1391,8 +1534,8 @@
       "name": "Junkai Zhao",
       "bio": "I am a Robotics Algorithm Engineer at the Beijing Academy of Artificial Intelligence, where I focus on developing general-purpose robotic manipulation models. Prior to this, I worked at Agibot and the Shanghai Qizhi Institute, contributing to projects involving motion planning, control systems, and long-horizon robotic manipulation. My expertise spans robot control, simulation environments, and learning-based action modeling.",
       "role": "Robot Algorithm Engineer",
-      "org": "Beijing Academy of Artificial Intelligence",
-      "roleOrg": "Robot Algorithm Engineer at Beijing Academy of Artificial Intelligence",
+      "org": "BAAI",
+      "roleOrg": "Robot Algorithm Engineer at BAAI",
       "image": "junkai-zhao.jpg",
       "tag": "embodied-ai",
       "socialLinks": {
@@ -1444,62 +1587,13 @@
       "draft": false
     },
     {
-      "id": "quentin-adam",
-      "name": "Quentin Adam",
-      "bio": "",
-      "role": "",
-      "org": "CleverCloud",
-      "roleOrg": "CleverCloud",
-      "image": "quentin-adam.png",
-      "tag": "forum",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-
-    {
-      "id": "manuel-betin",
-      "name": "Manuel Bétin",
-      "bio": "",
-      "role": "",
-      "org": "OCDE",
-      "roleOrg": "Economist, OCDE",
-      "image": "manuel-bétin.jpg",
-      "tag": "forum",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "gael-blondelle",
-      "name": "Gaël Blondelle",
-      "bio": "",
-      "role": "",
-      "org": "Eclipse Foundation",
-      "roleOrg": "VP of the Eclipse Foundation",
-      "image": "gael-blondelle.png",
-      "tag": "forum",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
+      "id": "tbd",
+      "tag": "ai-apps",
+      "name": "Speaker to be Announced",
+      "roleOrg": "",
+      "bio": "Speaker to be announced soon",
+      "image": "generic-profile.png",
+      "org": ""
     },
     {
       "id": "arun-joseph",
@@ -1510,82 +1604,6 @@
       "roleOrg": "Deutsche Telekom",
       "image": "generic-profile.png",
       "tag": "forum",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "yann-lechelle",
-      "name": "Yann Lechelle",
-      "bio": "",
-      "role": "",
-      "org": "Probabl.ai",
-      "roleOrg": "Co-founder CEO at Probabl.ai",
-      "image": "yann-lechelle.jpg",
-      "tag": "forum",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "stefano-mafulli",
-      "name": "Stefano Mafulli",
-      "bio": "",
-      "role": "",
-      "org": "OSI",
-      "roleOrg": "ED of the OSI",
-      "image": "stefano-maffulli.jpg",
-      "tag": "forum",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "michael-plagge",
-      "name": "Michael Plagge",
-      "bio": "",
-      "role": "",
-      "org": "Eclipse Foundation",
-      "roleOrg": "VP of the Eclipse Foundation",
-      "image": "plagge-michael.jpg",
-      "tag": "forum",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "ovidiu-vermesan",
-      "name": "Ovidiu Vermesan",
-      "bio": "",
-      "role": "",
-      "org": "SINTEF",
-      "roleOrg": "Chief Scientist at SINTEF",
-      "image": "ovidiu-vermesan.jpg",
-    "tag": "forum",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",

@@ -162,6 +162,21 @@
       },
       {
         "date": "May 6",
+        "timeSlot": "17:00 - 17:40",
+        "title": "How to Build Competitive Large Language Models \"Made in Europe\"?",
+        "content": "How to Build Competitive Large Language Models “Made in Europe”\r\n\r\nAs Europe accelerates its efforts to develop sovereign AI capabilities, initiatives like OpenEuroLLM, OpenGPT-X, TrustLLM, and EuroLingua-GPT are leading the charge in creating multilingual, open-source large language models (LLMs) that reflect European values. This talk will delve into the insights gained from these projects, highlighting the challenges and breakthroughs in training competitive LLMs within Europe's unique regulatory and linguistic landscape.​\r\nWe'll explore how research initiatives are addressing key issues such as data diversity, computational infrastructure, and model transparency with the goal of gaining an understanding of the lay of the land of Europe's AI advancements.​\r\n\r\nJoin this talk to get a glimpse of how Europe's commitment to openness, trustworthiness, and cultural inclusivity is shaping the next generation of AI, and learn how you can contribute to this transformative journey.",
+        "speakers": [
+          {
+            "id": "nicolas-flores-herr",
+            "name": "Nicolas Flores-Herr",
+            "tags": ["ai-model"],
+            "roleOrg": "Team Lead Foundation Models at Fraunhofer IAIS",
+            "image": "nicolas-flores-herr.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "May 6",
         "timeSlot": "17:00 - 18:00",
         "title": "Spotlight Demos",
         "content": "",
