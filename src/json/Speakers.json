@@ -639,6 +639,25 @@
       "draft": false
     },
     {
+      "id": "arun-joseph",
+      "name": "Arun Joseph",
+      "bio": "",
+      "role": "Head of AI Engineering",
+      "org": "Deutsche Telekom",
+      "roleOrg": "Head of AI Engineering at Deutsche Telekom",
+      "image": "arun-joseph.jpg",
+      "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "christian-keller",
       "name": "Christian Keller",
       "bio": "",
@@ -1093,6 +1112,25 @@
       "draft": false
     },
     {
+      "id": "pedro-ortis",
+      "name": "Pedro Ortis",
+      "bio": "",
+      "role": "Senior Research Scientist",
+      "org": "Common Crawl",
+      "roleOrg": "Senior Research Scientist at Common Crawl",
+      "image": "pedro-ortis-suarez.jpg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "anne-charlotte-passanisi",
       "name": "Anne-Charlotte Passanisi",
       "bio": "Anne-Charlotte Passanisi is a Senior Product Manager at Pollen Robotics, where she explores how emotional design can help make robots more understandable, relatable, and accepted by humans. With over 10 years of experience in digital product development, from events and startups to gaming, she now focuses on how artificial empathy can support better adoption, engagement, and retention. She doesn’t build AI from scratch, but loves shaping the way people experience it.",
@@ -1187,7 +1225,25 @@
       "status": "New",
       "draft": false
     },
-
+    {
+      "id": "pierre-rouanet",
+      "name": "Pierre Rouanet",
+      "bio": "",
+      "role": "Co-Founder & CTO",
+      "org": "Pollen Robotics",
+      "roleOrg": "Co-Founder & CTO at Pollen Robotics",
+      "image": "pierre-rouanet.jpg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
     {
       "id": "martino-russi",
       "tag": "embodied-ai",
@@ -1595,63 +1651,6 @@
       "bio": "Speaker to be announced soon",
       "image": "generic-profile.png",
       "org": ""
-    },
-    {
-      "id": "arun-joseph",
-      "name": "Arun Joseph",
-      "bio": "",
-      "role": "",
-      "org": "Deutsche Telekom",
-      "roleOrg": "Deutsche Telekom",
-      "image": "generic-profile.png",
-      "tag": "forum",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "pedro-ortis",
-      "name": "Pedro Ortis",
-      "bio": "",
-      "role": "Senior Research Scientist",
-      "org": "Common Crawl",
-      "roleOrg": "Senior Research Scientist at Common Crawl",
-      "image": "generic-profile.png",
-      "tag": "pytorch",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "pierre-rouanet",
-      "name": "Pierre Rouanet",
-      "bio": "",
-      "role": "Co-Founder & CTO",
-      "org": "Pollen Robotics",
-      "roleOrg": "Co-Founder & CTO at Pollen Robotics",
-      "image": "generic-profile.png",
-      "tag": "pytorch",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
     }
   ]
 }
