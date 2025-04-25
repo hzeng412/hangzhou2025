@@ -1,8 +1,8 @@
 ---
 // Components
-import Button from "components/Button.astro";
-import Logo from "./Logo.astro";
-import NotificationBar from "components/NotificationBar.astro";
+import Button from "components/Button.astro"
+import Logo from "./Logo.astro"
+import NotificationBar from "components/NotificationBar.astro"
 
 const links = [
   {
@@ -45,21 +45,29 @@ const links = [
   {
     text: "More",
     subLinks: [
-
       {
-        text: "Volunteer",
-        link: "https://docs.google.com/forms/d/e/1FAIpQLSc62kJczw7lr-l0JAAbkabeIrrPPAD7OWyzwDopTD0L4HC6EQ/viewform",
+        text: "Venue",
+        link: "http://stationf.co/",
         openInNewTab: true,
       },
+      {
+        text: "Forum Venue",
+        link: "/os-ai-strategy-forum/#venue",
+      },
+      // {
+      //   text: "Volunteer",
+      //   link: "https://docs.google.com/forms/d/e/1FAIpQLSc62kJczw7lr-l0JAAbkabeIrrPPAD7OWyzwDopTD0L4HC6EQ/viewform",
+      //   openInNewTab: true,
+      // },
       {
         text: "Our Volunteers",
         link: "/volunteers/",
       },
     ],
   },
-];
+]
 
-const slug = Astro.url.pathname;
+const slug = Astro.url.pathname
 ---
 
 <header>

@@ -8,6 +8,7 @@ import Cards from "components/Cards.astro"
 import ForumInvitation from "components/TextAndImage.astro"
 import ForumSchedule from "components/Forumschedule.astro"
 import TextAndSponsors from "components/TextAndSponsors.astro"
+import Venue2Info from "components/Venue2Info.astro"
 import VenueInfo from "components/VenueInfo.astro";
 
 // Images
@@ -21,7 +22,12 @@ import ForumInvite from "images/homepage/forum-invite.webp"
   navBackground="header-home"
   pageTransitionName="GOSIM Open-Source AI Strategy Forum"
 >
-  <ForumHero description="Co-organized By the Eclipse Foundation" date="May 5, 2025" location="Invitation Only" links={[]} />
+  <ForumHero
+    description="Co-organized By the Eclipse Foundation"
+    date="May 5, 2025"
+    location="Invitation Only"
+    links={[]}
+  />
   <div
     class="section-wrap"
     id="intro"
@@ -234,6 +240,17 @@ import ForumInvite from "images/homepage/forum-invite.webp"
       text: "Request Info",
       link: "mailto:strategy-forum@gosim.org",
       openInNewTab: true,
+    }}
+  />
+
+  <Venue2Info
+    subtitle="Forum Venue"
+    title=""
+    location="Paris, France"
+    text="The exact location of forum will be sent to all invited participants via email."
+    ctaButton={{
+      text: "May 5 - Invitation Only",
+      link: ""
     }}
   />
 </Layout>
