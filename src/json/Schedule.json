@@ -955,7 +955,7 @@
             "id": "minglan-lin",
             "name": "Minglan Lin",
             "tags": ["embodied-ai"],
-            "roleOrg": "Embodied Intelligence Researcher at Beijing Academy of Artificial Intelligence",
+            "roleOrg": "Embodied Intelligence Researcher at BAAI",
             "image": "minglan-lin.jpg"
           }
         ]
@@ -1087,7 +1087,7 @@
             "id": "junkai-zhao",
             "name": "Junkai Zhao",
             "tags": ["embodied-ai"],
-            "roleOrg": "Robot Algorithm Engineer at Beijing Academy of Artificial Intelligence",
+            "roleOrg": "Robot Algorithm Engineer at BAAI",
             "image": "junkai-zhao.jpg"
           }
         ]
@@ -1154,7 +1154,7 @@
       },
       {
         "date": "May 7",
-        "timeSlot": "10:30 - 11:00",
+        "timeSlot": "10:30 - 10:50",
         "title": "Welcome & Opening Remarks",
         "content": "",
         "speakers": [
@@ -1162,22 +1162,30 @@
             "id": "matt-white",
             "name": "Matt White",
             "tags": ["pytorch"],
-            "roleOrg": "Executive Director, PyTorch Foundation at Linux Foundation",
+            "roleOrg": "Executive Director, PyTorch Foundation. GM of AI, Linux Foundation.",
             "image": "matt-white.png"
           }
         ]
       },
       {
         "date": "May 7",
-        "timeSlot": "11:00 - 11:20",
-        "title": "To Be Announced",
-        "content": "",
-        "speakers": []
+        "timeSlot": "10:50 - 11:10",
+        "title": "Real-World Robotics as the Next Frontier for AI?",
+        "content": "As AI continues to push the boundaries of perception and decision-making, robotics emerges as one of its most exciting and demanding playground. In this talk, we’ll explore how the intersection of machine learning and robotics opens up powerful avenues for interaction, manipulation, and embodied intelligence. We will emphasize the critical role of real-world experimentation and data collection in bridging the gap between simulation and deployment. Interestingly, tasks traditionally viewed as complex, like locomotion, have seen significant progress, while seemingly simple behaviors—such as dexterous manipulation—remain open challenges. By grounding AI systems in physical environments, we gain deeper insight into their capabilities and limitations, and identify new directions for research at the intersection of learning, control, and embodiment.",
+        "speakers": [
+          {
+            "id": "pierre-rouanet",
+            "name": "Pierre Rouanet",
+            "tags": ["pytorch"],
+            "roleOrg": "Co-Founder & CTO at Pollen Robotics",
+            "image": "generic-profile.png"
+          }
+        ]
       },
       {
         "date": "May 7",
-        "timeSlot": "11:20 - 11:40",
-        "title": "The Media Decoding Library for PyTorch",
+        "timeSlot": "11:10 - 11:30",
+        "title": "TorchCodec: The Media Decoding Library for PyTorch",
         "content": "TorchCodec is a new PyTorch library for decoding video and audio data into tensors, on CPU and CUDA GPU. It aims to be fast, easy to install, easy to use, and well integrated into the PyTorch ecosystem. In this talk, we’ll present the various decoding capabilities of TorchCodec, how to sample video frames, and we’ll describe more advanced use-cases like streaming videos from the cloud.",
         "speakers": [
           {
@@ -1191,9 +1199,9 @@
       },
       {
         "date": "May 7",
-        "timeSlot": "11:40 - 12:00",
+        "timeSlot": "11:30 - 11:50",
         "title": "Scaling LLM Inference with vLLM: Multi‑Accelerator Serving and Quantized LLMs",
-        "content": "vLLM has become the community-standard engine for low-latency LLM inference, achieving a 10× increase in usage in 2024 and surpassing 100,000 daily installs by January 2025. Supported by hundreds of contributors and productized through Red Hat AI, vLLM provides a vendor-neutral solution for serving cutting-edge models at scale. This talk outlines a practical blueprint for scaling LLM inference using vLLM, integrating both system-level techniques and model-level optimizations.\n \n We begin by addressing the challenges of deploying LLMs with chain-of-thought reasoning in production. Leveraging vLLM’s engine architecture, multi-accelerator deployments using tensor parallelism, paged attention scheduling, and prefill–decode disaggregation demonstrate how a single node can efficiently drive multiple AI accelerators, enhancing throughput without compromising latency.\n \n The second optimization layer focuses on quantization. Based on over 500,000 evaluations across language and vision-language models, we examine the accuracy–speed trade-offs of weight and activation quantization. We introduce new pathways that significantly reduce memory usage while maintaining model quality. Attendees will leave with data-driven insights and ready-to-use configurations for deploying state-of-the-art quantized models in scalable enterprise inference pipelines.",
+        "content": "vLLM has become the community-standard engine for low-latency LLM inference, achieving a 10× increase in usage in 2024 and surpassing 100,000 daily installs by January 2025. Supported by hundreds of contributors and productized through Red Hat AI, vLLM provides a vendor-neutral solution for serving cutting-edge models at scale. This talk outlines a practical blueprint for scaling LLM inference using vLLM, integrating both system-level techniques and model-level optimizations.\n\n We begin by addressing the challenges of deploying LLMs with chain-of-thought reasoning in production. Leveraging vLLM’s engine architecture, multi-accelerator deployments using tensor parallelism, paged attention scheduling, and prefill–decode disaggregation demonstrate how a single node can efficiently drive multiple AI accelerators, enhancing throughput without compromising latency.\n\n The second optimization layer focuses on quantization. Based on over 500,000 evaluations across language and vision-language models, we examine the accuracy–speed trade-offs of weight and activation quantization. We introduce new pathways that significantly reduce memory usage while maintaining model quality. Attendees will leave with data-driven insights and ready-to-use configurations for deploying state-of-the-art quantized models in scalable enterprise inference pipelines.",
         "speakers": [
           {
             "id": "erwan-gallen",
@@ -1236,15 +1244,23 @@
       {
         "date": "May 7",
         "timeSlot": "14:20 - 14:40",
-        "title": "To Be Announced",
-        "content": "",
-        "speakers": []
+        "title": "Harnessing Common Crawl for AI and ML applications",
+        "content": "This presentation looks at effective strategies for using Common Crawl's web archive in large-scale research applications, specifically for AI and other ML applications. We will discuss practical approaches to processing and filtering Common Crawl’s datasets, with focus on how to overcome computational challenges and optimise data pipelines. We will also discuss some of the challenges that users might encounter related to the multilingual and heterogeneous nature of Common Crawl’s data. The talk will cover best practices for data filtering, pre-processing, and storage, to ensure the quality and relevance of extracted information for research tasks. Additionally, we will briefly discuss the ranking mechanism used to determine whether a URL is crawled, and demonstrate how to use the Web Graph as a framework for further research.",
+        "speakers": [
+          {
+            "id": "pedro-ortis",
+            "name": "Pedro Ortis",
+            "tags": ["pytorch"],
+            "roleOrg": "Senior Research Scientist at Common Crawl",
+            "image": "generic-profile.png"
+          }
+        ]
       },
       {
         "date": "May 7",
         "timeSlot": "14:40 - 15:00",
         "title": "The Ultra-Scale Talk: Scaling Training to Thousands of GPUs",
-        "content": "Training large language models (LLMs) demands more than just raw compute—it requires infrastructure, strategy, and a deep understanding of parallelism. What begins as a single-GPU prototype must eventually scale across thousands of devices, each step introducing new complexity.\n \n This talk dives into the practicalities of ultra-scale training. We'll explore how 5D parallelism—spanning data, tensor, pipeline, context, and expert dimensions—makes it possible to stretch a single training run across massive GPU clusters. Along the way, we’ll cover performance tuning, communication patterns, and architecture choices that impact throughput and hardware efficiency.\n \n A key reference for this session is the Ultra-Scale Playbook, which distills best practices and hard-earned lessons from real-world LLM scaling efforts. We’ll walk through highlights of the playbook, tying them into case studies, benchmarks, and hands-on recommendations.\n \n Scaling isn’t just about size—it’s about doing more with what you have. This webinar offers a comprehensive look at what it really takes to train state-of-the-art models at scale, designed for engineers, researchers, and practitioners ready to move beyond “it fits on one GPU” toward infrastructure that powers trillion-parameter models—efficiently, and at speed.",
+        "content": "Training large language models (LLMs) demands more than just raw compute—it requires infrastructure, strategy, and a deep understanding of parallelism. What begins as a single-GPU prototype must eventually scale across thousands of devices, each step introducing new complexity.\n\n This talk dives into the practicalities of ultra-scale training. We'll explore how 5D parallelism—spanning data, tensor, pipeline, context, and expert dimensions—makes it possible to stretch a single training run across massive GPU clusters. Along the way, we’ll cover performance tuning, communication patterns, and architecture choices that impact throughput and hardware efficiency.\n\n A key reference for this session is the Ultra-Scale Playbook, which distills best practices and hard-earned lessons from real-world LLM scaling efforts. We’ll walk through highlights of the playbook, tying them into case studies, benchmarks, and hands-on recommendations.\n\n Scaling isn’t just about size—it’s about doing more with what you have. This webinar offers a comprehensive look at what it really takes to train state-of-the-art models at scale, designed for engineers, researchers, and practitioners ready to move beyond “it fits on one GPU” toward infrastructure that powers trillion-parameter models—efficiently, and at speed.",
         "speakers": [
           {
             "id": "nouamane-tazi",
@@ -1326,7 +1342,7 @@
         "date": "May 7",
         "timeSlot": "16:40 - 17:00",
         "title": "LLM Constrained Generation in PyTorch with Outlines",
-        "content": "Parsing errors, unexpected outputs. If you've felt the frustration of trying to wrangle LLMs into producing consistently formatted results, you've likely built complex post-processing pipelines and elaborate prompting schemes. What if there was a way to guarantee structured outputs without these workarounds? Enter structured outputs.\n \n In this talk, we'll explore how model outputs can be precisely constrained using formal specifications (e.g. JSON Schema), why this dramatically improves reliability, and how it reduces sensitivity to prompt engineering. We'll demonstrate advanced use cases using our open source library Outlines, which add structured outputs the `transformers`, `vllm`, etc inference libraries.\n \n By the end of the session, you'll understand how to implement these techniques in your applications today, enabling your models to generate flawless JSON with minimal latency overhead compared to unconstrained generation.",
+        "content": "Parsing errors, unexpected outputs. If you've felt the frustration of trying to wrangle LLMs into producing consistently formatted results, you've likely built complex post-processing pipelines and elaborate prompting schemes. What if there was a way to guarantee structured outputs without these workarounds? Enter structured outputs.\n\n In this talk, we'll explore how model outputs can be precisely constrained using formal specifications (e.g. JSON Schema), why this dramatically improves reliability, and how it reduces sensitivity to prompt engineering. We'll demonstrate advanced use cases using our open source library Outlines, which add structured outputs the `transformers`, `vllm`, etc inference libraries.\n\n By the end of the session, you'll understand how to implement these techniques in your applications today, enabling your models to generate flawless JSON with minimal latency overhead compared to unconstrained generation.",
         "speakers": [
           {
             "id": "remi-louf",
@@ -1363,7 +1379,7 @@
         "date": "May 7",
         "timeSlot": "17:40 - 18:00",
         "title": "PyTorch x Transformers journey: pythonicity, autodiff and modularity defining modern AI",
-        "content": "The HuggingFace Transformers library is a flagship example of what makes PyTorch special: a dynamic, readable, and hackable framework that scales from quick experiments to production-ready architectures. It began as an implementation of BERT, continued to a \"\"one model, one file\"\" setup—ideal for iteration—and grew into a modular codebase now defining 315+ models. Transformers has become a reference implementation for the field: a source of truth for model architectures, behaviors, and pretraining conventions. Its evolution reflects PyTorch’s own: grounded in Pythonic values, but pragmatic enough to diverge when needed.\n  \n PyTorch’s ecosystem has replaced entire toolchains. Scaling models has become simpler: torch.compile brings compiler-level speedups with minimal code changes, and new abstractions like DTensor offer serious performance gains without the low-level complexity.\n \n Both PyTorch and Transformers inherit Python’s spirit—clarity, flexibility, expressiveness—without being bound by it. PyTorch leans on ATen and C++ kernels under the hood; Transformers increasingly rely on optimized community kernels and hardware-aware implementations from the hub.\n  \n Modularity and readability didn’t just improve maintainability—they grew the community. Lowering the barrier to entry encourages experimentation, contributions, and faster innovation. This talk tracks that journey—from how PyTorch enabled Transformers, to how the virtuous cycle of design, performance, and pragmatism continues to shape the tools driving modern AI.",
+        "content": "The HuggingFace Transformers library is a flagship example of what makes PyTorch special: a dynamic, readable, and hackable framework that scales from quick experiments to production-ready architectures. It began as an implementation of BERT, continued to a \"\"one model, one file\"\" setup—ideal for iteration—and grew into a modular codebase now defining 315+ models. Transformers has become a reference implementation for the field: a source of truth for model architectures, behaviors, and pretraining conventions. Its evolution reflects PyTorch’s own: grounded in Pythonic values, but pragmatic enough to diverge when needed.\n\n PyTorch’s ecosystem has replaced entire toolchains. Scaling models has become simpler: torch.compile brings compiler-level speedups with minimal code changes, and new abstractions like DTensor offer serious performance gains without the low-level complexity.\n\n Both PyTorch and Transformers inherit Python’s spirit—clarity, flexibility, expressiveness—without being bound by it. PyTorch leans on ATen and C++ kernels under the hood; Transformers increasingly rely on optimized community kernels and hardware-aware implementations from the hub.\n\n Modularity and readability didn’t just improve maintainability—they grew the community. Lowering the barrier to entry encourages experimentation, contributions, and faster innovation. This talk tracks that journey—from how PyTorch enabled Transformers, to how the virtuous cycle of design, performance, and pragmatism continues to shape the tools driving modern AI.",
         "speakers": [
           {
             "id": "pablo-montalvo",

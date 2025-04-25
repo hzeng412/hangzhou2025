@@ -1187,6 +1187,7 @@
       "status": "New",
       "draft": false
     },
+
     {
       "id": "martino-russi",
       "tag": "embodied-ai",
@@ -1399,7 +1400,7 @@
     {
       "id": "matt-white",
       "name": "Matt White",
-      "role": "Executive Director, PyTorch Foundation",
+      "role": "Executive Director",
       "roleOrg": "Executive Director, PyTorch Foundation. GM of AI, Linux Foundation.",
       "bio": "Matt White is the Executive Director of the PyTorch Foundation and GM of AI at the Linux Foundation, as well as the Director of the Generative AI Commons under the LF AI & Data Foundation. With nearly 30 years of experience in AI research, standards, and applications across telecom, media, and gaming, he has specialized since 2012 in machine learning, simulations, and multi-sensory learning. He previously co-founded the Open Metaverse Foundation, chairs the Metaverse Standards Forum, and co-organizes both the Silicon Valley Generative AI paper reading group and the GenAI Collective.",
       "image": "matt-white.png",
@@ -1604,6 +1605,44 @@
       "roleOrg": "Deutsche Telekom",
       "image": "generic-profile.png",
       "tag": "forum",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "pedro-ortis",
+      "name": "Pedro Ortis",
+      "bio": "",
+      "role": "Senior Research Scientist",
+      "org": "Common Crawl",
+      "roleOrg": "Senior Research Scientist at Common Crawl",
+      "image": "generic-profile.png",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "pierre-rouanet",
+      "name": "Pierre Rouanet",
+      "bio": "",
+      "role": "Co-Founder & CTO",
+      "org": "Pollen Robotics",
+      "roleOrg": "Co-Founder & CTO at Pollen Robotics",
+      "image": "generic-profile.png",
+      "tag": "pytorch",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
