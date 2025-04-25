@@ -326,8 +326,8 @@
       "tag": "forum",
       "socialLinks": {
         "mastodon": "undefined",
-        "twitter": "rdicosmo",
-        "github": "rdicosmo",
+        "twitter": "https://x.com/rdicosmo",
+        "github": "https://github.com/rdicosmo",
         "linkedin": "https://www.linkedin.com/in/roberto-di-cosmo/",
         "website": "https://dicosmo.org"
       },
@@ -554,7 +554,7 @@
       "tag": "ai-infra",
       "socialLinks": {
         "mastodon": "undefined",
-        "twitter": "dxhuang",
+        "twitter": "https://x.com/dxhuang",
         "github": "https://github.com/c4pt0r",
         "linkedin": "undefined",
         "website": "https://me.0xffff.me"
@@ -576,7 +576,7 @@
         "twitter": "undefined",
         "github": "undefined",
         "linkedin": "undefined",
-        "website": "www.gizwits.com"
+        "website": "https://www.gizwits.com"
       },
       "status": "New",
       "draft": false
@@ -1046,7 +1046,7 @@
       "tag": "forum",
       "socialLinks": {
         "mastodon": "undefined",
-        "twitter": "",
+        "twitter": "undefined",
         "github": "https://github.com/marianna13",
         "linkedin": "undefined",
         "website": "undefined"
