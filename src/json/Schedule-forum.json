@@ -16,7 +16,7 @@
         "id": "gael-blondelle",
         "name": "Gaël Blondelle",
         "tags": ["forum"],
-        "roleOrg": "VP, Eclipse Foundation",
+        "roleOrg": "VP at the Eclipse Foundation",
         "image": "gael-blondelle.png"
       }
     ]
@@ -31,14 +31,14 @@
         "id": "daniel-goldscheider",
         "name": "Daniel Goldscheider",
         "tags": ["forum"],
-        "roleOrg": "ED, OpenWallet Foundation",
-        "image": "daniel-goldscheider.jpeg"
+        "roleOrg": "ED of the OpenWallet Foundation",
+        "image": "daniel-goldscheider.jpg"
       },
       {
         "id": "stefano-mafulli",
         "name": "Stefano Mafulli",
         "tags": ["forum"],
-        "roleOrg": "ED, OSI",
+        "roleOrg": "ED of the OSI",
         "image": "stefano-maffulli.jpg"
       },
       {
@@ -52,21 +52,21 @@
         "id": "manuel-betin",
         "name": "Manuel Bétin",
         "tags": ["forum"],
-        "roleOrg": "Economist, OCDE",
+        "roleOrg": "Economist at OCDE",
         "image": "manuel-bétin.jpg"
       },
       {
         "id": "qin-wang",
         "name": "Professor Qin Wang",
         "tags": ["forum"],
-        "roleOrg": "Professor, CASS",
+        "roleOrg": "Professor at CASS",
         "image": "qin-wang.jpg"
       },
       {
         "id": "yonghua-lin",
         "name": "Yonghua Lin",
         "tags": ["forum"],
-        "roleOrg": "VP, BAAI",
+        "roleOrg": "VP of Beijing Academy of Artificial Intelligence",
         "image": "yonghua-lin.png"
       }
     ]
@@ -88,28 +88,28 @@
         "id": "michael-plagge",
         "name": "Michael Plagge",
         "tags": ["forum"],
-        "roleOrg": "VP, Eclipse Foundation",
+        "roleOrg": "VP of the Eclipse Foundation",
         "image": "plagge-michael.jpg"
       },
       {
         "id": "yann-lechelle",
         "name": "Yann Lechelle",
         "tags": ["forum"],
-        "roleOrg": "Co-founder CEO, Probabl.ai",
+        "roleOrg": "Co-founder CEO of Probabl.ai",
         "image": "yann-lechelle.jpg"
       },
       {
         "id": "michel-marie-maudet",
         "name": "Michel-Marie Maudet",
         "tags": ["forum"],
-        "roleOrg": "Owener, Linagora",
+        "roleOrg": "Owener of Linagora",
         "image": "michel-marie-maudet.png"
       },
       {
         "id": "cailean-osborne",
         "name": "Cailean Osborne",
         "tags": ["forum"],
-        "roleOrg": "Reasearcher, LF Research",
+        "roleOrg": "Reasearcher at the Linux Research",
         "image": "cailean-osborne.png"
       }
     ]
@@ -131,21 +131,21 @@
         "id": "arun-joseph",
         "name": "Arun Joseph",
         "tags": ["forum"],
-        "roleOrg": "Head of AI Engineering, Deutsche Telekom",
+        "roleOrg": "Head of AI Engineering at Deutsche Telekom",
         "image": "generic-profile.png"
       },
       {
         "id": "matt-white",
         "name": "Matt White",
         "tags": ["forum"],
-        "roleOrg": "ED, Pytorch Foundation",
+        "roleOrg": "ED of the Pytorch Foundation",
         "image": "matt-white.png"
       },
       {
         "id": "baosong-yang",
         "name": "Baosong Yang",
         "tags": ["forum"],
-        "roleOrg": "Researcher, Alibaba Yongyi Lab",
+        "roleOrg": "Researcher at Alibaba Yongyi Lab",
         "image": "baosong-yang.png"
       }
     ]
@@ -160,15 +160,15 @@
         "id": "gael-blondelle",
         "name": "Gaël Blondelle",
         "tags": ["forum"],
-        "roleOrg": "VP, Eclipse Foundation",
+        "roleOrg": "VP of the Eclipse Foundation",
         "image": "gael-blondelle.png"
       },
       {
         "id": "ovidiu-vermesan",
         "name": "Ovidiu Vermesan",
         "tags": ["forum"],
-        "roleOrg": "Chief Scientist, SINTEF",
-        "image": "generic-profile.png"
+        "roleOrg": "Chief Scientist of SINTEF",
+        "image": "ovidiu-vermesan.jpg"
       },
       {
         "id": "pierre-gaillard",
@@ -181,21 +181,21 @@
         "id": "yumei-he",
         "name": "Yumei He",
         "tags": ["forum"],
-        "roleOrg": "Assitant Professor, Tulane University",
+        "roleOrg": "Assitant Professor at Tulane University",
         "image": "yumei-he.jpeg"
       },
       {
         "id": "jenia-jitsev",
         "name": "Jenia Jitseva",
         "tags": ["forum"],
-        "roleOrg": "Co-founder & Scientific Lead, LAION",
+        "roleOrg": "Co-founder & Scientific Lead ofLAION",
         "image": "jenia-jitsev.jpeg"
       },
       {
         "id": "marianna-nezhurina",
         "name": "Marianna Nezhurina",
         "tags": ["forum"],
-        "roleOrg": "Member and Core Researcher, LAION",
+        "roleOrg": "Member and Core Researcher at LAION",
         "image": "marianna-nezhurina.jpg"
       }
     ]
@@ -217,21 +217,21 @@
         "id": "alexy-khrabrov",
         "name": "Alexy Khrabrov",
         "tags": ["forum"],
-        "roleOrg": "Open-Source Science and AI Community Leader, Neo4J",
+        "roleOrg": "Open-Source Science and AI Community Leader at Neo4J",
         "image": "alexy-khrabrov.jpg"
       },
       {
         "id": "quentin-adam",
         "name": "Quentin Adam",
         "tags": ["forum"],
-        "roleOrg": "CEO, CleverCloud",
+        "roleOrg": "CEO of CleverCloud",
         "image": "generic-profile.png"
       },
       {
         "id": "arun-joseph",
         "name": "Arun Joseph",
         "tags": ["forum"],
-        "roleOrg": "Head, AI Engineering, Deutsche Telekom",
+        "roleOrg": "Head of AI Engineering at Deutsche Telekom",
         "image": "generic-profile.png"
       }
     ]
@@ -246,21 +246,21 @@
         "id": "volha-litvinets",
         "name": "Volha Litvinets",
         "tags": ["forum"],
-        "roleOrg": "Digital Ethics Lead, EY",
+        "roleOrg": "Digital Ethics Lead at EY",
         "image": "volha-litvinets.jpg"
       },
       {
         "id": "roberto-di-cosmo",
         "name": "Roberto Di Cosmo",
         "tags": ["forum"],
-        "roleOrg": "ED, SW Heritage Foundation",
+        "roleOrg": "ED of the SW Heritage Foundation",
         "image": "roberto-di-cosmo.png"
       },
       {
         "id": "sray-agarwal",
         "name": "Sray Agarwal",
         "tags": ["forum"],
-        "roleOrg": "Head, Responsible AI Office, Infosys",
+        "roleOrg": "Head of Responsible AI Office at Infosys",
         "image": "sray-agarwal.jpg"
       }
     ]
@@ -275,7 +275,7 @@
         "id": "gael-blondelle",
         "name": "Gaël Blondelle",
         "tags": ["forum"],
-        "roleOrg": "VP, Eclipse Foundation",
+        "roleOrg": "VP of the Eclipse Foundation",
         "image": "gael-blondelle.png"
       }
     ]

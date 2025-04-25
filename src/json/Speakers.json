@@ -349,8 +349,8 @@
       "bio": "Daniel Goldscheider is founder and Executive Director of the OpenWallet Foundation and serves as Vice Chair of the Supervisory Board of Valamar Riviera d.d., Croatia’s largest tourism company. \r\n\r\nBefore that he started yes.com, an open banking scheme and co-founded Mediaguide with the American Society of Composers, Authors and Publishers as well as Aureus Private Equity (today Invision).",
       "role": "Executive Director",
       "org": "OpenWallet",
-      "roleOrg": "Executive Director at OpenWallet",
-      "image": "daniel-goldscheider.jpeg",
+      "roleOrg": "Executive Director at the OpenWallet Foundation",
+      "image": "daniel-goldscheider.jpg",
       "tag": "forum",
       "socialLinks": {
         "mastodon": "undefined",
@@ -1488,7 +1488,7 @@
       "bio": "",
       "role": "",
       "org": "Eclipse Foundation",
-      "roleOrg": "Eclipse Foundation",
+      "roleOrg": "VP of the Eclipse Foundation",
       "image": "gael-blondelle.png",
       "tag": "forum",
       "socialLinks": {
@@ -1526,7 +1526,7 @@
       "bio": "",
       "role": "",
       "org": "Probabl.ai",
-      "roleOrg": "Co-founder CEO, Probabl.ai",
+      "roleOrg": "Co-founder CEO at Probabl.ai",
       "image": "yann-lechelle.jpg",
       "tag": "forum",
       "socialLinks": {
@@ -1545,7 +1545,7 @@
       "bio": "",
       "role": "",
       "org": "OSI",
-      "roleOrg": "ED, OSI",
+      "roleOrg": "ED of the OSI",
       "image": "stefano-maffulli.jpg",
       "tag": "forum",
       "socialLinks": {
@@ -1564,7 +1564,7 @@
       "bio": "",
       "role": "",
       "org": "Eclipse Foundation",
-      "roleOrg": "VP of Eclipse Foundation",
+      "roleOrg": "VP of the Eclipse Foundation",
       "image": "plagge-michael.jpg",
       "tag": "forum",
       "socialLinks": {
@@ -1583,9 +1583,9 @@
       "bio": "",
       "role": "",
       "org": "SINTEF",
-      "roleOrg": "SINTEF",
-      "image": "generic-profile.png",
-      "tag": "forum",
+      "roleOrg": "Chief Scientist at SINTEF",
+      "image": "ovidiu-vermesan.jpg",
+    "tag": "forum",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
