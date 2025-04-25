@@ -186,15 +186,16 @@ const { date, location, description, links } = Astro.props;
         <div>
           {description && <p class="description" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; color: white;">{description}</p>}
         </div>
-
         <div class="logo-eclipse" style="margin-top: 10px;">
-          <img 
-            src="/images/sponsors/eclipse-foundation.png" 
-            alt="Eclipse Foundation Logo" 
-            width="150" 
-            height="auto" 
-            loading="lazy" 
-          />
+          <a href="https://www.eclipse.org/" target="_blank" rel="noopener noreferrer">
+            <img 
+              src="/images/sponsors/eclipse-foundation.png" 
+              alt="Eclipse Foundation Logo" 
+              width="150" 
+              height="auto" 
+              loading="lazy" 
+            />
+          </a>
         </div>
 
         <div class="btn-home-wrap">
