@@ -178,7 +178,7 @@ const { date, location, description, links } = Astro.props;
           </svg>
         </div>
 
-        <div class="event-facts ">
+        <div class="event-facts forum-event-facts">
           {date && <p>{date}</p>}
           {location && <p>{location}</p>}
         </div>
@@ -214,3 +214,9 @@ const { date, location, description, links } = Astro.props;
     </div>
   </div>
 </section>
+
+<style>
+  .forum-event-facts {
+    bottom: 5%;
+  }
+</style>
