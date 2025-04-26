@@ -90,35 +90,37 @@ const getCategoryNameFromTag = (tagId: string): string => {
             (loop, i) =>
               i < 11 && (
                 <div class="flickity-slide" data-cursor-bubble-text="Drag">
-                  <div class="single-speakers-card">
-                    <div class="card-row card-row-image">
-                      <div class="card-image">
-                        {loop?.image &&
-                          images[`/public/images/speakers/${loop.image}`] && (
-                            <Picture
-                              src={images[
-                                `/public/images/speakers/${loop.image}`
-                              ]()}
-                              formats={["webp", "jpg"]}
-                              alt={loop.name}
-                              class="overlay"
-                              widths={[275, 400, 500, 600, 750, 900]}
-                              sizes="(max-width: 700px) 58vw, 450px"
-                            />
-                          )}
-                      </div>
+                  <a href={`/speakers/${loop.id}/`} class="speaker-card-link">
+                    <div class="single-speakers-card">
+                      <div class="card-row card-row-image">
+                        <div class="card-image">
+                          {loop?.image &&
+                            images[`/public/images/speakers/${loop.image}`] && (
+                              <Picture
+                                src={images[
+                                  `/public/images/speakers/${loop.image}`
+                                ]()}
+                                formats={["webp", "jpg"]}
+                                alt={loop.name}
+                                class="overlay"
+                                widths={[275, 400, 500, 600, 750, 900]}
+                                sizes="(max-width: 700px) 58vw, 450px"
+                              />
+                            )}
+                        </div>
 
-                      <div class="card-tags group-tags">
-                        <div class="single-tag">
-                          <p>{getCategoryNameFromTag(loop.tag)}</p>
+                        <div class="card-tags group-tags">
+                          <div class="single-tag">
+                            <p>{getCategoryNameFromTag(loop.tag)}</p>
+                          </div>
                         </div>
                       </div>
+                      <div class="card-row card-row-info">
+                        <h3 class="h5">{loop.name}</h3>
+                        <p>{loop.roleOrg}</p>
+                      </div>
                     </div>
-                    <div class="card-row card-row-info">
-                      <h3 class="h5">{loop.name}</h3>
-                      <p>{loop.roleOrg}</p>
-                    </div>
-                  </div>
+                  </a>
                 </div>
               )
           )
@@ -137,3 +139,16 @@ const getCategoryNameFromTag = (tagId: string): string => {
     </div>
   </div>
 </section>
+
+<style>
+  .speaker-card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .speaker-card-link:hover {
+    transform: translateY(-5px);
+  }
+</style>
