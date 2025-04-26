@@ -9,8 +9,42 @@ import Button from "components/Button.astro"
 // JSON
 import speakersData from "json/Speakers.json"
 
+// Define speaker type
+interface Speaker {
+  id: string;
+  name: string;
+  bio: string;
+  role: string;
+  org: string;
+  roleOrg: string;
+  image: string;
+  tag: string;
+  socialLinks: {
+    mastodon: string;
+    twitter: string;
+    github: string;
+    linkedin: string;
+    website: string;
+  };
+  status: string;
+  draft: boolean;
+}
+
 const filteredSpeakers = speakersData.speakers.filter(
   (speaker) => speaker.draft !== true && speaker.id !== "tbd")
+
+// Function to shuffle array (Fisher-Yates algorithm)
+function shuffleArray(array: any[]) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+// Shuffle the filtered speakers
+const shuffledSpeakers = shuffleArray(filteredSpeakers);
 
 // Import all images
 const images = import.meta.glob<{ default: ImageMetadata }>(
@@ -52,7 +86,7 @@ const getCategoryNameFromTag = (tagId: string): string => {
     >
       <div class="flickity-carousel" style="outline: none;">
         {
-          filteredSpeakers?.map(
+          shuffledSpeakers?.map(
             (loop, i) =>
               i < 11 && (
                 <div class="flickity-slide" data-cursor-bubble-text="Drag">
