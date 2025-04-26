@@ -890,10 +890,6 @@ footer {
 .btn-home-wrap {
    display: flex;
    gap: 2rem;
-
-   @media screen and (max-width: 640px) {
-      gap: 1rem;
-   }
 }
 
 @media screen and (max-width: 860px) {
@@ -917,6 +913,13 @@ footer {
       gap: 1rem;
    }
 
+}
+
+@media screen and (max-width: 640px) {
+   .btn-home-wrap{
+      gap: 1rem;
+      flex-direction: column;
+   }
 }
 
 @media screen and (max-width: 540px) {
