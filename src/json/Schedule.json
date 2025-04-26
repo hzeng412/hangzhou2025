@@ -377,15 +377,15 @@
       {
         "date": "May 6",
         "timeSlot": "14:00 - 14:40",
-        "title": "SGLang: Efficient LLM Serving Engine",
-        "content": "SGLang is a fast serving engine for LLMs and VLMs. It's fully open-source, incubated by LMSYS Org, with 300+ contributors worldwide. \r\nIn this talk, we will introduce the key features and performance optimizations in SGLang. ",
+        "title": "Data Spaces as the Backbone for an AI Dataverse",
+        "content": "A sound ecosystem of AI, LLMs, and Agentic AI is essential for the AI and Data economy. This ecosystem requires an additional layer of trust to connect data and infrastructures through marketplaces and guarantee data governance and usage control, among other things. This is necessary to meet the diverse data requirements in the EU, including the GDPR, the Data Act, and the Data Governance Act, among others. Also, the interconnection via self-sovereign identity may allow different partners to add extra trust interactions.\r\nThis is provided by the data spaces and the trusted data matrix initiates all over the world.\r\nIn the EUNOMIA project, we are integrating the MCP protocol ( Model Context Protocol ) as a way to feed data from the flourishing European data spaces infrastructure to the LLMs. This could be interconnected, in a trusted way, with different partners via the Gaia-X trust framework, the EIDAS 2 initiative and the self-sovereign identity infrastructure.\r\nThis could be generalized into  the new A2A protocol, presented by Google. In fact, this protocol could be merged with our Advance data space protocol in order to add extra trust capabilities. So this could be a perfect match since the Authentication and authorization for actuation over real systems.\r\nThis could lead to an architecture of a fully distributed trusted architecture between different actors all over the world that could lead to a Dataverse upon which different applications and services may be automatically deployed that will be introduced.",
         "speakers": [
           {
-            "id": "ke-bao",
-            "name": "Ke Bao",
+            "id": "joaquin-salvachua",
+            "name": "Joaquin Salvachua",
             "tags": ["ai-infra"],
-            "roleOrg": "Member of LMSYS Org",
-            "image": "ke-bao.jpeg"
+            "roleOrg": "Profesor Titular at Universidad Politecnica de Madrid",
+            "image": "joaquin-salvachua.jpeg"
           }
         ]
       },

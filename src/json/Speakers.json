@@ -1283,6 +1283,25 @@
       "draft": false
     },
     {
+      "id": "joaquin-salvachua",
+      "name": "Joaquin Salvachua",
+      "bio": "Joaquín Salvachúa is a Professor at the Universidad Politécnica de Madrid, In the specializing in the Department of Telematics Systems Engineering at the Telecommunication School. He is a member of the board at Gaia-X Hub España, FIWARE and BDVA and active contributor in Gaia-X AISBL.  and actively participates in research on ML-OPS, Big data architectures, cloud computing, next-generation internet technologies, network science and formal methods. Has authored numerous academic publications.",
+      "role": "Profesor Titular",
+      "org": "Universidad Politecnica de Madrid",
+      "roleOrg": "Profesor Titular at Universidad Politecnica de Madrid",
+      "image": "joaquin-salvachua.jpeg",
+      "tag": "assign-me",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://bsky.app/profile/jsalvachua.bsky.social",
+        "github": "https://github.com/jsalvachua",
+        "linkedin": "https://www.linkedin.com/in/jsalvachua/",
+        "website": "https://portalcientifico.upm.es/es/ipublic/researcher/305315"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "greg-schoeninger",
       "tag": "ai-infra",
       "name": "Greg Schoeninger",
