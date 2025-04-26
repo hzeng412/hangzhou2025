@@ -70,8 +70,8 @@ const speakerSessions = [
   ),
   // Get sessions from forum schedule
   ...scheduleForum
-    .filter((session) => 
-      session.speakers && 
+    .filter((session) =>
+      session.speakers &&
       session.speakers.some((s) => s.name === speaker.name)
     )
     .map((session) => ({
@@ -124,6 +124,7 @@ const socialIconMap: Record<string, string> = {
                     height={400}
                     width={400}
                     loading="eager"
+                    style="object-fit: cover; object-position: center 15% !important;"
                   />
                 </div>
               )}
@@ -209,3 +210,11 @@ const socialIconMap: Record<string, string> = {
     </section>
   )}
 </Layout>
+
+<style>
+  .speaker-detail-image {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+</style>
