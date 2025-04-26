@@ -162,7 +162,7 @@ const socialIconMap: Record<string, string> = {
           </div>
 
           <div class="box-row box-row-text styled-content">
-            <p>{speaker.bio}</p>
+            <p set:html={speaker.bio.replace(/\n/g, '<br>')}></p>
           </div>
         </div>
       </div>
