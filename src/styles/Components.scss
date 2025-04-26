@@ -525,7 +525,7 @@
    background-color: var(--color-dark-tint);
    border-radius: var(--border-radius);
    &.special-event {
-      background-color: #e5e4ef !important;
+      border: 1px dashed var(--color-border) !important;
    }
 }
 
