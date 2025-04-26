@@ -1,7 +1,7 @@
 ---
 // Components
-import Button from "components/Button.astro"
-import Logo from "./Logo.astro"
+import Button from "components/Button.astro";
+import Logo from "./Logo.astro";
 
 const firstColumnLinks = [
   {
@@ -28,7 +28,7 @@ const firstColumnLinks = [
   //   text: "FAQ",
   //   link: "/faq/",
   // },
-]
+];
 
 const secondColumnLinks = [
   // {
@@ -57,9 +57,9 @@ const secondColumnLinks = [
     text: "Seeed Embodied AI Hackathon",
     link: "https://lu.ma/7djaix39",
   },
-]
+];
 
-const slug = Astro.url.pathname
+const slug = Astro.url.pathname;
 ---
 
 <footer class="section footer" data-theme-section="dark" data-bg-section="dark">
@@ -184,6 +184,7 @@ const slug = Astro.url.pathname
               width="18"
               height="18"
               loading="lazy"
+              style="filter: invert(1);"
             />
           </a>
           <a
