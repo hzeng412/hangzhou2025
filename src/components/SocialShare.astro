@@ -1,29 +1,44 @@
 ---
 // Props for the component
 interface Props {
-  title: string;
-  url?: string;
-  description?: string;
+  title: string
+  url?: string
+  description?: string
 }
 
 // Get the props
-const { title, url = Astro.url.href, description = "" } = Astro.props;
+const { title, url = Astro.url.href, description = "" } = Astro.props
 
 // Encode the parameters for the share URLs
-const encodedTitle = encodeURIComponent(title);
-const encodedUrl = encodeURIComponent(url);
-const encodedDescription = encodeURIComponent(description);
+const encodedTitle = encodeURIComponent(title)
+const encodedUrl = encodeURIComponent(url)
+const encodedDescription = encodeURIComponent(description)
 
 // Create the share URLs
-const xShareUrl = `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`;
-const linkedInShareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`;
+const xShareUrl = `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`
+const linkedInShareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`
+const newWindowUrl = url // URL to open in new window
 ---
 
 <div class="social-share-container">
-  <div
-    class="card-tags group-tags social-wrap social-share-container"
-  >
+  <div class="card-tags group-tags social-wrap social-share-container">
     <span class="share-label">Share:</span>
+    <a
+      href={newWindowUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      class="social-link"
+      style="margin: 0;"
+      social-type="new-window"
+      aria-label="Open in new window"
+    >
+      <img
+        src="/icons/icon-newwin.svg"
+        alt="New window icon"
+        width="Auto"
+        height="19"
+      />
+    </a>
     <a
       href={xShareUrl}
       target="_blank"

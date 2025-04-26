@@ -184,7 +184,7 @@ const socialIconMap: Record<string, string> = {
             <ul class="row row-list">
               {speakerSessions.map((session) => (
                 <a
-                  href={`/schedule/${session.title.toLowerCase().replace(/\s+/g, "-")}/`}>
+                  href={`/schedule/${session.title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, "-").replace(/-+/g, '-').trim()}/`}>
                   <li class="single-agenda-card single-accordion-item card-hover">
                     <div class="top">
                       <div class="left">

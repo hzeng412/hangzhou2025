@@ -94,7 +94,7 @@ const getEventUrl = (title: string): string => {
   // Get the current URL origin (domain)
   const origin = Astro.url.origin;
   // Create the full URL with domain
-  return `${origin}/schedule/${title.toLowerCase().replace(/\s+/g, "-")}/`;
+  return `${origin}/schedule/${title.toLowerCase().replace(/[^\w\s-]/g, '').replace(/\s+/g, "-").replace(/-+/g, '-').trim()}/`;
 }
 ---
 
@@ -250,7 +250,7 @@ const getEventUrl = (title: string): string => {
                               set:html={session.content}
                             />
                           )}
-                          
+
                           <!-- Wrap speakers and social share in a single container -->
                           <div class="speakers-and-share-container">
                             {session.speakers.length > 0 && (
@@ -298,10 +298,10 @@ const getEventUrl = (title: string): string => {
                                 ))}
                               </div>
                             )}
-                            
+
                             <!-- Social share component with reduced spacing -->
                             <div class="social-share-row">
-                              <SocialShare 
+                              <SocialShare
                                 title={`${session.title} - GOSIM AI Paris 2025`}
                                 url={getEventUrl(session.title)}
                                 description={session.content ? session.content.replace(/<[^>]*>/g, "").substring(0, 160) : ""}
@@ -379,7 +379,7 @@ const getEventUrl = (title: string): string => {
                                   set:html={session.content}
                                 />
                               )}
-                              
+
                               <!-- Wrap speakers and social share in a single container -->
                               <div class="speakers-and-share-container">
                                 {session.speakers.length > 0 && (
@@ -430,10 +430,10 @@ const getEventUrl = (title: string): string => {
                                     ))}
                                   </div>
                                 )}
-                                
+
                                 <!-- Social share component with reduced spacing -->
                                 <div class="social-share-row">
-                                  <SocialShare 
+                                  <SocialShare
                                     title={`${session.title} - GOSIM AI Paris 2025`}
                                     url={getEventUrl(session.title)}
                                     description={session.content ? session.content.replace(/<[^>]*>/g, "").substring(0, 160) : ""}
@@ -467,7 +467,7 @@ const getEventUrl = (title: string): string => {
     flex-direction: column;
     gap: 0.25rem;
   }
-  
+
   .social-share-row {
     margin-top: 0.25rem;
     padding-top: 0.25rem;

@@ -36,12 +36,21 @@ export async function getStaticPaths() {
     props: { event: Event; category: string };
   }[] = [];
 
+  const createSlug = (title: string) => {
+    return title
+      .toLowerCase()
+      .replace(/[^\w\s-]/g, '')
+      .replace(/\s+/g, '-')
+      .replace(/-+/g, '-')
+      .trim();
+  };
+
   // Collect all sessions from all categories in main schedule
   Object.entries(schedule.sessions).forEach(([category, categoryEvents]) => {
     categoryEvents.forEach((event: Event) => {
       events.push({
         params: {
-          event: event.title.toLowerCase().replace(/\s+/g, "-"),
+          event: createSlug(event.title),
         },
         props: { event, category },
       });
@@ -52,7 +61,7 @@ export async function getStaticPaths() {
   scheduleForum.forEach((event: Event) => {
     events.push({
       params: {
-        event: event.title.toLowerCase().replace(/\s+/g, "-"),
+        event: createSlug(event.title),
       },
       props: { event, category: "Forum" },
     });
