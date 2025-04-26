@@ -97,9 +97,10 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
                         ]()}
                         formats={["webp", "jpg"]}
                         alt={speaker.name}
-                        class="overlay"
+                        class="overlay speaker-img"
                         widths={[275, 400, 500, 600, 750, 900]}
                         sizes="(max-width: 700px) 58vw, 450px"
+                        style="object-position: center 15% !important;"
                       />
                     )}
                 </div>
@@ -118,3 +119,18 @@ const images = import.meta.glob<{ default: ImageMetadata }>(
     </div>
   </div>
 </section>
+
+<style>
+  .card-image {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 1/1;
+    width: 100%;
+  }
+
+  .speaker-img {
+    object-fit: cover !important;
+    height: 100%;
+    width: 100%;
+  }
+</style>
