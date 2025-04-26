@@ -1,8 +1,8 @@
 ---
 // Components
-import Button from "components/Button.astro"
-import Logo from "./Logo.astro"
-import NotificationBar from "components/NotificationBar.astro"
+import Button from "components/Button.astro";
+import Logo from "./Logo.astro";
+import NotificationBar from "components/NotificationBar.astro";
 
 const links = [
   {
@@ -65,9 +65,9 @@ const links = [
       },
     ],
   },
-]
+];
 
-const slug = Astro.url.pathname
+const slug = Astro.url.pathname;
 ---
 
 <header>
@@ -245,7 +245,10 @@ const slug = Astro.url.pathname
         <div class="bar bar-bottom"></div>
       </div>
 
-      <div class="btn light btn-filter btn-filter-static btn-hover">
+      <div
+        class="btn light btn-filter btn-filter-static btn-hover"
+        style="margin-top: 35px;"
+      >
         <div class="btn-click filter-alpha-animate" data-filter-toggle="toggle">
           <div class="btn-content original">
             <div class="btn-fill"></div>
