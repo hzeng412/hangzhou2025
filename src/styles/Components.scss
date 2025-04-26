@@ -232,76 +232,6 @@
    }
 }
 
-/* ------------------------- Shape Round -------------------------------------------------- */
-
-.shape-round {
-   --height-percentage: 10;
-   position: absolute;
-   width: 100%;
-   padding-top: calc(var(--height-percentage) * 1%);
-   pointer-events: none;
-   overflow: hidden;
-}
-
-.shape-round::after {
-   pointer-events: all;
-   --width-round: 266vw;
-   content: "";
-   width: var(--width-round);
-   height: var(--width-round);
-   display: block;
-   background-color: var(--color-light);
-   left: 50%;
-   transform: translateX(-50%);
-   position: absolute;
-   border-radius: 50%;
-}
-
-.shape-round.dark::after {
-   background-color: var(--color-dark);
-}
-
-.shape-round.lightgray::after {
-   background-color: var(--color-lightgray);
-}
-
-.shape-round.primary::after {
-   background-color: var(--color-primary);
-}
-
-.shape-round.beige::after {
-   background-color: var(--color-beige);
-}
-
-
-/* Variants */
-
-.shape-round.bottom {
-   transform-origin: bottom;
-   bottom: -1px;
-}
-
-.shape-round.bottom::after {
-   top: 0;
-}
-
-.shape-round.top {
-   transform-origin: top;
-   top: -1px;
-}
-
-.shape-round.top::after {
-   bottom: 0;
-}
-
-.shape-round.grow {
-   transform: scaleY(0);
-}
-
-.shape-round.shrink {
-   transform: scaleY(1);
-}
-
 /* ------------------------- Gradient Circle -------------------------------------------------- */
 
 .gradient-circle-wrap {
@@ -322,18 +252,6 @@
    pointer-events: none;
    border-radius: 50%;
    filter: blur(5vw);
-}
-
-.gradient-circle-1 {
-   top: 0;
-   left: var(--single-grid-col);
-   transform: translate(-50%, -50%);
-}
-
-.gradient-circle-2 {
-   bottom: 0;
-   right: 0;
-   transform: translate(50%, 50%);
 }
 
 /* ------------------------- Flickity Slider - Setup -------------------------------------------------- */
@@ -1299,7 +1217,7 @@
 }
 
 
-/* ------------------------- Single Resources Card -------------------------------------------------- */
+/* ------------------------- Single Previous Event Card -------------------------------------------------- */
 
 .single-resources-card {
    position: relative;

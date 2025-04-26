@@ -1298,36 +1298,3 @@ select:-webkit-autofill:focus {
    background-color: var(--color-border);
    transition: background-color var(--animation-primary);
 }
-
-/* ------------------------- Section - Styleguide -------------------------------------------------- */
-
-.section-styleguide-content .row {
-   border-bottom: 1px solid var(--color-border);
-   padding: calc(var(--row-gap) * 1) 0;
-   flex-wrap: wrap;
-   gap: 1em 0;
-}
-
-.section-styleguide-content .row:first-child {
-   padding-top: 0;
-}
-
-.section-styleguide-content .row:last-child {
-   border-bottom: 0;
-   padding-bottom: 0;
-}
-
-.section-styleguide-content .row .col:nth-child(1) {
-   width: 30%;
-}
-
-.section-styleguide-content .row .col:nth-child(2) {
-   width: 70%;
-}
-
-@media screen and (max-width: 1024px) {
-   .section-styleguide-content .row .col:nth-child(1),
-   .section-styleguide-content .row .col:nth-child(2) {
-      width: 100%;
-   }
-}
