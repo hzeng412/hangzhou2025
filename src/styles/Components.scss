@@ -983,7 +983,10 @@
   border: 1px solid transparent;
 }
 .date-wrapper > .single-filter.dateselected {
-  background-color: var(--color-primary) !important;
+  background-color: var(--color-dark);
+  &>span {
+    color: var(--color-light);
+  }
 }
 
 .date-divider {
