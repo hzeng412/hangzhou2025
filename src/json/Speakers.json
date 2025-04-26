@@ -145,25 +145,6 @@
       "draft": false
     },
     {
-      "id": "ke-bao",
-      "tag": "ai-infra",
-      "name": "Ke Bao",
-      "roleOrg": "Member of LMSYS Org",
-      "bio": "Member of LMSYS Org, Core Contributor to SGLang",
-      "image": "ke-bao.jpeg",
-      "org": "LMSYS Org",
-      "role": "Member",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "https://x.com/ispobaoke",
-        "github": "https://github.com/ispobock",
-        "linkedin": "https://www.linkedin.com/in/kebao/",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
       "id": "meriem-bendris",
       "name": "Meriem Bendris",
       "bio": "",
