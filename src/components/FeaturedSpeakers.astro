@@ -33,19 +33,6 @@ interface Speaker {
 const filteredSpeakers = speakersData.speakers.filter(
   (speaker) => speaker.draft !== true && speaker.id !== "tbd")
 
-// Function to shuffle array (Fisher-Yates algorithm)
-function shuffleArray(array: any[]) {
-  const shuffled = [...array];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-  }
-  return shuffled;
-}
-
-// Shuffle the filtered speakers
-const shuffledSpeakers = shuffleArray(filteredSpeakers);
-
 // Import all images
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "images/speakers/*.{jpeg,jpg,png,gif}"
@@ -84,45 +71,44 @@ const getCategoryNameFromTag = (tagId: string): string => {
       class="flickity-slider-group four-col count-6"
       data-flickity-slider-type="cards"
     >
-      <div class="flickity-carousel" style="outline: none;">
+      <div class="flickity-carousel" style="outline: none;" id="speakers-carousel">
         {
-          shuffledSpeakers?.map(
-            (loop, i) =>
-              i < 11 && (
-                <div class="flickity-slide" data-cursor-bubble-text="Drag">
-                  <a href={`/speakers/${loop.id}/`} class="speaker-card-link">
-                    <div class="single-speakers-card">
-                      <div class="card-row card-row-image">
-                        <div class="card-image">
-                          {loop?.image &&
-                            images[`/public/images/speakers/${loop.image}`] && (
-                              <Picture
-                                src={images[
-                                  `/public/images/speakers/${loop.image}`
-                                ]()}
-                                formats={["webp", "jpg"]}
-                                alt={loop.name}
-                                class="overlay"
-                                widths={[275, 400, 500, 600, 750, 900]}
-                                sizes="(max-width: 700px) 58vw, 450px"
-                              />
-                            )}
-                        </div>
-
-                        <div class="card-tags group-tags">
-                          <div class="single-tag">
-                            <p>{getCategoryNameFromTag(loop.tag)}</p>
-                          </div>
-                        </div>
+          filteredSpeakers?.map(
+            (loop) => (
+              <div class="flickity-slide" data-cursor-bubble-text="Drag">
+                <a href={`/speakers/${loop.id}/`} class="speaker-card-link">
+                  <div class="single-speakers-card">
+                    <div class="card-row card-row-image">
+                      <div class="card-image">
+                        {loop?.image &&
+                          images[`/public/images/speakers/${loop.image}`] && (
+                            <Picture
+                              src={images[
+                                `/public/images/speakers/${loop.image}`
+                              ]()}
+                              formats={["webp", "jpg"]}
+                              alt={loop.name}
+                              class="overlay"
+                              widths={[275, 400, 500, 600, 750, 900]}
+                              sizes="(max-width: 700px) 58vw, 450px"
+                            />
+                          )}
                       </div>
-                      <div class="card-row card-row-info">
-                        <h3 class="h5">{loop.name}</h3>
-                        <p>{loop.roleOrg}</p>
+
+                      <div class="card-tags group-tags">
+                        <div class="single-tag">
+                          <p>{getCategoryNameFromTag(loop.tag)}</p>
+                        </div>
                       </div>
                     </div>
-                  </a>
-                </div>
-              )
+                    <div class="card-row card-row-info">
+                      <h3 class="h5">{loop.name}</h3>
+                      <p>{loop.roleOrg}</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            )
           )
         }
       </div>
@@ -152,3 +138,35 @@ const getCategoryNameFromTag = (tagId: string): string => {
     transform: translateY(-5px);
   }
 </style>
+
+<script>
+  // Function to shuffle array (Fisher-Yates algorithm)
+  function shuffleArray<T>(array: T[]): T[] {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  }
+
+  // Wait for the DOM to be fully loaded
+  document.addEventListener('DOMContentLoaded', () => {
+    const carousel = document.getElementById('speakers-carousel');
+    if (!carousel) return;
+
+    // Get all speaker slides
+    const slides = Array.from(carousel.children);
+    
+    // Shuffle the slides
+    const shuffledSlides = shuffleArray(slides);
+    
+    // Clear the carousel
+    carousel.innerHTML = '';
+    
+    // Add only the first 11 shuffled slides back
+    shuffledSlides.slice(0, 11).forEach(slide => {
+      carousel.appendChild(slide);
+    });
+  });
+</script>
