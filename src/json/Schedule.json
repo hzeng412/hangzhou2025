@@ -14,22 +14,27 @@
   "categories": [
     {
       "name": "AI Model",
+      "room": "Master Stage",
       "id": "ai-model"
     },
     {
       "name": "AI Infra",
+      "room": "Central Room",
       "id": "ai-infra"
     },
     {
       "name": "AI Apps",
+      "room": "Open Stage",
       "id": "ai-apps"
     },
     {
       "name": "Embodied AI",
+      "room": "Junior Room",
       "id": "embodied-ai"
     },
     {
       "name": "PyTorch Day France",
+      "room": "Founders Café",
       "id": "pytorch"
     }
   ],
@@ -244,7 +249,7 @@
         "date": "May 7",
         "timeSlot": "14:00 - 14:40",
         "title": "LUCIE : From Scratch with Love !",
-        "content": "",
+        "content": "LUCIE-7B is one of the first large language models that’s truly open, from training code to dataset. This talk shares how we built it using 512 GPUs, a multilingual tokenizer, and public data. We explain the challenges, the lessons, and the reasons behind our open approach. OpenLLM France is building a European AI ecosystem based on transparency and trust. In 2025, we’ll push further: larger models, multimodality, and on-device AI for all.",
         "speakers": [
           {
             "id": "michel-marie-maudet",
@@ -281,7 +286,7 @@
         "date": "May 7",
         "timeSlot": "15:40 - 16:20",
         "title": "Small but Mighty: How MiniCPM Made Breakthroughs in the Global Open-Source AI Landscape",
-        "content": "",
+        "content": "MiniCPM, nicknamed 'ModelBest's Little Steel Cannon'—which includes the large language model MiniCPM and the multimodal large model MiniCPM-V—has gained widespread recognition in the global AI community due to its highly efficient and cost-effective nature, embodying the principle of 'punching above its weight' These projects have cumulatively received over 26,000 stars on GitHub, with total downloads exceeding 7 million across the web, becoming benchmark works in the field of on-device AI.",
         "speakers": [
           {
             "id": "chao-jia",
@@ -480,7 +485,7 @@
       {
         "date": "May 7",
         "timeSlot": "11:10 - 11:50",
-         "title": "Data Spaces as the Backbone for an AI Dataverse",
+        "title": "Data Spaces as the Backbone for an AI Dataverse",
         "content": "A sound ecosystem of AI, LLMs, and Agentic AI is essential for the AI and Data economy. This ecosystem requires an additional layer of trust to connect data and infrastructures through marketplaces and guarantee data governance and usage control, among other things. This is necessary to meet the diverse data requirements in the EU, including the GDPR, the Data Act, and the Data Governance Act, among others. Also, the interconnection via self-sovereign identity may allow different partners to add extra trust interactions.\r\nThis is provided by the data spaces and the trusted data matrix initiates all over the world.\r\nIn the EUNOMIA project, we are integrating the MCP protocol ( Model Context Protocol ) as a way to feed data from the flourishing European data spaces infrastructure to the LLMs. This could be interconnected, in a trusted way, with different partners via the Gaia-X trust framework, the EIDAS 2 initiative and the self-sovereign identity infrastructure.\r\nThis could be generalized into  the new A2A protocol, presented by Google. In fact, this protocol could be merged with our Advance data space protocol in order to add extra trust capabilities. So this could be a perfect match since the Authentication and authorization for actuation over real systems.\r\nThis could lead to an architecture of a fully distributed trusted architecture between different actors all over the world that could lead to a Dataverse upon which different applications and services may be automatically deployed that will be introduced.",
         "speakers": [
           {
@@ -711,7 +716,7 @@
         "date": "May 6",
         "timeSlot": "17:00 - 17:40",
         "title": "Cegid Pulse, Multi Agents Business Management Platform",
-        "content": "",
+        "content": "Cegid is a global leader in cloud-based solutions for finance, HR, and retail, serving businesses of all sizes with tools to enhance efficiency and compliance. This talk introduces Cegid Pulse OS, a next-generation business management platform that enables seamless collaboration between human users and AI-powered agents. Leveraging large language models, Pulse OS dynamically generates and executes tasks through multi-agent conversations, where each agent—built with code or natural language—can interpret, act on, and respond to user intent. Designed to streamline operations, Pulse OS represents a shift toward intelligent, conversation-driven business workflows.",
         "speakers": [
           {
             "id": "hong-thai-nguyen",
@@ -881,7 +886,7 @@
         "date": "May 6",
         "timeSlot": "10:30 - 11:10",
         "title": "Mind, Body and Zenoh",
-        "content": "",
+        "content": "As Robotics and Artificial Intelligence continue to evolve at an unprecedented pace, a critical gap has emerged in their ability to scale and operate seamlessly across diverse environments: the absence of an efficient, intelligent \"nervous system.\" Much like biological organisms rely on their nervous system to connect the body and the brain, autonomous systems require a foundational layer that enables real-time communication, adaptability, and distributed cognition. This talk introduces Zenoh, a cutting-edge Open Source protocol that is rapidly gaining traction in the robotics community and beyond. Zenoh bridges the traditional divide between data in motion, data at rest, and computation, enabling seamless data exchange from the edge to the cloud. Zenoh it's the missing link to unify sensing, actuation, and cognition. It is, in essence, the nervous system for the intelligent robots age.",
         "speakers": [
           {
             "id": "angelo-corsaro",
@@ -1057,7 +1062,7 @@
         "date": "May 7",
         "timeSlot": "14:00 - 14:40",
         "title": "Designing Emotions for Robots",
-        "content": "",
+        "content": "What happens when a robot starts to feel? We connected a language model to Reachy 2 and explored how speech can turn into emotion through gestures, sounds, and expressions. A first step toward artificial empathy in human-robot interaction.",
         "speakers": [
           {
             "id": "anne-charlotte-passanisi",

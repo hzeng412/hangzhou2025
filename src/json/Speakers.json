@@ -6,22 +6,27 @@
     },
     {
       "name": "AI Model",
+      "room": "Master Stage",
       "id": "ai-model"
     },
     {
       "name": "AI Infra",
+      "room": "Central Room",
       "id": "ai-infra"
     },
     {
       "name": "AI Apps",
+      "room": "Open Stage",
       "id": "ai-apps"
     },
     {
       "name": "Embodied AI",
+      "room": "Junior Room",
       "id": "embodied-ai"
     },
     {
       "name": "PyTorch Day France",
+      "room": "Founders Café",
       "id": "pytorch"
     },
     {
