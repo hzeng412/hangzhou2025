@@ -1322,8 +1322,8 @@
       {
         "date": "May 7",
         "timeSlot": "16:20 - 16:40",
-        "title": "Thunder: Supercharged PyTorch for Modern Hardware",
-        "content": "Modern GPUs like Hopper and Blackwell are fast, but only after careful optimization. Thunder compiles “education-style” PyTorch models into optimized, distributed PyTorch code. Through a composable plugin system, Thunder lets developers layer in kernel fusion, low-precision operations, memory optimizations, and flexible parallelism strategies, to achieve performance and scale while leaving the original PyTorch code unchanged. This talk will cover how Thunder bridges the gap between ease-of-use and peak performance, and enables teams to easily write custom code transformations to scale models efficiently, reduce GPU waste, and stay in control of their stack.",
+        "title": "Lightning Thunder: Supercharged PyTorch for Modern Hardware",
+        "content": "Modern GPUs like Hopper and Blackwell are fast, but only after careful optimization. Lightning Thunder compiles “education-style” PyTorch models into optimized, distributed PyTorch code. Through a composable plugin system, Lightning Thunder lets developers layer in kernel fusion, low-precision operations, memory optimizations, and flexible parallelism strategies, to achieve performance and scale while leaving the original PyTorch code unchanged. This talk will cover how Lightning Thunder bridges the gap between ease-of-use and peak performance, and enables teams to easily write custom code transformations to scale models efficiently, reduce GPU waste, and stay in control of their stack.",
         "speakers": [
           {
             "id": "luca-antiga",
