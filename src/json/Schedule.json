@@ -604,14 +604,14 @@
       {
         "date": "May 6",
         "timeSlot": "10:30 - 11:10",
-        "title": "TONGYI Lingma: from Coding Copilot to Coding Agent Based on Qwen Models",
-        "content": "This presentation will take the perspective of intelligent development in the software engineering to outline and introduce the latest technological advancements and product applications of Code LLMs, Coding Copilot, and Coding Agents, as well as analyze and forecast future development trends. ",
+        "title": "TONGYI Lingma: from Coding Copilot to Coding Agent",
+        "content": "This presentation will take the perspective of intelligent development in the software engineering to outline and introduce the latest technological advancements and product applications of Code LLMs, Coding Copilot, and Coding Agents, as well as analyze and forecast future development trends.",
         "speakers": [
           {
             "id": "yongbin-li",
             "name": "Yongbin Li",
             "tags": ["ai-apps"],
-            "roleOrg": "Senior Algorithm Expert at Alibaba Tongyi Lab",
+            "roleOrg": "Principal Research Scientist at Alibaba Tongyi Lab",
             "image": "yongbin-li.png"
           }
         ]
