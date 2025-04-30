@@ -340,6 +340,25 @@
       "draft": false
     },
     {
+      "id": "alexandre-defossez",
+      "name": "Alexandre Défossez",
+      "bio": "",
+      "role": "Chief Exploration Officer",
+      "org": "Kyutai",
+      "roleOrg": "Chief Exploration Officer at Kyutai",
+      "image": "alexandre-defossez.jpg",
+      "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "nicolas-flores-herr",
       "name": "Nicolas Flores-Herr",
       "bio": "I'm Nicolas Flores Herr team lead at the Fraunhofer IAIS site in Dresden focused on training open-source generative AI models like Teuken. While we develop tailored AI solutions across industries our core passion lies in building and training large language and multilingual models from the ground up.\r\n\r\nWe work extensively on continued pretraining, fine-tuning, and instruction tuning, using both established frameworks and our own RAG-based technology stack. \r\n\r\nMuch of this work takes place in the context of leading European AI initiatives, including:\r\n\r\nOpenGPT-X – building large-scale, trustworthy, and open LLM “Made in Germany” called Teuken\r\nEuroLingua-GPT – training models that support all official European languages to foster digital inclusion.\r\nTrustLLM – advancing transparent and culturally sensitive AI for European languages and use cases.\r\nOpenEuroLLM – developing multilingual, open-source language models aligned with EU values and regulations.\r\n\r\nMy background is in physics (PhD), with over a decade of research experience in neuroscience and cell physiology. ",
@@ -906,25 +925,6 @@
         "linkedin": null,
         "website": null
       }
-    },
-    {
-      "id": "remi-louf",
-      "name": "Rémi Louf",
-      "bio": "",
-      "role": "Co-Founder and CEO",
-      "org": "DotTXT",
-      "roleOrg": "Co-Founder and CEO at DotTXT",
-      "image": "remi-louf.png",
-      "tag": "pytorch",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
     },
     {
       "id": "yinping-ma",

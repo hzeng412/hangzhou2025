@@ -1337,17 +1337,9 @@
       {
         "date": "May 7",
         "timeSlot": "16:40 - 17:00",
-        "title": "LLM Constrained Generation in PyTorch with Outlines",
-        "content": "Parsing errors, unexpected outputs. If you've felt the frustration of trying to wrangle LLMs into producing consistently formatted results, you've likely built complex post-processing pipelines and elaborate prompting schemes. What if there was a way to guarantee structured outputs without these workarounds? Enter structured outputs.\n\n In this talk, we'll explore how model outputs can be precisely constrained using formal specifications (e.g. JSON Schema), why this dramatically improves reliability, and how it reduces sensitivity to prompt engineering. We'll demonstrate advanced use cases using our open source library Outlines, which add structured outputs the `transformers`, `vllm`, etc inference libraries.\n\n By the end of the session, you'll understand how to implement these techniques in your applications today, enabling your models to generate flawless JSON with minimal latency overhead compared to unconstrained generation.",
-        "speakers": [
-          {
-            "id": "remi-louf",
-            "name": "Rémi Louf",
-            "tags": ["pytorch"],
-            "roleOrg": "Co-Founder and CEO at DotTXT",
-            "image": "remi-louf.png"
-          }
-        ]
+        "title": "To Be Announced",
+        "content": "",
+        "speakers": []
       },
       {
         "date": "May 7",
@@ -1367,9 +1359,17 @@
       {
         "date": "May 7",
         "timeSlot": "17:20 - 17:40",
-        "title": "To Be Announced",
-        "content": "",
-        "speakers": []
+        "title": "Multimodal Open Source at Kyutai, From Online Demos to On-Device",
+        "content": "Kyutai is a leading lab for open science and open source research in Paris. During this session, we dive in some of our recent open source releases, from hosted demos to model running streaming on device, covering multilingual LLM, vision-speech models, simultaneous interpretation and more. We will discuss the challenges arising from supporting a large number of applications and inference platform, with and without PyTorch.",
+        "speakers": [
+          {
+            "id": "alexandre-defossez",
+            "name": "Alexandre Défossez",
+            "tags": ["pytorch"],
+            "roleOrg": "Chief Exploration Officer at Kyutai",
+            "image": "alexandre-defossez.jpg"
+          }
+        ]
       },
       {
         "date": "May 7",
