@@ -75,7 +75,7 @@ const { title, text, buttons } = Astro.props;
   }
 
   .notification-modal {
-    pointer-events: all;
+    pointer-events: none;
     position: absolute;
     bottom: 1em;
     right: 1em;
@@ -98,6 +98,13 @@ const { title, text, buttons } = Astro.props;
     opacity: 1;
     transform: translateY(0);
     pointer-events: all;
+  }
+
+  .notification-modal[data-visible="false"] {
+    opacity: 0;
+    transform: translateY(20px);
+    pointer-events: none;
+    visibility: hidden;
   }
 
   .col-modal {
