@@ -88,7 +88,7 @@
         "id": "michael-plagge",
         "name": "Michael Plagge",
         "tags": ["forum"],
-        "roleOrg": "VP of the Eclipse Foundation",
+        "roleOrg": "VP at Eclipse Foundation",
         "image": "plagge-michael.jpg"
       },
       {
@@ -109,7 +109,7 @@
         "id": "cailean-osborne",
         "name": "Cailean Osborne, PhD",
         "tags": ["forum"],
-        "roleOrg": "Reasearcher at the Linux Research",
+        "roleOrg": "Researcher at the Linux Research",
         "image": "cailean-osborne.png"
       }
     ]
