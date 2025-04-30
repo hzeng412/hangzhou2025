@@ -754,7 +754,15 @@
       gap: 0;
    }
 }
- 
+
+.location-row {
+   display: inline-flex;
+   align-items: center;
+   gap: 8px;
+   background: #13151a26;
+   padding: 6px 12px;
+   border-radius: var(--border-radius);
+}
 
 /* ------------------------- Tags -------------------------------------------------- */
 
@@ -805,7 +813,13 @@
     margin-right: 16px;
     display: flex; 
 }
+@media screen and (max-width: 540px) {
 
+   .social-link {
+         width: 16px;
+         height: 16px;
+      }
+}
 .speaker-divider {
   width: 100%;
   height: 1px;
