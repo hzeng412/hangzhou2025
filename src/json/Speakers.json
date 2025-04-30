@@ -171,10 +171,10 @@
     {
       "id": "manuel-betin",
       "name": "Manuel Bétin",
-      "bio": "",
-      "role": "",
+      "bio": "Manuel Betin is an economist at the Economics Department of the OECD. He holds a Phd in economics from the Paris School of Economics and a master in management from ESSEC Business School. Manuel has been working on several topics, including banking regulation and public finance, and contributes to the OECD workstream on the macroeconomic impacts of AI, working on several topics including the productivity effects of AI, competition in AI markets, the role of open source in AI markets and the adoption of AI across economic sectors.",
+      "role": "Economist",
       "org": "OCDE",
-      "roleOrg": "Economist, OCDE",
+      "roleOrg": "Economist at OCDE",
       "image": "manuel-bétin.jpg",
       "tag": "forum",
       "socialLinks": {
