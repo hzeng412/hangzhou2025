@@ -16,7 +16,7 @@ const { title, text, buttons } = Astro.props;
 ---
 
 <div class="floating-elements">
-  <div class="notification-modal" data-visible="true">
+  <div class="notification-modal" data-visible="false">
     <div class="row">
       <div class="col col-modal">
         {
@@ -75,7 +75,7 @@ const { title, text, buttons } = Astro.props;
   }
 
   .notification-modal {
-    pointer-events: all;
+    pointer-events: none;
     position: absolute;
     bottom: 1em;
     right: 1em;
@@ -87,14 +87,24 @@ const { title, text, buttons } = Astro.props;
     border-radius: var(--border-radius);
     font-size: 1.1em;
     z-index: 100;
-    box-shadow: 0px 0em 6em 0px rgba(var(--color-glow-rgb), 0.4);
+    box-shadow: 0 0.25em 1em rgba(var(--color-glow-rgb), 0.2);
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    will-change: opacity, transform;
+  }
+
+  .notification-modal[data-visible="true"] {
     opacity: 1;
-    transition: opacity 0.3s ease;
+    transform: translateY(0);
+    pointer-events: all;
   }
 
   .notification-modal[data-visible="false"] {
     opacity: 0;
+    transform: translateY(20px);
     pointer-events: none;
+    visibility: hidden;
   }
 
   .col-modal {
@@ -136,32 +146,23 @@ const { title, text, buttons } = Astro.props;
 
 <script>
   function initializeModal() {
-    console.log("Initializing modal...");
     const closeButton = document.getElementById("closeModal");
-    console.log("Close button found:", closeButton);
-
-    if (!closeButton) {
-      console.error("Close button not found!");
-      return;
-    }
+    if (!closeButton) return;
 
     const modal = closeButton.closest(".notification-modal");
-    console.log("Modal found:", modal);
+    if (!modal) return;
 
-    if (!modal) {
-      console.error("Modal not found!");
-      return;
-    }
+    // Show modal after a short delay to prevent blocking initial render
+    setTimeout(() => {
+      modal.setAttribute("data-visible", "true");
+    }, 1000);
 
     closeButton.addEventListener("click", (e) => {
-      console.log("Close button clicked");
       e.preventDefault();
       modal.setAttribute("data-visible", "false");
-      console.log("Modal visibility set to false");
     });
   }
 
-  // Try both DOMContentLoaded and load events to ensure the script runs
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", initializeModal);
   } else {

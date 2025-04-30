@@ -4,6 +4,8 @@ import Button from "components/Button.astro";
 import Logo from "./Logo.astro";
 import NotificationBar from "components/NotificationBar.astro";
 
+const hasNotificationBar = true; // Set this to false when NotificationBar is removed or page will crash
+
 const links = [
   {
     text: "Schedule",
@@ -71,10 +73,12 @@ const slug = Astro.url.pathname;
 ---
 
 <header>
-  <NotificationBar
-    text="🎉 Try the GOSIM Ticket 🎟 Lucky Draw! ✨"
-    link="https://x.com/gosimfoundation/status/1912744752925282408"
-  />
+  {hasNotificationBar && (
+    <NotificationBar
+      text="🎉 Try the GOSIM Ticket 🎟 Lucky Draw! ✨"
+      link="https://x.com/gosimfoundation/status/1912744752925282408"
+    />
+  )}
 
   <div class="floating-ticket-button">
     <Button
@@ -95,7 +99,7 @@ const slug = Astro.url.pathname;
       <nav
         class="box-row box-row-nav"
         aria-label="Navigation Mobile"
-        style="padding-top: 25px;"
+       
       >
         <ul>
           {
@@ -152,7 +156,7 @@ const slug = Astro.url.pathname;
     class="hamburger btn-floating"
     aria-label="Open menu"
     data-navigation-toggle="toggle"
-    style="margin-top: 35px;"
+    data-has-notification={hasNotificationBar}
   >
     <div class="hamburger-fill"></div>
     <div class="bar bar-top"></div>
@@ -161,7 +165,7 @@ const slug = Astro.url.pathname;
 
   <div
     class="btn light btn-filter btn-filter-floating btn-hover"
-    style="margin-top: 35px;"
+    data-has-notification={hasNotificationBar}
   >
     <div class="btn-click filter-alpha-animate" data-filter-toggle="toggle">
       <div class="btn-content original">
@@ -172,19 +176,19 @@ const slug = Astro.url.pathname;
     </div>
   </div>
 
-  <div class="main-nav-bar" style="opacity: 1;">
+  <div class="main-nav-bar" style="opacity: 1;" data-has-notification={hasNotificationBar}>
     <div class="overlay nav-fill"></div>
     <div class="row">
       <div class="border-bottom"></div>
 
-      <div class="logo" style="padding-top: 25px;">
+      <div class="logo">
         <a href="/" aria-label="Go to homepage" class="logo-click">
           <Logo />
           <Logo />
         </a>
       </div>
 
-      <nav aria-label="Navigation Desktop" style="padding-top: 35px;">
+      <nav aria-label="Navigation Desktop">
         <ul>
           {
             links.map((loop) => (
@@ -227,7 +231,7 @@ const slug = Astro.url.pathname;
         </ul>
       </nav>
 
-      <div style="padding-top: 40px;">
+      <div>
         <Button
           text="Get Tickets"
           link="https://www.eventbrite.com/e/gosim-ai-paris-tickets-1265928669729?aff=oddtdtcreator"
@@ -238,7 +242,6 @@ const slug = Astro.url.pathname;
       <div
         class="hamburger outline"
         data-navigation-toggle="toggle"
-        style="margin-top: 35px;"
       >
         <div class="hamburger-fill"></div>
         <div class="bar bar-top"></div>
@@ -247,7 +250,6 @@ const slug = Astro.url.pathname;
 
       <div
         class="btn light btn-filter btn-filter-static btn-hover"
-        style="margin-top: 35px;"
       >
         <div class="btn-click filter-alpha-animate" data-filter-toggle="toggle">
           <div class="btn-content original">
@@ -274,5 +276,14 @@ const slug = Astro.url.pathname;
     z-index: 20; /* Higher than other header elements */
     width: 100%;
     pointer-events: auto;
+  }
+
+  .main-nav-bar[data-has-notification="true"] {
+    padding-top: calc(var(--row-gap) + 45px);
+  }
+
+  .hamburger.btn-floating[data-has-notification="true"],
+  .btn.btn-filter-floating[data-has-notification="true"] {
+    margin-top: 32px;
   }
 </style>

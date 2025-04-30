@@ -26,6 +26,9 @@ NOTE: The speaker page gets generated from the Speakers.json file, so if you add
 ## How to edit Markdown pages (Code of Conduct, Privacy, Workshop)
 1. Edit the Markdown file at `src/markdown/`
 
+## Header Notification bar
+1. By default we have the notification bar active. If you want to remove the notification bar, go to Header.astro and change "const hasNotificationBar = true;" to false.
+
 ## 🚀 Project Structure
 
 ```text
