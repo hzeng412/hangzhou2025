@@ -1,27 +1,27 @@
 ---
 // Props for the component
 interface Props {
-  title: string
-  url?: string
-  description?: string
+  title: string;
+  url?: string;
+  description?: string;
 }
 
 // Get the props
-const { title, url = Astro.url.href, description = "" } = Astro.props
+const { title, url = Astro.url.href, description = "" } = Astro.props;
 
 // Encode the parameters for the share URLs
-const encodedTitle = encodeURIComponent(title)
-const encodedUrl = encodeURIComponent(url)
-const encodedDescription = encodeURIComponent(description)
+const encodedTitle = encodeURIComponent(title);
+const encodedUrl = encodeURIComponent(url);
+const encodedDescription = encodeURIComponent(description);
 
 // Create the share URLs
-const xShareUrl = `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`
-const linkedInShareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`
-const newWindowUrl = url // URL to open in new window
+const xShareUrl = `https://twitter.com/intent/tweet?text=${encodedTitle}&url=${encodedUrl}`;
+const linkedInShareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`;
+const newWindowUrl = url; // URL to open in new window
 ---
 
-<div class="social-share-container">
-  <div class="card-tags group-tags social-wrap social-share-container">
+<div class="social-share-row">
+  <div class="social-share-container">
     <span class="share-label">Share:</span>
     <a
       href={newWindowUrl}
@@ -76,9 +76,18 @@ const newWindowUrl = url // URL to open in new window
 
 <style>
   .social-share-container {
-    gap: 1rem !important;
-    align-items: center !important;
-    justify-content: flex-start !important;
-    padding-bottom: 0px !important;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+    padding-bottom: 0px;
+  }
+  .social-share-row {
+    margin-top: 0.25rem;
+    padding-top: 0.25rem;
+    border-top: 1px solid var(--color-border);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
   }
 </style>

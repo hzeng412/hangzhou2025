@@ -244,6 +244,11 @@ const getEventUrl = (title: string): string => {
                     <div class="bottom">
                       <div class="bottom-wrap">
                         <div class="bottom-content">
+                          {session.category && (
+                            <div class="card-row styled-content">
+                              <p><strong>Location:</strong> {scheduleData.categories.find(cat => cat.name === session.category)?.room || 'TBA'}</p>
+                            </div>
+                          )}
                           {session.content && (
                             <div
                               class="card-row styled-content"
@@ -373,6 +378,11 @@ const getEventUrl = (title: string): string => {
                         <div class="bottom">
                           <div class="bottom-wrap">
                             <div class="bottom-content">
+                              {session.category && (
+                                <div class="card-row styled-content">
+                                  <p><strong>Location:</strong> {scheduleData.categories.find(cat => cat.name === session.category)?.room || 'TBA'}</p>
+                                </div>
+                              )}
                               {session.content && (
                                 <div
                                   class="card-row styled-content"
@@ -432,13 +442,11 @@ const getEventUrl = (title: string): string => {
                                 )}
 
                                 <!-- Social share component with reduced spacing -->
-                                <div class="social-share-row">
                                   <SocialShare
                                     title={`${session.title} - GOSIM AI Paris 2025`}
                                     url={getEventUrl(session.title)}
                                     description={session.content ? session.content.replace(/<[^>]*>/g, "").substring(0, 160) : ""}
                                   />
-                                </div>
                               </div>
                             </div>
                           </div>
@@ -466,11 +474,5 @@ const getEventUrl = (title: string): string => {
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
-  }
-
-  .social-share-row {
-    margin-top: 0.25rem;
-    padding-top: 0.25rem;
-    border-top: 1px solid #eee;
   }
 </style>

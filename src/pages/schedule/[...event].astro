@@ -39,9 +39,9 @@ export async function getStaticPaths() {
   const createSlug = (title: string) => {
     return title
       .toLowerCase()
-      .replace(/[^\w\s-]/g, '')
-      .replace(/\s+/g, '-')
-      .replace(/-+/g, '-')
+      .replace(/[^\w\s-]/g, "")
+      .replace(/\s+/g, "-")
+      .replace(/-+/g, "-")
       .trim();
   };
 
@@ -89,7 +89,7 @@ const eventCategory = category || "Uncategorized";
 <Layout
   title={`${eventDetails.title} – GOSIM AI Paris 2025`}
   description={eventDetails.content
-    .replace(/\n/g, ' ')
+    .replace(/\n/g, " ")
     .replace(/<[^>]*>/g, "")
     .substring(0, 160)}
   navBackground="light"
@@ -123,19 +123,22 @@ const eventCategory = category || "Uncategorized";
           </div>
 
           <div class="box-row box-row-text styled-content">
-            <Fragment set:html={eventDetails.content.replace(/\n/g, '<br>')} />
+            <p class="location-text">
+              <strong>Location:</strong>
+              {
+                schedule.categories.find((cat) => cat.name === eventCategory)
+                  ?.room || "TBA"
+              }
+            </p>
+          </div>
+
+          <div class="box-row box-row-text styled-content">
+            <Fragment set:html={eventDetails.content.replace(/\n/g, "<br>")} />
           </div>
 
           {
             eventDetails.speakers && eventDetails.speakers.length > 0 && (
               <>
-                <SocialShare
-                  title={`${eventDetails.title} - GOSIM AI Paris 2025`}
-                  description={eventDetails.content
-                    .replace(/\n/g, ' ')
-                    .replace(/<[^>]*>/g, "")
-                    .substring(0, 160)}
-                />
                 <h2 class="h4 event-speaker-title">Speakers</h2>
                 <div class="card-row card-row-speakers event-detail_speakers">
                   {eventDetails.speakers.map((speaker) => {
@@ -182,8 +185,22 @@ const eventCategory = category || "Uncategorized";
               </>
             )
           }
+          <SocialShare
+            title={`${eventDetails.title} - GOSIM AI Paris 2025`}
+            description={eventDetails.content
+              .replace(/\n/g, " ")
+              .replace(/<[^>]*>/g, "")
+              .substring(0, 160)}
+          />
         </div>
       </div>
     </div>
   </section>
 </Layout>
+
+<style>
+  .location-text {
+    font-size: 0.85em;
+    padding-bottom: 2rem;
+  }
+</style>
