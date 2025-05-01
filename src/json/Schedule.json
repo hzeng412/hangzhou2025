@@ -36,6 +36,11 @@
       "name": "PyTorch Day France",
       "room": "Founders Café",
       "id": "pytorch"
+    },
+    {
+      "name": "GOSIM AI Spotlight",
+      "room": "Open Platform",
+      "id": "spotlight-ai"
     }
   ],
   "sessions": {
@@ -1383,6 +1388,173 @@
             "tags": ["pytorch"],
             "roleOrg": "Machine Learning Engineer at Hugging Face",
             "image": "pablo-montalvo.jpeg"
+          }
+        ]
+      }
+    ],
+    "GOSIM AI Spotlight": [
+      {
+        "date": "May 6",
+        "timeSlot": "12:30 -12:45",
+        "title": "Aidge",
+        "content": "In an era increasingly defined by intelligent systems at the edge, Eclipse Aidge emerges as a crucial open-source initiative to democratize the development and deployment of efficient Deep Neural Networks (DNN) on embedded platforms. Recognizing the unique constraints and opportunities of edge computing – limited resources, real-time requirements, and the need for robust, low-power AI – Aidge provides a comprehensive framework for addressing this complex task. By offering end-to-end tools for DNN design, analysis, simulation, optimization and hardware-aware deployment across diverse targets (CPUs, GPUs, MCUs), Aidge empowers developers to build sophisticated AI applications for IoT, robotics, automotive, and beyond. This project fosters innovation by enabling rapid prototyping, performance benchmarking, and the creation of tailored solutions, ultimately accelerating the adoption of intelligent edge devices while promoting interoperability, transparency and collaboration within the open-source ecosystem. Key features : - High interoperability with the ONNX standard (import and export of the DNN model) - Rich tools for static analysis of the DNN model - State-of-the-art quantization and compression techniques to reduce the memory needs - Standalone C++ code generation of the DNN Some planned features : - A certification-aware code generation module. - Integration of a scalable and efficient ML compilation tool chain based on MLIR or TVM - Extension of Spike Neural Networks to be the first multi-paradigm framework natively addressing neuromorphic computing. Eclipse Aidge is hosted on The Eclipse Foundation's GitLab instance.",
+        "speakers": [
+          {
+            "id": "cyril-moineau",
+            "name": "Cyril Moineau",
+            "tags": ["spotlight-ai"],
+            "roleOrg": "Research Engineer at CEA",
+            "image": "generic-profile.png"
+          }
+        ]
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "12:45 -13:00",
+        "title": "SpeakLeash",
+        "content": "The Bielik Project delivers not only a family of open-source language models (1.5B, 4.5B, and 11B parameters) but also a complete tooling ecosystem designed to empower others to train, fine-tune, and evaluate LLMs with ease. One of the project’s core features is its end-to-end toolchain—spanning datasets, benchmarking, training, and fine-tuning frameworks—which enables any research group or organization to build their own models through base model fine-tuning or continuous pretraining.",
+        "speakers": [
+          {
+            "id": "michal-domaski",
+            "name": "Michał Domański",
+            "tags": ["spotlight-ai"],
+            "roleOrg": "Bielik.ai",
+            "image": "generic-profile.png"
+          }
+        ]
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "13:00 -13:15",
+        "title": "Running GenAI Models on Edge Devices with LlamaEdge",
+        "content": "Run GenAI models on edge devices with LlamaEdge: multi-runtime support (llama.cpp, Torch, ONNX, OpenVINO), small footprint, GPU support, Rust SDK embeddability. Learn how it outperforms tools like Ollama for flexible, fast, on-device AI deployment.",
+        "speakers": [
+          {
+            "id": "hung-ying-tai",
+            "name": "Hung-Ying Tai",
+            "tags": ["spotlight-ai"],
+            "roleOrg": "Tech Lead at Second State",
+            "image": "hung-ying-tai.jpg"
+          }
+        ]
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "13:15 -13:30",
+        "title": "Automated Proof Generation for Rust Code Via Self-Evolution",
+        "content": "Ensuring correctness is crucial for code generation. Formal verification offers a definitive assurance of correctness, but demands substantial human effort in proof construction and hence raises a pressing need for automation. The primary obstacle lies in the severe lack of data—there are much fewer proofs than code snippets for Large Language Models (LLMs) to train upon. In this paper, we introduce SAFE, a framework that overcomes the lack of human-written proofs to enable automated proof generation of Rust code. SAFE establishes a self-evolving cycle where data synthesis and fine-tuning collaborate to enhance the model capability, leveraging the definitive power of a symbolic verifier in telling correct proofs from incorrect ones. SAFE also re-purposes the large number of synthesized incorrect proofs to train the self-debugging capability of the fine-tuned models, empowering them to fix incorrect proofs based on the verifier’s feedback. SAFE demonstrates superior efficiency and precision compared to GPT-4o. Through tens of thousands of synthesized proofs and the self-debugging mechanism, we improve the capability of open-source models, initially unacquainted with formal verification, to automatically write proofs for Rust code. This advancement leads to a significant improvement in performance, achieving a 52.52% accuracy rate in a benchmark crafted by human experts, a significant leap over GPT-4o’s performance of 14.39%.",
+        "speakers": [
+          {
+            "id": "tianyu-chen",
+            "name": "Tianyu Chen",
+            "tags": ["spotlight-ai"],
+            "roleOrg": "Ph.D Candidate at Peking University",
+            "image": "tianyu-chen.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "13:30 -13:45",
+        "title": "ColPali: Efficient Document Retrieval with Vision Language Models",
+        "content": "This repository contains the code used for training the vision retrievers in the ColPali: Efficient Document Retrieval with Vision Language Models paper. In particular, it contains the code for training the ColPali model, which is a vision retriever based on the ColBERT architecture and the PaliGemma model.",
+        "speakers": [
+          {
+            "id": "gautier-viaud",
+            "name": "Gautier Viaud",
+            "tags": ["spotlight-ai"],
+            "roleOrg": "Head of Research & Development at Illuin Technology",
+            "image": "generic-profile.png"
+          }
+        ]
+      },
+      {
+        "date": "May 6",
+        "timeSlot": "13:45 -14:00",
+        "title": "HAMi",
+        "content": "Open, Device Virtualization, VGPU, Heterogeneous AI Computing. HAMi (Heterogeneous AI Computing Virtualization Middleware) formerly known as k8s-vGPU-scheduler, is an 'all-in-one' chart designed to manage Heterogeneous AI Computing Devices in a k8s cluster. It can provide the ability to share Heterogeneous AI devices and provide resource isolation among tasks.",
+        "speakers": [
+          {
+            "id": "xiao-zhang",
+            "name": "Xiao Zhang",
+            "tags": ["spotlight-ai"],
+            "roleOrg": "Founder & CEO at dynamia.ai",
+            "image": "xiao-zhang.jpg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "12:30 -12:45",
+        "title": "Code Carbon",
+        "content": "With AI models becoming more ubiquitous and deployed across different sectors and industries, AI’s environmental impact is also growing. Thus, state-of-the-art Machine Learning models leverage significant amounts of computing power, training on advanced processors for weeks or months, consequently consuming enormous amounts of energy. Depending on the energy grid used during this process, this can entail the emission of large amounts of greenhouse gases such as CO₂. For this reason, it is important to estimate and curtail both the energy used and the emissions produced by training and deploying AI models. This package enables developers to track carbon dioxide (CO₂) emissions across machine learning experiments or other programs. Code Carbon enables developers to track emissions, measured as kilograms of CO₂-equivalents (CO₂eq) in order to estimate the carbon footprint of their work. For this purpose, we use CO₂-equivalents [CO₂eq], which is a standardized measure used to express the global warming potential of various greenhouse gases: the amount of CO₂ that would have the equivalent global warming impact. For computing, which emits CO₂ via the electricity it is consuming, carbon emissions are measured in kilograms of CO₂-equivalent per kilowatt-hour. As a matter of fact, electricity is generated as part of the broader electrical grid by combusting fossil fuels for example.",
+        "speakers": [
+          {
+            "id": "benoit-courty",
+            "name": "Benoit Courty",
+            "tags": ["spotlight-ai"],
+            "roleOrg": "Neo-Robotix",
+            "image": "generic-profile.png"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "12:45 -13:00",
+        "title": "Think Small, Act Big: Primitive Prompt Learning for Lifelong Robot Manipulation",
+        "content": "To accelerate continuous skill acquisition through reusable motion-aware primitives, we propose Primitive Prompt Learning (PPL). PPL enables lifelong robot manipulation by optimizing new prompts alongside pretrained ones and demonstrates superior performance in both simulated and real-world tasks.",
+        "speakers": [
+          {
+            "id": "siao-liu",
+            "name": "Siao Liu",
+            "tags": ["spotlight-ai"],
+            "roleOrg": "Researcher at BAAI",
+            "image": "siao-liu.jpg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "13:00 -13:15",
+        "title": "ViDoRAG: Visual Document Retrieval-Augmented Generation Via Dynamic Iterative Reasoning Agents",
+        "content": "ViDoRAG: Visual Document Retrieval-Augmented Generation via Dynamic Iterative Reasoning Agents. We propose to add automatic differentiation to Rust. This would allow Rust users to compute derivatives of arbitrary functions, which is the essential enabling technology for differentiable programming. This feature would open new opportunities for Rust in scientific computing, machine learning, robotics, computer vision, probabilistic analysis, and other fields",
+        "speakers": [
+          {
+            "id": "ruixue-ding",
+            "name": "Ruixue Ding",
+            "tags": ["spotlight-ai"],
+            "roleOrg": "Algorithm Expert at Alibaba Tongyi Lab",
+            "image": "ruixue-ding.jpg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "13:15 -13:30",
+        "title": "LlamaFactory",
+        "content": "LlamaFactory is an easy-to-use and efficient framework for fine-tuning large language models. It can fine-tune hundreds of pre-trained models locally without writing any code. It supports popular models like Llama, Mistral, Qwen, Phi, etc. It streamlines the training process of LLMs from (continuous) pre-training, supervised fine-tuning to RLHF, accompanying with lower costs and better efficiency. By integrating GPTQ quantization and LoRA method, it can fine-tune a 30B model on a single RTX4090 GPU. It further supports flash attention and vLLM to accelerate the training and inference of LLMs.",
+        "speakers": [
+          {
+            "id": "yaowei-zheng",
+            "tags": ["spotlight-ai"],
+            "name": "Yaowei Zheng",
+            "roleOrg": "Ph.D. Student at Beihang University",
+            "image": "yaowei-zheng.jpeg"
+          }
+        ]
+      },
+      {
+        "date": "May 7",
+        "timeSlot": "13:30 -13:45",
+        "title": "MoFA",
+        "content": "MoFA (Modular Framework for Agent) is a software framework designed to build AI agents through a composition-based approach. MoFA stands out in several key ways: Empowering Ordinary People to Do Extraordinary Things: AI should not be the exclusive domain of elites and large corporations. MoFA empowers everyone to harness and develop AI, turning the impossible into possible and enabling ordinary people to create extraordinary outcomes. A Fundamental Approach of Composition: Inspired by the Unix philosophy, MoFA centers \"composition\" as its core principle. You can build agents, connect them, and integrate tools like building blocks, making AI simple, flexible, and powerful. The Unified System of Everything Agent: In MoFA, an agent is not just a large language model—it can be code, scripts, APIs, or even MoFA itself. MoFA is more than a framework; it is an entire agent ecosystem, where the agent is the application of the AI era. Data Flow Over Workflow in Architecture: While most agent frameworks rely on complex and stateful workflows, MoFA adopts a data-driven dataflow approach. This design allows agents to be easily combined, disassembled, and reused, offering greater flexibility and efficiency, relatively more friendly to debug, especially when there are hundreds of agents interacting with each other in a system.",
+        "speakers": [
+          {
+            "id": "zonghuan-wu",
+            "name": "Zonghuan Wu",
+            "tags": ["spotlight-ai"],
+            "roleOrg": "Relevant Study",
+            "image": "generic-profile.png"
           }
         ]
       }

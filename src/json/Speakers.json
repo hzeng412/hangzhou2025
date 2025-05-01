@@ -30,6 +30,11 @@
       "id": "pytorch"
     },
     {
+      "name": "GOSIM AI Spotlight",
+      "room": "Open Platform",
+      "id": "spotlight-ai"
+    },
+    {
       "name": "Forum",
       "id": "forum"
     }
@@ -245,6 +250,25 @@
       "draft": false
     },
     {
+      "id": "tianyu-chen",
+      "name": "Tianyu Chen",
+      "bio": "Tianyu Chen is a fifth-year Ph.D. candidate in the School of Computer Science at Peking University, advised by Prof. Tao Xie. He has published four first-author papers in top-tier AI, software engineering conferences and journals, e.g., ACL, ICLR, and TOSEM. His research centers on AI for Software Engineering, Security, and program formal verification via Large Language Models (LLMs). He was a research intern at Huawei Cloud for two years and at Microsoft Research Asia (MSRA) for one year. At MSRA, he contributed to automated Verus verification.",
+      "tag": "spotlight-ai",
+      "roleOrg": "Ph.D Candidate at Peking University",
+      "image": "tianyu-chen.jpeg",
+      "org": "Peking University",
+      "role": "Ph.D Candidate",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "https://scholar.google.com/citations?user=qLLb65kAAAAJ&hl=zh-CN"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "cheng-chi",
       "tag": "embodied-ai",
       "name": "Cheng Chi",
@@ -320,6 +344,7 @@
       "status": "New",
       "draft": false
     },
+
     {
       "id": "sebastien-crozet",
       "name": "Sebastien Crozet",
@@ -348,6 +373,25 @@
       "roleOrg": "Chief Exploration Officer at Kyutai",
       "image": "alexandre-defossez.jpg",
       "tag": "pytorch",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "ruixue-ding",
+      "name": "Ruixue Ding",
+      "bio": "",
+      "org": "Alibaba Tongyi Lab",
+      "role": "Algorithm Expert",
+      "tag": "spotlight-ai",
+      "roleOrg": "Algorithm Expert at Alibaba Tongyi Lab",
+      "image": "ruixue-ding.jpg",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
@@ -853,6 +897,25 @@
       "draft": false
     },
     {
+      "id": "siao-liu",
+      "name": "Siao Liu",
+      "roleOrg": "Researcher at BAAI",
+      "bio": "Siao Liu is a fifth-year Ph.D. Candidate at Academy for Engineering and Technology of Fudan University. As a part of the Multi-agent robotic systems lab, Siao is advised by Prof. Zhongxue Gan (Former Chief Scientist for ABB Group). His main research directions include multimodal learning, skill learning, visual reinforcement learning and embodied AI. He have published 10+ papers at the reputable journals and top international conferences, including ICCV、ECCV、CVPR、ACM-MM and TII. In the third quarter of 2025, Siao will serve as a scientific researcher in Embodied Large Model Department of Beijing Academy of Artificial Intelligence (BAAI), lead a portion of the  VLA projects.",
+      "tag": "spotlight-ai",
+      "image": "siao-liu.jpg",
+      "org": "BAAI",
+      "role": "Researcher",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "volha-litvinets",
       "name": "Volha Litvinets",
       "bio": "As a Digital Ethics Lead at Ernst & Young Advisory, France, Volha (Olga) is experienced in innovation and Responsible Artificial Intelligence (AI). With a PhD in AI ethics from Sorbonne University and an INSEAD Business School diploma, she drives responsible technology initiatives, bringing a wealth of experience from the private sector, public sector and Non-Governmental Organizations (NGOs), having worked in strategy, development, research and education.\r\n\r\nAt the Global EY organization, Olga has led projects for key clients and developed methodologies focused on responsible AI and risk management. She led several workshops and published articles related to responsible AI and operational ethics and represented the organization at internal and external events.\r\n\r\nPreviously, Olga was a research fellow at the Carnegie Council for Ethics in International Affairs and analyzed lethal autonomous weapons conventions at the United Nations Office for Disarmament Affairs.\r\n\r\nOlga is at the forefront of integrating responsible AI practices within client operations. She employs a dual approach: driving top-down implementation of AI governance while fostering bottom-up engagement through AI literacy trainings. Her initiatives aim to raise awareness and to help ensure AI technologies are developed and deployed ethically and sustainably, aligned with human rights, to help clients navigate the complexities of AI responsibly, reinforcing core business values.",
@@ -1309,21 +1372,21 @@
     {
       "id": "hung-ying-tai",
       "name": "Hung-Ying Tai",
-      "bio": "Hung-Ying, Tai (hydai) is the maintainer of the WasmEdge Runtime project and an engineering leader at Second State. He is a prolific mentor in the Linux Foundation Mentorship program and a CNCF Ambassador. He also contributes to many high-profile open source projects within and beyond the CNCF. He is knowledgeable about AI inference frameworks such as llama.cpp, PyTorch, and TensorFlow.",
-      "role": "Engineering leader",
+      "bio": "Hung-Ying is a maintainer of the WasmEdge project and a pioneer in compiler optimization and virtual machine design. He is a prolific open-source contributor, participating in many open-source projects, including go-ethereum, solidity, SOLL, crun, llama.cpp, and WasmEdge.",
+      "role": "Tech Lead",
       "org": "Second State",
-      "roleOrg": "Engineering Leader at Second State",
+      "roleOrg": "Tech Lead at Second State",
       "image": "hung-ying-tai.jpg",
-      "tag": "ai-infra",
+      "tag": "spotlight-ai",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "https://x.com/hydai_tw",
         "github": "https://github.com/hydai",
-        "linkedin": "undefined",
+        "linkedin": "https://www.linkedin.com/in/hydai/",
         "website": "https://hyd.ai"
       },
       "status": "New",
-      "draft": true
+      "draft": false
     },
     {
       "id": "markus-tavenrath",
@@ -1477,6 +1540,7 @@
       "status": "New",
       "draft": false
     },
+
     {
       "id": "baosong-yang",
       "tag": "ai-model",
@@ -1592,6 +1656,25 @@
       "draft": false
     },
     {
+      "id": "xiao-zhang",
+      "name": "Xiao Zhang",
+      "bio": "Founder and CEO of dynamia.ai, initiator and maintainer of CNCF HAMi, mainly provides general technical solutions for HAMi to maximize GPU utilization",
+      "role": "Founder & CEO",
+      "org": "dynamia.ai",
+      "roleOrg": "Founder & CEO at dynamia.ai",
+      "image": "xiao-zhang.jpg",
+      "tag": "spotlight-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "https://github.com/wawa0210",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "junkai-zhao",
       "name": "Junkai Zhao",
       "bio": "I am a Robotics Algorithm Engineer at the Beijing Academy of Artificial Intelligence, where I focus on developing general-purpose robotic manipulation models. Prior to this, I worked at Agibot and the Shanghai Qizhi Institute, contributing to projects involving motion planning, control systems, and long-horizon robotic manipulation. My expertise spans robot control, simulation environments, and learning-based action modeling.",
@@ -1638,6 +1721,101 @@
       "image": "yiran-zhong.png",
       "org": "MiniMax",
       "role": "Senior Research Director",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "benoit-courty",
+      "name": "Benoit Courty",
+      "bio": "",
+      "role": "",
+      "org": "Neo-Robotix",
+      "roleOrg": "Neo-Robotix",
+      "tag": "spotlight-ai",
+      "image": "generic-profile.png",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "michal-domaski",
+      "name": "Michał Domański",
+      "bio": "",
+      "role": "",
+      "org": "Bielik.ai",
+      "roleOrg": "Bielik.ai",
+      "tag": "spotlight-ai",
+      "image": "generic-profile.png",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "cyril-moineau",
+      "name": "Cyril Moineau",
+      "bio": "",
+      "role": "Research Engineer",
+      "org": "CEA",
+      "roleOrg": "Research Engineer at CEA",
+      "tag": "spotlight-ai",
+      "image": "generic-profile.png",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "gautier-viaud",
+      "name": "Gautier Viaud",
+      "bio": "",
+      "role": "Head of Research & Development",
+      "org": "Illuin Technology",
+      "roleOrg": "Head of Research & Development at Illuin Technology",
+      "tag": "spotlight-ai",
+      "image": "generic-profile.png",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "zonghuan-wu",
+      "name": "Zonghuan Wu",
+      "bio": "Dr. Wu holds a Ph.D. in Computer Science from the State University of New York and an MBA. He is the co-founder of CantorAI and a former research engineer, architect, and leader of multinational R&D teams at Huawei's U.S. Research Institute and Turkey Research Institute. Dr. Wu provides consulting services on technological development, innovation, and productization in AI, knowledge graphs, and search for various enterprises and universities. He also shares cutting-edge insights on AI through the \"RelevantNews\" public WeChat account.",
+      "role": "Founder",
+      "org": "Relevant Study",
+      "roleOrg": "Founder at Relevant Study",
+      "tag": "spotlight-ai",
+      "image": "generic-profile.png",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
