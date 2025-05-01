@@ -344,7 +344,25 @@
       "status": "New",
       "draft": false
     },
-
+    {
+      "id": "benoit-courty",
+      "name": "Benoit Courty",
+      "bio": "",
+      "role": "",
+      "org": "Neo-Robotix",
+      "roleOrg": "Neo-Robotix",
+      "tag": "spotlight-ai",
+      "image": "benoit-courty.jpeg",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
     {
       "id": "sebastien-crozet",
       "name": "Sebastien Crozet",
@@ -1740,25 +1758,6 @@
       "image": "yiran-zhong.png",
       "org": "MiniMax",
       "role": "Senior Research Director",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "benoit-courty",
-      "name": "Benoit Courty",
-      "bio": "",
-      "role": "",
-      "org": "Neo-Robotix",
-      "roleOrg": "Neo-Robotix",
-      "tag": "spotlight-ai",
-      "image": "generic-profile.png",
       "socialLinks": {
         "mastodon": "undefined",
         "twitter": "undefined",
