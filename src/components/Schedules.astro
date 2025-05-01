@@ -127,7 +127,7 @@ const getEventUrl = (title: string): string => {
       <div
         class="single-filter"
         data-filter-status={activeCategory === "All" ? "active" : "not-active"}
-        data-filter-category="All"
+        data-filter-category="all"
       >
         <span>All</span>
       </div>
@@ -138,7 +138,7 @@ const getEventUrl = (title: string): string => {
             data-filter-status={
               category.name === activeCategory ? "active" : "not-active"
             }
-            data-filter-category={category.name}
+            data-filter-category={category.name.toLowerCase().replace(/ /g, '-')}
           >
             <span>{category.name}</span>
           </div>
@@ -181,7 +181,7 @@ const getEventUrl = (title: string): string => {
             data-filter-status={activeCategory === "All"
               ? "active"
               : "not-active"}
-            data-filter-category="All"
+            data-filter-category="all"
           >
             <span>All</span>
           </div>
@@ -192,7 +192,7 @@ const getEventUrl = (title: string): string => {
                 data-filter-status={
                   category.name === activeCategory ? "active" : "not-active"
                 }
-                data-filter-category={category.name}
+                data-filter-category={category.name.toLowerCase().replace(/ /g, '-')}
               >
                 <span>{category.name}</span>
               </div>
@@ -205,7 +205,7 @@ const getEventUrl = (title: string): string => {
       <div
         class="list-group"
         data-filter-status={activeCategory === "All" ? "active" : "not-active"}
-        data-filter-category="All"
+        data-filter-category="all"
       >
         {
           sortedAllSessions.length > 0 ? (
@@ -215,7 +215,7 @@ const getEventUrl = (title: string): string => {
                   class={`single-agenda-card single-accordion-item card-hover ${session.isSpecialEvent ? 'special-event' : ''}`}
                   data-accordion-status="not-active"
                   data-filter-status="active"
-                  data-filter-category="All"
+                  data-filter-category="all"
                 >
                   <div
                     class="top"
@@ -341,7 +341,7 @@ const getEventUrl = (title: string): string => {
               data-filter-status={
                 category.name === activeCategory ? "active" : "not-active"
               }
-              data-filter-category={category.name}
+              data-filter-category={category.name.toLowerCase().replace(/ /g, '-')}
             >
               {sortedCategorySessions.length > 0 ? (
                 <ul class="row row-list">
@@ -350,7 +350,7 @@ const getEventUrl = (title: string): string => {
                       class={`single-agenda-card single-accordion-item card-hover ${session.isSpecialEvent ? 'special-event' : ''}`}
                       data-accordion-status="not-active"
                       data-filter-status="active"
-                      data-filter-category={category.name}
+                      data-filter-category={category.name.toLowerCase().replace(/ /g, '-')}
                     >
                       <div
                         class="top"

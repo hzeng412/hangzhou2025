@@ -224,6 +224,32 @@ function initBasicFunctions() {
       var filterGroup = $('[data-filter-group]');
       var filterGrid = $('[data-filter-grid]');
 
+      // Handle initial filter state from URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const initialFilter = urlParams.get('filter');
+      if (initialFilter) {
+         const filterElement = filterGroup.find(`[data-filter-category="${initialFilter}"]`);
+         if (filterElement.length) {
+            // Manually trigger the filter state instead of clicking
+            $('[data-nav-filter-status]').attr('data-nav-filter-status', 'not-active');
+            filterGrid.addClass('toggle-fade-out');
+            filterElement.attr('data-filter-status', 'active').siblings().attr('data-filter-status', 'not-active');
+            setTimeout(function () {
+               filterGrid.find('[data-filter-category]').attr('data-filter-status', 'not-active');
+               filterGrid.find(`[data-filter-category="${initialFilter}"]`).attr('data-filter-status', 'active');
+               filterGrid.removeClass('toggle-fade-out').addClass('toggle-fade-in');
+               filterCheckEvenOdd();
+               scroll.destroy();
+               initLenis();
+               initCheckScrollUpDown();
+               ScrollTrigger.refresh();
+            }, 200);
+            setTimeout(function () {
+               filterGrid.removeClass('toggle-fade-in');
+            }, 400);
+         }
+      }
+
       filterGroup.find('[data-filter-category]').click(function () {
          var clickedFilter = $(this);
          var clickedFilterCategory = $(this).data('filter-category');
@@ -247,6 +273,10 @@ function initBasicFunctions() {
             setTimeout(function () {
                filterGrid.removeClass('toggle-fade-in');
             }, 400);
+            // Update URL to remove filter
+            const currentUrl = new URL(window.location.href);
+            currentUrl.searchParams.delete('filter');
+            history.pushState(null, '', currentUrl.toString());
          }
          // Category Filters
          else {
@@ -266,6 +296,10 @@ function initBasicFunctions() {
             setTimeout(function () {
                filterGrid.removeClass('toggle-fade-in');
             }, 400);
+            // Update URL with filter
+            const currentUrl = new URL(window.location.href);
+            currentUrl.searchParams.set('filter', clickedFilterCategory.toLowerCase().replace(/ /g, '-'));
+            history.pushState(null, '', currentUrl.toString());
          }
       });
 
