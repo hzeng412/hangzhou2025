@@ -1047,6 +1047,25 @@
       "draft": false
     },
     {
+      "id": "cyril-moineau",
+      "name": "Cyril Moineau",
+      "bio": "Research engineer at CEA working on compression and embedability of neural networks.\r\nI am the technical lead of the open source platform Eclipse Aidge.",
+      "role": "Research Engineer",
+      "org": "CEA",
+      "roleOrg": "Research Engineer at CEA",
+      "image": "cyril-moineau.jpg",
+      "tag": "assign-me",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "https://www.linkedin.com/in/cmoineau/",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
       "id": "pablo-montalvo",
       "name": "Pablo Montalvo",
       "bio": "",
@@ -1757,25 +1776,6 @@
       "role": "",
       "org": "Bielik.ai",
       "roleOrg": "Bielik.ai",
-      "tag": "spotlight-ai",
-      "image": "generic-profile.png",
-      "socialLinks": {
-        "mastodon": "undefined",
-        "twitter": "undefined",
-        "github": "undefined",
-        "linkedin": "undefined",
-        "website": "undefined"
-      },
-      "status": "New",
-      "draft": false
-    },
-    {
-      "id": "cyril-moineau",
-      "name": "Cyril Moineau",
-      "bio": "",
-      "role": "Research Engineer",
-      "org": "CEA",
-      "roleOrg": "Research Engineer at CEA",
       "tag": "spotlight-ai",
       "image": "generic-profile.png",
       "socialLinks": {
