@@ -716,37 +716,6 @@ footer {
    clip-path: polygon(0% 0%, 0 0%, 0% 100%, 0% 100%);
 }
 
-/* Loading GOSIM */
-
-.loading-gosim {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   gap: 1em;
-   pointer-events: none;
-   user-select: none;
-   opacity: 0;
-}
-
-.loading-gosim .loading-bar {
-   width: calc(var(--title-size) * 3);
-   height: calc(var(--title-size) * 0.05);
-   background-color: rgba(var(--color-dark-rgb), 0.2);
-   border-radius: 50em;
-   position: relative;
-   overflow: hidden;
-}
-
-.loading-gosim .loading-bar .status {
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-color: var(--color-light);
-   border-radius: 50em;
-}
-
 /* Logo GOSIM */
 
 .section-home-header .logo-gosim-scroll {
@@ -1683,25 +1652,11 @@ footer {
 
 /* ------------------------- Section - Register GOSIM -------------------------------------------------- */
 
-[data-bg-section="lightgray"]+.section-register-gosim .shape-round.top::after {
-   background-color: var(--color-lightgray);
-}
-
-[data-bg-section="light"]+.section-register-gosim .shape-round.top::after {
-   background-color: var(--color-light);
-}
-
-[data-bg-section="beige"]+.section-register-gosim .shape-round.top::after {
-   background-color: var(--color-beige);
-}
 
 .section-register-gosim+.footer-round {
    display: none;
 }
 
-.section-register-gosim .shape-round.bottom::after {
-   background-color: var(--color-dark-tint);
-}
 
 .section-register-gosim .overlay-wrap {
    background-color: rgba(34, 35, 43, 1);

@@ -215,23 +215,6 @@
    }
 }
 
-/* ------------------------- Parallax - Images -------------------------------------------------- */
-
-@media screen and (min-width: 1025px) {
-
-   [data-parallax-strength] {
-      overflow: hidden;
-      --parallax-strength: 0%;
-      --parallax-height: 0%;
-   }
-
-   [data-parallax-strength] [data-parallax-target] {
-      height: calc(100% + (var(--parallax-height) * 2));
-      top: calc(var(--parallax-height) * -1);
-      will-change: scroll-position;
-   }
-}
-
 /* ------------------------- Gradient Circle -------------------------------------------------- */
 
 .gradient-circle-wrap {
@@ -1506,19 +1489,6 @@
 
 .modal-box-partner .modal-box-scroll .boxed-logo > img {
   max-width: 100%;
-}
-/* ------------------------- Modal Container - Prelaunch -------------------------------------------------- */
-
-[data-modal-prelaunch-status="active"] .modal-container-prelaunch .modal-box[data-modal-card-status="active"]{
-   transform: translateY(0em) rotate(0.001deg);
-   opacity: 1;
-   visibility: visible;
-   pointer-events: all;
-}
-
-[data-modal-prelaunch-status="active"] .modal-container-prelaunch .overlay-dark {
-   opacity: 1;
-   visibility: visible;
 }
 
 @media screen and (max-width: 768px) {

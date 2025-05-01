@@ -271,11 +271,6 @@ a {
    text-decoration: none;
 }
 
-.eyebrow {
-   font-size: 0.85em;
-   color: rgba(var(--color-dark-rgb), 0.5);
-}
-
 .color-primary {
    color: var(--color-primary);
 }
@@ -965,24 +960,6 @@ i svg :is(path, line, polyline) {
    position: absolute;
 }
 
-/* ------------------------- Styled Figure -------------------------------------------------- */
-
-.styled-figure {
-   display: flex;
-   flex-direction: column;
-   gap: 0.5em;
-   position: relative;
-   background-color: rgba(var(--color-black-rgb), 0.1);
-}
-
-.styled-figure figcaption {
-   font-weight: 400;
-   font-style: normal;
-   font-size: 0.8em;
-   line-height: 1.3;
-   color: var(--color-text);
-}
-
 /* ------------------------- Styled Image / Video -------------------------------------------------- */
 
 .styled-image,
@@ -1038,48 +1015,12 @@ select:-webkit-autofill:focus {
    transition: border var(--animation-primary);
 }
 
-.border-static-y {
-   width: 1px;
-   height: 100%;
-   background-color: var(--color-border);
-   flex-shrink: 0;
-   transition: background-color var(--animation-primary);
-}
-
-.border-static-x {
-   height: 1px;
-   width: 100%;
-   background-color: var(--color-border);
-   flex-shrink: 0;
-   transition: background-color var(--animation-primary);
-}
-
 .border-bottom {
    position: absolute;
    bottom: 0;
    left: 0;
    width: 100%;
    height: 1px;
-   background-color: var(--color-border);
-   transition: background-color var(--animation-primary);
-}
-
-.border-left {
-   position: absolute;
-   top: 0;
-   left: 0;
-   height: 100%;
-   width: 1px;
-   background-color: var(--color-border);
-   transition: background-color var(--animation-primary);
-}
-
-.border-right {
-   position: absolute;
-   top: 0;
-   right: 0;
-   height: 100%;
-   width: 1px;
    background-color: var(--color-border);
    transition: background-color var(--animation-primary);
 }
