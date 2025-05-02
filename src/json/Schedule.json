@@ -29,7 +29,7 @@
     },
     {
       "name": "Embodied AI",
-      "room": "Junior Room",
+      "room": "Junior Stage",
       "id": "embodied-ai"
     },
     {
@@ -48,6 +48,7 @@
       {
         "date": "May 6",
         "timeSlot": "9:30 - 10:00",
+        "room": "Master Stage",
         "title": "Keynote",
         "content": "",
         "speakers": []
@@ -92,6 +93,7 @@
       {
         "date": "May 6",
         "timeSlot": "12:00 - 14:00",
+        "room": "Open Platform",
         "title": "Lunch Break",
         "content": "Food & drinks",
         "speakers": []
@@ -195,6 +197,7 @@
       {
         "date": "May 7",
         "timeSlot": "9:30 - 10:00",
+        "room": "Master Stage",
         "title": "Keynote",
         "content": "",
         "speakers": []
@@ -239,6 +242,7 @@
       {
         "date": "May 7",
         "timeSlot": "12:00 - 14:00",
+        "room": "Open Platform",
         "title": "Lunch Break",
         "content": "Food & drinks",
         "speakers": []
@@ -329,6 +333,7 @@
       {
         "date": "May 6",
         "timeSlot": "9:30 - 10:00",
+        "room": "Master Stage",
         "title": "Keynote",
         "content": "",
         "speakers": []
@@ -373,6 +378,7 @@
       {
         "date": "May 6",
         "timeSlot": "12:00 - 14:00",
+        "room": "Open Platform",
         "title": "Lunch Break",
         "content": "Food & drinks",
         "speakers": []
@@ -461,6 +467,7 @@
       {
         "date": "May 7",
         "timeSlot": "9:30 - 10:00",
+        "room": "Master Stage",
         "title": "Keynote",
         "content": "",
         "speakers": []
@@ -505,6 +512,7 @@
       {
         "date": "May 7",
         "timeSlot": "12:00 - 14:00",
+        "room": "Open Platform",
         "title": "Lunch Break",
         "content": "Food & drinks",
         "speakers": []
@@ -595,6 +603,7 @@
       {
         "date": "May 6",
         "timeSlot": "9:30 - 10:00",
+        "room": "Master Stage",
         "title": "Keynote",
         "content": "",
         "speakers": []
@@ -639,6 +648,7 @@
       {
         "date": "May 6",
         "timeSlot": "12:00 - 14:00",
+        "room": "Open Platform",
         "title": "Lunch Break",
         "content": "Food & drinks",
         "speakers": []
@@ -742,6 +752,7 @@
       {
         "date": "May 7",
         "timeSlot": "9:30 - 10:00",
+        "room": "Master Stage",
         "title": "Keynote",
         "content": "",
         "speakers": []
@@ -786,6 +797,7 @@
       {
         "date": "May 7",
         "timeSlot": "12:00 - 14:00",
+        "room": "Open Platform",
         "title": "Lunch Break",
         "content": "Food & drinks",
         "speakers": []
@@ -876,6 +888,7 @@
       {
         "date": "May 6",
         "timeSlot": "9:30 - 10:00",
+        "room": "Master Stage",
         "title": "Keynote",
         "content": "",
         "speakers": []
@@ -920,6 +933,7 @@
       {
         "date": "May 6",
         "timeSlot": "12:00 - 14:00",
+        "room": "Open Platform",
         "title": "Lunch Break",
         "content": "Food & drinks",
         "speakers": []
@@ -1008,6 +1022,7 @@
       {
         "date": "May 7",
         "timeSlot": "9:30 - 10:00",
+        "room": "Master Stage",
         "title": "Keynote",
         "content": "",
         "speakers": []
@@ -1052,6 +1067,7 @@
       {
         "date": "May 7",
         "timeSlot": "12:00 - 14:00",
+        "room": "Open Platform",
         "title": "Lunch Break",
         "content": "Food & drinks",
         "speakers": []
@@ -1142,6 +1158,7 @@
       {
         "date": "May 7",
         "timeSlot": "9:30 - 10:00",
+        "room": "Master Stage",
         "title": "Keynote",
         "content": "GOSIM Keynote",
         "speakers": []
@@ -1223,6 +1240,7 @@
       {
         "date": "May 7",
         "timeSlot": "12:00 - 14:00",
+        "room": "Open Platform",
         "title": "Lunch Break",
         "content": "Food & drinks",
         "speakers": []
