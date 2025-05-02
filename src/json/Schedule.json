@@ -1471,14 +1471,14 @@
       {
         "date": "May 6",
         "timeSlot": "13:45 -14:00",
-        "title": "HAMi",
-        "content": "Open, Device Virtualization, VGPU, Heterogeneous AI Computing. HAMi (Heterogeneous AI Computing Virtualization Middleware) formerly known as k8s-vGPU-scheduler, is an 'all-in-one' chart designed to manage Heterogeneous AI Computing Devices in a k8s cluster. It can provide the ability to share Heterogeneous AI devices and provide resource isolation among tasks.",
+        "title": "Unlocking Heterogeneous AI Infrastructure K8s Cluster: Leveraging the Power of HAMi",
+        "content": "Unlocking the full potential of AI Infra heterogeneous GPUs with HAMi for efficient scheduling, unified management, observability, and utilization improvement",
         "speakers": [
           {
             "id": "xiao-zhang",
             "name": "Xiao Zhang",
             "tags": ["spotlight-ai"],
-            "roleOrg": "Founder & CEO at dynamia.ai",
+            "roleOrg": "CEO of Dynamia.ai",
             "image": "xiao-zhang.jpg"
           }
         ]

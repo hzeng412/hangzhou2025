@@ -1695,10 +1695,10 @@
     {
       "id": "xiao-zhang",
       "name": "Xiao Zhang",
-      "bio": "Founder and CEO of dynamia.ai, initiator and maintainer of CNCF HAMi, mainly provides general technical solutions for HAMi to maximize GPU utilization",
-      "role": "Founder & CEO",
-      "org": "dynamia.ai",
-      "roleOrg": "Founder & CEO at dynamia.ai",
+      "bio": "Dynamia.ai CEO, software engineer, cloud native and AI enthusiast, maintainer of multiple CNCF projects HAMi, Karmada, Cloudtty, Kubean",
+      "role": "CEO",
+      "org": "Dynamia.ai",
+      "roleOrg": "CEO of Dynamia.ai",
       "image": "xiao-zhang.jpg",
       "tag": "spotlight-ai",
       "socialLinks": {
