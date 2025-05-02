@@ -190,13 +190,11 @@ const sortedAllSessions = sortSessionsByTime(uniqueAllSessions)
                             )}
                             
                             <!-- Social share component with reduced spacing -->
-                            <div class="social-share-row">
                               <SocialShare 
                                 title={`${session.title} - GOSIM AI Paris 2025`}
                                 url={getEventUrl(session.title)}
                                 description={session.content ? session.content.replace(/<[^>]*>/g, "").substring(0, 160) : ""}
                               />
-                            </div>
                           </div>
                         </div>
                       </div>
@@ -222,11 +220,5 @@ const sortedAllSessions = sortSessionsByTime(uniqueAllSessions)
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
-  }
-  
-  .social-share-row {
-    margin-top: 0.25rem;
-    padding-top: 0.25rem;
-    border-top: 1px solid #eee;
   }
 </style> 

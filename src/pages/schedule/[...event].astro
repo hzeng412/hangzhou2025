@@ -17,6 +17,7 @@ type Event = {
   date: string;
   timeSlot: string;
   speakers?: { name: string; image?: string; roleOrg: string }[];
+  room?: string;
 };
 
 type Schedule = {
@@ -125,10 +126,7 @@ const eventCategory = category || "Uncategorized";
           <div class="box-row box-row-text styled-content">
             <p class="location-text">
               <strong>Location:</strong>
-              {
-                schedule.categories.find((cat) => cat.name === eventCategory)
-                  ?.room || "TBA"
-              }
+              {eventDetails.room || schedule.categories.find((cat) => cat.name === eventCategory)?.room || "TBA"}
             </p>
           </div>
 
