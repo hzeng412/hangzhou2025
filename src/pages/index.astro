@@ -14,7 +14,6 @@ import PreviousEvents from "components/PreviousEvents.astro";
 import GetTickets from "components/GetTickets.astro";
 import Marquee from "components/Marquee.astro";
 import CardsSponsors from "components/CardsSponsors.astro";
-import Notify from "components/Notify.astro";
 
 // Images
 import Placeholder1 from "images/homepage/stats1.png";
@@ -27,27 +26,16 @@ import GosimBeijing from "images/homepage/gosim-beijing.png";
 ---
 
 <Layout
-  title="GOSIM AI Paris 2025"
-  description="GOSIM Paris, the City of Light, transforms into the City of Artificial Brilliance this May. GOSIM AI 2025 invites visionaries, disruptors, and pioneers to converge at Station F, a crucible of innovation, to shape the next frontier of AI."
+  title="GOSIM Hangzhou 2025"
+  description="GOSIM Hangzhou. Coming soon."
   navDarkMode={true}
   navBackground="header-home"
   pageTransitionName="Home"
 >
   <Hero
-    date="May 6-7, 2025"
-    location="Paris, France"
-    links={[
-      {
-        text: "Join PyTorch Day France",
-        link: "https://events.linuxfoundation.org/pytorch-day-france/",
-        openInNewTab: true,
-      },
-      {
-        text: "Join Seeed Embodied AI Hackathon",
-        link: "https://lu.ma/7djaix39",
-        openInNewTab: true,
-      },
-    ]}
+    date="September 13-14, 2025"
+    location="Hangzhou, China"
+    
   />
   <!--   <CardsSponsors
     title="Proudly Sponsored By"
@@ -149,22 +137,6 @@ import GosimBeijing from "images/homepage/gosim-beijing.png";
       text: "See schedule",
       link: "/schedule/",
     }}
-  />
-  <Notify
-    title="Try the GOSIM ticket lucky draw!"
-    text="Join our Lucky Draw for a chance to unlock MASSIVE DISCOUNTS on your conference ticket!"
-    buttons={[
-      {
-        text: "X (Twitter)",
-        link: "https://x.com/gosimfoundation/status/1912744752925282408?s=46",
-        openInNewTab: true,
-      },
-      {
-        text: "LinkedIn",
-        link: "https://www.linkedin.com/posts/gosim-foundation_opensource-paris-gosim-activity-7320228660119056384-8G0N/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAADy6IEBVFnqXCcxI2wwmkLQxsENI_ltXOc",
-        openInNewTab: true,
-      },
-    ]}
   />
   <FeaturedSpeakers
     title="Featured Speakers"

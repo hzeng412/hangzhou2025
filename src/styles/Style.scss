@@ -741,18 +741,14 @@ footer {
    width: 100%;
 }
 
-.section-home-header svg path {
-   fill: var(--color-light);
-}
-
 .section-home-header .event-facts {
    width: 100%;
-   display: flex;
-   justify-content: space-between;
+   display: inline-flex;
+   justify-content: center;
    align-items: center;
    overflow: hidden;
    position: relative;
-   max-width: 300px;
+   gap: 3rem;
    bottom: 15%;
    font-size: 1.5rem;
 }
@@ -788,7 +784,6 @@ footer {
       transform: translateY(calc(-50% + calc(var(--title-size) * 1.25)));
       height: 2em;
       font-size: 1.25rem;
-      width: 230px;
    }
 
    .section-home-header .btn {
