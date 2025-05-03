@@ -1,4 +1,4 @@
-# GOSIM AI Paris 2025
+# GOSIM Hangzhou 2025
 
 ## How to add Schedule
 1. Add data to JSON file at `src/json/Schedule.json`

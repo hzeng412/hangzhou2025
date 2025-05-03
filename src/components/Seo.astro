@@ -8,11 +8,11 @@ interface Props {
 
 const { title, description, noindex, pageTransitionName } = Astro.props;
 
-const newTitle = title || 'GOSIM AI Paris 2025';
+const newTitle = title || 'GOSIM Hangzhou 2025';
 
-const newDescription = description || 'GOSIM AI Paris 2025 is a gathering of open-source AI projects, developers, researchers, and industry sponsors to share knowledge, learn from each other, and collaborate.'
+const newDescription = description || 'GOSIM Hangzhou 2025 is a gathering of open-source AI projects, developers, researchers, and industry sponsors to share knowledge, learn from each other, and collaborate.'
 
-const domain = "https://paris2025.gosim.org";
+const domain = "https://hangzhou2025.gosim.org";
 
 const slug = Astro.url.pathname;
 
@@ -27,7 +27,7 @@ const slug = Astro.url.pathname;
 <meta property="og:title" content={newTitle}/>
 <meta property="twitter:title" content={newTitle}/>
 
-<meta property="og:site_name" content="GOSIM AI Paris 2025" />
+<meta property="og:site_name" content="GOSIM Hangzhou 2025" />
 <meta property="twitter:card" content="summary_large_image" />
 
 <link rel="canonical" href={`${domain}${slug}`} />
