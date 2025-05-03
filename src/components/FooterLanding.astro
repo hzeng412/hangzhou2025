@@ -1,0 +1,265 @@
+---
+// Components
+import Button from "components/Button.astro";
+import Logo from "./Logo.astro";
+
+const firstColumnLinks = [
+  {
+    text: "Schedule",
+    link: "/schedule/",
+  },
+  {
+    text: "Speakers",
+    link: "/speakers/",
+  },
+  {
+    text: "Supporters",
+    link: "/sponsors/",
+  },
+  {
+    text: "Conference Venue",
+    link: "/#venue",
+  },
+  {
+    text: "Forum Venue",
+    link: "/os-ai-strategy-forum/#venue",
+  },
+  // {
+  //   text: "FAQ",
+  //   link: "/faq/",
+  // },
+];
+
+const secondColumnLinks = [
+  // {
+  //   text: "Volunteer",
+  //   link: "https://docs.google.com/forms/d/e/1FAIpQLSc62kJczw7lr-l0JAAbkabeIrrPPAD7OWyzwDopTD0L4HC6EQ/viewform",
+  //   openInNewTab: true,
+  // },
+  {
+    text: "Our Volunteers",
+    link: "/volunteers/",
+  },
+  {
+    text: "GOSIM AI Spotlight ",
+    link: "https://spotlight.gosim.org/ai2025",
+    openInNewTab: true,
+  },
+  {
+    text: "GOSIM Open-Source AI Strategy Forum",
+    link: "/os-ai-strategy-forum/",
+  },
+  {
+    text: "PyTorch Day France",
+    link: "https://events.linuxfoundation.org/pytorch-day-france/",
+  },
+  {
+    text: "Seeed Embodied AI Hackathon",
+    link: "https://lu.ma/7djaix39",
+  },
+];
+
+const slug = Astro.url.pathname;
+---
+
+<footer class="section footer" data-theme-section="dark" data-bg-section="dark">
+  <div class="container">
+    <div class="row row-base">
+      <div class="col col-logo-gosim">
+        <div class="logo">
+          <a href="/" aria-label="Go to homepage" class="logo-click">
+            <Logo />
+          </a>
+        </div>
+      </div>
+
+      <nav class="col col-sitemap" aria-label="Navigation Footer">
+        <ul>
+          {
+            firstColumnLinks.map((loop: any) => (
+              <li
+                class="link link-hover"
+                data-barba-update
+                data-link-status={loop.link === slug ? "active" : "not-active"}
+              >
+                <a
+                  class="link-click"
+                  href={loop.link}
+                  target={loop?.openInNewTab ? "_blank" : "_self"}
+                  rel={loop?.openInNewTab ? "noopener noreferrer" : ""}
+                >
+                  <span>{loop.text}</span>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+
+        <ul>
+          {
+            secondColumnLinks.map((loop: any) => (
+              <li
+                class="link link-hover"
+                data-barba-update
+                data-link-status={loop.link === slug ? "active" : "not-active"}
+              >
+                {loop.subLinks ? (
+                  <div style="margin-top: 2.25rem;">
+                    <span style="color: #fff; font-size: 1rem;">
+                      {loop.text}
+                    </span>
+                    <ul style="margin-top: 0.75rem;">
+                      {loop.subLinks.map((subLink: any) => (
+                        <li class="link link-hover">
+                          <a
+                            class="link-click"
+                            href={subLink.link}
+                            target={subLink?.openInNewTab ? "_blank" : "_self"}
+                            rel={
+                              subLink?.openInNewTab ? "noopener noreferrer" : ""
+                            }
+                          >
+                            <span>{subLink.text}</span>
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : (
+                  <a
+                    class="link-click"
+                    href={loop.link}
+                    target={loop?.openInNewTab ? "_blank" : "_self"}
+                    rel={loop?.openInNewTab ? "noopener noreferrer" : ""}
+                  >
+                    <span>{loop.text}</span>
+                  </a>
+                )}
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+
+      <!-- <div class="col col-newsletter">
+        <div class="col-row col-row-title">
+          <h2 class="h4">Stay up to date on all things GOSIM 2025</h2>
+        </div>
+        <div class="col-row col-row-input">
+          <Button
+            link="#"
+            text="Join our newsletter"
+            class="btn primary xl btn-hover"
+          />
+        </div>
+        <div class="col-row col-row-text styled-content">
+          <p>
+            Subscribe to the GOSIM Foundation mailing list to stay in the know.
+          </p>
+        </div>
+      </div> -->
+    </div>
+
+    <div class="row row-end">
+      <div class="col col-logo-gosim2">
+        <div class="logo">
+          <a
+            href="https://gosim.org"
+            target="_blank"
+            class="logo-click"
+            aria-label="GOSIM Foundation"
+          >
+            <Logo width="141" height="24" />
+          </a>
+        </div>
+        <div class="row footer-socials">
+          <a
+            href="https://mastodon.social/@gosim"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/icons/icon-mastodon.svg"
+              alt="Follow us on Mastodon"
+              width="18"
+              height="18"
+              loading="lazy"
+              style="filter: invert(1);"
+            />
+          </a>
+          <a
+            href="https://x.com/gosimfoundation"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/icons/icon-x.svg"
+              alt="Follow us on X (twitter)"
+              width="18"
+              height="18"
+              loading="lazy"
+              style="filter: invert(1);"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/gosim-foundation"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/icons/icon-linkedin.svg"
+              alt="Follow us on LinkedIn"
+              width="18"
+              height="18"
+              loading="lazy"
+              style="filter: invert(1);"
+            />
+          </a>
+          <a
+            href="https://bsky.app/profile/gosimfoundation.bsky.social"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/icons/icon-bluesky.svg"
+              alt="Follow us on BlueSky"
+              width="18"
+              height="18"
+              loading="lazy"
+              style="filter: invert(1);"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/@GOSIMFoundation"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/icons/icon-youtube.svg"
+              alt="Follow us on Youtube"
+              width="18"
+              height="18"
+              loading="lazy"
+              style="filter: invert(1);"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="col col-copyright"></div>
+
+      <div class="col col-dev-credits">
+        <div class="link link-hover">
+          <a class="link-click" href="/code-of-conduct/">
+            <span>Code of Conduct</span>
+          </a>
+        </div>
+        <div class="link link-hover">
+          <a class="link-click" href="/privacy/">
+            <span>Privacy</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
