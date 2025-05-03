@@ -14,9 +14,9 @@ html.lenis {height: auto;}
    --color-dark: rgba(var(--color-dark-rgb), 1);
    --color-dark-tint: #22232B;
 
-   --color-light-rgb: 247, 247, 255;
+   --color-light-rgb: 255, 255, 255;
    --color-light: rgba(var(--color-light-rgb), 1);
-   --color-light-tint: #EFEFFF;
+   --color-light-tint: #FCF7EA;
 
    --color-white-rgb: 255, 255, 255;
    --color-white: rgba(var(--color-white-rgb), 1);
@@ -24,7 +24,9 @@ html.lenis {height: auto;}
    --color-black-rgb: 0, 0, 0;
    --color-black: rgba(var(--color-black-rgb), 1);
 
-   --color-primary-rgb: 179, 178, 251;
+   --color-primary-rgb: 244,
+      203,
+      105;
    --color-primary: rgba(var(--color-primary-rgb), 1);
 
    --color-secondary-rgb: 147, 136, 254;

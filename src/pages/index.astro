@@ -14,7 +14,7 @@ import VenueInfo from "components/VenueInfo.astro";
 import Placeholder1 from "images/homepage/stats1.png";
 import Placeholder2 from "images/homepage/stats2.png";
 import Placeholder3 from "images/homepage/stats3.png";
-import SpotlightBlue from "images/homepage/spotlight-badge-ai-2025.svg";
+import SpotlightBlue from "images/homepage/spotlight-hangzhou.svg";
 import GosimShanghai from "images/homepage/gosim-shanghai.png";
 import GosimDelft from "images/homepage/gosim-delft.png";
 import GosimBeijing from "images/homepage/gosim-beijing.png";
@@ -90,15 +90,11 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     title="Hangzhou, China"
     location="Where Innovation Meets History"
     text="Experience GOSIM Hangzhou 2025 in a city renowned for its historical legacy and vibrant technological future. Hangzhou, a historical gem and modern tech hub, offers the perfect backdrop for inspiration, networking, and breakthrough innovations."
-    image="/images/homepage/station-f.jpg"
-    ctaButton={{
-      text: "Learn More",
-      link: "https://stationf.co/",
-      openInNewTab: true,
-    }}
+    image="/images/homepage/hangzhoubg.jpg"
+   
   />
   <Tracks
-    title="Explore Cutting-Edge Tracks"
+    title="6 Cutting-Edge Tracks"
     list={[
       {
         title: "Artificial Intelligence",
@@ -127,7 +123,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     ]}
     ctaButton={{
       text: "Schedule Coming Soon",
-      link: "/schedule/",
+      link: "",
     }}
   />
 
@@ -136,10 +132,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     text="Witness the future of technology first-hand through the GOSIM Spotlight initiative, highlighting exceptional innovations aligned with each conference track. This program showcases pioneering open-source projects that push boundaries, inspire creativity, and demonstrate real-world impact."
     image={SpotlightBlue}
     imageAlt="Gosim Spotlight badge"
-    ctaButton={{
-      text: "Details coming soon",
-      link: "",
-    }}
+
   />
 
   <PreviousEvents
@@ -185,9 +178,6 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     location="Hangzhou, China"
     date="September 13-14, 2025"
     text="Secure your spot today at GOSIM Hangzhou 2025. Collaborate with innovators, engage with industry pioneers, and be part of shaping the future of open-source technology."
-    ctaButton={{
-      text: "Tickets coming soon",
-      link: "",
-    }}
+
   />
 </Layout>
