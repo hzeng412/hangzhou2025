@@ -1,20 +1,14 @@
-_Last updated_: March 26, 2025
+_Last updated_: May 2, 2025
 
 ## Our Amazing Volunteers
 
-We extend our heartfelt gratitude to all the local Paris volunteers who are helping to make this event possible. Your dedication and hard work are deeply appreciated!
+We extend our heartfelt gratitude to all the local Hangzhou volunteers who are helping to make this event possible. Your dedication and hard work are deeply appreciated!
 
 <div class="volunteer-grid">
 
 |                       |                       |                     |
 | :-------------------: | :-------------------: | :-----------------: |
-|    **Yiming Chen**    |      **TARKANY**      |    **Amy Tian**     |
-| **Sajjad Houssenaly** |  **Myriam Dardour**   |   **Elsa Felts**    |
-|   **Lila Elrhoul**    |       **Ce Ju**       |  **Wenqing Zhang**  |
-|      **Munier**       |    **Lazlo Guiol**    | **Jagan Koipallil** |
-|    **Lizhan Hong**    | **Marina Barannikov** |   **Sylvia Ren**    |
-|    **Yang Yixing**    |     **Roy CHUNG**     |     **Yu ZHOU**     |
-|  **Natalia Golunga**  |     **Iris Kunz**     |    **Junji LI**     |
+|  ** **  |     ** **     |    ** **     |
 
 </div>
 
