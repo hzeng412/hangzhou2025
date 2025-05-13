@@ -783,6 +783,7 @@ left: 0%;
       transform: translateY(calc(-50% + calc(var(--title-size) * 1.25)));
       height: 2em;
       font-size: 1.25rem;
+      gap: 1rem;
    }
 
    .section-home-header .btn {
