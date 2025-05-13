@@ -21,12 +21,8 @@
       "id": "embodied-ai"
     },
     {
-      "name": "PyTorch Day France",
-      "id": "pytorch"
-    },
-    {
       "name": "GOSIM Spotlight",
-      "id": "spotlight-ai"
+      "id": "spotlight"
     }
   ],
   "speakers": []

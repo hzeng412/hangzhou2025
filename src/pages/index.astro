@@ -1,24 +1,24 @@
 ---
 // Components
-import Layout from "layouts/LayoutLanding.astro";
-import Hero from "components/Hero.astro";
-import Intro from "components/Intro.astro";
-import Statistics from "components/Statistics.astro";
-import Tracks from "components/Tracks.astro";
-import TextAndImage from "components/TextAndImage.astro";
-import PreviousEvents from "components/PreviousEvents.astro";
-import GetTickets from "components/GetTickets.astro";
-import VenueInfo from "components/VenueInfo.astro";
+import Layout from "layouts/LayoutLanding.astro"
+import Hero from "components/Hero.astro"
+import Intro from "components/Intro.astro"
+import Statistics from "components/Statistics.astro"
+import Tracks from "components/Tracks.astro"
+import TextAndImage from "components/TextAndImage.astro"
+import PreviousEvents from "components/PreviousEvents.astro"
+import GetTickets from "components/GetTickets.astro"
+import VenueInfo from "components/VenueInfo.astro"
 
 // Images
-import Placeholder1 from "images/homepage/stats1.png";
-import Placeholder2 from "images/homepage/stats2.png";
-import Placeholder3 from "images/homepage/stats3.png";
-import SpotlightBlue from "images/homepage/spotlight-hangzhou.svg";
-import GosimShanghai from "images/homepage/gosim-shanghai.png";
-import GosimDelft from "images/homepage/gosim-delft.png";
-import GosimBeijing from "images/homepage/gosim-beijing.png";
-import GosimParis from "images/homepage/gosim-paris-min.png";
+import Placeholder1 from "images/homepage/stats1.png"
+import Placeholder2 from "images/homepage/stats2.png"
+import Placeholder3 from "images/homepage/stats3.png"
+import SpotlightBlue from "images/homepage/spotlight-hangzhou.svg"
+import GosimShanghai from "images/homepage/gosim-shanghai.png"
+import GosimDelft from "images/homepage/gosim-delft.png"
+import GosimBeijing from "images/homepage/gosim-beijing.png"
+import GosimParis from "images/homepage/gosim-paris-min.png"
 ---
 
 <Layout
@@ -91,7 +91,6 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     location="Where Innovation Meets History"
     text="Experience GOSIM Hangzhou 2025 in a city renowned for its historical legacy and vibrant technological future. Hangzhou, a historical gem and modern tech hub, offers the perfect backdrop for inspiration, networking, and breakthrough innovations."
     image="/images/homepage/hangzhou2.jpeg"
-   
   />
   <Tracks
     title="6 Cutting-Edge Tracks"
@@ -132,7 +131,11 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     text="Witness the future of technology first-hand through the GOSIM Spotlight initiative, highlighting exceptional innovations aligned with each conference track. This program showcases pioneering open-source projects that push boundaries, inspire creativity, and demonstrate real-world impact."
     image={SpotlightBlue}
     imageAlt="Gosim Spotlight badge"
-
+    ctaButton={{
+      text: "Learn More",
+      link: "https://spotlight.gosim.org/",
+      openInNewTab: true,
+    }}
   />
 
   <PreviousEvents
@@ -178,6 +181,5 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     location="Hangzhou, China"
     date="September 13-14, 2025"
     text="Secure your spot today at GOSIM Hangzhou 2025. Collaborate with innovators, engage with industry pioneers, and be part of shaping the future of open-source technology."
-
   />
 </Layout>
