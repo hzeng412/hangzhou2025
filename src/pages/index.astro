@@ -11,10 +11,12 @@ import GetTickets from "components/GetTickets.astro";
 import VenueInfo from "components/VenueInfo.astro";
 
 // Images
-import Placeholder1 from "images/homepage/stats1.png";
-import Placeholder2 from "images/homepage/stats2.png";
+import Placeholder1 from "images/homepage/stats1.jpeg";
+import Placeholder2 from "images/homepage/stats2.jpg";
 import Placeholder3 from "images/homepage/stats3.png";
 import SpotlightBlue from "images/homepage/spotlight-hangzhou.svg";
+import RustGlobalWhite from "images/homepage/Rust-Global-white.svg";
+
 import GosimShanghai from "images/homepage/gosim-shanghai.png";
 import GosimDelft from "images/homepage/gosim-delft.png";
 import GosimBeijing from "images/homepage/gosim-beijing.png";
@@ -63,7 +65,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     <Statistics
       stats={[
         {
-          title: "900",
+          title: "1500",
           subtitle: "Attendees",
           image: Placeholder1,
           imageAlt: "",
@@ -90,50 +92,65 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     title="Hangzhou, China"
     location="Where Innovation Meets History"
     text="Experience GOSIM Hangzhou 2025 in a city renowned for its historical legacy and vibrant technological future. Hangzhou, a historical gem and modern tech hub, offers the perfect backdrop for inspiration, networking, and breakthrough innovations."
-    image="/images/homepage/hangzhoubg.jpg"
+    image="/images/homepage/hangzhoubg.png"
    
   />
+
+  
   <Tracks
     title="6 Cutting-Edge Tracks"
     list={[
       {
-        title: "Artificial Intelligence",
+        title: "AI Models",
         text: `Foundation models, edge inference, generative AI, and beyond.`,
       },
       {
-        title: "Internet & Web",
+        title: "AI Infra",
+        text: `Open-Source innovation in tools for AI training, inference for the cloud and edge.`,
+      },
+      {
+        title: "Embodied AI",
+        text: `Apply AI in the real world, from robotics to autonomous systems.`,
+      },            
+      {
+        title: "Next Generation Internet",
         text: `Decentralized applications, identity, privacy-enhanced technologies, and collaborative platforms.`,
       },
       {
-        title: "App Development",
+        title: "Next Generation Apps",
         text: `Cross-platform frameworks, Rust-based apps, WebAssembly, and super-app ecosystems.`,
       },
       {
         title: "Next Generation Devices",
-        text: `Smart wearables, spatial intelligence, embodied AI, and emerging hardware.`,
-      },
-      {
-        title: "Rust Language Ecosystem",
-        text: `Compiler development, tooling, embedded Rust, and large-scale industry adoption.`,
-      },
-      {
-        title: "Open Innovation & Community",
-        text: `Best practices for open-source communities, sustainable funding, and global collaboration.`,
-      },
+        text: `AI wearables, generative media, spatial intelligence, and emerging hardware.`,
+      }
     ]}
-    ctaButton={{
+
+    
+ ctaButton={{
       text: "Schedule Coming Soon",
       link: "",
     }}
   />
 
   <TextAndImage
+  title="Co-located Rust Global Conference"
+  text="Rust Global is the first Rust Foundation-hosted gathering dedicated to the use of Rust in global leadership settings."
+  image={RustGlobalWhite}
+  imageAlt="Rust Global"
+  dataBgSection ="dark" 
+  dataThemeSection ="dark"
+/>
+
+  <TextAndImage
     title="GOSIM Spotlight Program"
     text="Witness the future of technology first-hand through the GOSIM Spotlight initiative, highlighting exceptional innovations aligned with each conference track. This program showcases pioneering open-source projects that push boundaries, inspire creativity, and demonstrate real-world impact."
     image={SpotlightBlue}
     imageAlt="Gosim Spotlight badge"
-
+    dataBgSection ="light" 
+    dataThemeSection ="light"
   />
+
 
   <PreviousEvents
     title="Previous Events"

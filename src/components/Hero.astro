@@ -23,21 +23,24 @@ const { date, location, links } = Astro.props;
   <div class="overlay overlay-background overlay-background-video">
     <div class="styled-video playpause overlay">
       <video
-        class="overlay"
-        preload="auto"
-        autoplay
-        loop
-        muted
-        webkit-playsinline
-        playsinline
-        poster="/images/homepage/hangzhou-bg-2.webp"
-      >
-        <source src="/videos/hangzhou-bg.webm" type="video/webm" />
-      </video>
-    </div>
+      class="overlay"
+      preload="auto"
+      controls
+      onloadstart="this.playbackRate=0.5"
+      autoplay
+      loop
+      muted
+      webkit-playsinline
+      playsinline
+      poster="/images/homepage/hangzhou-bg-2.webp"
+    >
+        <source src="/videos/hz-hero-video.mp4" type="video/webm" />
+    </video>
+  </div>
     <div class="overlay overlay-gradient-v2"></div>
   </div>
 
+</div>
   <div class="container">
     <div class="row">
       <div class="col">
@@ -114,8 +117,39 @@ const { date, location, links } = Astro.props;
   </div>
 
   <style>
-    .overlay-background-video {
+
+  </style>
+
+
+</div>
+
+<div class="container">
+  <!-- Existing content -->
+</div>
+
+<style>
+  .overlay-background-video {
       opacity: 0.9;
     }
-  </style>
+  .shadow-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent shadow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .transparent-a {
+    font-size: 400px; /* Increased size for a much bigger "A" */
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0); /* Fully transparent */
+    -webkit-text-stroke: 2px rgba(255, 255, 255, 0.5); /* Optional stroke for visibility */
+    mix-blend-mode: destination-out; /* Makes the "A" cut out the shadow */
+  }
+</style>
+
 </section>

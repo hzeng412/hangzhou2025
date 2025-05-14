@@ -51,8 +51,10 @@ const slug = Astro.url.pathname;
           webkit-playsinline
           playsinline
           poster="/videos/gosim-paris-compressed.webp"
+          onloadstart="this.playbackRate=0.25"
+
         >
-          <source src="/videos/hangzhou-bg.webm" type="video/webm" />
+          <source src="/videos/hz005.mp4" type="video/webm" />
         </video>
       </div>
       <div class="overlay overlay-gradient-v2"></div>

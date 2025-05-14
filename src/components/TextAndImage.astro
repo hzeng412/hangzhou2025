@@ -10,6 +10,8 @@ interface Props {
     text: string,
     image: any,
     imageAlt: string,
+    dataBgSection: string,
+    dataThemeSection: string,
     ctaButton?: {
         text: string,
         link: string,
@@ -17,14 +19,14 @@ interface Props {
     };
 }
 
-const { title, text, image, imageAlt, ctaButton } = Astro.props;
+const { title, text, image, imageAlt, ctaButton, dataBgSection, dataThemeSection} = Astro.props;
 ---
 
 <section
     class="section section-register-gosim spotlight-section"
     id="spotlight"
-    data-theme-section="dark"
-    data-bg-section="dark"
+    data-theme-section={dataThemeSection}
+    data-bg-section={dataBgSection}
 >
     <div class="container">
         <div class="row grid">
