@@ -725,7 +725,6 @@ footer {
    transform: translate(-50%, -50%);
    width: calc(var(--title-size) * 7);
    max-width: 90%;
-   overflow: hidden;
 }
 
 .section-home-header .logo-gosim-scroll .logo-tracker {
@@ -780,10 +779,11 @@ footer {
 
    .section-home-header .event-facts {
       position: absolute;
-      top: 38%;
+left: 0%;
       transform: translateY(calc(-50% + calc(var(--title-size) * 1.25)));
       height: 2em;
       font-size: 1.25rem;
+      gap: 1rem;
    }
 
    .section-home-header .btn {

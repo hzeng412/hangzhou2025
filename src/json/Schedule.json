@@ -1,13 +1,13 @@
 {
   "days": [
     {
-      "date": "May 6",
-      "title": "Tuesday May 6",
+      "date": "Sept 13",
+      "title": "Saturday Sept 13",
       "url": "/schedule/"
     },
     {
-      "date": "May 7",
-      "title": "Wednesday May 7",
+      "date": "Sept 14",
+      "title": "Saturday Sept 14",
       "url": "/schedule-day-2/"
     }
   ],
@@ -29,12 +29,8 @@
       "id": "embodied-ai"
     },
     {
-      "name": "PyTorch Day France",
-      "id": "pytorch"
-    },
-    {
       "name": "GOSIM Spotlight",
-      "id": "spotlight-ai"
+      "id": "spotlight"
     }
   ],
   "sessions": {
