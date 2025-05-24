@@ -30,7 +30,17 @@ import GosimParis from "images/homepage/gosim-paris-min.png"
   navBackground="header-home"
   pageTransitionName="Home"
 >
-  <Hero date="September 13-14, 2025" location="Hangzhou, China" />
+  <Hero
+    date="September 13-14, 2025"
+    location="Hangzhou, China"
+    links={[
+      {
+        text: "Call for Proposals",
+        link: "https://cfp.gosim.org/",
+        openInNewTab: true,
+      },
+    ]}
+  />
   <!--   <CardsSponsors
     title="Proudly Sponsored By"
     sponsors={[

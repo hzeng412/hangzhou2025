@@ -771,7 +771,8 @@ footer {
 */
 
 .btn-home-wrap {
-   display: flex;
+   display: row;
+   align-items: center;
    gap: 2rem;
 }
 
