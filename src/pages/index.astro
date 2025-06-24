@@ -1,26 +1,27 @@
 ---
 // Components
-import Layout from "layouts/LayoutLanding.astro"
-import Hero from "components/Hero.astro"
-import Intro from "components/Intro.astro"
-import Statistics from "components/Statistics.astro"
-import Tracks from "components/Tracks.astro"
-import TextAndImage from "components/TextAndImage.astro"
-import PreviousEvents from "components/PreviousEvents.astro"
-import GetTickets from "components/GetTickets.astro"
-import VenueInfo from "components/VenueInfo.astro"
+import Layout from "layouts/LayoutLanding.astro";
+import Hero from "components/Hero.astro";
+import Intro from "components/Intro.astro";
+import Statistics from "components/Statistics.astro";
+import Tracks from "components/Tracks.astro";
+import TextAndImage from "components/TextAndImage.astro";
+import PreviousEvents from "components/PreviousEvents.astro";
+import GetTickets from "components/GetTickets.astro";
+import VenueInfo from "components/VenueInfo.astro";
+import TextAndSponsors from "components/TextAndSponsors.astro";
 
 // Images
-import Placeholder1 from "images/homepage/stats1.jpeg"
-import Placeholder2 from "images/homepage/stats2.jpg"
-import Placeholder3 from "images/homepage/stats3.png"
-import SpotlightBlue from "images/homepage/spotlight-hangzhou.svg"
-import RustGlobalWhite from "images/homepage/Rust-Global-white.svg"
+import Placeholder1 from "images/homepage/stats1.jpeg";
+import Placeholder2 from "images/homepage/stats2.jpg";
+import Placeholder3 from "images/homepage/stats3.png";
+import SpotlightBlue from "images/homepage/spotlight-hg.svg";
+import RustGlobalWhite from "images/homepage/Rust-Global-white.svg";
 
-import GosimShanghai from "images/homepage/gosim-shanghai.png"
-import GosimDelft from "images/homepage/gosim-delft.png"
-import GosimBeijing from "images/homepage/gosim-beijing.png"
-import GosimParis from "images/homepage/gosim-paris-min.png"
+import GosimShanghai from "images/homepage/gosim-shanghai.png";
+import GosimDelft from "images/homepage/gosim-delft.png";
+import GosimBeijing from "images/homepage/gosim-beijing.png";
+import GosimParis from "images/homepage/gosim-paris-min.png";
 ---
 
 <Layout
@@ -147,7 +148,41 @@ import GosimParis from "images/homepage/gosim-paris-min.png"
     dataBgSection="dark"
     dataThemeSection="dark"
   />
-
+  <TextAndSponsors
+    title="Sponsorship Opportunities"
+    text="Reach thousands of people in your target audience by becoming a supporting organization at GOSIM Hangzhou 2025."
+    text2="*Previous GOSIM conference sponsors shown for illustration purposes only."
+    ctaButton={{
+      text: "Contact Us",
+      link: "mailto:sponsor@gosim.org",
+    }}
+    logos={[
+      {
+        image: "openwallet.png",
+        imageAlt: "OpenWallet logo",
+      },
+      {
+        image: "ajtis.jpg",
+        imageAlt: "AJTIS logo",
+      },
+      {
+        image: "aifc.png",
+        imageAlt: "AIFC logo",
+      },
+      {
+        image: "lf-gen-ai.png",
+        imageAlt: "Linux Foudnation logo",
+      },
+      {
+        image: "eclipse-foundation.png",
+        imageAlt: "Eclipse Foundation logo",
+      },
+      {
+        image: "osi.png",
+        imageAlt: "Open Source Initiative logo",
+      },
+    ]}
+  />
   <TextAndImage
     title="GOSIM Spotlight Program"
     text="Witness the future of technology first-hand through the GOSIM Spotlight initiative, highlighting exceptional innovations aligned with each conference track. This program showcases pioneering open-source projects that push boundaries, inspire creativity, and demonstrate real-world impact."
@@ -155,6 +190,11 @@ import GosimParis from "images/homepage/gosim-paris-min.png"
     imageAlt="Gosim Spotlight badge"
     dataBgSection="light"
     dataThemeSection="light"
+    ctaButton={{
+      text: "Apply now",
+      link: "https://spotlight.gosim.org/",
+      openInNewTab: true,
+    }}
   />
 
   <PreviousEvents
