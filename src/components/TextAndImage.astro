@@ -6,6 +6,7 @@ import { Picture } from "astro:assets";
 import Button from "components/Button.astro";
 
 interface Props {
+  id?: string;
   title: string;
   text: string;
   image: any;
@@ -20,6 +21,7 @@ interface Props {
 }
 
 const {
+  id = "none",
   title,
   text,
   image,
@@ -32,7 +34,7 @@ const {
 
 <section
   class="section section-register-gosim spotlight-section"
-  id="spotlight"
+  id={id}
   data-theme-section={dataThemeSection}
   data-bg-section={dataBgSection}
 >

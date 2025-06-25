@@ -3,6 +3,7 @@
 import Button from "components/Button.astro"
 
 interface Props {
+    id?: string,
 	title: string,
     list?: Array<{
         title: string,
@@ -14,12 +15,12 @@ interface Props {
     }
 }
 
-const { title, list, ctaButton } = Astro.props;
+const { id = "none", title, list, ctaButton } = Astro.props;
 ---
 
 <section
     class="section section-agenda-grid"
-    id="grid"
+    id={id}
     data-theme-section="light"
     data-bg-section="light"
     data-scroll-section

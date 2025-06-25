@@ -1,10 +1,10 @@
 ---
 // Components
-import Button from "components/Button.astro";
-import Logo from "./Logo.astro";
-import NotificationBar from "components/NotificationBar.astro";
+import Button from "components/Button.astro"
+import Logo from "./Logo.astro"
+import NotificationBar from "components/NotificationBar.astro"
 
-const hasNotificationBar = false; // Set this to false when NotificationBar is removed or page will crash
+const hasNotificationBar = false // Set this to false when NotificationBar is removed or page will crash
 
 const links = [
   {
@@ -13,19 +13,23 @@ const links = [
   },
   {
     text: "Tracks",
-    link: "/#grid",
+    link: "/#tracks",
   },
   {
     text: "Spotlight",
     link: "/#spotlight",
   },
+  {
+    text: "Co-located Event",
+    link: "/#rust-global",
+  },
   // {
   //   text: "FAQ",
   //   link: "/faq/",
   // },
-];
+]
 
-const slug = Astro.url.pathname;
+const slug = Astro.url.pathname
 ---
 
 <header>
