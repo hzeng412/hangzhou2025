@@ -1,0 +1,64 @@
+---
+// Components
+import Layout from "layouts/LayoutLanding.astro";
+import Tickets from "components/Tickets.astro";
+import PreviousEvents from "components/PreviousEvents.astro";
+import EventHeader from "components/EventHeader.astro";
+// Images
+import GosimShanghai from "images/homepage/gosim-shanghai.png";
+import GosimDelft from "images/homepage/gosim-delft.png";
+import GosimBeijing from "images/homepage/gosim-beijing.png";
+import GosimParis from "images/homepage/gosim-paris-min.png";
+---
+
+<Layout
+  title="GOSIM Hangzhou 2025"
+  description="GOSIM Hangzhou. Coming soon."
+  navDarkMode={true}
+  navBackground="header-home"
+  pageTransitionName="Home"
+>
+  <EventHeader
+    category="Hangzhou"
+    ,
+    tagline="2025-09-13 09:00 ~ 09-14 18:00"
+  />
+  <Tickets />
+  <PreviousEvents
+    title="Previous Events"
+    events={[
+      {
+        title: "GOSIM Paris",
+        date: "May 6-7, 2025",
+        description:
+          "Over 1000 attendees and luminaries delved into the multifaceted development of AI for our 2-day GOSIM Paris event in the city of lights.",
+        image: GosimParis,
+        link: "https://paris2025.gosim.org/",
+      },
+      {
+        title: "GOSIM Beijing",
+        date: "October 17-18, 2024",
+        description:
+          "Attracted more than 1700 attendees, GOSIM Beijing is by far the largest GOSIM event ever in the historical capital of China.",
+        image: GosimBeijing,
+        link: "https://china2024.gosim.org/",
+      },
+      {
+        title: "GOSIM Delft",
+        date: "June 6-7, 2024",
+        description:
+          "GOSIM Delft was a two-day event with 3 tracks that brought together 1200 attendees from not only the Netherlands, but all around the world.",
+        image: GosimDelft,
+        link: "https://europe2024.gosim.org/",
+      },
+      {
+        title: "GOSIM Shanghai",
+        date: "September 23-24, 2023",
+        description:
+          "Where everything started, GOSIM conference and workshop focused on championing and enhancing open-source contributions.",
+        image: GosimShanghai,
+        link: "https://conference2023.gosim.org/",
+      },
+    ]}
+  />
+</Layout>

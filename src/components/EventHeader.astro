@@ -1,0 +1,102 @@
+---
+// Components
+import Button from "components/Button.astro";
+
+interface Props {
+  date?: string;
+  location?: string;
+  category?: string;
+  tagline?: string;
+  links?: Array<{
+    text: string;
+    link: string;
+    openInNewTab: boolean;
+  }>;
+}
+
+const { tagline, links } = Astro.props;
+---
+
+<section
+  class="section section-tickets-header full-height"
+  data-theme-section="dark"
+  style="background-color: #616D9C"
+  data-bg-section="header-home"
+>
+  <div class="overlay overlay-background overlay-background-video">
+    <div class="styled-video playpause overlay">
+      <video
+        class="overlay"
+        preload="auto"
+        autoplay
+        loop
+        muted
+        webkit-playsinline
+        playsinline
+        poster="/images/homepage/hangzhoubg3.png"
+      >
+        <source src="" type="video/webm" />
+        <source src="" type="video/mp4" />
+      </video>
+    </div>
+    <div class="overlay overlay-gradient-v2"></div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-tickets">
+        <div class="col col-title">
+          <h1>Hangzhou 2025 Tickets</h1>
+        </div>
+
+        <div class="finalists">
+          {tagline && <p>{tagline}</p>}
+        </div>
+
+        <div class="btn-home-wrap">
+          {
+            links?.map((loop) => (
+              <Button
+                text={loop.text}
+                link={loop.link}
+                openInNewTab={loop?.openInNewTab}
+                class="btn light xl btn-hover fade-in-last"
+              />
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .col-title {
+    margin-top: 6%;
+  }
+  .finalists {
+    max-width: none;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 1.5rem;
+    & > p {
+      color: #fff;
+      font-weight: 500;
+    }
+  }
+  .section.full-height .container > .row {
+    min-height: 80vh !important;
+  }
+  .col-tickets {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    gap: 36px;
+    text-align: center;
+  }
+</style>
