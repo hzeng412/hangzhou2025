@@ -1,0 +1,34 @@
+---
+// Components
+import Layout from "layouts/LayoutLanding.astro";
+import GetTickets from "components/GetTickets.astro";
+import HeroText from "components/HeroText.astro";
+import AllSponsors from "components/Sponsors.astro";
+---
+
+<Layout
+  title="Supporters – GOSIM Hangzhou 2025"
+  description="GOSIM Hangzhou 2025 is a gathering of open-source AI projects, developers, researchers, and industry sponsors to share knowledge, learn from each other, and collaborate."
+  navBackground="light"
+  pageTransitionName="Supporters"
+>
+  <HeroText
+    title="Supporters"
+    text="We're excited to bring you an incredible experience, made possible by the generous support of our Sponsors and Supporting Organizations. We've partnered with true innovators that are pushing the boundaries of our industry."
+    lightgray
+  />
+
+  <AllSponsors />
+
+  <GetTickets
+    title="Grab your GOSIM Hangzhou ticket"
+    location="Hangzhou, China"
+    date="September 13-14, 2025"
+    text="Secure your spot today at GOSIM Hangzhou 2025. Collaborate with innovators, engage with industry pioneers, and be part of shaping the future of open-source technology."
+    ctaButton={{
+      text: "Get tickets",
+      link: "/tickets",
+      openInNewTab: false,
+    }}
+  />
+</Layout>

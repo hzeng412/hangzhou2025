@@ -4,7 +4,7 @@ import { Picture } from "astro:assets";
 import type { ImageMetadata } from "astro";
 
 // Components
-import Layout from "layouts/Layout.astro";
+import Layout from "layouts/LayoutLanding.astro";
 import schedule from "json/Schedule.json";
 import scheduleForum from "json/Schedule-forum.json";
 import speakers from "json/Speakers.json";
@@ -88,7 +88,7 @@ const eventCategory = category || "Uncategorized";
 ---
 
 <Layout
-  title={`${eventDetails.title} – GOSIM AI Paris 2025`}
+  title={`${eventDetails.title} – GOSIM Hangzhou 2025`}
   description={eventDetails.content
     .replace(/\n/g, " ")
     .replace(/<[^>]*>/g, "")
@@ -126,7 +126,12 @@ const eventCategory = category || "Uncategorized";
           <div class="box-row box-row-text styled-content">
             <p class="location-text">
               <strong>Location:</strong>
-              {eventDetails.room || schedule.categories.find((cat) => cat.name === eventCategory)?.room || "TBA"}
+              {
+                eventDetails.room ||
+                  schedule.categories.find((cat) => cat.name === eventCategory)
+                    ?.room ||
+                  "TBA"
+              }
             </p>
           </div>
 
@@ -184,7 +189,7 @@ const eventCategory = category || "Uncategorized";
             )
           }
           <SocialShare
-            title={`${eventDetails.title} - GOSIM AI Paris 2025`}
+            title={`${eventDetails.title} - GOSIM Hangzhou 2025`}
             description={eventDetails.content
               .replace(/\n/g, " ")
               .replace(/<[^>]*>/g, "")
