@@ -1,31 +1,30 @@
 ---
 // Components
-import Layout from "layouts/LayoutLanding.astro";
-import Hero from "components/Hero.astro";
-import Intro from "components/Intro.astro";
-import Statistics from "components/Statistics.astro";
-import Tracks from "components/Tracks.astro";
-import TextAndImage from "components/TextAndImage.astro";
-import PreviousEvents from "components/PreviousEvents.astro";
-import GetTickets from "components/GetTickets.astro";
-import VenueInfo from "components/VenueInfo.astro";
-import TextAndSponsors from "components/TextAndSponsors.astro";
-import TextAndImageReverse from "components/TextAndImageReverse.astro";
-import Timeline from "components/Timeline.astro";
-
+import Layout from "layouts/LayoutLanding.astro"
+import Hero from "components/Hero.astro"
+import Intro from "components/Intro.astro"
+import Statistics from "components/Statistics.astro"
+import Tracks from "components/Tracks.astro"
+import TextAndImage from "components/TextAndImage.astro"
+import PreviousEvents from "components/PreviousEvents.astro"
+import GetTickets from "components/GetTickets.astro"
+import VenueInfo from "components/VenueInfo.astro"
+import TextAndSponsors from "components/TextAndSponsors.astro"
+import TextAndImageReverse from "components/TextAndImageReverse.astro"
+import Timeline from "components/Timeline.astro"
 
 // Images
-import Placeholder1 from "images/homepage/stats1.jpeg";
-import Placeholder2 from "images/homepage/stats2.jpg";
-import Placeholder3 from "images/homepage/stats3.png";
-import SpotlightBlue from "images/homepage/spotlight-hg.svg";
-import RustGlobalWhite from "images/homepage/rust-svg.svg";
-import Proposals from "images/homepage/hangzhou-proposals-min.jpg";
+import Placeholder1 from "images/homepage/stats1.jpeg"
+import Placeholder2 from "images/homepage/stats2.jpg"
+import Placeholder3 from "images/homepage/stats3.png"
+import SpotlightBlue from "images/homepage/spotlight-hg.svg"
+import RustGlobalWhite from "images/homepage/rust-svg.svg"
+import Proposals from "images/homepage/hangzhou-proposals-min.jpg"
 
-import GosimShanghai from "images/homepage/gosim-shanghai.png";
-import GosimDelft from "images/homepage/gosim-delft.png";
-import GosimBeijing from "images/homepage/gosim-beijing.png";
-import GosimParis from "images/homepage/gosim-paris-min.png";
+import GosimShanghai from "images/homepage/gosim-shanghai.png"
+import GosimDelft from "images/homepage/gosim-delft.png"
+import GosimBeijing from "images/homepage/gosim-beijing.png"
+import GosimParis from "images/homepage/gosim-paris-min.png"
 ---
 
 <Layout
@@ -230,14 +229,14 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
   />
   <TextAndImage
     id="spotlight"
-    title="GOSIM Spotlight Program"
-    text="Witness the future of technology first-hand through the GOSIM Spotlight initiative, highlighting exceptional innovations aligned with each conference track. This program showcases pioneering open-source projects that push boundaries, inspire creativity, and demonstrate real-world impact."
+    title="GOSIM AI for Human Spotlight"
+    text="Towards a Symbiotic Future of Ethical and Creative AI: What if AI wasn't just built to serve, but to co-create with us? AI for Human Spotlight is an international showcase for projects that explore how generative AI can foster empathy, shared creativity, and ethical coexistence."
     image={SpotlightBlue}
     imageAlt="Gosim Spotlight badge"
     dataBgSection="light"
     dataThemeSection="light"
     ctaButton={{
-      text: "Apply now",
+      text: "Apply or Nominate Now",
       link: "https://spotlight.gosim.org/",
       openInNewTab: true,
     }}
