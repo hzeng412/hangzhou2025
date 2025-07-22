@@ -1,6 +1,7 @@
 ---
 // Components
 import Button from "components/Button.astro";
+import OpenStreetMap from "components/OpenStreetMap.astro";
 
 interface Props {
   subtitle: string;
@@ -67,6 +68,15 @@ const { subtitle, title, location, image, text, ctaButton } = Astro.props;
       <div class="col col-text styled-content">
         <div class="col-row">
           <p>{text}</p>
+        </div>
+        <div class="col-row">
+          <OpenStreetMap 
+            latitude={30.172599} 
+            longitude={120.102973} 
+            zoom={16} 
+            markerTitle={title}
+            height="350px"
+          />
         </div>
       </div>
     </div>
