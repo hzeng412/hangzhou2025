@@ -1,0 +1,236 @@
+---
+// Components
+import Button from "components/Button.astro"
+import Logo from "./Logo.astro"
+
+const firstColumnLinks = [
+  {
+    text: "会议地点",
+    link: "/zh/#venue",
+  },
+  {
+    text: "主题",
+    link: "/zh/#tracks",
+  },
+  {
+    text: "Spotlight",
+    link: "/zh/#spotlight",
+  },
+  {
+    text: "同期活动",
+    link: "/zh/#rust-global",
+  }
+]
+
+const secondColumnLinks = [
+  // {
+  //   text: "志愿者",
+  //   link: "https://docs.google.com/forms/d/e/1FAIpQLSc62kJczw7lr-l0JAAbkabeIrrPPAD7OWyzwDopTD0L4HC6EQ/viewform",
+  //   openInNewTab: true,
+  // },
+]
+
+const slug = Astro.url.pathname
+---
+
+<footer class="section footer" data-theme-section="dark" data-bg-section="dark">
+  <div class="container">
+    <div class="row row-base">
+      <div class="col col-logo-gosim">
+        <div class="logo">
+          <a href="/zh/" aria-label="前往首页" class="logo-click">
+            <Logo />
+          </a>
+        </div>
+      </div>
+
+      <nav class="col col-sitemap" aria-label="Navigation Footer">
+        <ul>
+          {
+            firstColumnLinks.map((loop: any) => (
+              <li
+                class="link link-hover"
+                data-barba-update
+                data-link-status={loop.link === slug ? "active" : "not-active"}
+              >
+                <a
+                  class="link-click"
+                  href={loop.link}
+                  target={loop?.openInNewTab ? "_blank" : "_self"}
+                  rel={loop?.openInNewTab ? "noopener noreferrer" : ""}
+                >
+                  <span>{loop.text}</span>
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+
+        <ul>
+          {
+            secondColumnLinks.map((loop: any) => (
+              <li
+                class="link link-hover"
+                data-barba-update
+                data-link-status={loop.link === slug ? "active" : "not-active"}
+              >
+                {loop.subLinks ? (
+                  <div style="margin-top: 2.25rem;">
+                    <span style="color: #fff; font-size: 1rem;">
+                      {loop.text}
+                    </span>
+                    <ul style="margin-top: 0.75rem;">
+                      {loop.subLinks.map((subLink: any) => (
+                        <li class="link link-hover">
+                          <a
+                            class="link-click"
+                            href={subLink.link}
+                            target={subLink?.openInNewTab ? "_blank" : "_self"}
+                            rel={
+                              subLink?.openInNewTab ? "noopener noreferrer" : ""
+                            }
+                          >
+                            <span>{subLink.text}</span>
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ) : (
+                  <a
+                    class="link-click"
+                    href={loop.link}
+                    target={loop?.openInNewTab ? "_blank" : "_self"}
+                    rel={loop?.openInNewTab ? "noopener noreferrer" : ""}
+                  >
+                    <span>{loop.text}</span>
+                  </a>
+                )}
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+
+      <!-- <div class="col col-newsletter">
+        <div class="col-row col-row-title">
+          <h2 class="h4">了解GOSIM 2025的最新动态</h2>
+        </div>
+        <div class="col-row col-row-input">
+          <Button
+            link="#"
+            text="订阅我们的通讯"
+            class="btn primary xl btn-hover"
+          />
+        </div>
+        <div class="col-row col-row-text styled-content">
+          <p>
+            订阅GOSIM基金会邮件列表，随时了解最新信息。
+          </p>
+        </div>
+      </div> -->
+    </div>
+
+    <div class="row row-end">
+      <div class="col col-logo-gosim2">
+        <div class="logo">
+          <a
+            href="https://gosim.org"
+            target="_blank"
+            class="logo-click"
+            aria-label="GOSIM 基金会"
+          >
+            <Logo width="141" height="24" />
+          </a>
+        </div>
+        <div class="row footer-socials">
+          <a
+            href="https://mastodon.social/@gosim"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/icons/icon-mastodon.svg"
+              alt="在Mastodon上关注我们"
+              width="18"
+              height="18"
+              loading="lazy"
+              style="filter: invert(1);"
+            />
+          </a>
+          <a
+            href="https://x.com/gosimfoundation"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/icons/icon-x.svg"
+              alt="在X (twitter)上关注我们"
+              width="18"
+              height="18"
+              loading="lazy"
+              style="filter: invert(1);"
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/gosim-foundation"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/icons/icon-linkedin.svg"
+              alt="在LinkedIn上关注我们"
+              width="18"
+              height="18"
+              loading="lazy"
+              style="filter: invert(1);"
+            />
+          </a>
+          <a
+            href="https://bsky.app/profile/gosimfoundation.bsky.social"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/icons/icon-bluesky.svg"
+              alt="在BlueSky上关注我们"
+              width="18"
+              height="18"
+              loading="lazy"
+              style="filter: invert(1);"
+            />
+          </a>
+          <a
+            href="https://www.youtube.com/@GOSIMFoundation"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/icons/icon-youtube.svg"
+              alt="在Youtube上关注我们"
+              width="18"
+              height="18"
+              loading="lazy"
+              style="filter: invert(1);"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div class="col col-copyright"></div>
+
+      <div class="col col-dev-credits">
+        <div class="link link-hover">
+          <a class="link-click" href="/zh/code-of-conduct/">
+            <span>行为准则</span>
+          </a>
+        </div>
+        <div class="link link-hover">
+          <a class="link-click" href="/zh/privacy/">
+            <span>隐私政策</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>

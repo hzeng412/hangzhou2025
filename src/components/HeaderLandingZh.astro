@@ -8,24 +8,24 @@ const hasNotificationBar = false // Set this to false when NotificationBar is re
 
 const links = [
   {
-    text: "Location",
-    link: "/#venue",
+    text: "会议地点",
+    link: "/zh/#venue",
   },
   {
-    text: "Tracks",
-    link: "/#tracks",
+    text: "主题",
+    link: "/zh/#tracks",
   },
   {
     text: "Spotlight",
-    link: "/#spotlight",
+    link: "/zh/#spotlight",
   },
   {
-    text: "Co-located Event",
-    link: "/#rust-global",
+    text: "同期活动",
+    link: "/zh/#rust-global",
   },
   // {
-  //   text: "FAQ",
-  //   link: "/faq/",
+  //   text: "常见问题",
+  //   link: "/zh/faq/",
   // },
 ]
 
@@ -38,7 +38,7 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
   {
     hasNotificationBar && (
       <NotificationBar
-        text="🎉 Try the GOSIM Ticket 🎟 Lucky Draw! ✨"
+        text="🎉 参加GOSIM门票 🎟 幸运抽奖！ ✨"
         link="https://x.com/gosimfoundation/status/1912744752925282408"
       />
     )
@@ -46,8 +46,8 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
 
   <div class="floating-ticket-button">
     <Button
-      text="Get Tickets"
-      link="/tickets"
+      text="获取门票"
+      link="/zh/tickets"
       class="btn primary btn-floating btn-hover"
     />
   </div>
@@ -100,16 +100,16 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
           }
           <li class="link link-hover mobile-language-item">
             <div class="language-mobile-menu">
-              <a class="language-item active" href={slug}>English</a>
-              <a class="language-item" href={`/zh${slug}`}>中文</a>
+              <a class="language-item" href={slug.replace('/zh/', '/')}>English</a>
+              <a class="language-item active" href={slug}>中文</a>
             </div>
           </li>
         </ul>
       </nav>
       <div class="box-row box-row-btn">
         <Button
-          text="Get Tickets"
-          link="/tickets"
+          text="获取门票"
+          link="/zh/tickets"
           class="btn primary xl btn-hover"
         />
       </div>
@@ -134,7 +134,7 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
     <div class="btn-click filter-alpha-animate" data-filter-toggle="toggle">
       <div class="btn-content original">
         <div class="btn-fill"></div>
-        <span>Filter</span>
+        <span>筛选</span>
       </div>
       <div class="border-box"></div>
     </div>
@@ -150,7 +150,7 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
       <div class="border-bottom"></div>
 
       <div class="logo">
-        <a href="/" aria-label="Go to homepage" class="logo-click">
+        <a href="/zh/" aria-label="前往首页" class="logo-click">
           <Logo />
           <Logo />
         </a>
@@ -209,13 +209,13 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
             </svg>
           </button>
           <div class="language-dropdown-content">
-            <a href={slug} class="active">English</a>
-            <a href={`/zh${slug}`}>中文</a>
+            <a href={slug.replace('/zh/', '/')}>English</a>
+            <a href={slug} class="active">中文</a>
           </div>
         </div>
         <Button
-          text="Get Tickets"
-          link="/tickets"
+          text="获取门票"
+          link="/zh/tickets"
           class="btn outline btn-hover"
         />
       </div>
@@ -229,7 +229,7 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
         <div class="btn-click filter-alpha-animate" data-filter-toggle="toggle">
           <div class="btn-content original">
             <div class="btn-fill"></div>
-            <span>Filter</span>
+            <span>筛选</span>
           </div>
           <div class="border-box"></div>
         </div>

@@ -1,0 +1,59 @@
+---
+// Components
+import Layout from "layouts/LayoutLandingZh.astro";
+import Tickets from "components/Tickets.astro";
+import PreviousEvents from "components/PreviousEvents.astro";
+import EventHeader from "components/EventHeader.astro";
+// Images
+import GosimShanghai from "images/homepage/gosim-shanghai.png";
+import GosimDelft from "images/homepage/gosim-delft.png";
+import GosimBeijing from "images/homepage/gosim-beijing.png";
+import GosimParis from "images/homepage/gosim-paris-min.png";
+---
+
+<Layout
+  title="GOSIM 杭州 2025"
+  description="GOSIM 杭州。即将到来。"
+  navDarkMode={true}
+  navBackground="header-home"
+  pageTransitionName="Home"
+>
+  <EventHeader category="杭州" , tagline="2025-09-13 09:00 ~ 09-14 18:00" />
+  <Tickets />
+  <PreviousEvents
+    title="往届活动"
+    events={[
+      {
+        title: "GOSIM 巴黎",
+        date: "2025年5月6-7日",
+        description:
+          "超过1000名与会者和行业精英在光之城参加了为期两天的GOSIM巴黎活动，深入探讨了AI的多方面发展。",
+        image: GosimParis,
+        link: "https://paris2025.gosim.org/",
+      },
+      {
+        title: "GOSIM 北京",
+        date: "2024年10月17-18日",
+        description:
+          "吸引了超过1700名与会者，GOSIM北京是迄今为止在中国历史悠久的首都举办的规模最大的GOSIM活动。",
+        image: GosimBeijing,
+        link: "https://china2024.gosim.org/",
+      },
+      {
+        title: "GOSIM 代尔夫特",
+        date: "2024年6月6-7日",
+        description:
+          "GOSIM代尔夫特是一个为期两天、设有3个主题的活动，吸引了来自荷兰及世界各地的1200名与会者。",
+        image: GosimDelft,
+        link: "https://europe2024.gosim.org/",
+      },
+      {
+        title: "GOSIM 上海",
+        date: "2023年9月23-24日",
+        description: "一切的起点，GOSIM会议和工作坊专注于倡导和增强开源贡献。",
+        image: GosimShanghai,
+        link: "https://conference2023.gosim.org/",
+      },
+    ]}
+  />
+</Layout>

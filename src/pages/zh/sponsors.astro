@@ -1,0 +1,34 @@
+---
+// Components
+import Layout from "layouts/LayoutLandingZh.astro";
+import GetTickets from "components/GetTickets.astro";
+import HeroText from "components/HeroText.astro";
+import AllSponsors from "components/Sponsors.astro";
+---
+
+<Layout
+  title="支持者 – GOSIM 杭州 2025"
+  description="GOSIM 杭州 2025是开源AI项目、开发者、研究人员和行业赞助商的聚会，旨在分享知识、相互学习和合作。"
+  navBackground="light"
+  pageTransitionName="支持者"
+>
+  <HeroText
+    title="支持者"
+    text="我们很高兴为您带来一次令人难以置信的体验，这要归功于我们的赞助商和支持组织的慷慨支持。我们与真正的创新者合作，他们正在推动我们行业的边界。"
+    lightgray
+  />
+
+  <AllSponsors />
+
+  <GetTickets
+    title="获取您的GOSIM杭州门票"
+    location="中国杭州"
+    date="2025年9月13-14日"
+    text="立即确保您在GOSIM杭州2025的席位。与创新者合作，与行业先驱交流，成为塑造开源技术未来的一部分。"
+    ctaButton={{
+      text: "获取门票",
+      link: "/zh/tickets",
+      openInNewTab: false,
+    }}
+  />
+</Layout>

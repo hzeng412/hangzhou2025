@@ -1,0 +1,29 @@
+---
+// Components
+import Layout from "layouts/LayoutLandingZh.astro";
+import Content from "markdown/CodeOfConductZh.md";
+---
+
+<Layout
+    title="行为准则 – GOSIM 杭州 2025"
+    description="GOSIM 杭州 2025是开源AI项目、开发者、研究人员和行业赞助商的聚会，旨在分享知识、相互学习和合作。"
+    navBackground="light"
+    pageTransitionName="行为准则"
+>
+    <section
+        class="section speaker-detail-header"
+        data-theme-section="light"
+        data-bg-section="light"
+    >
+        <div class="gradient-circle-wrap">
+            <div class="gradient-circle"></div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-markdown">
+                    <Content />
+                </div>
+            </div>
+        </div>
+    </section>
+</Layout>

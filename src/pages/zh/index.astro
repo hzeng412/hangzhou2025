@@ -1,6 +1,6 @@
 ---
 // Components
-import Layout from "layouts/LayoutLanding.astro";
+import Layout from "layouts/LayoutLandingZh.astro";
 import Hero from "components/Hero.astro";
 import Intro from "components/Intro.astro";
 import Statistics from "components/Statistics.astro";
@@ -28,25 +28,25 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
 ---
 
 <Layout
-  title="GOSIM Hangzhou 2025"
-  description="GOSIM Hangzhou. Coming soon."
+  title="GOSIM 杭州 2025"
+  description="GOSIM 杭州。即将到来。"
   navDarkMode={true}
   navBackground="header-home"
   pageTransitionName="Home"
 >
   <Hero
-    date="September 13-14, 2025"
-    location="Hangzhou, China"
+    date="2025年9月13-14日"
+    location="中国杭州"
     links={[
       {
-        text: "Call for Proposals",
+        text: "提案征集 Call For Proposals",
         link: "/#proposals",
         openInNewTab: false,
       },
     ]}
   />
   <!--   <CardsSponsors
-    title="Proudly Sponsored By"
+    title="由以下机构赞助"
     sponsors={[
       {
         name: "1ms.ai",
@@ -70,9 +70,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
   >
     <Intro>
       <h1 class="h3 light split-words animate-read">
-        Join us at GOSIM Hangzhou 2025, China's premier open-source conference,
-        where innovation, collaboration, and technological breakthroughs
-        converge.
+        加入我们的GOSIM杭州2025，中国首屈一指的开源会议，这里是创新、协作和技术突破的汇聚之地。
       </h1>
     </Intro>
 
@@ -80,21 +78,21 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       stats={[
         {
           title: "1500",
-          subtitle: "Attendees",
+          subtitle: "与会者",
           image: Placeholder1,
           imageAlt: "",
           hasPlus: true,
         },
         {
           title: "100",
-          subtitle: "Speakers",
+          subtitle: "演讲嘉宾",
           imageAlt: "",
           image: Placeholder2,
           hasPlus: true,
         },
         {
           title: "2",
-          subtitle: "Exhilarating days",
+          subtitle: "精彩日程",
           imageAlt: "",
           image: Placeholder3,
         },
@@ -102,57 +100,57 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     />
   </div>
   <VenueInfo
-    subtitle="Location"
-    title="Hangzhou Platinum Hanjue Hotel 杭州白金汉爵酒店"
-    location="Hangzhou, China - Where Innovation Meets History"
-    text="Experience GOSIM Hangzhou 2025 in a city renowned for its historical legacy and vibrant technological future. Hangzhou, a historical gem and modern tech hub, offers the perfect backdrop for inspiration, networking, and breakthrough innovations."
+    subtitle="会议地点"
+    title="杭州白金汉爵酒店"
+    location="中国杭州 - 创新与历史交汇之地"
+    text="在杭州体验GOSIM 2025，这座城市以其历史遗产和充满活力的科技未来而闻名。杭州，一颗历史瑰宝和现代科技中心，为灵感、交流和突破性创新提供了完美的背景。"
     image="/images/homepage/hangzhoubg.png"
   />
 
   <Tracks
     id="tracks"
-    title="5 Cutting-Edge Tracks"
+    title="5大前沿主题"
     list={[
       {
-        title: "AI Models & Infra",
-        text: `Foundation models, edge inference, generative AI, tools for AI training and beyond.`,
+        title: "AI模型与基础设施 - AI Models & Infra",
+        text: `基础模型、边缘推理、生成式AI、AI训练工具等。`,
       },
       {
-        title: "Embodied AI",
-        text: `Apply AI in the real world, from humanoid robotics to autonomous systems.`,
+        title: "实体AI - Embodied AI",
+        text: `在现实世界中应用AI，从人形机器人到自主系统。`,
       },
       {
-        title: "Agentic Web",
-        text: `Decentralized applications, identity, privacy-enhanced technologies, and collaborative platforms.`,
+        title: "代理网络 - Agentic Web",
+        text: `去中心化应用、身份识别、增强隐私技术和协作平台。`,
       },
       {
-        title: "Apps & Agents",
-        text: `Cross-platform and AI-assisted app dev, Rust GUI apps, WebAssembly, and super-app ecosystems.`,
+        title: "应用与代理 - Apps & Agents",
+        text: `跨平台和AI辅助应用开发、Rust GUI应用、WebAssembly和超级应用生态系统。`,
       },
       {
-        title: "AI Next",
-        text: `AI Enabled Use Cases, AI Devices, Human AI Interfaces, AI Platforms, and AI Governnances`,
+        title: "AI未来 - AI Next",
+        text: `AI赋能用例、AI设备、人机交互界面、AI平台和AI治理。`,
       },
       // {
       //   title: "Rust",
-      //   text: `Rust Global and Rust China conferences, focusing on the Rust programming language and its applications.`,
+      //   text: `Rust Global和Rust China会议，专注于Rust编程语言及其应用。`,
       // },
     ]}
     ctaButton={{
-      text: "Schedule Coming Soon",
+      text: "日程安排即将公布",
       link: "",
     }}
   />
   <TextAndImageReverse
     id="proposals"
-    title="Call for Proposals"
-    text="We’re looking for bold ideas and fresh voices to shape the future. If you have insights on cutting-edge technology, emerging trends, or transformative practices, we want to hear from you. Submit a proposal to speak and join a lineup of innovators, thought leaders, and changemakers pushing the boundaries of what’s next."
+    title="提案征集 Call For Proposals"
+    text="我们正在寻找大胆的想法和新鲜的声音来塑造未来。如果您对前沿技术、新兴趋势或变革性实践有见解，我们希望听到您的声音。提交演讲提案，加入由推动边界的创新者、思想领袖和变革者组成的阵容。"
     image={Proposals}
-    imageAlt="GOSIM Hangzhou"
+    imageAlt="GOSIM 杭州"
     dataBgSection="light"
     dataThemeSection="light"
     ctaButton={{
-      text: "Apply now",
+      text: "立即申请",
       link: "https://cfp.gosim.org/",
       openInNewTab: true,
     }}
@@ -160,27 +158,27 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
   <Timeline
     events={[
       {
-        date: "May 18, 2025",
-        title: "Proposal applications open",
+        date: "2025年5月18日",
+        title: "提案申请开放",
       },
       {
-        date: "August 18, 2025",
-        title: "Proposal applications close",
+        date: "2025年8月18日",
+        title: "提案申请截止",
       },
       {
-        date: "September 13, 2025",
-        title: "GOSIM Hangzhou kicks off!",
+        date: "2025年9月13日",
+        title: "GOSIM杭州开幕！",
       },
       {
-        date: "September 14, 2025",
-        title: "GOSIM Hangzhou concludes",
+        date: "2025年9月14日",
+        title: "GOSIM杭州闭幕",
       },
     ]}
   />
   <TextAndImage
     id="rust-global"
-    title="Co-located RustGlobal & RustChinaConf"
-    text="RustGlobal is the first Rust Foundation-hosted gathering dedicated to the use of Rust in global leadership settings."
+    title="同期举办RustGlobal与RustChinaConf"
+    text="RustGlobal是Rust基金会主办的首个专注于全球领导环境中使用Rust的聚会。"
     image={RustGlobalWhite}
     imageAlt="Rust Global"
     dataBgSection="dark"
@@ -193,11 +191,11 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
   />
 
   <TextAndSponsors
-    title="Sponsorship Opportunities"
-    text="Reach thousands of people in your target audience by becoming a supporting organization at GOSIM Hangzhou 2025."
-    text2="*Previous GOSIM conference sponsors shown for illustration purposes only."
+    title="赞助机会"
+    text="通过成为GOSIM杭州2025的支持组织，接触到数千名目标受众。"
+    text2="*仅展示往届GOSIM会议赞助商，仅供参考。"
     ctaButton={{
-      text: "Contact Us",
+      text: "联系我们",
       link: "mailto:sponsor@gosim.org",
     }}
     logos={[
@@ -230,50 +228,49 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
   <TextAndImage
     id="spotlight"
     title="GOSIM AI for Human Spotlight"
-    text="Towards a Symbiotic Future of Ethical and Creative AI: What if AI wasn't just built to serve, but to co-create with us? AI for Human Spotlight is an international showcase for projects that explore how generative AI can foster empathy, shared creativity, and ethical coexistence."
+    text="迈向道德与创意AI的共生未来：如果AI不仅仅是为了服务，而是与我们共同创造呢？AI for Human Spotlight是一个国际展示平台，展示探索生成式AI如何培养同理心、共享创造力和道德共存的项目。"
     image={SpotlightBlue}
     imageAlt="Gosim Spotlight badge"
     dataBgSection="light"
     dataThemeSection="light"
     ctaButton={{
-      text: "Apply or Nominate Now",
+      text: "立即申请或提名",
       link: "https://spotlight.gosim.org/",
       openInNewTab: true,
     }}
   />
 
   <PreviousEvents
-    title="Previous Events"
+    title="往届活动"
     events={[
       {
-        title: "GOSIM Paris",
-        date: "May 6-7, 2025",
+        title: "GOSIM 巴黎",
+        date: "2025年5月6-7日",
         description:
-          "Over 1000 attendees and luminaries delved into the multifaceted development of AI for our 2-day GOSIM Paris event in the city of lights.",
+          "超过1000名与会者和行业精英在光之城参加了为期两天的GOSIM巴黎活动，深入探讨了AI的多方面发展。",
         image: GosimParis,
         link: "https://paris2025.gosim.org/",
       },
       {
-        title: "GOSIM Beijing",
-        date: "October 17-18, 2024",
+        title: "GOSIM 北京",
+        date: "2024年10月17-18日",
         description:
-          "Attracted more than 1700 attendees, GOSIM Beijing is by far the largest GOSIM event ever in the historical capital of China.",
+          "吸引了超过1700名与会者，GOSIM北京是迄今为止在中国历史悠久的首都举办的规模最大的GOSIM活动。",
         image: GosimBeijing,
         link: "https://china2024.gosim.org/",
       },
       {
-        title: "GOSIM Delft",
-        date: "June 6-7, 2024",
+        title: "GOSIM 代尔夫特",
+        date: "2024年6月6-7日",
         description:
-          "GOSIM Delft was a two-day event with 3 tracks that brought together 1200 attendees from not only the Netherlands, but all around the world.",
+          "GOSIM代尔夫特是一个为期两天、设有3个主题的活动，吸引了来自荷兰及世界各地的1200名与会者。",
         image: GosimDelft,
         link: "https://europe2024.gosim.org/",
       },
       {
-        title: "GOSIM Shanghai",
-        date: "September 23-24, 2023",
-        description:
-          "Where everything started, GOSIM conference and workshop focused on championing and enhancing open-source contributions.",
+        title: "GOSIM 上海",
+        date: "2023年9月23-24日",
+        description: "一切的起点，GOSIM会议和工作坊专注于倡导和增强开源贡献。",
         image: GosimShanghai,
         link: "https://conference2023.gosim.org/",
       },
@@ -281,9 +278,9 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
   />
 
   <GetTickets
-    title="Join the open-source revolution!"
-    location="Hangzhou, China"
-    date="September 13-14, 2025"
-    text="Secure your spot today at GOSIM Hangzhou 2025. Collaborate with innovators, engage with industry pioneers, and be part of shaping the future of open-source technology."
+    title="加入开源革命！"
+    location="中国杭州"
+    date="2025年9月13-14日"
+    text="立即确保您在GOSIM杭州2025的席位。与创新者合作，与行业先驱交流，成为塑造开源技术未来的一部分。"
   />
 </Layout>
