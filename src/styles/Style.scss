@@ -28,7 +28,12 @@ footer {
    pointer-events: all;
    transform: translateY(0%) rotate(0.001deg);
    transition: transform var(--animation-nav-smooth);
+   color: var(--color-dark); /* Default text/icon color for light backgrounds */
+}
 
+[data-theme-nav="dark"] .main-nav-bar {
+   color: var(--color-white); /* Text/icon color for dark backgrounds */
+}
    nav {
       width: 100%;
    }
@@ -36,7 +41,7 @@ footer {
    ul {
       justify-content: center;
    }
-}
+
 
 .main-nav-bar .row {
    display: flex;

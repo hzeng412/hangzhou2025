@@ -267,6 +267,7 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
     display: flex;
     align-items: center;
     gap: 15px;
+    color: inherit; /* Ensure header buttons inherit text color for icon */
   }
 
   .language-dropdown {
@@ -290,6 +291,8 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
   /* Ensure the globe icon inherits the text color */
   .language-btn svg {
     color: inherit;
+    stroke: currentColor;
+    transition: color 0.3s;
   }
 
   .language-dropdown-content {
