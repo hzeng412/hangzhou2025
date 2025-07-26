@@ -29,7 +29,7 @@ const { subtitle, title, location, image, text, ctaButton } = Astro.props;
       <div class="col">
         <figure>
           <div class="overlay playpause">
-            <img src={image} alt="Venue" class="overlay" loading="lazy" />
+            <img src="/images/homepage/杭州白金汉爵酒店.jpg" alt="Venue" class="overlay" loading="lazy" />
           </div>
 
           {
@@ -63,17 +63,18 @@ const { subtitle, title, location, image, text, ctaButton } = Astro.props;
           <p>{subtitle}</p>
           <h2>{title}</h2>
           <p>{location}</p>
+          <div class="col-row">
+            <p>{text}</p>
+          </div>
         </div>
       </div>
       <div class="col col-text styled-content">
-        <div class="col-row">
-          <p>{text}</p>
-        </div>
+
         <div class="col-row">
           <OpenStreetMap 
             latitude={30.172599} 
             longitude={120.102973} 
-            zoom={16} 
+            zoom={11} 
             markerTitle={title}
             height="350px"
           />
@@ -82,3 +83,4 @@ const { subtitle, title, location, image, text, ctaButton } = Astro.props;
     </div>
   </div>
 </section>
+

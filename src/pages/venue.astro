@@ -1,0 +1,22 @@
+---
+import VenueInfo from '../components/VenueInfo.astro';
+import Layout from 'layouts/LayoutLanding.astro';
+---
+
+<Layout title="Venue – GOSIM Hangzhou 2025" description="Information about the venue for GOSIM Hangzhou 2025">
+  <section
+    class="section speaker-detail-header"
+    data-theme-section="light"
+    data-bg-section="light"
+  >
+    <div class="container">
+      <h1>Venue</h1>
+      <VenueInfo
+        subtitle = "Hangzhou Platinum Hanjue Hotel";
+        title = "杭州白金汉爵酒店";
+        location = "浙江省杭州市西湖区珊瑚沙东路9号 (No. 9, Shanshadong Road, Xihu District, Hangzhou City, Zhejiang Province)";
+        image="/images/homepage/杭州白金汉爵酒店.jpg"
+      />
+    </div>
+  </section>
+</Layout>

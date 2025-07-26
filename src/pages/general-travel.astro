@@ -1,0 +1,143 @@
+---
+// layouts
+import Layout from 'layouts/LayoutLanding.astro';
+
+// components
+import OpenStreetMap from "components/OpenStreetMap.astro";
+
+// --- Page-specific Data ---
+
+// Data for the location section below the map
+const subtitle = "Hangzhou Platinum Hanjue Hotel";
+const title = "杭州白金汉爵酒店";
+const location = "浙江省杭州市西湖区珊瑚沙东路9号 (No. 9, Shanshadong Road, Xihu District, Hangzhou City, Zhejiang Province)";
+
+// Data for the map markers
+// We assume the OpenStreetMap component can accept an array of markers
+// and a property to highlight a specific one.
+const mapMarkers = [
+
+  {
+    "latitude": 30.172599,
+    "longitude": 120.102973,
+    "title": "Hangzhou Platinum Hanjue Hotel 杭州白金汉爵酒店 (Venue)",
+    "highlight": true
+  },
+  {
+    "latitude": 30.23734,
+    "longitude": 120.42922,
+    "title": "Hangzhou Xiaoshan International Airport (HGH)"
+  },
+  {
+    "latitude": 30.2935,
+    "longitude": 120.208361,
+    "title": "Hangzhou Dong Railway Station"
+  },
+  {
+    "latitude": 30.3004,
+    "longitude": 119.9817,
+    "title": "Hangzhou Xi Railway Station"
+  }
+];
+---
+
+<Layout title="General Travel Info – GOSIM Hangzhou 2025" description="Information about traveling to GOSIM Hangzhou 2025">
+  <section
+    class="section speaker-detail-header"
+    data-theme-section="light"
+    data-bg-section="light"
+  >
+    <div class="container">
+      <h1>General Travel Info</h1>
+      <br><br>
+      <h3>Recommended App</h3>
+      <br>
+        Alipay and WeChat are must. Link your credit card to both and you can use them to pay for almost everything, including DIDI (Chinese Uber), subway, bus, bike, and more. 
+      <br><br>
+      <strong>Google Maps WILL NOT work in China. Apple Maps and Amap (Gaode) works BEST.</strong>
+      <br><br>
+      <h3>Getting to Hangzhou</h3>
+      <br>
+        Hangzhou is the capital of Zhejiang Province in Eastern China, located about 170 km (105 miles) southwest of Shanghai. It's a major economic and cultural hub, renowned for its natural beauty, particularly West Lake. 
+      <br><br>
+        Hangzhou has a limited number of international flights, but it is well-connected to major cities in China and Asia. The city is easily accessible by high-speed train from Shanghai, Beijing, and other major international airports.
+
+    </div>
+    <br>
+    <div class="container">
+     
+    <h3>Within Hangzhou</h3>
+    <br>
+    You can order a DIDI (Chinese Uber) from Alipay or WeChat mini app, type in "杭州白金汉爵酒店" (Hangzhou Platinum Hanjue Hotel) to get a ride. 
+    <br><br>
+    Hangzhou also has good subway and bus systems. You can use the Transit Feature in Alipay and scan QR code at the fare gate. 
+
+    <br><br>
+    <h3>To Venue From ...</h3>
+    <div class="row" style="margin-top: 2rem; gap: 2rem;">
+
+        <div class="col col-6">
+          <h3>Airport</h3>
+          <br>
+          <ul>
+            <li>
+              <strong>Hangzhou Xiaoshan International Airport (HGH):</strong>
+              <ul>
+                <li>- 40 km from the venue.</li>
+                <li>- DIDI costs 100 RMB and will take 1 hr.</li>
+              </ul>
+            </li>
+          </ul>
+          </div>
+        <div class="col col-6">
+          <h3>Train Stations</h3>
+          <br>
+            You'll arrive at one of the following stations if you are coming from Beijing or Shanghai: 
+            <ul>
+              <li><strong>- Hangzhou Dong Railway Station: </strong> 20 km from the venue. DIDI costs 50 RMB and will take 40 min.</li>              
+              <li><strong>- Hangzhou Xi Railway Station: </strong> 30 km from the venue. DIDI costs 60 RMB and will take 50 min.</li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section
+    class="section section-big-image"
+    data-theme-section="light"
+    data-bg-section="lightgray"
+  >
+    <div class="container wide" id="general-travel">
+      <div class="row">
+        <div class="col">
+          <OpenStreetMap 
+              mapCenter={{ latitude: 30.172599, longitude: 120.102973 }}
+              mapZoom={11}
+              markers={mapMarkers}
+              height="550px"
+            />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section
+    class="section section-location-info"
+    data-theme-section="light"
+    data-bg-section="lightgray"
+  >
+    <div class="container wide">
+      <div class="row grid">
+        <!-- <div class="border-bottom"></div> -->
+        <div class="col col-info">
+          <div class="location-flex">
+            <p>{subtitle}</p>
+            <h2>{title}</h2>
+            <p>{location}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

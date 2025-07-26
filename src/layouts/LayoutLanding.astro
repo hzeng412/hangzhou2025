@@ -41,6 +41,23 @@ const {
       noindex={noindex}
       pageTransitionName={pageTransitionName}
     />
+    <script is:inline>
+      // Redirect to Chinese site if browser language is Chinese
+      (function() {
+        var lang = navigator.language || navigator.userLanguage;
+        var isChinese = lang.toLowerCase().startsWith('zh');
+        var isAlreadyOnChinesePage = window.location.pathname.startsWith('/zh');
+
+        if (isChinese && !isAlreadyOnChinesePage) {
+          var newPath = '/zh' + window.location.pathname;
+          // Handle root path
+          if (window.location.pathname === '/') {
+            newPath = '/zh/';
+          }
+          window.location.href = newPath;
+        }
+      })();
+    </script>
   </head>
 
   <body

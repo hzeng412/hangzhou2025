@@ -5,25 +5,578 @@
       "id": "all"
     },
     {
-      "name": "AI Model",
-      "id": "ai-model"
+      "name": "AI Model & Infra",
+      "id": "ai-model-infra"
     },
-    {
-      "name": "AI Infra",
-      "id": "ai-infra"
-    },
-    {
-      "name": "AI Apps",
-      "id": "ai-apps"
-    },
-    {
+        {
       "name": "Embodied AI",
       "id": "embodied-ai"
+    },
+    {
+      "name": "Agentic Web",
+      "id": "agentic-web"
+    },
+    {
+      "name": "Apps & Agents",
+      "id": "apps-agents"
     },
     {
       "name": "GOSIM Spotlight",
       "id": "spotlight"
     }
   ],
-  "speakers": []
+  "speakers": 
+  [
+    {
+      "id": "matt-white",
+      "name": "Matt White",
+      "bio": "Executive Director of PyTorch Foundation, General Manager of AI at Linux Foundation",
+      "role": "GM of AI/Executive Director",
+      "org": "Linux Foundation/PyTorch Foundation",
+      "roleOrg": "Linux Foundation/PyTorch Foundation",
+      "image": "matt-white.png",
+      "tag": "ai-model-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "xiaohu-zhu",
+      "name": "Xiaohu Zhu",
+      "bio": "",
+      "role": "Founder",
+      "org": "Center for Safe AGI",
+      "roleOrg": "Center for Safe AGI",
+      "image": "undefined",
+      "tag": "ai-model-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "kaichao-you",
+      "name": "Kaichao You",
+      "bio": "vLLM Core Maintainer",
+      "role": "Core Maintainer",
+      "org": "vLLM",
+      "roleOrg": "vLLM",
+      "image": "undefined",
+      "tag": "ai-model-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "xuan-son-nguyen",
+      "name": "Xuan Son Nguyen",
+      "bio": "Hugging Face Software Engineer",
+      "role": "Software Engineer",
+      "org": "Hugging Face",
+      "roleOrg": "Hugging Face",
+      "image": "undefined",
+      "tag": "ai-model-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "haiquan-chen",
+      "name": "Haiquan Chen",
+      "bio": "ByteDance Developer",
+      "role": "Developer",
+      "org": "ByteDance",
+      "roleOrg": "ByteDance",
+      "image": "undefined",
+      "tag": "ai-model-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "yikai-zhu",
+      "name": "Yikai Zhu",
+      "bio": "Baseten Model Performance Software Engineer",
+      "role": "Software Engineer, Model Performance",
+      "org": "Baseten",
+      "roleOrg": "Baseten",
+      "image": "undefined",
+      "tag": "ai-model-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "loong-dai",
+      "name": "Loong Dai",
+      "bio": "Dapr Maintainer",
+      "role": "Maintainer",
+      "org": "Dapr",
+      "roleOrg": "Dapr",
+      "image": "undefined",
+      "tag": "ai-model-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "shiwei-liu",
+      "name": "Shiwei Liu",
+      "bio": "Newton International Fellow, University of Oxford",
+      "role": "Newton International Fellow",
+      "org": "University of Oxford",
+      "roleOrg": "University of Oxford",
+      "image": "undefined",
+      "tag": "ai-model-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "aurelien-morgan-claudon",
+      "name": "Aurélien-Morgan Claudon",
+      "bio": "Unaffiliated Senior MLOps Lead",
+      "role": "Senior MLOps Lead",
+      "org": "Unaffiliated",
+      "roleOrg": "Unaffiliated",
+      "image": "undefined",
+      "tag": "ai-model-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "guang-liu",
+      "name": "Guang Liu",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "",
+      "image": "undefined",
+      "tag": "ai-model-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "wanqing-he",
+      "name": "Wanqing He",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "",
+      "image": "undefined",
+      "tag": "ai-model-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "yuxuan-zhang",
+      "name": "Yuxuan Zhang",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "",
+      "image": "undefined",
+      "tag": "ai-model-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "xavier-tao",
+      "name": "Xavier Tao",
+      "bio": "Founder of 1ms.ai",
+      "role": "Founder",
+      "org": "1ms.ai",
+      "roleOrg": "1ms.ai",
+      "image": "undefined",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "pengwei-wang",
+      "name": "Pengwei Wang",
+      "bio": "Head of Embodied AI Large Models at Beijing Academy of Artificial Intelligence",
+      "role": "Head of Embodied AI Large Models",
+      "org": "Beijing Academy of Artificial Intelligence",
+      "roleOrg": "Beijing Academy of Artificial Intelligence",
+      "image": "undefined",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "jian-shi",
+      "name": "Jian Shi",
+      "bio": "",
+      "role": "Co-founder",
+      "org": "Kornia AI",
+      "roleOrg": "Kornia AI",
+      "image": "undefined",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "ruping-cen",
+      "name": "Ruping Cen",
+      "bio": "Ph.D. at Chongqing University of Posts and Telecommunications",
+      "role": "Ph. D.",
+      "org": "Chongqing University of Posts and Telecommunications",
+      "roleOrg": "Chongqing University of Posts and Telecommunications",
+      "image": "undefined",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "ming-cen",
+      "name": "Ming Cen",
+      "bio": "Professor at Chongqing University of Posts and Telecommunications",
+      "role": "Professor",
+      "org": "Chongqing University of Posts and Telecommunications",
+      "roleOrg": "Chongqing University of Posts and Telecommunications",
+      "image": "undefined",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "yunpeng-yin",
+      "name": "Yunpeng Yin",
+      "bio": "Head of Motion Control Algorithm and Framework at Humanoid Robot (Shanghai) Co., Ltd.",
+      "role": "Head of Motion Control Algorithm and Framework",
+      "org": "Humanoid Robot (Shanghai) Co., Ltd.",
+      "roleOrg": "Humanoid Robot (Shanghai) Co., Ltd.",
+      "image": "undefined",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "edgar-riba",
+      "name": "Edgar Riba",
+      "bio": "",
+      "role": "Staff Research Engineer",
+      "org": "Bonsai Robotics",
+      "roleOrg": "Bonsai Robotics",
+      "image": "undefined",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "chris-yang",
+      "name": "Chris Yang",
+      "bio": "",
+      "role": "VP of Engineering",
+      "org": "Privoce",
+      "roleOrg": "Privoce",
+      "image": "undefined",
+      "tag": "agentic-web",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "gaowei-chang",
+      "name": "Gaowei Chang",
+      "bio": "Initiator of ANP Open Source Technology Community",
+      "role": "Initiator",
+      "org": "ANP Open Source Technology Community",
+      "roleOrg": "ANP Open Source Technology Community",
+      "image": "undefined",
+      "tag": "agentic-web",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "minzhong-zhang",
+      "name": "Minzhong Zhang",
+      "bio": "Senior Expert at China Telecom Digital Intelligence Technology Co., Ltd.",
+      "role": "Senior Expert",
+      "org": "China Telecom Digital Intelligence Technology Co., Ltd.",
+      "roleOrg": "China Telecom Digital Intelligence Technology Co., Ltd.",
+      "image": "undefined",
+      "tag": "agentic-web",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "zhiyu-li",
+      "name": "Zhiyu Li",
+      "bio": "",
+      "role": "CTO",
+      "org": "MemTensor (Shanghai) Technology Co., Ltd.",
+      "roleOrg": "MemTensor (Shanghai) Technology Co., Ltd.",
+      "image": "undefined",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "wilson-wang",
+      "name": "Wilson Wang",
+      "bio": "",
+      "role": "SW Engineer",
+      "org": "ByteDance Inc.",
+      "roleOrg": "ByteDance Inc.",
+      "image": "undefined",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "rik-arends",
+      "name": "Rik Arends",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "",
+      "image": "undefined",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "ting-bai",
+      "name": "Ting Bai",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "",
+      "image": "undefined",
+      "tag": "spotlight",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "weiqi-zhao",
+      "name": "Weiqi Zhao",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "",
+      "image": "undefined",
+      "tag": "spotlight",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "xiaobei",
+      "name": "Xiaobei",
+      "bio": "",
+      "role": "",
+      "org": "",
+      "roleOrg": "",
+      "image": "undefined",
+      "tag": "spotlight",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    },
+    {
+      "id": "yanzhi-wang",
+      "name": "Yanzhi Wang",
+      "bio": "",
+      "role": "",
+      "org": "Northeastern University",
+      "roleOrg": "Northeastern University",
+      "image": "undefined",
+      "tag": "spotlight",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "New",
+      "draft": false
+    }
+  ]
 }

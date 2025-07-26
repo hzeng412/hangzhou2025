@@ -135,13 +135,6 @@
         "image": "arun-joseph.jpg"
       },
       {
-        "id": "matt-white",
-        "name": "Matt White",
-        "tags": ["forum"],
-        "roleOrg": "ED of the Pytorch Foundation",
-        "image": "matt-white.png"
-      },
-      {
         "id": "baosong-yang",
         "name": "Baosong Yang",
         "tags": ["forum"],

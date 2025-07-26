@@ -7,10 +7,10 @@ import NotificationBar from "components/NotificationBar.astro"
 const hasNotificationBar = false // Set this to false when NotificationBar is removed or page will crash
 
 const links = [
-  {
-    text: "会议地点",
-    link: "/zh/#venue",
-  },
+  // {
+  //   text: "会议地点",
+  //   link: "/zh/#venue",
+  // },
   {
     text: "主题",
     link: "/zh/#tracks",
@@ -22,6 +22,23 @@ const links = [
   {
     text: "同期活动",
     link: "/zh/#rust-global",
+  },
+  {
+    text: "会场、旅行和签证",
+    subLinks: [
+      {
+        text: "会议地点",
+        link: "/zh/venue",
+      },
+      {
+        text: "交通指南",
+        link: "/zh/general-travel",
+      },
+      {
+        text: "中国签证",
+        link: "/zh/chinese-visa",
+      },
+    ],
   },
   // {
   //   text: "常见问题",

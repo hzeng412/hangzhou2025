@@ -7,9 +7,13 @@ import NotificationBar from "components/NotificationBar.astro"
 const hasNotificationBar = false // Set this to false when NotificationBar is removed or page will crash
 
 const links = [
+  // {
+  //   text: "Location",
+  //   link: "/#venue",
+  // },
   {
-    text: "Location",
-    link: "/#venue",
+    text: "Speakers",
+    link: "/speakers",
   },
   {
     text: "Tracks",
@@ -22,6 +26,23 @@ const links = [
   {
     text: "Co-located Event",
     link: "/#rust-global",
+  },
+  {
+    text: "Venue, Travel, & Visa",
+    subLinks: [
+      {
+        text: "Venue",
+        link: "/venue",
+      },
+      {
+        text: "General Travel Info",
+        link: "/general-travel",
+      },
+      {
+        text: "Chinese Visa",
+        link: "/chinese-visa",
+      },
+    ],
   },
   // {
   //   text: "FAQ",
