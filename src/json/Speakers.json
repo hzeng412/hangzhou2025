@@ -53,7 +53,7 @@
       "role": "Founder",
       "org": "Center for Safe AGI",
       "roleOrg": "Center for Safe AGI",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "ai-model-infra",
       "socialLinks": {
         "mastodon": "undefined",
@@ -72,7 +72,7 @@
       "role": "Core Maintainer",
       "org": "vLLM",
       "roleOrg": "vLLM",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "ai-model-infra",
       "socialLinks": {
         "mastodon": "undefined",
@@ -91,7 +91,7 @@
       "role": "Software Engineer",
       "org": "Hugging Face",
       "roleOrg": "Hugging Face",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "ai-model-infra",
       "socialLinks": {
         "mastodon": "undefined",
@@ -110,7 +110,7 @@
       "role": "Developer",
       "org": "ByteDance",
       "roleOrg": "ByteDance",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "ai-model-infra",
       "socialLinks": {
         "mastodon": "undefined",
@@ -129,7 +129,7 @@
       "role": "Software Engineer, Model Performance",
       "org": "Baseten",
       "roleOrg": "Baseten",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "ai-model-infra",
       "socialLinks": {
         "mastodon": "undefined",
@@ -148,7 +148,7 @@
       "role": "Maintainer",
       "org": "Dapr",
       "roleOrg": "Dapr",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "ai-model-infra",
       "socialLinks": {
         "mastodon": "undefined",
@@ -167,7 +167,7 @@
       "role": "Newton International Fellow",
       "org": "University of Oxford",
       "roleOrg": "University of Oxford",
-      "image": "undefined",
+      "image": "shiwei-liu.jpg",
       "tag": "ai-model-infra",
       "socialLinks": {
         "mastodon": "undefined",
@@ -186,7 +186,7 @@
       "role": "Senior MLOps Lead",
       "org": "Unaffiliated",
       "roleOrg": "Unaffiliated",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "ai-model-infra",
       "socialLinks": {
         "mastodon": "undefined",
@@ -205,7 +205,7 @@
       "role": "",
       "org": "",
       "roleOrg": "",
-      "image": "undefined",
+      "image": "guang-liu.jpg",
       "tag": "ai-model-infra",
       "socialLinks": {
         "mastodon": "undefined",
@@ -224,7 +224,7 @@
       "role": "",
       "org": "",
       "roleOrg": "",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "ai-model-infra",
       "socialLinks": {
         "mastodon": "undefined",
@@ -243,7 +243,7 @@
       "role": "",
       "org": "",
       "roleOrg": "",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "ai-model-infra",
       "socialLinks": {
         "mastodon": "undefined",
@@ -262,7 +262,7 @@
       "role": "Founder",
       "org": "1ms.ai",
       "roleOrg": "1ms.ai",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "embodied-ai",
       "socialLinks": {
         "mastodon": "undefined",
@@ -281,7 +281,7 @@
       "role": "Head of Embodied AI Large Models",
       "org": "Beijing Academy of Artificial Intelligence",
       "roleOrg": "Beijing Academy of Artificial Intelligence",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "embodied-ai",
       "socialLinks": {
         "mastodon": "undefined",
@@ -300,7 +300,7 @@
       "role": "Co-founder",
       "org": "Kornia AI",
       "roleOrg": "Kornia AI",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "embodied-ai",
       "socialLinks": {
         "mastodon": "undefined",
@@ -319,7 +319,7 @@
       "role": "Ph. D.",
       "org": "Chongqing University of Posts and Telecommunications",
       "roleOrg": "Chongqing University of Posts and Telecommunications",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "embodied-ai",
       "socialLinks": {
         "mastodon": "undefined",
@@ -338,7 +338,7 @@
       "role": "Professor",
       "org": "Chongqing University of Posts and Telecommunications",
       "roleOrg": "Chongqing University of Posts and Telecommunications",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "embodied-ai",
       "socialLinks": {
         "mastodon": "undefined",
@@ -357,7 +357,7 @@
       "role": "Head of Motion Control Algorithm and Framework",
       "org": "Humanoid Robot (Shanghai) Co., Ltd.",
       "roleOrg": "Humanoid Robot (Shanghai) Co., Ltd.",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "embodied-ai",
       "socialLinks": {
         "mastodon": "undefined",
@@ -376,7 +376,7 @@
       "role": "Staff Research Engineer",
       "org": "Bonsai Robotics",
       "roleOrg": "Bonsai Robotics",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "embodied-ai",
       "socialLinks": {
         "mastodon": "undefined",
@@ -395,7 +395,7 @@
       "role": "VP of Engineering",
       "org": "Privoce",
       "roleOrg": "Privoce",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "agentic-web",
       "socialLinks": {
         "mastodon": "undefined",
@@ -414,7 +414,7 @@
       "role": "Initiator",
       "org": "ANP Open Source Technology Community",
       "roleOrg": "ANP Open Source Technology Community",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "agentic-web",
       "socialLinks": {
         "mastodon": "undefined",
@@ -433,7 +433,7 @@
       "role": "Senior Expert",
       "org": "China Telecom Digital Intelligence Technology Co., Ltd.",
       "roleOrg": "China Telecom Digital Intelligence Technology Co., Ltd.",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "agentic-web",
       "socialLinks": {
         "mastodon": "undefined",
@@ -452,7 +452,7 @@
       "role": "CTO",
       "org": "MemTensor (Shanghai) Technology Co., Ltd.",
       "roleOrg": "MemTensor (Shanghai) Technology Co., Ltd.",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "apps-agents",
       "socialLinks": {
         "mastodon": "undefined",
@@ -471,7 +471,7 @@
       "role": "SW Engineer",
       "org": "ByteDance Inc.",
       "roleOrg": "ByteDance Inc.",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "apps-agents",
       "socialLinks": {
         "mastodon": "undefined",
@@ -490,7 +490,7 @@
       "role": "",
       "org": "",
       "roleOrg": "",
-      "image": "undefined",
+      "image": "rik-arends.png",
       "tag": "apps-agents",
       "socialLinks": {
         "mastodon": "undefined",
@@ -509,7 +509,7 @@
       "role": "",
       "org": "",
       "roleOrg": "",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "spotlight",
       "socialLinks": {
         "mastodon": "undefined",
@@ -528,7 +528,7 @@
       "role": "",
       "org": "",
       "roleOrg": "",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "spotlight",
       "socialLinks": {
         "mastodon": "undefined",
@@ -547,7 +547,7 @@
       "role": "",
       "org": "",
       "roleOrg": "",
-      "image": "undefined",
+      "image": "0-placeholder-person.png",
       "tag": "spotlight",
       "socialLinks": {
         "mastodon": "undefined",
@@ -566,7 +566,7 @@
       "role": "",
       "org": "Northeastern University",
       "roleOrg": "Northeastern University",
-      "image": "undefined",
+      "image": "yanzhi-wang.png",
       "tag": "spotlight",
       "socialLinks": {
         "mastodon": "undefined",

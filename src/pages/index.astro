@@ -11,7 +11,9 @@ import GetTickets from "components/GetTickets.astro";
 import VenueInfo from "components/VenueInfo.astro";
 import TextAndSponsors from "components/TextAndSponsors.astro";
 import TextAndImageReverse from "components/TextAndImageReverse.astro";
+import FeaturedSpeakers from "components/FeaturedSpeakers.astro"
 import Timeline from "components/Timeline.astro";
+import Marquee from "components/Marquee.astro"
 
 // Images
 import Placeholder1 from "images/homepage/stats1.jpeg";
@@ -101,13 +103,6 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       ]}
     />
   </div>
-  <VenueInfo
-    subtitle="Venue"
-    title={"Hangzhou Platinum Hanjue Hotel\n杭州白金汉爵酒店"}
-    location="Hangzhou, China - Where Innovation Meets History"
-    text="Experience GOSIM Hangzhou 2025 in a city renowned for its historical legacy and vibrant technological future. Hangzhou, a historical gem and modern tech hub, offers the perfect backdrop for inspiration, networking, and breakthrough innovations."
-    image="/images/homepage/hangzhoubg.png"
-  />
 
   <Tracks
     id="tracks"
@@ -143,6 +138,26 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       link: "",
     }}
   />
+
+  <VenueInfo
+    subtitle="Venue"
+    title={"Hangzhou Platinum Hanjue Hotel\n杭州白金汉爵酒店"}
+    location="Hangzhou, China - Where Innovation Meets History"
+    text="Experience GOSIM Hangzhou 2025 in a city renowned for its historical legacy and vibrant technological future. Hangzhou, a historical gem and modern tech hub, offers the perfect backdrop for inspiration, networking, and breakthrough innovations."
+    image="/images/homepage/hangzhoubg.png"
+  />
+
+  <Marquee />
+
+  <FeaturedSpeakers
+    title="Featured Speakers"
+    ctaButton={{
+      text: "More speakers",
+      link: "/speakers/",
+    }}
+  />
+
+
   <TextAndImageReverse
     id="proposals"
     title="Call for Proposals"
