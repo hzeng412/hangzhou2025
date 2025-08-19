@@ -1,0 +1,249 @@
+---
+// Packages
+import { Picture } from "astro:assets";
+import type { ImageMetadata } from "astro";
+
+// Components
+import Layout from "layouts/LayoutLanding.astro";
+import schedule from "json/Schedule.json";
+import scheduleForum from "json/Schedule-forum.json";
+import speakers from "json/Speakers.json";
+import SocialShare from "components/SocialShare.astro";
+
+// i18n utilities
+import { getCurrentLocale, createTranslationFunction, loadTranslations } from "../../../i18n/utils";
+
+// Load translations
+await loadTranslations();
+
+// Force Chinese locale for this page
+const currentLocale = 'zh';
+const t = createTranslationFunction(currentLocale);
+
+// Types
+type Event = {
+  title: string;
+  content: string;
+  date: string;
+  timeSlot: string;
+  speakers?: { name: string; image?: string; roleOrg: string }[];
+  room?: string;
+};
+
+type Schedule = {
+  sessions: {
+    [category: string]: Event[];
+  };
+};
+
+type Speakers = {
+  speakers: { name: string; image?: string; roleOrg: string }[];
+};
+
+// Generate static paths for events
+export async function getStaticPaths() {
+  const events: {
+    params: { event: string };
+    props: { event: Event; category: string };
+  }[] = [];
+
+  const createSlug = (title: string) => {
+    return title
+      .toLowerCase()
+      .replace(/[^\w\s-]/g, "")
+      .replace(/\s+/g, "-")
+      .replace(/-+/g, "-")
+      .trim();
+  };
+
+  // Collect all sessions from all categories in main schedule
+  if (schedule.sessions && typeof schedule.sessions === 'object') {
+    Object.entries(schedule.sessions).forEach(([category, categoryEvents]) => {
+      if (Array.isArray(categoryEvents)) {
+        categoryEvents.forEach((event: Event) => {
+          events.push({
+            params: {
+              event: createSlug(event.title),
+            },
+            props: { event, category },
+          });
+        });
+      }
+    });
+  }
+
+  // Collect all sessions from forum schedule
+  if (scheduleForum.sessions && typeof scheduleForum.sessions === 'object') {
+    Object.entries(scheduleForum.sessions).forEach(([category, categoryEvents]) => {
+      if (Array.isArray(categoryEvents)) {
+        categoryEvents.forEach((event: Event) => {
+          events.push({
+            params: {
+              event: createSlug(event.title),
+            },
+            props: { event, category },
+          });
+        });
+      }
+    });
+  }
+
+  return events;
+}
+
+const { event, category } = Astro.props;
+
+// Find speaker details
+const findSpeakerDetails = (speakerName: string) => {
+  return speakers.speakers.find((speaker) => speaker.name === speakerName);
+};
+
+// Get speaker image
+const getSpeakerImage = async (imagePath: string): Promise<ImageMetadata> => {
+  const images = import.meta.glob<{ default: ImageMetadata }>(
+    "/src/images/speakers/*.{jpeg,jpg,png,gif,webp}",
+  );
+  if (images[imagePath]) {
+    const module = await images[imagePath]();
+    return module.default;
+  }
+  throw new Error(`"${imagePath}" does not exist in glob: "src/images/speakers/*"`);
+};
+---
+
+<Layout
+  title={event.title}
+  description={event.content}
+  navDarkMode={false}
+  navBackground="header-light"
+  pageTransitionName="Event"
+>
+  <div class="section-wrap" data-theme-section="light" data-bg-section="light">
+    <div class="container">
+      <div class="event-detail">
+        <div class="event-header">
+          <h1 class="h2">{event.title}</h1>
+          <div class="event-meta">
+            <span class="event-date">{event.date}</span>
+            <span class="event-time">{event.timeSlot}</span>
+            {event.room && <span class="event-room">{event.room}</span>}
+          </div>
+        </div>
+
+        <div class="event-content">
+          <div class="event-description">
+            <p>{event.content}</p>
+          </div>
+
+          {event.speakers && event.speakers.length > 0 && (
+            <div class="event-speakers">
+              <h3>演讲者</h3>
+              <div class="speakers-grid">
+                {event.speakers.map(async (speaker) => {
+                  const speakerDetails = findSpeakerDetails(speaker.name);
+                  let speakerImage;
+                  
+                  if (speakerDetails?.image) {
+                    try {
+                      speakerImage = await getSpeakerImage(`/src/images/speakers/${speakerDetails.image}`);
+                    } catch (error) {
+                      console.warn(`Could not load image for speaker ${speaker.name}:`, error);
+                    }
+                  }
+
+                  return (
+                    <div class="speaker-card">
+                      {speakerImage && (
+                        <Picture
+                          src={speakerImage}
+                          alt={speaker.name}
+                          width={80}
+                          height={80}
+                          class="speaker-image"
+                        />
+                      )}
+                      <div class="speaker-info">
+                        <h4>{speaker.name}</h4>
+                        <p>{speaker.roleOrg}</p>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+        </div>
+
+        <SocialShare />
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .event-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+
+  .event-header {
+    margin-bottom: 2rem;
+  }
+
+  .event-meta {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    color: var(--color-text-muted);
+  }
+
+  .event-meta span {
+    padding: 0.5rem 1rem;
+    background: var(--color-light-tint);
+    border-radius: var(--border-radius);
+    font-size: 0.9rem;
+  }
+
+  .event-content {
+    margin-bottom: 2rem;
+  }
+
+  .event-description {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+
+  .event-speakers h3 {
+    margin-bottom: 1rem;
+  }
+
+  .speakers-grid {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .speaker-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    background: var(--color-light-tint);
+    border-radius: var(--border-radius);
+  }
+
+  .speaker-image {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .speaker-info h4 {
+    margin: 0 0 0.5rem 0;
+  }
+
+  .speaker-info p {
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+  }
+</style>

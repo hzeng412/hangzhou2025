@@ -3,32 +3,73 @@
 import Button from "components/Button.astro"
 import Logo from "./Logo.astro"
 
-const firstColumnLinks = [
-  {
-    text: "Location",
-    link: "/#venue",
-  },
-  {
-    text: "Tracks",
-    link: "/#tracks",
-  },
-  {
-    text: "Spotlight",
-    link: "/#spotlight",
-  },
-  {
-    text: "Co-located Event",
-    link: "/#rust-global",
-  }
-]
+// i18n utilities
+import { getCurrentLocale, createTranslationFunction, loadTranslations, getLocalizedPath } from "../i18n/utils";
+
+// Load translations
+await loadTranslations();
+
+// Get current locale and translation function
+const currentLocale = getCurrentLocale(Astro);
+const t = createTranslationFunction(currentLocale);
+
+// Define navigation links with translation keys
+const navigationConfig = {
+  en: [
+    {
+      text: "Speakers",
+      link: "/speakers",
+    },
+    {
+      text: "Tracks",
+      link: "/#tracks",
+    },
+    {
+      text: "Spotlight",
+      link: "/#spotlight",
+    },
+    {
+      text: "Co-located Events",
+      link: "/#co-located-events",
+    },
+    {
+      text: "Venue",
+      link: "/venue",
+    },
+  ],
+  zh: [
+    {
+      text: "讲师",
+      link: "/speakers",
+    },
+    {
+      text: "主题",
+      link: "/#tracks",
+    },
+    {
+      text: "Spotlight",
+      link: "/#spotlight",
+    },
+    {
+      text: "同期活动",
+      link: "/#co-located-events",
+    },
+    {
+      text: "会议地点",
+      link: "/venue",
+    },
+  ]
+};
+
+// Get localized navigation links
+const firstColumnLinks = navigationConfig[currentLocale].map(link => ({
+  ...link,
+  link: (link.link && link.link.startsWith('#')) ? link.link : getLocalizedPath(link.link || '/', currentLocale)
+}));
 
 const secondColumnLinks = [
-  // {
-  //   text: "Volunteer",
-  //   link: "https://docs.google.com/forms/d/e/1FAIpQLSc62kJczw7lr-l0JAAbkabeIrrPPAD7OWyzwDopTD0L4HC6EQ/viewform",
-  //   openInNewTab: true,
-  // },
-]
+  // Future volunteer links can be added here
+];
 
 const slug = Astro.url.pathname
 ---
@@ -38,7 +79,7 @@ const slug = Astro.url.pathname
     <div class="row row-base">
       <div class="col col-logo-gosim">
         <div class="logo">
-          <a href="/" aria-label="Go to homepage" class="logo-click">
+          <a href={getLocalizedPath('/', currentLocale)} aria-label={t('navigation.go_to_homepage')} class="logo-click">
             <Logo />
           </a>
         </div>
@@ -138,7 +179,7 @@ const slug = Astro.url.pathname
             href="https://gosim.org"
             target="_blank"
             class="logo-click"
-            aria-label="GOSIM Foundation"
+            aria-label={t('footer.gosim_foundation')}
           >
             <Logo width="141" height="24" />
           </a>
@@ -151,7 +192,7 @@ const slug = Astro.url.pathname
           >
             <img
               src="/icons/icon-mastodon.svg"
-              alt="Follow us on Mastodon"
+              alt={t('footer.follow_mastodon')}
               width="18"
               height="18"
               loading="lazy"
@@ -165,7 +206,7 @@ const slug = Astro.url.pathname
           >
             <img
               src="/icons/icon-x.svg"
-              alt="Follow us on X (twitter)"
+              alt={t('footer.follow_x')}
               width="18"
               height="18"
               loading="lazy"
@@ -179,7 +220,7 @@ const slug = Astro.url.pathname
           >
             <img
               src="/icons/icon-linkedin.svg"
-              alt="Follow us on LinkedIn"
+              alt={t('footer.follow_linkedin')}
               width="18"
               height="18"
               loading="lazy"
@@ -193,7 +234,7 @@ const slug = Astro.url.pathname
           >
             <img
               src="/icons/icon-bluesky.svg"
-              alt="Follow us on BlueSky"
+              alt={t('footer.follow_bluesky')}
               width="18"
               height="18"
               loading="lazy"
@@ -207,7 +248,7 @@ const slug = Astro.url.pathname
           >
             <img
               src="/icons/icon-youtube.svg"
-              alt="Follow us on Youtube"
+              alt={t('footer.follow_youtube')}
               width="18"
               height="18"
               loading="lazy"
@@ -221,13 +262,13 @@ const slug = Astro.url.pathname
 
       <div class="col col-dev-credits">
         <div class="link link-hover">
-          <a class="link-click" href="/code-of-conduct/">
-            <span>Code of Conduct</span>
+          <a class="link-click" href={getLocalizedPath('/code-of-conduct/', currentLocale)}>
+            <span>{t('footer.code_of_conduct')}</span>
           </a>
         </div>
         <div class="link link-hover">
-          <a class="link-click" href="/privacy/">
-            <span>Privacy</span>
+          <a class="link-click" href={getLocalizedPath('/privacy/', currentLocale)}>
+            <span>{t('footer.privacy')}</span>
           </a>
         </div>
       </div>

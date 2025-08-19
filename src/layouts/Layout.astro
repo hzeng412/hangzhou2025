@@ -4,6 +4,9 @@ import Header from 'components/Header.astro';
 import Footer from 'components/Footer.astro';
 import Seo from 'components/Seo.astro';
 
+// i18n utilities
+import { getCurrentLocale } from '../i18n/utils';
+
 // Styles
 import 'styles/Normalize.scss';
 import 'styles/Fonts.scss';
@@ -13,8 +16,10 @@ import 'styles/Components.scss';
 import 'styles/Flickity.scss';
 
 interface Props {
-	title: string;
-	description: string;
+	title?: string;
+	description?: string;
+	titleKey?: string;
+	descriptionKey?: string;
     noindex?: boolean;
 	navDarkMode?: boolean,
 	bgNav?: string,
@@ -22,15 +27,20 @@ interface Props {
 	pageTransitionName?: string;
 }
 
-const { title, description, noindex, navDarkMode, navBackground, pageTransitionName } = Astro.props;
+const { title, description, titleKey, descriptionKey, noindex, navDarkMode, navBackground, pageTransitionName } = Astro.props;
+
+// Get current locale for proper lang attribute
+const currentLocale = getCurrentLocale(Astro);
 ---
 
 <!doctype html>
-<html lang="en" class="lenis lenis-smooth">
+<html lang={currentLocale === 'zh' ? 'zh-CN' : 'en'} class="lenis lenis-smooth">
 	<head>
 		<Seo
 			title={title}
 			description={description}
+			titleKey={titleKey}
+			descriptionKey={descriptionKey}
 			noindex={noindex}
 			pageTransitionName={pageTransitionName}
 		/>

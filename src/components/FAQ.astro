@@ -1,6 +1,35 @@
 ---
-// Import the FAQ data
-import faqData from "json/FAQ.json";
+// i18n utilities and data
+import { getCurrentLocale, createTranslationFunction, loadTranslations } from "../i18n/utils";
+import faqData from "../i18n/data/faq.json";
+
+// Load translations
+await loadTranslations();
+
+// Get current locale and translation function
+const currentLocale = getCurrentLocale(Astro);
+const t = createTranslationFunction(currentLocale);
+
+// Define multilingual FAQ types
+interface MultilingualCategory {
+  name: {
+    en: string;
+    zh: string;
+  };
+  id: string;
+}
+
+interface MultilingualFAQ {
+  question: {
+    en: string;
+    zh: string;
+  };
+  answer: {
+    en: string;
+    zh: string;
+  };
+  category: string;
+}
 ---
 
 <div class="filter-container filter-alpha-animate">
@@ -12,18 +41,18 @@ import faqData from "json/FAQ.json";
         </div>
     </div>
     <div class="filter-box">
-        <p>Filter:</p>
+        <p>{t('faq.filter')}:</p>
         <div class="filter-group" data-filter-group>
-            {faqData.categories.map((category) => (
+            {faqData.categories.map((category: MultilingualCategory) => (
                 <div
                     class="single-filter"
                     data-anchor-target="#grid"
                     data-filter-status={
-                        category.name === "All" ? "active" : "not-active"
+                        category.id === "all" ? "active" : "not-active"
                     }
-                    data-filter-category={category.name.toLowerCase().replace(/ /g, "-")}
+                    data-filter-category={category.id}
                 >
-                    <span>{category.name}</span>
+                    <span>{category.name[currentLocale] || category.name.en}</span>
                 </div>
             ))}
         </div>
@@ -43,43 +72,43 @@ import faqData from "json/FAQ.json";
         <div class="row row-filter">
             <div class="col">
                 <div class="filter-group" data-filter-group>
-                    {faqData.categories.map((category) => (
+                    {faqData.categories.map((category: MultilingualCategory) => (
                         <button
                             class="single-filter"
-                            data-filter-status={category.name === "All" ? "active" : "not-active"}
-                            data-filter-category={category.name.toLowerCase().replace(/ /g, "-")}
+                            data-filter-status={category.id === "all" ? "active" : "not-active"}
+                            data-filter-category={category.id}
                         >
-                            <span>{category.name}</span>
+                            <span>{category.name[currentLocale] || category.name.en}</span>
                         </button>
                     ))}
                 </div>
             </div>
         </div>
         <div class="row row-list accordion visible" data-filter-grid>
-            {faqData.categories.map((category) => (
-                category.name !== "All" &&
+            {faqData.categories.map((category: MultilingualCategory) => (
+                category.id !== "all" &&
                 <div
                     class="list-group"
                     data-filter-status="active"
-                    data-filter-category={category.name.toLowerCase().replace(/ /g, "-")}
+                    data-filter-category={category.id}
                 >
                     <div class="row row-mini-title">
                         <div class="card-tags group-tags">
                             <div class="single-tag">
-                                <h2 class="p">{category.name}</h2>
+                                <h2 class="p">{category.name[currentLocale] || category.name.en}</h2>
                             </div>
                         </div>
                     </div>
                     <ul class="row row-list">
-                        {faqData.faqs.filter((faq) => faq.category === category.name).map((faq) => (
+                        {faqData.faqs.filter((faq: MultilingualFAQ) => faq.category === category.id).map((faq: MultilingualFAQ) => (
                             <li
                                 class="single-faq-card single-accordion-item card-hover"
                                 data-accordion-status="not-active"
                                 data-filter-status="active"
-                                data-filter-category={faq.category.toLowerCase().replace(/ /g, "-")}
+                                data-filter-category={faq.category}
                             >
                                 <button class="top" data-accordion-toggle>
-                                    <h3 class="h5">{faq.question}</h5>
+                                    <h3 class="h5">{faq.question[currentLocale] || faq.question.en}</h3>
                                     <div class="plus">
                                         <div class="plus-fill" />
                                         <div class="bar bar-top" />
@@ -89,7 +118,7 @@ import faqData from "json/FAQ.json";
                                 <div class="bottom">
                                     <div class="bottom-wrap">
                                         <div class="bottom-content styled-content">
-                                            <p set:html={faq.answer}/>
+                                            <p set:html={faq.answer[currentLocale] || faq.answer.en}/>
                                         </div>
                                     </div>
                                 </div>

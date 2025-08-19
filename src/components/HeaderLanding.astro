@@ -1,65 +1,163 @@
 ---
 // Components
-import Button from "components/Button.astro"
-import Logo from "./Logo.astro"
-import NotificationBar from "components/NotificationBar.astro"
+import Button from "components/Button.astro";
+import Logo from "./Logo.astro";
+import NotificationBar from "components/NotificationBar.astro";
+import LanguageSwitcher from "./LanguageSwitcher.astro";
 
-const hasNotificationBar = false // Set this to false when NotificationBar is removed or page will crash
+// i18n utilities
+import { getCurrentLocale, createTranslationFunction, loadTranslations, getLocalizedPath, getAlternateLinks } from "../i18n/utils";
 
-const links = [
-  // {
-  //   text: "Location",
-  //   link: "/#venue",
-  // },
-  {
-    text: "Speakers",
-    link: "/speakers",
-  },
-  {
-    text: "Tracks",
-    link: "/#tracks",
-  },
-  {
-    text: "Spotlight",
-    link: "/#spotlight",
-  },
-  {
-    text: "Co-located Event",
-    link: "/#rust-global",
-  },
-  {
-    text: "Venue, Travel, & Visa",
-    subLinks: [
-      {
-        text: "Venue",
-        link: "/venue",
-      },
-      {
-        text: "General Travel Info",
-        link: "/general-travel",
-      },
-      {
-        text: "Chinese Visa",
-        link: "/chinese-visa",
-      },
-    ],
-  },
-  // {
-  //   text: "FAQ",
-  //   link: "/faq/",
-  // },
-]
+// Load translations
+await loadTranslations();
 
-const slug = Astro.url.pathname
-const isZhPath = slug.startsWith('/zh/')
-const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
+// Get current locale and translation function
+const currentLocale = getCurrentLocale(Astro);
+const t = createTranslationFunction(currentLocale);
+
+const hasNotificationBar = false; // Set this to false when NotificationBar is removed or page will crash
+
+// Define navigation links with translation keys
+const navigationConfig = {
+  en: [
+    {
+      text: "Speakers",
+      link: "/speakers",
+    },
+    {
+      text: "Workshops", 
+      link: "/workshops",
+    },
+    {
+      text: "Tracks",
+      link: "/#tracks",
+    },
+    {
+      text: "Spotlight",
+      link: "/#spotlight",
+    },
+    {
+      text: "Co-located Events",
+      subLinks: [
+        {
+          text: "RustGlobal & RustChinaConf",
+          link: "https://rustcc.cn/2025conf/",
+          openInNewTab: false,
+        },
+        {
+          text: "AI Vision Forum",
+          link: "https://forum.gosim.org/en/",
+          openInNewTab: false,
+        },
+        {
+          text: "Open for SDG Conference",
+          link: "https://opensdg.gosim.org/en/",
+          openInNewTab: false,
+        },
+        {
+          text: "Super Agent Campathon",
+          link: "https://mofa.ai/super-agent-hackathon/",
+          openInNewTab: false,
+        },
+        {
+          text: "Code Alert Hackathon",
+          link: "https://hackathon.mofa.ai",
+          openInNewTab: false,
+        },
+      ],
+    },
+    {
+      text: "Venue, Travel, & Visa",
+      subLinks: [
+        {
+          text: "Venue",
+          link: "/venue",
+        },
+        {
+          text: "General Travel Info",
+          link: "/general-travel",
+        },
+        {
+          text: "Chinese Visa",
+          link: "/chinese-visa",
+        },
+      ],
+    },
+  ],
+  zh: [
+    {
+      text: "讲师",
+      link: "/speakers",
+    },
+    {
+      text: "工作坊",
+      link: "/workshops",
+    },
+    {
+      text: "主题",
+      link: "/#tracks",
+    },
+    {
+      text: "Spotlight",
+      link: "/#spotlight",
+    },
+    {
+      text: "同期活动",
+      subLinks: [
+        {
+          text: "RustGlobal & RustChinaConf",
+          link: "https://rustcc.cn/2025conf/",
+          openInNewTab: false,
+        },
+        {
+          text: "人工智能愿景论坛",
+          link: "https://forum.gosim.org",
+          openInNewTab: false,
+        },
+        {
+          text: "开放共创 · 可持续发展大会",
+          link: "https://opensdg.gosim.org/cn/",
+          openInNewTab: false,
+        },
+        {
+          text: "超级智能体 Campathon",
+          link: "https://mofa.ai/super-agent-hackathon/",
+          openInNewTab: false,
+        },
+        {
+          text: "Code Alert 黑客松大赛",
+          link: "https://hackathon.mofa.ai",
+          openInNewTab: false,
+        },
+      ],
+    },
+    {
+      text: "会议地点",
+      link: "/venue"
+    },
+  ]
+};
+
+// Get localized navigation links
+const links = navigationConfig[currentLocale].map(link => ({
+  ...link,
+  link: (link.link && link.link.startsWith('http')) ? link.link : getLocalizedPath(link.link || '/', currentLocale),
+  subLinks: link.subLinks?.map(subLink => ({
+    ...subLink,
+    link: (subLink.link && subLink.link.startsWith('http')) ? subLink.link : getLocalizedPath(subLink.link || '/', currentLocale)
+  }))
+}));
+
+const slug = Astro.url.pathname;
+const alternateLinks = getAlternateLinks(slug);
+const otherLocaleLink = alternateLinks.find(link => link.locale !== currentLocale);
 ---
 
 <header>
   {
     hasNotificationBar && (
       <NotificationBar
-        text="🎉 Try the GOSIM Ticket 🎟 Lucky Draw! ✨"
+        text={t('navigation.notification_text')}
         link="https://x.com/gosimfoundation/status/1912744752925282408"
       />
     )
@@ -67,8 +165,8 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
 
   <div class="floating-ticket-button">
     <Button
-      text="Get Tickets"
-      link="/tickets"
+      text={t('navigation.get_tickets')}
+      link={getLocalizedPath('/tickets', currentLocale)}
       class="btn primary btn-floating btn-hover"
     />
   </div>
@@ -120,17 +218,14 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
             ))
           }
           <li class="link link-hover mobile-language-item">
-            <div class="language-mobile-menu">
-              <a class="language-item active" href={slug}>English</a>
-              <a class="language-item" href={`/zh${slug}`}>中文</a>
-            </div>
+            <LanguageSwitcher variant="mobile" />
           </li>
         </ul>
       </nav>
       <div class="box-row box-row-btn">
         <Button
-          text="Get Tickets"
-          link="/tickets"
+          text={t('navigation.get_tickets')}
+          link={getLocalizedPath('/tickets', currentLocale)}
           class="btn primary xl btn-hover"
         />
       </div>
@@ -155,7 +250,7 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
     <div class="btn-click filter-alpha-animate" data-filter-toggle="toggle">
       <div class="btn-content original">
         <div class="btn-fill"></div>
-        <span>Filter</span>
+        <span>{t('navigation.filter')}</span>
       </div>
       <div class="border-box"></div>
     </div>
@@ -171,7 +266,7 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
       <div class="border-bottom"></div>
 
       <div class="logo">
-        <a href="/" aria-label="Go to homepage" class="logo-click">
+        <a href={getLocalizedPath('/', currentLocale)} aria-label={t('navigation.go_to_homepage')} class="logo-click">
           <Logo />
           <Logo />
         </a>
@@ -221,22 +316,10 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
       </nav>
 
       <div class="header-buttons">
-        <div class="language-dropdown">
-          <button class="language-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="12" cy="12" r="10"></circle>
-              <line x1="2" y1="12" x2="22" y2="12"></line>
-              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-            </svg>
-          </button>
-          <div class="language-dropdown-content">
-            <a href={slug} class="active">English</a>
-            <a href={`/zh${slug}`}>中文</a>
-          </div>
-        </div>
+        <LanguageSwitcher variant="dropdown" />
         <Button
-          text="Get Tickets"
-          link="/tickets"
+          text={t('navigation.get_tickets')}
+          link={getLocalizedPath('/tickets', currentLocale)}
           class="btn outline btn-hover"
         />
       </div>
@@ -250,7 +333,7 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
         <div class="btn-click filter-alpha-animate" data-filter-toggle="toggle">
           <div class="btn-content original">
             <div class="btn-fill"></div>
-            <span>Filter</span>
+            <span>{t('navigation.filter')}</span>
           </div>
           <div class="border-box"></div>
         </div>
@@ -283,90 +366,16 @@ const switchPath = isZhPath ? slug.replace('/zh/', '/') : `/zh${slug}`
     margin-top: 32px;
   }
 
-  /* Language dropdown styles */
+  /* Header buttons layout */
   .header-buttons {
     display: flex;
     align-items: center;
     gap: 15px;
-    color: inherit; /* Ensure header buttons inherit text color for icon */
-  }
-
-  .language-dropdown {
-    position: relative;
-    display: inline-block;
-    color: inherit; /* Inherit text color from parent */
-  }
-
-  .language-btn {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: inherit;
-    transition: color 0.3s ease;
-  }
-  
-  /* Ensure the globe icon inherits the text color */
-  .language-btn svg {
-    color: inherit;
-    stroke: currentColor;
-    transition: color 0.3s;
-  }
-
-  .language-dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 120px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 4px;
-    right: 0;
-  }
-
-  .language-dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-
-  .language-dropdown-content a:hover {
-    background-color: #f1f1f1;
-  }
-
-  .language-dropdown-content a.active {
-    font-weight: bold;
-    background-color: #e9e9e9;
-  }
-
-  .language-dropdown:hover .language-dropdown-content {
-    display: block;
   }
 
   /* Mobile language menu */
   .mobile-language-item {
     margin-top: 15px;
-  }
-
-  .language-mobile-menu {
-    display: flex;
-    gap: 15px;
-    padding: 10px 0;
-  }
-
-  .language-item {
-    padding: 5px 10px;
-    border-radius: 4px;
-    text-decoration: none;
-  }
-
-  .language-item.active {
-    font-weight: bold;
-    background-color: rgba(255, 255, 255, 0.1);
   }
 </style>

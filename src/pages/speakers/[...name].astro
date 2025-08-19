@@ -5,16 +5,31 @@ import type { ImageMetadata } from "astro";
 
 // Components
 import Layout from "layouts/LayoutLanding.astro";
-import speakers from "json/Speakers.json";
+import speakers from "../../i18n/data/speakers.json";
 import schedule from "json/Schedule.json";
 import scheduleForum from "json/Schedule-forum.json";
+
+// i18n utilities
+import { getCurrentLocale, createTranslationFunction, loadTranslations } from "../../i18n/utils";
+
+// Load translations
+await loadTranslations();
 
 // Types
 interface Speaker {
   id: string;
-  name: string;
-  roleOrg: string;
-  bio: string;
+  name: {
+    en: string;
+    zh: string;
+  };
+  bio: {
+    en: string;
+    zh: string;
+  };
+  roleOrg: {
+    en: string;
+    zh: string;
+  };
   image?: string;
   socialLinks?: {
     website?: string;
@@ -48,6 +63,10 @@ export async function getStaticPaths() {
 
 const { speaker } = Astro.props as { speaker: Speaker };
 
+// Get current locale and create translation function
+const currentLocale = getCurrentLocale(Astro);
+const t = createTranslationFunction(currentLocale);
+
 // Import all images
 const images = import.meta.glob<{ default: ImageMetadata }>(
   "images/speakers/*.{jpeg,jpg,png,gif}"
@@ -60,7 +79,7 @@ const speakerSessions = [
     (acc: Session[], [category, sessions]: [string, Session[]]) => {
       const matchingSessions = sessions
         .filter((session) =>
-          session.speakers.some((s) => s.name === speaker.name)
+          session.speakers.some((s) => s.name === speaker.name[currentLocale])
         )
         .map((session) => ({
           ...session,
@@ -76,7 +95,7 @@ const speakerSessions = [
     .filter(
       (session) =>
         session.speakers &&
-        session.speakers.some((s) => s.name === speaker.name)
+        session.speakers.some((s) => s.name === speaker.name[currentLocale])
     )
     .map((session) => ({
       title: session.title,
@@ -98,10 +117,10 @@ const socialIconMap: Record<string, string> = {
 ---
 
 <Layout
-  title={`${speaker.name} – GOSIM Hangzhou 2025`}
-  description={speaker.roleOrg}
+  title={`${speaker.name[currentLocale]} – GOSIM Hangzhou 2025`}
+  description={speaker.roleOrg[currentLocale]}
   navBackground="light"
-  pageTransitionName={speaker.name}
+  pageTransitionName={speaker.name[currentLocale]}
 >
   <section
     class="section speaker-detail-header"
@@ -122,7 +141,7 @@ const socialIconMap: Record<string, string> = {
                     <Picture
                       src={images[`/public/images/speakers/${speaker.image}`]()}
                       formats={["webp", "jpg"]}
-                      alt={speaker.name}
+                      alt={speaker.name[currentLocale]}
                       class="speaker-detail-image"
                       widths={[275, 400, 500, 600, 750, 900]}
                       sizes="(max-width: 700px) 58vw, 450px"
@@ -135,8 +154,8 @@ const socialIconMap: Record<string, string> = {
                 )
             }
             <div class="speaker-row-meta">
-              <h1 class="h2">{speaker.name}</h1>
-              <p>{speaker.roleOrg}</p>
+              <h1 class="h2">{speaker.name[currentLocale]}</h1>
+              <p>{speaker.roleOrg[currentLocale]}</p>
             </div>
           </div>
 
@@ -175,7 +194,7 @@ const socialIconMap: Record<string, string> = {
           </div>
 
           <div class="box-row box-row-text styled-content">
-            <p set:html={speaker.bio.replace(/\n/g, "<br>")} />
+            <p set:html={speaker.bio[currentLocale].replace(/\n/g, "<br>")} />
           </div>
         </div>
       </div>
@@ -193,7 +212,7 @@ const socialIconMap: Record<string, string> = {
       >
         <div class="container">
           <div class="row row-list accordion visible">
-            <h2 class="h3">Sessions</h2>
+            <h2 class="h3">{t('speakers.sessions')}</h2>
             <div class="list-group speaker-sessions">
               <ul class="row row-list">
                 {speakerSessions.map((session) => (

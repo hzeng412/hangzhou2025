@@ -1,38 +1,44 @@
 {
   "days": [
     {
-      "date": "September 13",
-      "title": "September 13",
+      "date": "Sept 13",
+      "title": "Saturday Sept 13",
       "url": "/schedule/"
     },
     {
-      "date": "September 14",
-      "title": "September 14",
+      "date": "Sept 14",
+      "title": "Sunday Sept 14",
       "url": "/schedule-day-2/"
     }
   ],
   "categories": [
     {
-      "name": "AI Model",
-      "id": "ai-model"
-    },
-    {
-      "name": "AI Infra",
-      "id": "ai-infra"
-    },
-    {
-      "name": "AI Apps",
-      "id": "ai-apps"
+      "name": "AI Models x Infra",
+      "room": "Master Stage",
+      "id": "ai-models-infra"
     },
     {
       "name": "Embodied AI",
+      "room": "Junior Stage",
       "id": "embodied-ai"
     },
     {
-      "name": "GOSIM Spotlight",
-      "id": "spotlight"
+      "name": "Agentic Web",
+      "room": "Open Platform",
+      "id": "agentic-web"
+    },
+    {
+      "name": "Apps x Agents",
+      "room": "Open Stage",
+      "id": "apps-agents"
+    },
+    {
+      "name": "AI Next",
+      "room": "Founders Café (Updated)",
+      "id": "ai-next"
     }
   ],
   "sessions": {
+
   }
 }

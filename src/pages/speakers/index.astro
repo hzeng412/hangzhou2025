@@ -4,29 +4,39 @@ import Layout from "layouts/LayoutLanding.astro";
 import GetTickets from "components/GetTickets.astro";
 import HeroText from "components/HeroText.astro";
 import AllSpeakers from "components/Speakers.astro";
+
+// i18n utilities
+import { getCurrentLocale, createTranslationFunction, loadTranslations } from "../../i18n/utils";
+
+// Load translations
+await loadTranslations();
+
+// Get current locale and create translation function
+const currentLocale = getCurrentLocale(Astro);
+const t = createTranslationFunction(currentLocale);
 ---
 
 <Layout
-  title="Speakers – GOSIM Hangzhou 2025"
-  description="GOSIM Hangzhou 2025 is a gathering of open-source AI projects, developers, researchers, and industry sponsors to share knowledge, learn from each other, and collaborate."
+  title={t('speakers.page_title')}
+  description={t('speakers.page_description')}
   navBackground="light"
   pageTransitionName="Speakers"
 >
   <HeroText
-    title="This Year's Speakers"
-    text="From foundational models to cutting-edge research, our speakers will cover a wide range of topics to help you stay at the forefront of AI innovation."
+    title={t('speakers.hero_title')}
+    text={t('speakers.hero_text')}
     lightgray
   />
 
   <AllSpeakers />
 
   <GetTickets
-    title="Grab your GOSIM Hangzhou ticket"
-    location="Hangzhou, China"
-    date="September 13-14, 2025"
-    text="Secure your spot today at GOSIM Hangzhou 2025. Collaborate with innovators, engage with industry pioneers, and be part of shaping the future of open-source technology."
+    title={t('homepage.get_tickets.title')}
+    location={t('homepage.hero.location')}
+    date={t('homepage.hero.date')}
+    text={t('homepage.get_tickets.description')}
     ctaButton={{
-      text: "Get tickets",
+      text: t('navigation.get_tickets'),
       link: "/tickets",
       openInNewTab: false,
     }}

@@ -1,5 +1,14 @@
 ---
+// i18n utilities
+import { getCurrentLocale, createTranslationFunction, loadTranslations } from "../i18n/utils";
 import projects from "json/Marquee.json";
+
+// Load translations
+await loadTranslations();
+
+// Get current locale and translation function
+const currentLocale = getCurrentLocale(Astro);
+const t = createTranslationFunction(currentLocale);
 ---
 
 <section
@@ -10,7 +19,7 @@ import projects from "json/Marquee.json";
     <div class="container wide">
         <div class="row">
             <div class="col col-title">
-                <h2>Featuring Projects</h2>
+                <h2>{t('marquee.featuring_projects')}</h2>
             </div>
         </div>
     </div>
@@ -33,17 +42,17 @@ import projects from "json/Marquee.json";
                                 <div class="project-details">
                                     <h3>{project.name}</h3>
                                     <div class="project-stats">
-                                        <span class="stars">★ {project.stars}k <span>stars</span></span>
+                                        <span class="stars">★ {project.stars}k <span>{t('marquee.stars')}</span></span>
                                         <span class="age"> 
                                             <img
                                                 src="/icons/month.svg"
-                                                alt="Age in months"
+                                                alt={t('marquee.age_in_months')}
                                                 loading="lazy"
                                                 width="14"
                                                 height="14"
                                             /> {' '}
                                             {project.age} {' '}
-                                            <span>months</span>
+                                            <span>{t('marquee.months')}</span>
                                         </span>
                                     </div>
                                 </div>
@@ -69,17 +78,17 @@ import projects from "json/Marquee.json";
                                 <div class="project-details">
                                     <h3>{project.name}</h3>
                                     <div class="project-stats">
-                                        <span class="stars">★ {project.stars} <span style="font-size: 0.75rem;">stars</span></span>
+                                        <span class="stars">★ {project.stars} <span style="font-size: 0.75rem;">{t('marquee.stars')}</span></span>
                                         <span class="age"> 
                                             <img
                                                 src="/icons/month.svg"
-                                                alt="Age in months"
+                                                alt={t('marquee.age_in_months')}
                                                 loading="lazy"
                                                 width="14"
                                                 height="14"
                                             /> {' '}
                                             {project.age} {' '}
-                                            <span style="font-size: 0.75rem;">months</span>
+                                            <span style="font-size: 0.75rem;">{t('marquee.months')}</span>
                                         </span>
                                     </div>
                                 </div>

@@ -1,0 +1,197 @@
+{
+  "navigation": {
+    "home": "Home",
+    "speakers": "Speakers",
+    "schedule": "Schedule",
+    "tickets": "Tickets",
+    "sponsors": "Sponsors",
+    "supporters": "Supporters",
+    "venue": "Venue",
+    "faq": "FAQ",
+    "workshops": "Workshops",
+    "conference_venue": "Conference Venue",
+    "forum_venue": "Forum Venue",
+    "co_located_events": "Co-located Events",
+    "more": "More",
+    "our_volunteers": "Our Volunteers",
+    "get_tickets": "Get Tickets",
+    "filter": "Filter",
+    "go_to_homepage": "Go to Homepage",
+    "language_switcher_label": "Switch language"
+  },
+  "homepage": {
+    "hero": {
+      "title": "GOSIM Hangzhou 2025",
+      "subtitle": "China's premier open-source conference",
+      "date": "September 13-14, 2025",
+      "location": "Hangzhou, China",
+      "call_for_proposals": "Call for Proposals - 8/18 Due"
+    },
+    "intro": {
+      "title": "Join us at GOSIM Hangzhou 2025, China's premier open-source conference, where innovation, collaboration, and technological breakthroughs converge."
+    },
+    "statistics": {
+      "attendees": "Attendees",
+      "speakers": "Speakers",
+      "days": "Exhilarating days"
+    },
+    "tracks": {
+      "title": "5 Cutting-Edge Tracks",
+      "ai_models": "AI Models × Infra",
+      "ai_models_desc": "Foundation models, edge inference, generative AI, tools for AI training and beyond.",
+      "embodied_ai": "Embodied AI",
+      "embodied_ai_desc": "Apply AI in the real world, from humanoid robotics to autonomous systems.",
+      "agentic_web": "Agentic Web",
+      "agentic_web_desc": "Decentralized applications, identity, privacy-enhanced technologies, and collaborative platforms.",
+      "apps_agents": "Apps × Agents",
+      "apps_agents_desc": "Cross-platform and AI-assisted app dev, Rust GUI apps, WebAssembly, and super-app ecosystems.",
+      "ai_next": "AI Next",
+      "ai_next_desc": "AI Enabled Use Cases, AI Devices, Human AI Interfaces, AI Platforms, and AI Governnances",
+      "schedule_coming_soon": "Schedule Coming Soon"
+    },
+    "venue": {
+      "subtitle": "Venue",
+      "title": "Hangzhou Platinum Hanjue Hotel\n杭州白金汉爵酒店",
+      "location": "Hangzhou, China - Where Innovation Meets History",
+      "description": "Experience GOSIM Hangzhou 2025 in a city renowned for its historical legacy and vibrant technological future. Hangzhou, a historical gem and modern tech hub, offers the perfect backdrop for inspiration, networking, and breakthrough innovations."
+    },
+    "proposals": {
+      "title": "Call for Proposals - 8/18 Due",
+      "description": "We're looking for bold ideas and fresh voices to shape the future. If you have insights on cutting-edge technology, emerging trends, or transformative practices, we want to hear from you. Submit a proposal to speak and join a lineup of innovators, thought leaders, and changemakers pushing the boundaries of what's next.",
+      "apply_now": "Apply now"
+    },
+    "timeline": {
+      "proposal_open": "Proposal applications open",
+      "proposal_close": "Proposal applications close",
+      "event_start": "GOSIM Hangzhou kicks off!",
+      "event_end": "GOSIM Hangzhou concludes"
+    },
+    "co_located_events": {
+      "title": "Co-located Events",
+      "description": "We are excited to host these co-located events at GOSIM Hangzhou 2025.",
+      "rust_global": "RustGlobal & RustChinaConf",
+      "rust_global_desc": "RustGlobal is the first Rust Foundation-hosted gathering dedicated to the use of Rust in global leadership settings.",
+      "ai_vision": "AI Vision Forum",
+      "ai_vision_desc": "An exclusive forum for global thinkers and practitioners to explore a symbiotic future for AI and humanity, ensuring technological progress is guided by core human values.",
+      "open_sdg": "Open for SDG Conference",
+      "open_sdg_desc": "A global conference uniting experts in open source, AI, and policy to accelerate the UN Sustainable Development Goals (SDGs) through open collaboration and technology.",
+      "super_agent": "Super Agent Campathon",
+      "super_agent_desc": "A developer 'Campathon' that combines a training camp with a hackathon, challenging participants to build personalized and emotionally intelligent 'Super Agents' for next-generation interaction.",
+      "code_alert": "Code Alert Hackathon",
+      "code_alert_desc": "An AI hackathon based on the classic game \"Red Alert.\" Competitors will use natural language to command an AI agent through online challenges and live final battles."
+    },
+    "sponsorship": {
+      "title": "Sponsorship Opportunities",
+      "description": "Reach thousands of people in your target audience by becoming a supporting organization at GOSIM Hangzhou 2025.",
+      "disclaimer": "*Previous GOSIM conference sponsors shown for illustration purposes only.",
+      "contact_us": "Contact Us"
+    },
+    "spotlight": {
+      "title": "GOSIM AI for Human Spotlight",
+      "description": "Towards a Symbiotic Future of Ethical and Creative AI: What if AI wasn't just built to serve, but to co-create with us? AI for Human Spotlight is an international showcase for projects that explore how generative AI can foster empathy, shared creativity, and ethical coexistence.",
+      "apply_nominate": "Apply or Nominate Now"
+    },
+    "previous_events": {
+      "title": "Previous Events",
+      "paris_title": "GOSIM AI Paris",
+      "paris_desc": "Over 1000 attendees and luminaries delved into the multifaceted development of AI for our 2-day GOSIM Paris event in the city of lights.",
+      "beijing_title": "GOSIM China (Beijing)",
+      "beijing_desc": "Attracted more than 1700 attendees, GOSIM Beijing is by far the largest GOSIM event ever in the historical capital of China.",
+      "delft_title": "GOSIM Europe (Delft)",
+      "delft_desc": "GOSIM Delft was a two-day event with 3 tracks that brought together 1200 attendees from not only the Netherlands, but all around the world.",
+      "shanghai_title": "GOSIM Conference (Shanghai)",
+      "shanghai_desc": "Where everything started, GOSIM conference and workshop focused on championing and enhancing open-source contributions."
+    },
+    "get_tickets": {
+      "title": "Grab your GOSIM Hangzhou ticket",
+      "description": "Secure your spot today at GOSIM Hangzhou 2025. Collaborate with innovators, engage with industry pioneers, and be part of shaping the future of open-source technology."
+    }
+  },
+  "speakers": {
+    "title": "Featured Speakers",
+    "more_speakers": "More speakers",
+    "page_title": "Speakers – GOSIM Hangzhou 2025",
+    "page_description": "GOSIM Hangzhou 2025 is a gathering of open-source AI projects, developers, researchers, and industry sponsors to share knowledge, learn from each other, and collaborate.",
+    "hero_title": "This Year's Speakers",
+    "hero_text": "From foundational models to cutting-edge research, our speakers will cover a wide range of topics to help you stay at the forefront of AI innovation.",
+    "sessions": "Sessions"
+  },
+  "workshops": {
+    "page_title": "Workshops – GOSIM Hangzhou 2025",
+    "page_description": "GOSIM Hangzhou 2025 is a gathering of open-source AI projects, developers, researchers, and industry sponsors to share knowledge, learn from each other, and collaborate.",
+    "hero_title": "This Year's Workshops"
+  },
+  "404": {
+    "page_title": "404 – Page not found",
+    "page_description": "Page not found",
+    "heading": "Page not found",
+    "message": "The page you were looking for could not be found.",
+    "back_to_homepage": "Back to homepage"
+  },
+  "code_of_conduct": {
+    "page_title": "Code of Conduct – GOSIM Hangzhou 2025",
+    "page_description": "GOSIM Hangzhou 2025 is a gathering of open-source AI projects, developers, researchers, and industry sponsors to share knowledge, learn from each other, and collaborate."
+  },
+  "privacy": {
+    "page_title": "Privacy Policy – GOSIM Hangzhou 2025",
+    "page_description": "Privacy policy for GOSIM Hangzhou 2025."
+  },
+  "schedule": {
+    "page_title_day1": "Schedule Day 1 – GOSIM Hangzhou 2025",
+    "page_title_day2": "Schedule Day 2 – GOSIM Hangzhou 2025",
+    "page_description": "GOSIM Hangzhou 2025 is a gathering of open-source AI projects, developers, researchers, and industry sponsors to share knowledge, learn from each other, and collaborate.",
+    "hero_title_day1": "Schedule: September 13",
+    "hero_title_day2": "Schedule: September 14"
+  },
+  "venue": {
+    "page_title": "Venue – GOSIM Hangzhou 2025",
+    "page_description": "Information about the venue for GOSIM Hangzhou 2025",
+    "hero_title": "Venue"
+  },
+  "tickets": {
+    "page_title": "Tickets – GOSIM Hangzhou 2025",
+    "page_description": "Get your tickets for GOSIM Hangzhou 2025. Join us for China's premier open-source conference.",
+    "event_category": "Hangzhou",
+    "event_tagline": "2025-09-13 09:00 ~ 09-14 18:00"
+  },
+  "sponsors": {
+    "page_title": "Supporters – GOSIM Hangzhou 2025",
+    "page_description": "GOSIM Hangzhou 2025 is a gathering of open-source AI projects, developers, researchers, and industry sponsors to share knowledge, learn from each other, and collaborate.",
+    "hero_title": "Supporters",
+    "hero_text": "We're excited to bring you an incredible experience, made possible by the generous support of our Sponsors and Supporting Organizations. We've partnered with true innovators that are pushing the boundaries of our industry."
+  },
+  "faq": {
+    "page_title": "FAQ – GOSIM Hangzhou 2025",
+    "page_description": "GOSIM Hangzhou 2025 is a gathering of open-source AI projects, developers, researchers, and industry sponsors to share knowledge, learn from each other, and collaborate.",
+    "hero_title": "FAQs"
+  },
+  "footer": {
+    "code_of_conduct": "Code of Conduct",
+    "privacy": "Privacy",
+    "follow_mastodon": "Follow us on Mastodon",
+    "follow_x": "Follow us on X (twitter)",
+    "follow_linkedin": "Follow us on LinkedIn",
+    "follow_bluesky": "Follow us on BlueSky",
+    "follow_youtube": "Follow us on Youtube",
+    "gosim_foundation": "GOSIM Foundation"
+  },
+  "co_located_events": {
+    "gosim_ai_spotlight": "GOSIM AI Spotlight",
+    "gosim_forum": "GOSIM Open-Source AI Strategy Forum",
+    "pytorch_day": "PyTorch Day France",
+    "seeed_hackathon": "Seeed Embodied AI Hackathon"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "all": "All"
+  },
+  "meta": {
+    "default_title": "GOSIM Hangzhou 2025",
+    "default_description": "GOSIM Hangzhou 2025 is a gathering of open-source AI projects, developers, researchers, and industry sponsors to share knowledge, learn from each other, and collaborate.",
+    "site_name": "GOSIM Hangzhou 2025"
+  }
+}

@@ -1,0 +1,345 @@
+{
+  "categories": [
+    {
+      "name": "All",
+      "id": "all"
+    },
+    {
+      "name": "Cangjie Workshop",
+      "id": "ws-cangjie"
+    },
+    {
+      "name": "Dora Workshop",
+      "id": "ws-dora"
+    },
+    {
+      "name": "SGLang Workshop",
+      "id": "ws-sglang"
+    }
+  ],
+  "speakers": [
+    {
+      "id": "speaker-1755113545424",
+      "name": "Xuezhi Wang",
+      "bio": "Xuezhi Wang, Director of Ecosystem and Industry Development for Huawei's Cangjie Programming Language.",
+      "role": "Director of Ecosystem and Industry Development, Cangjie Programming Language",
+      "org": "Huawei",
+      "roleOrg": "Director of Ecosystem and Industry Development, Cangjie Programming Language, Huawei",
+      "image": "speaker-1755113614725.jpg",
+      "tag": "ws-cangjie",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545432",
+      "name": "Jingrun Wu",
+      "bio": "Server Application Architect at Beijing Chulian Technology Co., Ltd.",
+      "role": "Server Application Architect",
+      "org": "Beijing Chulian Technology Co., Ltd.",
+      "roleOrg": "Server Application Architect, Beijing Chulian Technology Co., Ltd.",
+      "image": "speaker-1755113614739.png",
+      "tag": "ws-cangjie",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545437",
+      "name": "Yin Zhang",
+      "bio": "Yin Zhang is an active promoter of curriculum reform for traditional university Computer Science (CS) and Software Engineering (SE) courses. He is dedicated to leveraging rich technical resources such as the Cangjie programming language, modern application development frameworks, the MVVM + IService architectural pattern, microservices reference architecture, and AI services to interconnect various CS/SE courses and design highly integrated CS/SE educational curricula. He has contributed a series of free online courses to the tech community, such as 'Cangjie Community Software Engineering,' demonstrating the potential and advantages of integrating cutting-edge technology into traditional university CS/SE courses. He has also organized a student open-source community, the 'Cangjie Interest Group,' at the School of Software, Northeastern University, which has contributed a series of open-source projects to the Cangjie community and introduced these projects into the curriculum, fostering a close integration between course content and the open-source community. In his future work, he will continue to introduce rich Huawei technologies such as continuous integration, containerization, and large language models into his courses to help students better understand modern development technologies.",
+      "role": "Associate Professor",
+      "org": "Northeastern University",
+      "roleOrg": "Associate Professor, Northeastern University",
+      "image": "speaker-1755113614747.png",
+      "tag": "ws-cangjie",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "shangming-cai-",
+      "name": "Shangming Cai",
+      "bio": "Shangming Cai received the Ph.D. degree in computer science from the Department of Computer Science and Technology, Tsinghua University, China, in 2022. He is currently an Engineer and Researcher with Alibaba Cloud Computing and an active contributor to open-source LLM projects such as SGLang, Mooncake, vLLM. His main research interests include distributed machine learning training, large language models, efficient serving systems, and big data analytics.",
+      "role": "Senior Engineer",
+      "org": "Alibaba Cloud",
+      "roleOrg": "Senior Engineer, Alibaba Cloud",
+      "image": "shangming-cai-.jpg",
+      "tag": "ws-sglang",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "https://github.com/ShangmingCai",
+        "linkedin": "",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yi-zhang",
+      "name": "Yi Zhang",
+      "bio": "Yi Zhang, a Software Engineer at Alibaba Cloud and a member of the SGLang Team, is currently focused on building high-performance LLM/VLM inference engines.",
+      "role": "R&D Engineer / Software Engineer",
+      "org": "Alibaba Cloud Computing Co., Ltd.",
+      "roleOrg": "R&D Engineer / Software Engineer, Alibaba Cloud Computing Co., Ltd.",
+      "image": "yi-zhang.png",
+      "tag": "ws-sglang",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "https://github.com/yizhang2077",
+        "linkedin": "https://www.linkedin.com/in/yizhang2077",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yikai-zhu",
+      "name": "Yikai Zhu",
+      "bio": "Current SGLang committer.",
+      "role": "Software Engineer",
+      "org": "N/A",
+      "roleOrg": "Software Engineer, N/A",
+      "image": "yikai-zhu.jpg",
+      "tag": "ws-sglang",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "https://github.com/zyksir",
+        "linkedin": "https://www.linkedin.com/in/zyksir/",
+        "website": "https://zyksir.github.io/"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545480",
+      "name": "Haoyang Zhang",
+      "bio": "Haoyang Zhang is an undergraduate student majoring in Artificial Intelligence (Future Experimental Class) at Northeastern University. He is the head of the Huawei Fan Club at Northeastern University and a HarmonyOS developer. He has won the second prize in the OpenHarmony Application Innovation Competition of the OpenAtom Open Source Contest. He led the MindSpire team to participate in the 2024 HarmonyOS Innovation Competition and the 2024 Geek Marathon, successfully launching an application on the HarmonyOS NEXT App Store within two months. He also contributed a CodeLabs project, winning the third prize in the 'Run Code Special' event.",
+      "role": "Student Cangjie Evangelist",
+      "org": "Northeastern University",
+      "roleOrg": "Student Cangjie Evangelist, Northeastern University",
+      "image": "speaker-1755113614892.png",
+      "tag": "ws-cangjie",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545483",
+      "name": "Yulong Chen",
+      "bio": "Vice Dean of CSDN Kaixin College.",
+      "role": "Vice Dean of CSDN Kaixin College",
+      "org": "Kaixin Wuhan Technology Co., Ltd.",
+      "roleOrg": "Vice Dean of CSDN Kaixin College, Kaixin Wuhan Technology Co., Ltd.",
+      "image": "speaker-1755113614898.png",
+      "tag": "ws-cangjie",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "junrong-lin",
+      "name": "Junrong Lin",
+      "bio": "SGLang committer.",
+      "role": "Member of Technical Staff",
+      "org": "Qwen Team, Alibaba Group",
+      "roleOrg": "Member of Technical Staff, Qwen Team, Alibaba Group",
+      "image": "junrong-lin.jpg",
+      "tag": "ws-sglang",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "https://github.com/ocss884",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yanboyang",
+      "name": "yanboyang",
+      "bio": "Responsible for the research and development of the Maas platform.",
+      "role": "Committer",
+      "org": "SGlang",
+      "roleOrg": "Committer, SGlang",
+      "image": "yanboyang.png",
+      "tag": "ws-sglang",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "whybeyoung",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545512",
+      "name": "Wankun Pan",
+      "bio": "Assistant Researcher.",
+      "role": "Assistant Researcher",
+      "org": "iQIYI",
+      "roleOrg": "Assistant Researcher, iQIYI",
+      "image": "speaker-1755113615024.jpg",
+      "tag": "ws-cangjie",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "-lukecwang",
+      "name": "Chao Wang (lukecwang)",
+      "bio": "https://github.com/sleepcoo",
+      "role": "SGlang Committer",
+      "org": "Meituan",
+      "roleOrg": "SGlang Committer, Meituan",
+      "image": "-lukecwang.jpg",
+      "tag": "ws-sglang",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "zhongjin",
+      "name": "Zhongjin",
+      "bio": "Student at Southeast University.",
+      "role": "Developer (Intern)",
+      "org": "Dora-rs",
+      "roleOrg": "Developer (Intern), Dora-rs",
+      "image": "zhongjin.jpg",
+      "tag": "ws-dora",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "tao-li",
+      "name": "Tao Li",
+      "bio": "I'm a software engineer at Shenkaihong. Currently, I serve as the main developer for the OpenHarmony open-source robotics system project.",
+      "role": "Software Engineer",
+      "org": "Shenzhen Kaihong Digital Industry Development Co., Ltd.",
+      "roleOrg": "Software Engineer, Shenzhen Kaihong Digital Industry Development Co., Ltd.",
+      "image": "tao-li.jpg",
+      "tag": "ws-dora",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yizhong-cao-",
+      "name": "Yizhong Cao",
+      "bio": "Qwen - Inference Team",
+      "role": "Engineer",
+      "org": "Alibaba",
+      "roleOrg": "Engineer, Alibaba",
+      "image": "yizhong-cao-.jpg",
+      "tag": "ws-sglang",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545622",
+      "name": "Dong Zhao",
+      "bio": "Technical Lead of the 360 Nano AI Search HarmonyOS Team.",
+      "role": "Technical Lead, 360 Nano AI Search HarmonyOS Team",
+      "org": "Qihoo 360",
+      "roleOrg": "Technical Lead, 360 Nano AI Search HarmonyOS Team, Qihoo 360",
+      "image": "speaker-1755113615477.jpg",
+      "tag": "ws-cangjie",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545730",
+      "name": "Tiance Wang",
+      "bio": "Technical Expert at Huawei Central Software Institute.",
+      "role": "PhD",
+      "org": "Huawei",
+      "roleOrg": "PhD, Huawei",
+      "image": "speaker-1755113616330.jpg",
+      "tag": "ws-sglang",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "https://github.com/wangtiance",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    }
+  ]
+}

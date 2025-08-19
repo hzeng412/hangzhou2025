@@ -1,0 +1,1544 @@
+{
+  "categories": [
+    {
+      "name": {
+        "en": "All",
+        "zh": "全部"
+      },
+      "id": "all"
+    },
+    {
+      "name": {
+        "en": "AI Models × Infra",
+        "zh": "AI 模型 × 基础设施"
+      },
+      "id": "ai-models-infra"
+    },
+    {
+      "name": {
+        "en": "Embodied AI",
+        "zh": "具身智能"
+      },
+      "id": "embodied-ai"
+    },
+    {
+      "name": {
+        "en": "Agentic Web",
+        "zh": "智能体网络"
+      },
+      "id": "agentic-web"
+    },
+    {
+      "name": {
+        "en": "Apps × Agents",
+        "zh": "应用 × 智能体"
+      },
+      "id": "apps-agents"
+    },
+    {
+      "name": {
+        "en": "AI Next",
+        "zh": "下一代 AI"
+      },
+      "id": "ai-next"
+    }
+  ],
+  "speakers": [
+    {
+      "id": "mehdi-snene",
+      "name": {
+        "en": "Dr. Mehdi Snene",
+        "zh": "Dr. Mehdi Snene"
+      },
+      "bio": {
+        "en": "Dr. Mehdi Snene is a Senior Advisor to the UN Secretary-General's Special Envoy for Digital and Emerging Technologies and a member of the UN Office for Digital and Emerging Technologies, where he leads global initiatives in AI capacity-building, digital public infrastructure, and emerging tech. He previously directed the €1 billion Human Brain Project, EPFL, advancing neuromorphic computing and brain simulation, and served as Chief AI Officer, HealthAI, overseeing the strategic development and deployment of AI in healthcare. A former Associate Professor, the University of Geneva, he founded and led a research lab focused on AI, neuroscience, and high-performance computing.",
+        "zh": "Dr. Mehdi Snene是联合国秘书长数字和新兴技术特使的高级顾问，也是联合国数字和新兴技术办公室的成员，负责领导人工智能能力建设、数字公共基础设施和新兴技术的全球倡议。他曾指导瑞士洛桑联邦理工学院（EPFL）耗资10亿欧元的“人类大脑计划”，推动神经形态计算和大脑模拟的发展，并曾担任HealthAI的首席人工智能官，负责监督人工智能在医疗领域的战略发展和部署。他曾是日内瓦大学的副教授，创立并领导了一个专注于人工智能、神经科学和高性能计算的研究实验室。"
+      },
+      "role": {
+        "en": "Senior Advisor to the UN Secretary-General's Special Envoy for Digital and Emerging Technologies",
+        "zh": "联合国秘书长数字和新兴技术特使高级顾问"
+      },
+      "org": {
+        "en": "UN Office for Digital and Emerging Technologies",
+        "zh": "联合国数字和新兴技术办公室"
+      },
+      "roleOrg": {
+        "en": "Senior Advisor, UN Office for Digital and Emerging Technologies",
+        "zh": "高级顾问，联合国数字和新兴技术办公室"
+      },
+      "image": "mehdi-snene.png",
+      "tag": "all",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "zhongzhi-shi",
+      "name": {
+        "en": "Zhongzhi Shi",
+        "zh": "史忠植"
+      },
+      "bio": {
+        "en": "Zhongzhi Shi is an expert in artificial intelligence and intelligent science, a researcher and doctoral supervisor at the Institute of Computing Technology, Chinese Academy of Sciences, and an academician of the International Academy for Information Study (IAIS). He will deliver a presentation titled 'Collaborative Innovation in the Intelligence Era.' He believes the awarding of the 2024 Nobel Prizes in Physics and Chemistry marks the arrival of the human intelligent era. His report will introduce the development of intelligent science, AI agents based on large models, and look ahead to future trends. Professor Shi has received six national and ministerial scientific and technological awards and was the recipient of the 2013 Wu Wenjun AI Science & Technology Achievement Award. He has published over 20 books and more than 500 academic papers, and he is a former Vice President of the Chinese Association for Artificial Intelligence (CAAI).",
+        "zh": "史忠植，人工智能和智能科学专家，中国科学院计算技术研究所研究员、博士生导师。他将发表题为《智能时代协同创新》的演讲。他指出，2024年诺贝尔物理学奖和化学奖的颁发，标志着人类智能时代的到来。他的报告将介绍智能科学的发展和基于大模型的人工智能智能体，并展望未来的发展趋势。史教授曾荣获国家和部门科技奖项6项，并于2013年获得中国人工智能学会吴文俊人工智能科学技术成就奖。他已发表著作20多本，学术论文500多篇，并曾担任中国人工智能学会副理事长。"
+      },
+      "role": {
+        "en": "Researcher, Doctoral Supervisor",
+        "zh": "研究员、博士生导师"
+      },
+      "org": {
+        "en": "Institute of Computing Technology, Chinese Academy of Sciences",
+        "zh": "中国科学院计算技术研究所"
+      },
+      "roleOrg": {
+        "en": "Academician, International Academy for Information Study (IAIS)",
+        "zh": "院士，国际信息研究科学院"
+      },
+      "image": "zhongzhi-shi.png",
+      "tag": "ai-next",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "florian-hnicke",
+      "name": {
+        "en": "Florian Hönicke",
+        "zh": "Florian Hönicke"
+      },
+      "bio": {
+        "en": "Florian has more than 10 years of experience in the Field of AI, working at Axel-Springer, Deloitte, and SoundCloud. He works as a Founding Engineer at Jina AI, rapidly prototyping AI solutions. His expert domain is Agentic Search and synthetic data generation. Florian is serving as an AI policy advisor, providing explanations and insights to members of the European Parliament to enhance their understanding of artificial intelligence.",
+        "zh": "Florian 在人工智能领域拥有超过10年的经验，曾在 Axel-Springer、德勤（Deloitte）和 SoundCloud 工作。他现在是 Jina AI 的创始工程师，快速构建人工智能解决方案的原型。他的专业领域是智能体搜索和合成数据生成。Florian 还担任人工智能政策顾问，向欧洲议会议员提供解释和见解，以增强他们对人工智能的理解。"
+      },
+      "role": {
+        "en": "Founding Engineer",
+        "zh": "创始工程师"
+      },
+      "org": {
+        "en": "Jina AI",
+        "zh": "Jina AI"
+      },
+      "roleOrg": {
+        "en": "Founding Engineer, Jina AI",
+        "zh": "创始工程师, Jina AI"
+      },
+      "image": "florian-hnicke.png",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/florianhoenicke",
+        "github": "https://github.com/florian-hoenicke",
+        "linkedin": "[https://www.linkedin.com/in/florian-hönicke-b902b6aa/](https://www.linkedin.com/in/florian-h%C3%B6nicke-b902b6aa/)",
+        "website": "https://jina.ai/"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "wilson-wang",
+      "name": {
+        "en": "Wilson Wang",
+        "zh": "Wilson Wang"
+      },
+      "bio": {
+        "en": "Software Engineer at ByteDance’s Global Edge Team, specializing in Virtual Machines and WebAssembly. I have a strong interest in operating systems, distributed systems, cloud-native technologies, edge computing, and serverless architecture.",
+        "zh": "字节跳动全球边缘团队的软件工程师，专注于虚拟机和 WebAssembly。我对操作系统、分布式系统、云原生技术、边缘计算和无服务器架构有浓厚兴趣。"
+      },
+      "role": {
+        "en": "SW Engineer",
+        "zh": "软件工程师"
+      },
+      "org": {
+        "en": "ByteDance Inc.",
+        "zh": "字节跳动公司"
+      },
+      "roleOrg": {
+        "en": "SW Engineer, ByteDance Inc.",
+        "zh": "软件工程师, 字节跳动公司"
+      },
+      "image": "wilson-wang.jpeg",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "https://github.com/wilsonwang371",
+        "linkedin": "https://www.linkedin.com/in/wilson-wang/",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "aurlienmorgan-claudon",
+      "name": {
+        "en": "Aurélien-Morgan CLAUDON",
+        "zh": "Aurélien-Morgan CLAUDON"
+      },
+      "bio": {
+        "en": "French ML Engineer with 20+ years of hands-on experience in automation and data-driven delivery. Former Capgemini consultant, with big corp, startup, and freelance experience. An ESSEC Executive MBA graduate, he has been active in the ML space since 2017, with a sharp focus on MLOps for the past 5+ years. His work blends engineering pragmatism with deep product thinking.\r\nHe is the creator of retrain-pipelines (Apache 2), an open-source framework designed from first principles to address the MLOps field’s chronic lack of user-centricity. His mission: to empower ML Engineers with practical, scalable tools for continuous learning workflows.",
+        "zh": "法国机器学习工程师，在自动化和数据驱动交付方面拥有20多年的实践经验。曾任 Capgemini 顾问，拥有大型企业、初创公司和自由职业经验。作为 ESSEC 行政工商管理硕士毕业生，自2017年以来一直活跃于机器学习领域，过去5年多来一直专注于 MLOps。他的工作融合了工程实用主义和深刻的产品思维。\r\n他是 retrain-pipelines (Apache 2) 的创建者，这是一个从第一性原理设计的开源框架，旨在解决 MLOps 领域长期以来缺乏以用户为中心的问题。他的使命是：为机器学习工程师提供实用、可扩展的工具，以支持持续学习的工作流程。"
+      },
+      "role": {
+        "en": "Senior MLOps Lead",
+        "zh": "高级MLOps主管"
+      },
+      "org": {
+        "en": "Unaffiliated",
+        "zh": "无隶属机构"
+      },
+      "roleOrg": {
+        "en": "Senior MLOps Lead, Unaffiliated",
+        "zh": "高级MLOps主管, 无隶属机构"
+      },
+      "image": "aurlienmorgan-claudon.png",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/AurelienMorgan_",
+        "github": "https://github.com/aurelienmorgan/retrain-pipelines",
+        "linkedin": "https://www.linkedin.com/in/aurelienmorganclaudon/",
+        "website": "https://huggingface.co/blog/Aurelien-Morgan/the-almighty-function-caller"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "ruoyu-ying",
+      "name": {
+        "en": "Ruoyu Ying",
+        "zh": "Ruoyu Ying"
+      },
+      "bio": {
+        "en": "Ruoyu Ying is a cloud software engineer from department of STG, Intel. She used to worked on ONAP , networking, service mesh, confidential computing in different communities. GenAI Enablement on Cloud-Native Infrastructure is now one of her main focus. She also participated in the composition of the white paper and book on edge computing. And later she successfully delivered several presentations in OpenInfra and KubeCon summits.",
+        "zh": "Ruoyu Ying 是英特尔（Intel）STG 部门的一名云软件工程师。她曾在不同社区从事 ONAP、网络、服务网格、机密计算方面的工作。云原生基础设施上的生成式AI赋能是她现在的主要关注点之一。她还参与了边缘计算白皮书和书籍的撰写，并随后在 OpenInfra 和 KubeCon 峰会上成功发表了多次演讲。"
+      },
+      "role": {
+        "en": "Cloud Software Engineer",
+        "zh": "云软件工程师"
+      },
+      "org": {
+        "en": "Intel",
+        "zh": "英特尔"
+      },
+      "roleOrg": {
+        "en": "Cloud Software Engineer, Intel",
+        "zh": "云软件工程师, 英特尔"
+      },
+      "image": "0-placeholder-person.jpeg",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "shiwei-liu",
+      "name": {
+        "en": "Shiwei Liu",
+        "zh": "Shiwei Liu"
+      },
+      "bio": {
+        "en": "Shiwei Liu is a Royal Society Newton International Fellow at the University of Oxford. He previously served as a Postdoctoral Fellow at the University of Texas at Austin. He obtained his Ph.D. with Cum Laude from Eindhoven University of Technology in 2022. His research goal is to leverage, understand, and expand the role of low-dimentionanlity in neural networks for scalable and efficient AI. Dr. Liu has received two Rising Star Awards from KAUST and the Conference on Parsimony and Learning (CPAL). His Ph.D. thesis received the 2023 Best Dissertation Award from Informatics Europe.",
+        "zh": "Shiwei Liu 是牛津大学的皇家学会牛顿国际研究员。他之前在德克萨斯大学奥斯汀分校担任博士后研究员。他于2022年以优异成绩（Cum Laude）获得埃因霍芬理工大学的博士学位。他的研究目标是利用、理解和扩展神经网络中低维度的作用，以实现可扩展和高效的人工智能。Liu 博士获得了 KAUST 和简约与学习会议（CPAL）颁发的两项新星奖。他的博士论文获得了欧洲信息学学会颁发的2023年最佳博士论文奖。"
+      },
+      "role": {
+        "en": "Newton International Fellow",
+        "zh": "牛顿国际研究员"
+      },
+      "org": {
+        "en": "University of Oxford",
+        "zh": "牛津大学"
+      },
+      "roleOrg": {
+        "en": "Newton International Fellow, University of Oxford",
+        "zh": "牛顿国际研究员, 牛津大学"
+      },
+      "image": "shiwei-liu.jpg",
+      "tag": "ai-next",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "https://shiweiliuiiiiiii.github.io/"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545241",
+      "name": {
+        "en": "Gaowei Chang",
+        "zh": "常高伟"
+      },
+      "bio": {
+        "en": "Gaowei Chang is the initiator of the ANP open source technology community and co-chair of the W3C AI Agent Protocol CG. AgentNetworkProtocol (ANP) is the world's first open source communication protocol for intelligent agents. ANP aims to become the HTTP of the agent internet era. ANP's vision is to define the connection methods between intelligent agents and build an open, secure, and efficient collaboration network for billions of intelligent agents.",
+        "zh": "常高伟，ANP开源技术社区发起人，W3C AI Agent protocol CG联合主席，AgentNetworkProtocol(ANP)是全球最早发布的开源智能体通信协议，ANP的目标是成为智能体互联网时代的HTTP，ANP的愿景是定义智能体之间的连接方式，为数十亿智能体构建一个开放、安全、高效的协作网络。"
+      },
+      "role": {
+        "en": "Founder",
+        "zh": "发起人"
+      },
+      "org": {
+        "en": "ANP Open Source Technology Community",
+        "zh": "ANP开源技术社区"
+      },
+      "roleOrg": {
+        "en": "Founder, ANP Open Source Technology Community",
+        "zh": "发起人, ANP开源技术社区"
+      },
+      "image": "speaker-1755113613828.jpg",
+      "tag": "agentic-web",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545247",
+      "name": {
+        "en": "Yunfei Zhang",
+        "zh": "张云飞"
+      },
+      "bio": {
+        "en": "Deputy Dean of the Smart City Research Institute of China Telecom, Chief Expert of China Telecom, Professor-level Senior Engineer, specially-appointed expert of the National Talent Program, young and middle-aged leading talent of the Ministry of Transport, and leading talent in international highway and transportation technology. He is the Vice Chairman of the 5G Industry Alliance and Vice Chairman of the Internet of Things Committee of the China Communications Standards Association. He was formerly the Director of Tencent's Future Network Laboratory and the Chief Scientist of Tencent's Smart Transportation. He proposed the Pan-V2X technology system and practice, which has had a wide impact in the industry. He founded and chaired the P2P Streaming Protocol (PPSP) working group at the IETF and has published more than 10 international standards in the IETF, ITU-T, etc. He has received more than 20 provincial and ministerial-level awards, including the China's Outstanding Youth Engineer Award, the National Patent Silver Award, the National Standard Award, the first prize for Technological Invention in Shanghai, the first prize for Science and Technology Progress in Shanghai, the first prize for Science and Technology Progress in Shenzhen, the Golden Bridge Award (Individual), the China's Connected Vehicle Outstanding Figure Award, and dual championships in Smart Transportation and Vehicle-Road-Coordination at IEEE ITSC.",
+        "zh": "中国电信智慧城市研究院副院长，中国电信首席专家，教授级高级工程师，国家级人才计划特聘专家，交通运输部中青年领军人才、国际公路交通科技领军人才，5G产业方阵副理事长，中国通信标准化协会物联网委员会副主席，曾任腾讯未来网络实验室主任，腾讯智慧交通首席科学家。提出泛V2X技术体系和实践，在业界形成广泛影响。在IETF 创立P2P流媒体协议（PPSP）工作组并担任主席，在IETF、ITU-T等发布10多个国际标准。获得中华杰出工程师青年奖、国家专利银奖、国家标准奖、上海市技术发明一等奖、上海市科技进步奖一等奖、深圳市科技进步一等奖、金桥奖个人奖、中国车联网杰出人物奖、IEEE ITSC智慧交通和车路协同双冠军等省部级以上奖励20多项。"
+      },
+      "role": {
+        "en": "Deputy Dean of the Smart City Research Institute, Chief Expert of China Telecom",
+        "zh": "中国电信智慧城市研究院副院长，中国电信首席专家"
+      },
+      "org": {
+        "en": "China Telecom Digital Intelligence Technology Co., Ltd.",
+        "zh": "中电信数智科技有限公司"
+      },
+      "roleOrg": {
+        "en": "Deputy Dean of the Smart City Research Institute, Chief Expert of China Telecom, China Telecom Digital Intelligence Technology Co., Ltd.",
+        "zh": "中国电信智慧城市研究院副院长，中国电信首席专家, 中电信数智科技有限公司"
+      },
+      "image": "speaker-1755113613842.jpeg",
+      "tag": "agentic-web",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "zhiyu-li",
+      "name": {
+        "en": "Zhiyu Li",
+        "zh": "Zhiyu Li"
+      },
+      "bio": {
+        "en": "Zhiyu Li, Ph.D., is the Co-founder and CTO of MemTensor (Shanghai) Technology Co., Ltd., Researcher at IAAR, and Industry Young Scientist at the SAI, Shanghai Jiao Tong University. His research focuses on large language models (LLMs) and Generative AI, particularly in Memory-Augmented Intelligence and Infrastructure for GAI. Dr. Li previously led core AI teams at Alibaba and Xiaohongshu, driving algorithmic innovations that generated billions in commercial revenue. At MemTensor, he led the world’s first Memory Operating System for LLMs (MemOS). He has published over 40 papers in top AI venues including Patterns (Cell Press), ICLR, ACL, and AAAI, with over 1,000 citations and 10+ patents. His work has been featured as a cover story in MIT Technology Review.",
+        "zh": "Zhiyu Li 博士，是忆数科技（上海）有限公司的联合创始人兼首席技术官，IAAR 研究员，上海交通大学 SAI 行业青年科学家。他的研究方向为大语言模型（LLMs）和生成式人工智能（Generative AI），特别是记忆增强智能和 GAI 基础设施。Li 博士曾领导阿里巴巴和小红书的核心人工智能团队，推动算法创新，创造了数十亿的商业收入。在忆数科技，他领导开发了全球首个为大语言模型设计的内存操作系统（MemOS）。他在顶级人工智能会议和期刊上发表了40多篇论文，包括 Patterns (Cell Press)、ICLR、ACL 和 AAAI，被引用超过1000次，并拥有10多项专利。他的工作曾作为封面故事被《麻省理工科技评论》报道。"
+      },
+      "role": {
+        "en": "CTO",
+        "zh": "首席技术官"
+      },
+      "org": {
+        "en": "MemTensor (Shanghai) Technology Co., Ltd.",
+        "zh": "忆数科技（上海）有限公司"
+      },
+      "roleOrg": {
+        "en": "CTO, MemTensor (Shanghai) Technology Co., Ltd.",
+        "zh": "首席技术官, 忆数科技（上海）有限公司"
+      },
+      "image": "zhiyu-li.jpg",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "xavier-tao",
+      "name": {
+        "en": "Xavier Tao",
+        "zh": "Xavier Tao"
+      },
+      "bio": {
+        "en": "Founder of [1ms.ai](http://1ms.ai/), which is a startup that aim at building moonshot open source project in AI. \r\n\r\nOne of those project is dora-rs which is a groundbreaking middleware that is able to share data between AI models, sensors and actuators with state of the art performance.\r\n\r\nThis enables to build very complex applications across modality: text, audio, vision and action. This has enabled us to create very complex robotic demos!",
+        "zh": "[1ms.ai](http://1ms.ai/) 的创始人，这是一家致力于在人工智能领域打造宏伟开源项目的初创公司。\r\n\r\n其中一个项目是 dora-rs，这是一个开创性的中间件，能够以最先进的性能在人工智能模型、传感器和执行器之间共享数据。\r\n\r\n这使得构建跨越文本、音频、视觉和动作等多种模态的复杂应用成为可能。我们因此得以创造出非常复杂的机器人演示！"
+      },
+      "role": {
+        "en": "Founder",
+        "zh": "创始人"
+      },
+      "org": {
+        "en": "[1ms.ai](http://1ms.ai/)",
+        "zh": "[1ms.ai](http://1ms.ai/)"
+      },
+      "roleOrg": {
+        "en": "Founder, [1ms.ai](http://1ms.ai/)",
+        "zh": "创始人, [1ms.ai](http://1ms.ai/)"
+      },
+      "image": "xavier-tao.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/HaixuanT",
+        "github": "https://github.com/haixuanTao",
+        "linkedin": "https://www.linkedin.com/in/haixuan-xavier-tao-7460b1102/",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jian-shi",
+      "name": {
+        "en": "Jian Shi",
+        "zh": "Jian Shi"
+      },
+      "bio": {
+        "en": "Jian Shi is the co-founder of Kornia AI and a core maintainer of the Kornia library, a leading computer vision framework in PyTorch. With Kornia AI, he works to advance and democratize spatial artificial intelligence through open collaboration. He is a Ph.D. candidate at KAUST, focusing on generative models and stereo vision. Jian has published at major venues including ICCV, ECCV, and TPAMI. With prior research experience at NEC Labs, CUHK, and GE Power, his work spans medical imaging, LiDAR understanding, and generative 3D vision.",
+        "zh": "Jian Shi 是 Kornia AI 的联合创始人，也是 Kornia 库的核心维护者，Kornia 是 PyTorch 中一个领先的计算机视觉框架。通过 Kornia AI，他致力于通过开放协作来推进和普及空间人工智能。他是 KAUST 的博士候选人，专注于生成模型和立体视觉。Jian 曾在 ICCV、ECCV 和 TPAMI 等主要会议上发表论文。他曾在 NEC 实验室、香港中文大学和 GE Power 有过研究经验，其工作涵盖医学影像、激光雷达理解和生成式三维视觉。"
+      },
+      "role": {
+        "en": "Co-founder",
+        "zh": "联合创始人"
+      },
+      "org": {
+        "en": "Kornia AI",
+        "zh": "Kornia AI"
+      },
+      "roleOrg": {
+        "en": "Co-founder, Kornia AI",
+        "zh": "联合创始人, Kornia AI"
+      },
+      "image": "jian-shi.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "https://github.com/shijianjian",
+        "linkedin": "https://www.linkedin.com/in/jian-shi-1ba543110/",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "edgar-riba",
+      "name": {
+        "en": "Edgar Riba",
+        "zh": "Edgar Riba"
+      },
+      "bio": {
+        "en": "Dr. Edgar Riba earned his PhD in Computer Science from Universitat Autònoma de Barcelona (UAB)—where his dissertation bridged classical computer vision and deep learning for low-level tasks—and holds an MSc in Automatic Control and Robotics from UPC (Barcelona).\r\n\r\nHe recently joined Bonsai Robotics as a Staff Research Engineer, spearheading work in agentic AI and vision–language action models and tools tailored for educational and research robotics. Prior to this, Edgar built autonomy pipelines—from navigation stacks and robot drivers to edge‑ML deployment infrastructure—at startups including Farm‑ng, LightningAI, and Arraiy. His academic and research background includes over a year as a Research Scientist at IRI‑CSIC/UPC and more than two years at Arraiy, focusing on advanced vision and spatial AI.\r\n\r\nEdgar is the founder and project lead of Kornia, a differentiable computer vision library for PyTorch with over 10,000 GitHub stars and 2 million+ monthly downloads. He also presides over its non-profit organization and is admin of Kornia’s Google Summer of Code program—mentoring students and coordinating major open-source contributions.\r\n\r\nA dedicated community builder, Edgar served also on the OpenCV Foundation steering committee, mentors Google Summer of Code participants, and organizes workshops, hackathons, and conference talks. With eight peer-reviewed publications—including the foundational Kornia paper—he expertly bridges classical CV, deep learning, and real-world robotics to deliver robust, scalable autonomy solutions.\r\n",
+        "zh": "Edgar Riba 博士在巴塞罗那自治大学（UAB）获得计算机科学博士学位，他的论文将经典计算机视觉与深度学习相结合，用于解决低级任务。他还拥有巴塞罗那 UPC 的自动控制与机器人学硕士学位。\r\n\r\n他最近加入 Bonsai Robotics 担任主任研究工程师，领导专为教育和研究机器人设计的智能体 AI 和视觉-语言-动作模型及工具的开发工作。在此之前，Edgar 在 Farm-ng、LightningAI 和 Arraiy 等初创公司构建了自主系统流程，涵盖从导航堆栈、机器人驱动程序到边缘机器学习部署基础设施。他的学术和研究背景包括在 IRI-CSIC/UPC 担任一年多的研究科学家，以及在 Arraiy 两年多，专注于高级视觉和空间 AI。\r\n\r\nEdgar 是 Kornia 的创始人和项目负责人，Kornia 是一个用于 PyTorch 的可微计算机视觉库，在 GitHub 上拥有超过10,000颗星，每月下载量超过200万次。他还担任其非营利组织的主席，并是 Kornia 的 Google Summer of Code 项目的管理员，指导学生并协调重大的开源贡献。\r\n\r\n作为一名热心的社区建设者，Edgar 还曾任职于 OpenCV 基金会指导委员会，指导 Google Summer of Code 的参与者，并组织研讨会、黑客马拉松和会议演讲。他发表了八篇同行评审的出版物，包括 Kornia 的基础论文，专业地将经典计算机视觉、深度学习和现实世界机器人技术相结合，提供强大、可扩展的自主解决方案。"
+      },
+      "role": {
+        "en": "Staff Research Engineer",
+        "zh": "主任研究工程师"
+      },
+      "org": {
+        "en": "Bonsai Robotics",
+        "zh": "Bonsai Robotics"
+      },
+      "roleOrg": {
+        "en": "Staff Research Engineer, Bonsai Robotics",
+        "zh": "主任研究工程师, Bonsai Robotics"
+      },
+      "image": "edgar-riba.jpeg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/edgarriba",
+        "github": "https://github.com/edgarriba",
+        "linkedin": "https://www.linkedin.com/in/edgarriba/",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545347",
+      "name": {
+        "en": "Haiquan Chen",
+        "zh": "陈海泉"
+      },
+      "bio": {
+        "en": "Developer at Volcano Engine and core contributor to the veRL project. Focus on agentic RL and cloud infrastructure.",
+        "zh": "火山引擎的开发者，veRL 项目的核心贡献者。专注于智能体强化学习和云基础设施。"
+      },
+      "role": {
+        "en": "Developer",
+        "zh": "开发者"
+      },
+      "org": {
+        "en": "ByteDance",
+        "zh": "字节跳动"
+      },
+      "roleOrg": {
+        "en": "Developer, ByteDance",
+        "zh": "开发者, 字节跳动"
+      },
+      "image": "speaker-1755113614362.jpg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "https://github.com/chenhaiq",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "xuan-son-nguyen",
+      "name": {
+        "en": "Xuan Son Nguyen",
+        "zh": "Xuan Son Nguyen"
+      },
+      "bio": {
+        "en": "I'm software engineer at Hugging Face, core maintainer of llama.cpp",
+        "zh": "我是 Hugging Face 的软件工程师，llama.cpp 的核心维护者。"
+      },
+      "role": {
+        "en": "Software Engineer",
+        "zh": "软件工程师"
+      },
+      "org": {
+        "en": "Hugging Face",
+        "zh": "Hugging Face"
+      },
+      "roleOrg": {
+        "en": "Software Engineer, Hugging Face",
+        "zh": "软件工程师, Hugging Face"
+      },
+      "image": "xuan-son-nguyen.jpg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "@ngxson",
+        "github": "https://github.com/ngxson",
+        "linkedin": "https://linkedin.com/in/ngxson",
+        "website": "[https://ngxson.com](https://ngxson.com/)"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "ruping-cen",
+      "name": {
+        "en": "Ruping Cen",
+        "zh": "Ruping Cen"
+      },
+      "bio": {
+        "en": "Cen Ruping, Ph.D., is currently affiliated with the School of Automation at Chongqing University of Posts and Telecommunications, where his research focuses on mobile robot localization and navigation as well as multi-sensor fusion localization. Driven by his academic expertise, he created the open-source project MickRobot, which engineers a dual-arm humanoid robotics platform from the ground up, spanning mechanical design, hardware integration, perception/localization, and navigation control systems. Extending its impact beyond code, he has authored technical blogs and tutorials documenting this development journey, garnering over 1.1 million page views and demonstrating significant community reach.",
+        "zh": "Cen Ruping 博士，目前任职于重庆邮电大学自动化学院，研究方向为移动机器人定位导航及多传感器融合定位。基于其学术专长，他创建了开源项目 MickRobot，从零开始设计了一个双臂人形机器人平台，涵盖了机械设计、硬件集成、感知/定位以及导航控制系统。除了代码之外，他还撰写了记录开发过程的技术博客和教程，获得了超过110万的页面浏览量，显示出显著的社区影响力。"
+      },
+      "role": {
+        "en": "Ph. D.",
+        "zh": "博士"
+      },
+      "org": {
+        "en": "Chongqing University of Posts and Telecommunications",
+        "zh": "重庆邮电大学"
+      },
+      "roleOrg": {
+        "en": "Ph. D., Chongqing University of Posts and Telecommunications",
+        "zh": "博士, 重庆邮电大学"
+      },
+      "image": "ruping-cen.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "https://github.com/RuPingCen",
+        "linkedin": "undefined",
+        "website": "https://blog.csdn.net/crp997576280?type=blog"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545373",
+      "name": {
+        "en": "Pengwei Wang",
+        "zh": "王鹏伟"
+      },
+      "bio": {
+        "en": "Head of Embodied Intelligence Large Models at the Beijing Academy of Artificial Intelligence (BAAI). He is currently primarily responsible for the embodied brain large model RoboBrain and the cerebellum-cerebrum framework RoboOS. His research interests include embodied intelligence, multimodal large models, deep learning, natural language processing, and machine learning. He previously worked at Alibaba's DAMO Academy and Kuaishou Technology's large model middle-platform department, where he was mainly responsible for large-scale integrated voice-semantic multimodal interaction systems and multimodal pre-training projects. He has extensive industrial and academic experience in multimodal large models, text-based large models, and machine intelligence.",
+        "zh": "北京智源人工智能研究院具身智能大模型负责人、目前主要负责具身大脑大模型RoboBrain以及大小脑框架RoboOS，研究方向是具身智能、多模态大模型、深度学习、自然语言处理和机器学习等方向，曾就职于阿里巴巴达摩院以及快手科技大模型中台部门，主要负责大规模语音语义一体化等多模态交互系统以及多模态预训练项目，具有丰富的多模态大模型、文本大模型以及机器智能等产学经验。"
+      },
+      "role": {
+        "en": "Head of Embodied Intelligence Large Model",
+        "zh": "具身智能大模型负责人"
+      },
+      "org": {
+        "en": "Beijing Academy of Artificial Intelligence (BAAI)",
+        "zh": "北京智源人工智能研究院"
+      },
+      "roleOrg": {
+        "en": "Head of Embodied Intelligence Large Model, Beijing Academy of Artificial Intelligence (BAAI)",
+        "zh": "具身智能大模型负责人, 北京智源人工智能研究院"
+      },
+      "image": "speaker-1755113614481.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jingya-huang",
+      "name": {
+        "en": "Jingya Huang",
+        "zh": "Jingya Huang"
+      },
+      "bio": {
+        "en": "I’m a machine learning engineer at Hugging Face and a core developer of Optimum, the extension library of Hugging Face’s Transformers. At Hugging Face, I focus on accelerating model training and efficient deployment, as well as integrating the Hugging Face open-source ecosystem with emerging AI hardware accelerators.",
+        "zh": "我是 Hugging Face 的一名机器学习工程师，也是 Hugging Face Transformers 扩展库 Optimum 的核心开发者。在 Hugging Face，我专注于加速模型训练和高效部署，以及将 Hugging Face 开源生态系统与新兴的人工智能硬件加速器集成。"
+      },
+      "role": {
+        "en": "Machine Learning Engineer",
+        "zh": "机器学习工程师"
+      },
+      "org": {
+        "en": "Hugging Face",
+        "zh": "Hugging Face"
+      },
+      "roleOrg": {
+        "en": "Machine Learning Engineer, Hugging Face",
+        "zh": "机器学习工程师, Hugging Face"
+      },
+      "image": "jingya-huang.jpg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/Jhuaplin",
+        "github": "https://github.com/JingyaHuang",
+        "linkedin": "https://www.linkedin.com/in/jingya-huang-96158b15b/",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "kaichao-you",
+      "name": {
+        "en": "Kaichao You",
+        "zh": "Kaichao You"
+      },
+      "bio": {
+        "en": "Kaichao gets Ph.D. degree from Tsinghua University, and has been working on the vLLM project since his visit to UC Berkeley in 2024. He serves as a core maintainer in the vLLM project, working on the distributed inference architecture of vLLM, torch.compile integration of vLLM, open-source collaboration, and various aspects.",
+        "zh": "Kaichao 获清华大学博士学位，自2024年访问加州大学伯克利分校以来，一直致力于 vLLM 项目。他担任 vLLM 项目的核心维护者，负责 vLLM 的分布式推理架构、vLLM 的 torch.compile 集成、开源协作等多个方面的工作。"
+      },
+      "role": {
+        "en": "Core Maintainer",
+        "zh": "核心维护者"
+      },
+      "org": {
+        "en": "vLLM",
+        "zh": "vLLM"
+      },
+      "roleOrg": {
+        "en": "Core Maintainer, vLLM",
+        "zh": "核心维护者, vLLM"
+      },
+      "image": "kaichao-you.jpg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/KaichaoYou",
+        "github": "https://github.com/youkaichao",
+        "linkedin": "https://www.linkedin.com/in/youkaichao/",
+        "website": "https://youkaichao.github.io/"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "tao-li",
+      "name": {
+        "en": "Tao Li",
+        "zh": "tao li"
+      },
+      "bio": {
+        "en": "I'm a software engineer at Shenkaihong. Currently, I serve as the main developer for the OpenHarmony open-source robotics system project.",
+        "zh": "我是深开鸿的一名软件工程师。目前，我担任 OpenHarmony 开源机器人系统项目的主要开发者。"
+      },
+      "role": {
+        "en": "Software Engineer",
+        "zh": "软件工程师"
+      },
+      "org": {
+        "en": "Shenzhen Kaihong Digital Industry Development Co., Ltd.",
+        "zh": "深圳开鸿数字产业发展有限公司"
+      },
+      "roleOrg": {
+        "en": "Software Engineer, Shenzhen Kaihong Digital Industry Development Co., Ltd.",
+        "zh": "软件工程师, 深圳开鸿数字产业发展有限公司"
+      },
+      "image": "tao-li.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545409",
+      "name": {
+        "en": "Yunpeng Yin",
+        "zh": "尹云鹏"
+      },
+      "bio": {
+        "en": "Developer of the openloong control framework.",
+        "zh": "openloong控制框架开发者"
+      },
+      "role": {
+        "en": "Head of Motion Control Algorithms and Framework",
+        "zh": "运控算法与框架负责人"
+      },
+      "org": {
+        "en": "Humanoid Robot Shanghai Co., Ltd.",
+        "zh": "人形机器人上海有限公司"
+      },
+      "roleOrg": {
+        "en": "Head of Motion Control Algorithms and Framework, Humanoid Robot Shanghai Co., Ltd.",
+        "zh": "运控算法与框架负责人, 人形机器人上海有限公司"
+      },
+      "image": "speaker-1755113614697.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "cen-ming",
+      "name": {
+        "en": "Cen Ming",
+        "zh": "Cen Ming"
+      },
+      "bio": {
+        "en": "Cen Ming received the Ph.D. degree in optical engineering from Graduate School of the Chinese Academy of Sciences, in 2006.\r\nHe is currently a professor at the Chongqing University of Posts and Telecommunications. During his career, he worked as a software system analyst and deputy director of Automotive Electronics &Embedded System Research Center. His research interests include information fusion, multi-target tracking, autonomous driving, and intelligent robot.",
+        "zh": "Cen Ming 于2006年在中国科学院研究生院获得光学工程博士学位。\r\n他目前是重庆邮电大学的教授。在他的职业生涯中，他曾担任软件系统分析师和汽车电子与嵌入式系统研究中心副主任。他的研究兴趣包括信息融合、多目标跟踪、自动驾驶和智能机器人。"
+      },
+      "role": {
+        "en": "Professor",
+        "zh": "教授"
+      },
+      "org": {
+        "en": "Chongqing University of Posts and Telecommunications",
+        "zh": "重庆邮电大学"
+      },
+      "roleOrg": {
+        "en": "Professor, Chongqing University of Posts and Telecommunications",
+        "zh": "教授, 重庆邮电大学"
+      },
+      "image": "cen-ming.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "xuan-xia",
+      "name": {
+        "en": "Xuan Xia",
+        "zh": "xuan xia"
+      },
+      "bio": {
+        "en": "Xia Xuan, who holds a Ph.D. from Shanghai Jiao Tong University, is currently an associate researcher at the Shenzhen Institute of Artificial Intelligence and Robotics for Society. He is the principal investigator of the National Natural Science Foundation of China, a recipient of the 2024 Wu Wenjun Artificial Intelligence Science and Technology Award for Progress in Science and Technology, a high-level talent in Shenzhen, and a high-level talent in Longgang District, Shenzhen. His research mainly focuses on embodied intelligence, multimodal learning, computer vision, defect detection, and generative models. He has led projects funded by the National Natural Science Foundation of China, the Guangdong Provincial Natural Science Foundation, and the China Postdoctoral Science Foundation. He has also participated in numerous national, provincial, and municipal fund projects as well as several joint projects with enterprises. He has published a monograph and over twenty papers, and has applied for more than ten invention patents.",
+        "zh": "Xia Xuan，上海交通大学博士，现任深圳市人工智能与机器人研究院副研究员。他是国家自然科学基金项目负责人，2024年吴文俊人工智能科学技术奖科技进步奖获得者，深圳市高层次人才，深圳市龙岗区高层次人才。他的研究主要集中在具身智能、多模态学习、计算机视觉、缺陷检测和生成模型。他主持了国家自然科学基金、广东省自然科学基金和中国博士后科学基金资助的项目。他还作为骨干参与了多项国家、省、市级基金项目以及多个与企业的联合项目。他出版了一本专著和二十多篇论文，并申请了十余项发明专利。"
+      },
+      "role": {
+        "en": "Associate Researcher",
+        "zh": "副研究员"
+      },
+      "org": {
+        "en": "Shenzhen Institute of Artificial Intelligence and Robotics for Society",
+        "zh": "深圳市人工智能与机器人研究院"
+      },
+      "roleOrg": {
+        "en": "Associate Researcher, Shenzhen Institute of Artificial Intelligence and Robotics for Society",
+        "zh": "副研究员, 深圳市人工智能与机器人研究院"
+      },
+      "image": "xuan-xia.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jos-andrs-muoz-arcentales",
+      "name": {
+        "en": "José Andrés Muñoz Arcentales",
+        "zh": "José Andrés Muñoz Arcentales"
+      },
+      "bio": {
+        "en": "Associate Professor of Universidad Politécnica de Madrid ",
+        "zh": "马德里理工大学副教授"
+      },
+      "role": {
+        "en": "Associate Professor",
+        "zh": "副教授"
+      },
+      "org": {
+        "en": "Universidad Politécnica de Madrid",
+        "zh": "马德里理工大学"
+      },
+      "roleOrg": {
+        "en": "Associate Professor, Universidad Politécnica de Madrid",
+        "zh": "副教授, 马德里理工大学"
+      },
+      "image": "jos-andrs-muoz-arcentales.jpg",
+      "tag": "agentic-web",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "[www.linkedin.com/in/anmunozx](http://www.linkedin.com/in/anmunozx)",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "guang-liu",
+      "name": {
+        "en": "Guang Liu",
+        "zh": "Guang Liu"
+      },
+      "bio": {
+        "en": "Guang Liu is the Technical Lead of the Data Research Team at the Beijing Academy of Artificial Intelligence (BAAI), where he leads the OpenSeek initiative. As the principal architect of the Aquila large language model (LLM) series and the Infinity-Instruct dataset family. His current research focuses on DataAgent, leveraging innovative synthetic data generation techniques to optimize training efficiency for next-generation AI systems.",
+        "zh": "Guang Liu 是北京人工智能研究院（BAAI）数据研究团队的技术负责人，他领导着 OpenSeek 计划。作为 Aquila 大语言模型（LLM）系列和 Infinity-Instruct 数据集家族的首席架构师。他目前的研究重点是 DataAgent，利用创新的合成数据生成技术来优化下一代人工智能系统的训练效率。"
+      },
+      "role": {
+        "en": "Technical Lead of Data Research Team",
+        "zh": "数据研究团队技术负责人"
+      },
+      "org": {
+        "en": "BAAI",
+        "zh": "北京人工智能研究院"
+      },
+      "roleOrg": {
+        "en": "Technical Lead of Data Research Team, BAAI",
+        "zh": "数据研究团队技术负责人, 北京人工智能研究院"
+      },
+      "image": "guang-liu.jpeg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://x.com/ZacLiu123",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545466",
+      "name": {
+        "en": "Nanbing Liu",
+        "zh": "刘南兵"
+      },
+      "bio": {
+        "en": "Co-founder of Jiaozi Interactive Technology, author of 5ire.app, and founder of the Chinese writing community essay.ink.",
+        "zh": "饺子互动科技联合创始人，5ire.app 作者，中文写作社区 essay.ink 发起人。"
+      },
+      "role": {
+        "en": "CTO",
+        "zh": "首席技术官"
+      },
+      "org": {
+        "en": "Sichuan Jiaozi Interactive Technology Co., Ltd.",
+        "zh": "四川饺子互动科技有限公司"
+      },
+      "roleOrg": {
+        "en": "CTO, Sichuan Jiaozi Interactive Technology Co., Ltd.",
+        "zh": "首席技术官, 四川饺子互动科技有限公司"
+      },
+      "image": "speaker-1755113614852.jpg",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "https://twitter.com/1ronben",
+        "github": "https://github.com/nanbingxyz",
+        "linkedin": "https://linkedin.com/in/nanbing",
+        "website": "[https://ironben.essay.ink](https://ironben.essay.ink/)"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545478",
+      "name": {
+        "en": "Wei Wei",
+        "zh": "唯伟"
+      },
+      "bio": {
+        "en": "A graduate of the Central Academy of Fine Arts, engaged in aesthetic education and popular science.",
+        "zh": "毕业于中央美术学院，从事审美教育和科普"
+      },
+      "role": {
+        "en": "Well-known painting UP master on Bilibili",
+        "zh": "bilibili知名绘画UP主"
+      },
+      "org": {
+        "en": "YouDianYiSiO",
+        "zh": "有点艺思哦"
+      },
+      "roleOrg": {
+        "en": "Well-known painting UP master on Bilibili, YouDianYiSiO",
+        "zh": "bilibili知名绘画UP主, 有点艺思哦"
+      },
+      "image": "speaker-1755113614887.jpg",
+      "tag": "ai-next",
+      "socialLinks": {
+        "mastodon": "undefined",
+        "twitter": "undefined",
+        "github": "undefined",
+        "linkedin": "undefined",
+        "website": "undefined"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "richard-reiner",
+      "name": {
+        "en": "Richard REINER",
+        "zh": "Richard REINER"
+      },
+      "bio": {
+        "en": "I am a serial entrepreneur and company builder with multiple Fortune 1000 exits, and a leading global cybersecurity expert who has held C-level and VP roles at leading global companies. I'm active as an executive, investor, mentor, and Board member with many high-growth companies at the intersections of cybersecurity, AI, and IoT, the same spaces in which I have built and successfully exited multiple companies and hold numerous patents.\r\n\r\nI am Founding Partner at CC Stratus Capital, an innovative investment firm with a strategic focus on cybersecurity and AI.\r\n\r\nI was Executive Chair of dfuse / StreamingFast, the leading blockchain big data platform (acquired by The Graph) and Chair of Cybeats, the IoT endpoint security company (acquired by Relay Medical). I was previously Chief Technology Officer - Safe Identity in Intel's Security Group, and VP Safe Identity at McAfee. I was President of PasswordBox, the leading digital identity company, leading up to the company’s acquisition by Intel. I was Chairman & CEO of Enomaly, a global leader in cloud computing, up to Enomaly’s acquisition in 2011; and was the founder, CEO, and CTO of Assurent, a leading cybersecurity company, up to its acquisition in 2006.\r\n\r\nI serve and have served on the Boards and Advisory Boards of many leading cybersecurity, cloud, AI, and IoT companies such as Autohost, Korbit AI, Shearwater Aerospace, Immunio, Elliptic Technologies, Virima, CloudeAssurance, Veracode, NetClarity, Virima, and Fonolo.\r\n\r\nI'm often quoted by the press, in media such as the New York Times, CBS, NBC, USA Today, TechCrunch, etc., and hold a Ph.D. and numerous patents in cybersecurity, big data, and AI.",
+        "zh": "我是一名连续创业家和公司建设者，曾有多次被财富1000强公司收购的经历，也是全球领先的网络安全专家，曾在顶尖的全球性公司担任C级和副总裁职位。我以高管、投资者、导师和董事会成员的身份活跃于网络安全、人工智能和物联网交叉领域的许多高增长公司，在这些领域我已建立并成功退出了多家公司，并拥有多项专利。\r\n\r\n我是 CC Stratus Capital 的创始合伙人，这是一家专注于网络安全和人工智能的创新投资公司。\r\n\r\n我曾是领先的区块链大数据平台 dfuse / StreamingFast 的执行主席（后被 The Graph 收购），以及物联网端点安全公司 Cybeats 的主席（后被 Relay Medical 收购）。我之前曾在英特尔安全部门担任安全身份首席技术官，并在 McAfee 担任安全身份副总裁。在 PasswordBox 被英特尔收购前，我曾担任这家领先的数字身份公司的总裁。我曾是全球云计算领导者 Enomaly 的董事长兼首席执行官，直到2011年 Enomaly 被收购；并且是领先的网络安全公司 Assurent 的创始人、首席执行官和首席技术官，直到2006年其被收购。\r\n\r\n我曾在多家领先的网络安全、云计算、人工智能和物联网公司担任董事会和顾问委员会成员，例如 Autohost、Korbit AI、Shearwater Aerospace、Immunio、Elliptic Technologies、Virima、CloudeAssurance、Veracode、NetClarity、Virima 和 Fonolo。\r\n\r\n我经常被媒体引用，如《纽约时报》、CBS、NBC、《今日美国》、TechCrunch等，并拥有网络安全、大数据和人工智能领域的博士学位和多项专利。"
+      },
+      "role": {
+        "en": "Board Member and Advisor",
+        "zh": "董事会成员兼顾问"
+      },
+      "org": {
+        "en": "Procero AI",
+        "zh": "Procero AI"
+      },
+      "roleOrg": {
+        "en": "Board Member and Advisor, Procero AI",
+        "zh": "董事会成员兼顾问, Procero AI"
+      },
+      "image": "richard-reiner.jpg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/richardreiner/",
+        "website": "https://www.richardreiner.com/"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "yuxuan-zhang",
+      "name": {
+        "en": "Yuxuan Zhang",
+        "zh": "Yuxuan Zhang"
+      },
+      "bio": {
+        "en": "Zhipu AI Technology Evangelist.",
+        "zh": "智谱AI技术布道师"
+      },
+      "role": {
+        "en": "Technology Evangelist",
+        "zh": "技术布道师"
+      },
+      "org": {
+        "en": "ZhipuAI",
+        "zh": "ZhipuAI"
+      },
+      "roleOrg": {
+        "en": "Technology Evangelist, ZhipuAI",
+        "zh": "技术布道师, ZhipuAI"
+      },
+      "image": "yuxuan-zhang.jpg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "https://github.com/zRzRzRzRzRzRzR",
+        "linkedin": "https://www.linkedin.com/in/yuxuan-zhang-86a124282/",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545515",
+      "name": {
+        "en": "Quanshi Zhang",
+        "zh": "张拳石"
+      },
+      "bio": {
+        "en": "Quanshi Zhang is a tenured associate professor and doctoral supervisor in the Department of Computer Science and Engineering at the School of Electronic Information and Electrical Engineering, Shanghai Jiao Tong University. He was selected for the National Overseas High-Level Talent Introduction Program and received the ACM China Rising Star Award. He received his Ph.D. from the University of Tokyo, Japan in 2014 and conducted postdoctoral research at the University of California, Los Angeles (UCLA) from 2014 to 2018. Quanshi Zhang has made several innovative achievements with international impact in the field of neural network interpretability. He serves as an Action Editor for TMLR, an Area Chair for the CCF-A conference NeurIPS 2024, and gave tutorials on interpretability at IJCAI 2020 and IJCAI 2021. He has also served as a session chair for the interpretability tracks at AAAI 2019, CVPR 2019, and ICML 2021.",
+        "zh": "张拳石，上海交通大学电院计算机科学与工程系长聘副教授，博士生导师，入选国家级海外高层次人才引进计划，获ACM China新星奖。他于2014年获得日本东京大学博士学位，于2014-2018年在加州大学洛杉矶分校（UCLA）从事博士后研究。张拳石在神经网络可解释性方向取得了多项具有国际影响力的创新性成果。张拳石承担了TMLR的责任编辑，CCF-A类会议NeurIPS 2024的领域主席，IJCAI 2020和IJCAI 2021的可解释性方向的Tutorial，并先后担任了AAAI 2019, CVPR 2019, ICML 2021大会可解释性方向的分论坛主席。"
+      },
+      "role": {
+        "en": "Associate Professor",
+        "zh": "副教授"
+      },
+      "org": {
+        "en": "Shanghai Jiao Tong University",
+        "zh": "上海交通大学"
+      },
+      "roleOrg": {
+        "en": "Associate Professor, Shanghai Jiao Tong University",
+        "zh": "副教授, 上海交通大学"
+      },
+      "image": "speaker-1755113615032.jpg",
+      "tag": "ai-next",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545570",
+      "name": {
+        "en": "Ting Bai",
+        "zh": "白婷"
+      },
+      "bio": {
+        "en": "Ting Bai is an associate professor at the School of Computer Science, Beijing University of Posts and Telecommunications. She focuses on personalized recommendation, large model research, and applications. As the first or corresponding author, she has published over 40 high-level academic papers, including 4 best paper/best paper candidate awards. Her research results have been applied in leading internet companies such as Tencent and Xiaomi. She received the 'Excellent Doctoral Dissertation Award' from the Chinese Information Processing Society of China in 2020, the 'First Prize for Science and Technology Progress' from the Chinese Institute of Electronics in 2023, was named one of Baidu's first 'Global AI Chinese Female Young Scholars' in 2023, and was selected for the China Association for Science and Technology's Young Elite Scientist Sponsorship Program in 2024.",
+        "zh": "白婷，北京邮电大学计算机学院副教授，专注于个性化推荐、大模型研究及应用，以第一或者通讯作者发表高水平学术论文40余篇，包括4篇最佳论文/最佳论文候选奖，相关研究成果应用于腾讯、小米等头部互联网公司。获得2020年中国中文信息学会\"优秀博士学位论文奖\"，2023年中国电子学会\"科技进步一等奖\"，2023年百度首届\"全球AI 华人女性青年学者\", 2024年中国科协青年托举人才。"
+      },
+      "role": {
+        "en": "Associate Professor",
+        "zh": "副教授"
+      },
+      "org": {
+        "en": "Beijing University of Posts and Telecommunications",
+        "zh": "北京邮电大学"
+      },
+      "roleOrg": {
+        "en": "Associate Professor, Beijing University of Posts and Telecommunications",
+        "zh": "副教授, 北京邮电大学"
+      },
+      "image": "speaker-1755113615337.jpg",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "jinwei-gu",
+      "name": {
+        "en": "Jinwei Gu",
+        "zh": "Jinwei Gu"
+      },
+      "bio": {
+        "en": "Dr. Jinwei Gu is currently a Principal Research Scientist at NVIDIA and an Adjunct Associate Professor at the Chinese University of Hong Kong, working on generative AI, world models, and the general fields of computer vision, computer graphics, and machine learning. He received his Ph.D. in Computer Science from Columbia University in 2010, and B.S. and M.S. from Tsinghua University in 2002 and 2005, respectively. At NVIDIA, Dr. Gu is one of tech leads in cosmos model development – a family of multimodality world foundation models, with a focus on enabling real-world applications in robotics, autonomous driving, and generative AI. Prior to joining NVIDIA, he worked at SenseBrain as a R&D Executive Director, focusing on mobile computational photography with novel image sensors and imaging systems. He has published extensively in top-tier conferences and journals, and serves as an Associate Editor for IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) and IEEE Transactions on Computational Imaging (TCI) (2018-2023), an Area Chair for CVPR, NeurIPS, ICCV, ICCP, and ECCV, and organizing chairs for several workshops (MIPI, RichMediaGAI). He is an IEEE senior member since 2018. His research work has been successfully transferred to many products such as NVIDIA-Cosmos, NVIDIA-CoPilot SDK, NVIDIA-DriveIX SDK, as well as Super Resolution, Super Night, Portrait Restoration, RGBW solution which are widely used in many flagship mobile phones.",
+        "zh": "Jinwei Gu 博士目前是英伟达（NVIDIA）的首席研究科学家和香港中文大学的兼职副教授，从事生成式人工智能、世界模型以及计算机视觉、计算机图形学和机器学习等领域的研究。他于2010年获得哥伦比亚大学计算机科学博士学位，并分别于2002年和2005年获得清华大学的学士和硕士学位。在英伟达，Gu 博士是 cosmos 模型开发的技术负责人之一，该模型是一系列多模态世界基础模型，专注于在机器人、自动驾驶和生成式人工智能领域实现实际应用。加入英伟达之前，他曾在 SenseBrain 担任研发执行总监，专注于利用新型图像传感器和成像系统进行移动计算摄影。他在顶级会议和期刊上发表了大量论文，并担任 IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 和 IEEE Transactions on Computational Imaging (TCI) (2018-2023) 的副主编，以及 CVPR、NeurIPS、ICCV、ICCP 和 ECCV 的领域主席，并担任多个研讨会（MIPI、RichMediaGAI）的组织主席。他自2018年起成为 IEEE 高级会员。他的研究工作已成功转化为许多产品，如 NVIDIA-Cosmos、NVIDIA-CoPilot SDK、NVIDIA-DriveIX SDK，以及超分辨率、超级夜景、人像修复、RGBW 解决方案等，这些技术被广泛应用于许多旗舰手机中。"
+      },
+      "role": {
+        "en": "Principal Research Scientist and Tech Lead",
+        "zh": "首席研究科学家兼技术负责人"
+      },
+      "org": {
+        "en": "NVIDIA",
+        "zh": "英伟达"
+      },
+      "roleOrg": {
+        "en": "Principal Research Scientist and Tech Lead, NVIDIA",
+        "zh": "首席研究科学家兼技术负责人, 英伟达"
+      },
+      "image": "jinwei-gu.jpg",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": "[www.gujinwei.org](http://www.gujinwei.org/)"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "markus-tavenrath",
+      "name": {
+        "en": "Markus Tavenrath",
+        "zh": "Markus Tavenrath"
+      },
+      "bio": {
+        "en": "Markus Tavenrath studied computer science with a focus on computer graphics at RWTH Aachen University. This academic background provided a solid foundation for his career in the technology industry.\r\n\r\nIn 2008, Markus joined NVIDIA, where he began working on real-time ray tracing on GPUs. Over the years, he has contributed to performance optimization for ray tracing, scene graphs, OpenGL, WebGL, Vulkan, and AI. His work has played a role in advancing these technologies.\r\n\r\nMarkus is also a co-founder of the Vulkan-Hpp project, which has been beneficial to the Vulkan community. His efforts have helped improve the use and implementation of Vulkan.\r\n\r\nRecently, Markus was elected as the Chair of the ML Council at Khronos. In this role, he helps coordinate and support AI and machine learning initiatives within the Khronos group. His election to this position reflects his expertise and leadership qualities.\r\n\r\nMarkus Tavenrath is a dedicated professional whose contributions have positively impacted the technological landscape at NVIDIA and beyond.",
+        "zh": "Markus Tavenrath 在亚琛工业大学学习计算机科学，主攻计算机图形学。这一学术背景为他在科技行业的职业生涯奠定了坚实的基础。\r\n\r\n2008年，Markus 加入英伟达（NVIDIA），开始从事 GPU 上的实时光线追踪工作。多年来，他为光线追踪、场景图、OpenGL、WebGL、Vulkan 和人工智能的性能优化做出了贡献。他的工作在推动这些技术的发展中发挥了作用。\r\n\r\nMarkus 还是 Vulkan-Hpp 项目的联合创始人，该项目对 Vulkan 社区大有裨益。他的努力帮助改善了 Vulkan 的使用和实现。\r\n\r\n最近，Markus 当选为 Khronos 的 ML 委员会主席。在此职位上，他帮助协调和支持 Khronos 集团内的人工智能和机器学习计划。他当选此职位反映了他的专业知识和领导才能。\r\n\r\nMarkus Tavenrath 是一位敬业的专业人士，他的贡献对英伟达及其他领域的技术格局产生了积极影响。"
+      },
+      "role": {
+        "en": "Principal Engineer Developer Technology",
+        "zh": "首席工程师，开发者技术"
+      },
+      "org": {
+        "en": "NVIDIA",
+        "zh": "英伟达"
+      },
+      "roleOrg": {
+        "en": "Principal Engineer Developer Technology, NVIDIA",
+        "zh": "首席工程师，开发者技术, 英伟达"
+      },
+      "image": "markus-tavenrath.jpg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/markus-tavenrath/",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "manuel-rego",
+      "name": {
+        "en": "Manuel Rego",
+        "zh": "Manuel Rego"
+      },
+      "bio": {
+        "en": "Manuel Rego is a free software developer working on the Web Platform at Igalia. Over the past few years, he has been working on the implementation of different web platform features in Chromium/Blink and WebKit for which he is an owner and reviewer, respectively. Manuel is also a member of the CSS Working Group since 2017, Blink API owner since 2020 to 2024 and Servo Technical Steering Committee chair since 2023.\r\n",
+        "zh": "Manuel Rego 是一名在 Igalia 从事 Web 平台工作的自由软件开发者。在过去几年里，他一直致力于在 Chromium/Blink 和 WebKit 中实现不同的 Web 平台功能，并分别担任这两个项目的负责人和审查员。Manuel 自2017年起还是 CSS 工作组的成员，2020年至2024年担任 Blink API 负责人，自2023年起担任 Servo 技术指导委员会主席。"
+      },
+      "role": {
+        "en": "Software engineer",
+        "zh": "软件工程师"
+      },
+      "org": {
+        "en": "Igalia",
+        "zh": "Igalia"
+      },
+      "roleOrg": {
+        "en": "Software engineer, Igalia",
+        "zh": "软件工程师, Igalia"
+      },
+      "image": "manuel-rego.jpg",
+      "tag": "agentic-web",
+      "socialLinks": {
+        "mastodon": "https://mastodon.social/@regocas",
+        "twitter": "",
+        "github": "https://github.com/mrego/",
+        "linkedin": "https://www.linkedin.com/in/manuelrego/",
+        "website": "https://blogs.igalia.com/mrego/"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "martino-russi",
+      "name": {
+        "en": "Martino Russi",
+        "zh": "Martino Russi"
+      },
+      "bio": {
+        "en": "I'm a robotics engineer and AI researcher working at the intersection of embodied intelligence and open-source hardware. I'm passionate about making cutting-edge robotics accessible, combining mechanical design, embedded systems, and machine learning to push the boundaries of human-machine interaction.",
+        "zh": "我是一名机器人工程师和人工智能研究员，工作于具身智能和开源硬件的交叉领域。我热衷于让尖端机器人技术变得触手可及，结合机械设计、嵌入式系统和机器学习，以推动人机交互的边界。"
+      },
+      "role": {
+        "en": "Embodied AI Engineer",
+        "zh": "具身智能工程师"
+      },
+      "org": {
+        "en": "Hugging Face",
+        "zh": "Hugging Face"
+      },
+      "roleOrg": {
+        "en": "Embodied AI Engineer, Hugging Face",
+        "zh": "具身智能工程师, Hugging Face"
+      },
+      "image": "martino-russi.png",
+      "tag": "embodied-ai",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "https://x.com/NepYope",
+        "github": "https://github.com/nepyope",
+        "linkedin": "https://www.linkedin.com/in/martino-russi-a822081bb/",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "karol-stryja",
+      "name": {
+        "en": "Karol Stryja",
+        "zh": "Karol Stryja"
+      },
+      "bio": {
+        "en": "Known as the \"godfather of Polish podcasting,\" Karol Stryja has always been ahead of the technology wave. His global contributions to promoting voice interfaces and Smart Speakers earned him the \"Leader in Voice\" award from [voicebot.ai](http://voicebot.ai/). Today, he is an influential AI Ecosystem Architect and a frequent conference speaker on the future of artificial intelligence. Through his top-rated podcast, \"99 Faces of AI,\" he demystifies AI by interviewing leading experts and translates complex technology into concrete strategies and actions for brands like Lenovo, Samsung, Meta, IBM. More info: [www.99twarzyAI.pl](http://www.99twarzyai.pl/)",
+        "zh": "Karol Stryja 被誉为“波兰播客教父”，始终走在技术浪潮的前沿。他在全球推广语音界面和智能音箱方面的贡献为他赢得了 [voicebot.ai](http://voicebot.ai/) 颁发的“语音领袖”奖。如今，他是一位有影响力的 AI 生态系统架构师，并经常在各种会议上就人工智能的未来发表演讲。通过他的顶级播客“99 Faces of AI”，他采访顶尖专家，揭开人工智能的神秘面纱，并将复杂的技术转化为联想、三星、Meta、IBM等品牌的具体战略和行动。更多信息请访问：[www.99twarzyAI.pl](http://www.99twarzyai.pl/)"
+      },
+      "role": {
+        "en": "Founder",
+        "zh": "创始人"
+      },
+      "org": {
+        "en": "99 Faces of AI Podcast / Bielik.AI",
+        "zh": "99 Faces of AI 播客 / Bielik.AI"
+      },
+      "roleOrg": {
+        "en": "Founder, 99 Faces of AI Podcast / Bielik.AI",
+        "zh": "创始人, 99 Faces of AI 播客 / Bielik.AI"
+      },
+      "image": "karol-stryja.png",
+      "tag": "ai-next",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": "[www.99twarzyAI.pl](http://www.99twarzyai.pl/)"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "krzysztof-ociepa",
+      "name": {
+        "en": "Krzysztof Ociepa",
+        "zh": "Krzysztof Ociepa"
+      },
+      "bio": {
+        "en": "Co-founder and chief architect at Azurro S.C., where he designs and builds solutions in Machine Learning and Big Data. He conducts R&D projects focused on creating solutions based on LLMs and develops and trains language models based on his proprietary ALLaMo framework. He is a co-creator of the Polish large language model Bielik.",
+        "zh": "Azurro S.C. 的联合创始人兼首席架构师，负责设计和构建机器学习和大数据解决方案。他开展专注于基于 LLM 创建解决方案的研发项目，并基于其专有的 ALLaMo 框架开发和训练语言模型。他是波兰大型语言模型 Bielik 的联合创建者之一。"
+      },
+      "role": {
+        "en": "Core Team Member",
+        "zh": "核心团队成员"
+      },
+      "org": {
+        "en": "[Bielik.AI](http://bielik.ai/)",
+        "zh": "[Bielik.AI](http://bielik.ai/)"
+      },
+      "roleOrg": {
+        "en": "Core Team Member, Bielik.AI",
+        "zh": "核心团队成员, Bielik.AI"
+      },
+      "image": "krzysztof-ociepa.jpeg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/krzysztof-ociepa/",
+        "website": "https://azurro.pl/"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "huixin-xuejixun-yao",
+      "name": {
+        "en": "Huixin Xue/Jixun Yao",
+        "zh": "Huixin Xue/Jixun Yao"
+      },
+      "bio": {
+        "en": "Huixin Xue is a Chinese composer, music producer and Music AI researcher. She is a Ph.D. candidate in Music AI at Shanghai Conservatory of Music under the supervision of Professor Liu Hao, a visiting scholar at the Hamburg University of Music and Theatre, and a member of SHCM's Key Laboratory of Artificial Intelligence Music Therapy. She graduated from the Music Engineering Department of Shanghai Conservatory of Music both for her bachelor's and master's degrees both as the top of her major. Xue’s pieces won numerous awards, including The top Prize of the 2024 OPUS ARTIS Paris International Composition Competition, the Honorable Mention of the 2024 Sound Chain International Electronic Music Composition Competition (the only Chinese winner among the 6 winners worldwide), the second place of the 2024 Hangzhou International Electronic Music Composition Competition. As a Music AI researcher, she strives to explore the possibility of AI technology enabling music creation, including AI music generation model training and evaluation and AI timbre synthesis. \r\n\r\nJixun Yao is a Ph.D. candidate in Computer Science at Northwestern Polytechnical University, under the supervision of Professor Lei Xie. His research centers on speech generation and privacy, with a focus on expressive and zero-shot speech synthesis and music generation. His academic work has been recognized at major conferences including ICLR, AAAI, ACL, and ICASSP, and he has achieved top rankings in the VoicePrivacy 2022 and 2024 challenges. His work aims to bridge academic innovation with real-world impact across multilingual and emotionally rich speech applications.",
+        "zh": "Huixin Xue 是中国作曲家、音乐制作人和音乐AI研究者。她是上海音乐学院音乐AI方向的博士研究生，师从刘灏教授；汉堡音乐与戏剧大学访问学者；上海音乐学院“人工智能音乐治疗”重点实验室成员。她本科和硕士均以专业第一的成绩毕业于上海音乐学院音乐工程系。Xue 的作品曾获多项大奖，包括2024年巴黎 OPUS ARTIS 国际作曲比赛最高奖、2024年 Sound Chain 国际电子音乐作曲比赛荣誉奖（全球6位获奖者中唯一的中国获奖者）、2024年杭州国际电子音乐作曲比赛第二名。作为一名音乐AI研究者，她致力于探索AI技术赋能音乐创作的可能性，包括AI音乐生成模型训练与评估以及AI音色合成。\r\n\r\nJixun Yao 是西北工业大学计算机科学专业的博士研究生，师从谢磊教授。他的研究方向为语音生成与隐私，专注于富有表现力的零样本语音合成和音乐生成。他的学术成果在 ICLR、AAAI、ACL 和 ICASSP 等主要会议上得到认可，并在 VoicePrivacy 2022 和 2024 挑战赛中名列前茅。他的工作旨在将学术创新与跨多语言和情感丰富的语音应用的实际影响联系起来。"
+      },
+      "role": {
+        "en": "Ph.D. Candidate at Shanghai Conservatory of Music/Ph.D. Candidate at Northwestern Polytechnical University",
+        "zh": "上海音乐学院博士研究生/西北工业大学博士研究生"
+      },
+      "org": {
+        "en": "Shanghai Conservatory of Music/Northwestern Polytechnical University",
+        "zh": "上海音乐学院/西北工业大学"
+      },
+      "roleOrg": {
+        "en": "Ph.D. Candidate at Shanghai Conservatory of Music/Ph.D. Candidate at Northwestern Polytechnical University, Shanghai Conservatory of Music/Northwestern Polytechnical University",
+        "zh": "上海音乐学院博士研究生/西北工业大学博士研究生, 上海音乐学院/西北工业大学"
+      },
+      "image": "huixin-xuejixun-yao.png",
+      "tag": "ai-next",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "https://github.com/ASLP-lab/SongEval",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545737",
+      "name": {
+        "en": "Dejiang Zhu",
+        "zh": "朱德江"
+      },
+      "bio": {
+        "en": "Dejiang Zhu is a technical expert in the network team at Ant Group. With over ten years of deep experience in the networking field, he also has some research experience in language compilers. He is an Envoy Golang maintainer and a member of Mooncake.",
+        "zh": "朱德江，蚂蚁集团网络团队技术专家，十多年深耕网络领域，对语言编译器也有一些研究，Envoy Golang maintainer，也是 Mooncake 的一员。"
+      },
+      "role": {
+        "en": "Mooncake Core Member / Envoy Golang maintainer",
+        "zh": "Mooncake 核心成员 / Envoy Golang 维护者"
+      },
+      "org": {
+        "en": "Ant Group",
+        "zh": "蚂蚁集团"
+      },
+      "roleOrg": {
+        "en": "Mooncake Core Member / Envoy Golang maintainer, Ant Group",
+        "zh": "Mooncake 核心成员 / Envoy Golang 维护者, 蚂蚁集团"
+      },
+      "image": "speaker-1755113616363.jpg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "https://github.com/doujiang24",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "dandjinou-charbel",
+      "name": {
+        "en": "DANDJINOU Charbel",
+        "zh": "DANDJINOU Charbel"
+      },
+      "bio": {
+        "en": "charbel dandjinou is an ai research & mlops engineer at exxact robotics, leading generative ai and rag initiatives across the company. he also founded iroko ai to advance frugal, inclusive, open-source ai for emerging regions. his work spans enterprise AI deployment, computer vision , robotics, and multilingual models.",
+        "zh": "charbel dandjinou 是 Exxact Robotics 的一名人工智能研究与 MLOps 工程师，负责领导公司内的生成式人工智能和 RAG 项目。他还创立了 Iroko AI，以推动为新兴地区提供节俭、包容、开源的人工智能。他的工作涵盖企业级人工智能部署、计算机视觉、机器人技术和多语言模型。"
+      },
+      "role": {
+        "en": "ai research & mlops engineer ",
+        "zh": "人工智能研究与 MLOps 工程师"
+      },
+      "org": {
+        "en": "Exel industries | EXXACT robotics ",
+        "zh": "Exel industries | EXXACT robotics"
+      },
+      "roleOrg": {
+        "en": "ai research & mlops engineer , Exel industries | EXXACT robotics ",
+        "zh": "人工智能研究与 MLOps 工程师, Exel industries | EXXACT robotics"
+      },
+      "image": "dandjinou-charbel.jpeg",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": " /in/charbel-d-9569ba199",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545760",
+      "name": {
+        "en": "Xinmeng Wang",
+        "zh": "王新盟"
+      },
+      "bio": {
+        "en": "Xinmeng Wang has over ten years of experience in internet R&D and management. He is currently the technical lead for Coze Compass at ByteDance. He led the development and implementation of ByteDance's AI application development and optimization platform from scratch, helping to incubate AI applications for various business lines within ByteDance, such as Flow, Douyin, Dongchedi, and E-commerce.",
+        "zh": "王新盟，十余年互联网研发及管理经验，现任字节跳动扣子罗盘技术负责人。从 0 到 1 主导落地了字节 AI 应用开发调优平台，助力字节内Flow、抖音、懂车帝、电商等业务孵化 AI 应用。"
+      },
+      "role": {
+        "en": "Technical Lead of Coze Compass",
+        "zh": "扣子罗盘技术负责人"
+      },
+      "org": {
+        "en": "ByteDance",
+        "zh": "字节跳动"
+      },
+      "roleOrg": {
+        "en": "Technical Lead of Coze Compass, ByteDance",
+        "zh": "扣子罗盘技术负责人, 字节跳动"
+      },
+      "image": "speaker-1755113616433.jpg",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545802",
+      "name": {
+        "en": "Hongying Han",
+        "zh": "韩虹莹"
+      },
+      "bio": {
+        "en": "Currently a technology researcher at Hangzhou Half-Universe Technology Co., Ltd., focusing on AI technology R&D and enterprise-level application implementation. Formerly an R&D engineer and architect at NetEase/Alibaba.",
+        "zh": "现杭州半个宇宙科技有限公司技术研究员，深耕AI技术研发与企业级应用落地。前网易/阿里研发工程师、架构师。"
+      },
+      "role": {
+        "en": "Technology Researcher at Hangzhou Half-Universe",
+        "zh": "杭州半个宇宙技术研究员"
+      },
+      "org": {
+        "en": "Hangzhou Half-Universe Technology Co., Ltd.",
+        "zh": "杭州半个宇宙科技有限公司"
+      },
+      "roleOrg": {
+        "en": "Technology Researcher at Hangzhou Half-Universe, Hangzhou Half-Universe Technology Co., Ltd.",
+        "zh": "杭州半个宇宙技术研究员, 杭州半个宇宙科技有限公司"
+      },
+      "image": "speaker-1755113616549.jpg",
+      "tag": "apps-agents",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "",
+        "website": ""
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "speaker-1755113545819",
+      "name": {
+        "en": "Wanqing He",
+        "zh": "何万青"
+      },
+      "bio": {
+        "en": "Dr. Wanqing He is the VP of Qingcheng Jizhi and former Chief Engineer at Intel and Head of High-Performance Computing at Alibaba Cloud. Dr. He is a renowned senior expert in HPC and AI with 20 years of experience in parallel computing, cloud computing, and AI. At Intel, he focused on parallel optimization, heterogeneous computing, and parallel file systems, and was responsible for the core heterogeneous many-core MIC integration development for the Tianhe-2 supercomputer. He developed Alibaba Cloud's Elastic High-Performance Computing (EHPC) and Super Computing Cluster (SCC) products from scratch and led Alibaba Cloud's global support for the COVID-19 technology response during the pandemic. At Enflame Tech and Qingcheng Jizhi, he is responsible for the application optimization of domestic AI computing power and the construction of out-of-the-box technology ecosystems. Dr. He has been a senior volunteer and honorary member of the China Computer Federation (CCF) for over ten years, having served as Vice Chair of the CCF YOCSEF headquarters, and on the executive committees of the High-Performance Computing and Youth Working Committees. He is a CCF Distinguished Speaker and has recently been primarily responsible for organizing committees such as CNCC, YEF, and CED. Starting in 2025, he will host the CCF Talk-show. He is passionate about science popularization and has published 6 popular science books with his family in the last three years. He runs the public WeChat account 'Four-Dimensional Fragments'.",
+        "zh": "何万青 博士 清程极智VP，原英特尔首席工程师，阿里云高性能计算负责人，何博士是业内著名高性能计算和 AI 领域资深专家，在并行计算、云计算与 AI 领域有 20 年的从业经验，在英特尔时专注于并行优化、异构计算和并行文件系统，负责天河 2 号超级计算机核心>异构众核MIC 集成开发、从零到一研发阿里云弹性高性能计算EHPC 与 SCC超级计算集群产品，领导疫情期间阿里云对全球的 COVID-19科技抗疫支持。在燧原科技和清程极智，负责国产 AI 算力应用优化和开箱即用技术生态建设。何博士是十余年 CCF 资深志愿者、荣誉委员，历任 CCF YOCSEF 总部副主席，高专委执委和青工委等诸多位置上服务 CCF， CCF 杰出讲者，近年主要负责CNCC，YEF ，CED等组委。2025 年开始主持 CCF Talk-show，热心科技科普，近三年与家人出版 6 部科普作品，有公众号《四维碎片》。"
+      },
+      "role": {
+        "en": "VP, CIO",
+        "zh": "副总裁, 首席信息官"
+      },
+      "org": {
+        "en": "Beijing Qingcheng Jizhi Technology Co., Ltd.",
+        "zh": "北京清程极智科技有限公司"
+      },
+      "roleOrg": {
+        "en": "VP, CIO, Beijing Qingcheng Jizhi Technology Co., Ltd.",
+        "zh": "副总裁, 首席信息官, 北京清程极智科技有限公司"
+      },
+      "image": "speaker-1755113616585.jpeg",
+      "tag": "ai-models-infra",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "",
+        "linkedin": "https://www.linkedin.com/in/wanqing-warren-he-017bb347/",
+        "website": " 'Four-Dimensional Fragments' WeChat Public Account"
+      },
+      "status": "Accept",
+      "draft": false
+    },
+    {
+      "id": "michael-tyler-slaton",
+      "name": {
+        "en": "Michael Tyler Slaton",
+        "zh": "Michael Tyler Slaton"
+      },
+      "bio": {
+        "en": "I'm Tyler, an open-source engineer focused on the evolving boundary between humans and AI agents. I'm currently part of the founding team at CopilotKit, the company behind AG-UI, where we're working to standardize how users interact with AI agents across applications. Previously, I've worked at companies like Red Hat and Oracle, as well as various startups, giving me perspective on both enterprise-scale challenges and the rapid iteration needed in emerging technologies. Through the process of building AG-UI, I've had a front-row seat to the practical challenges of creating truly intuitive agent-user interfaces.",
+        "zh": "我是 Tyler，一名专注于人与AI智能体之间不断演变的边界的开源工程师。我目前是 CopilotKit 的创始团队成员之一，该公司开发了 AG-UI，我们正致力于标准化用户在各种应用程序中与AI智能体的交互方式。此前，我曾在红帽（Red Hat）和甲骨文（Oracle）等公司以及多家初创公司工作，这让我对企业级挑战和新兴技术所需的快速迭代都有了深刻的认识。在构建 AG-UI 的过程中，我亲身经历了创建真正直观的智能体-用户界面所面临的实际挑战。"
+      },
+      "role": {
+        "en": "Founding Engineer",
+        "zh": "创始工程师"
+      },
+      "org": {
+        "en": "CopilotKit",
+        "zh": "CopilotKit"
+      },
+      "roleOrg": {
+        "en": "Founding Engineer, CopilotKit",
+        "zh": "创始工程师, CopilotKit"
+      },
+      "image": "michael-tyler-slaton.png",
+      "tag": "agentic-web",
+      "socialLinks": {
+        "mastodon": "",
+        "twitter": "",
+        "github": "https://github.com/tylerslaton",
+        "linkedin": "https://www.linkedin.com/in/michael-t-slaton/",
+        "website": "https://www.tylerslaton.dev/"
+      },
+      "status": "Accept",
+      "draft": false
+    }
+  ]
+}

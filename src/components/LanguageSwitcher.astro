@@ -1,0 +1,313 @@
+---
+// Language Switcher Component
+import { getCurrentLocale, getAlternateLinks, loadTranslations, createTranslationFunction } from "../i18n/utils";
+
+// Load translations
+await loadTranslations();
+
+// Get current locale and translation function
+const currentLocale = getCurrentLocale(Astro);
+const t = createTranslationFunction(currentLocale);
+
+// Get current path and alternate links
+const currentPath = Astro.url.pathname;
+const alternateLinks = getAlternateLinks(currentPath);
+
+// Props for customization
+export interface Props {
+  variant?: 'dropdown' | 'toggle' | 'mobile';
+  class?: string;
+}
+
+const { variant = 'dropdown', class: className = '' } = Astro.props;
+---
+
+<div class={`language-switcher language-switcher--${variant} ${className}`}>
+  {variant === 'dropdown' && (
+    <div class="language-dropdown">
+      <button class="language-btn" aria-label={t('navigation.language_switcher_label')}>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="2" y1="12" x2="22" y2="12"></line>
+          <path
+            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"
+          ></path>
+        </svg>
+      </button>
+      <div class="language-dropdown-content">
+        <a 
+          href={alternateLinks.find(l => l.locale === 'en')?.href} 
+          class:list={[currentLocale === 'en' && 'active']}
+          hreflang="en"
+          data-language-switch="en"
+        >
+          English
+        </a>
+        <a 
+          href={alternateLinks.find(l => l.locale === 'zh')?.href} 
+          class:list={[currentLocale === 'zh' && 'active']}
+          hreflang="zh-CN"
+          data-language-switch="zh"
+        >
+          中文
+        </a>
+      </div>
+    </div>
+  )}
+
+  {variant === 'toggle' && (
+    <div class="language-toggle">
+      <a 
+        href={alternateLinks.find(l => l.locale === 'en')?.href}
+        class:list={['language-toggle-item', currentLocale === 'en' && 'active']}
+        hreflang="en"
+        data-language-switch="en"
+      >
+        EN
+      </a>
+      <span class="language-toggle-separator">|</span>
+      <a 
+        href={alternateLinks.find(l => l.locale === 'zh')?.href}
+        class:list={['language-toggle-item', currentLocale === 'zh' && 'active']}
+        hreflang="zh-CN"
+        data-language-switch="zh"
+      >
+        中文
+      </a>
+    </div>
+  )}
+
+  {variant === 'mobile' && (
+    <div class="language-mobile-menu">
+      <a 
+        class:list={['language-item', currentLocale === 'en' && 'active']} 
+        href={alternateLinks.find(l => l.locale === 'en')?.href}
+        hreflang="en"
+        data-language-switch="en"
+      >
+        English
+      </a>
+      <a 
+        class:list={['language-item', currentLocale === 'zh' && 'active']} 
+        href={alternateLinks.find(l => l.locale === 'zh')?.href}
+        hreflang="zh-CN"
+        data-language-switch="zh"
+      >
+        中文
+      </a>
+    </div>
+  )}
+</div>
+
+<style>
+  /* Base language switcher styles */
+  .language-switcher {
+    display: inline-block;
+    color: inherit;
+  }
+
+  /* Dropdown variant styles */
+  .language-dropdown {
+    position: relative;
+    display: inline-block;
+    color: inherit;
+  }
+
+  .language-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+    transition: color 0.3s ease;
+  }
+
+  .language-btn:hover {
+    opacity: 0.8;
+  }
+
+  .language-btn svg {
+    color: inherit;
+    stroke: currentColor;
+    transition: color 0.3s;
+  }
+
+  .language-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--color-light);
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-radius: var(--border-radius);
+    right: 0;
+    border: 1px solid var(--color-border);
+  }
+
+  .language-dropdown-content a {
+    color: var(--color-dark);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: background-color 0.3s ease;
+  }
+
+  .language-dropdown-content a:hover {
+    background-color: var(--color-light-tint);
+  }
+
+  .language-dropdown-content a.active {
+    font-weight: 600;
+    background-color: var(--color-primary);
+    color: var(--color-dark);
+  }
+
+  .language-dropdown:hover .language-dropdown-content {
+    display: block;
+  }
+
+  /* Toggle variant styles */
+  .language-toggle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9em;
+  }
+
+  .language-toggle-item {
+    text-decoration: none;
+    color: inherit;
+    padding: 4px 8px;
+    border-radius: calc(var(--border-radius) * 0.5);
+    transition: all 0.3s ease;
+    font-weight: 500;
+  }
+
+  .language-toggle-item:hover {
+    background-color: rgba(var(--color-primary-rgb), 0.1);
+  }
+
+  .language-toggle-item.active {
+    background-color: var(--color-primary);
+    color: var(--color-dark);
+    font-weight: 600;
+  }
+
+  .language-toggle-separator {
+    opacity: 0.5;
+    font-weight: 300;
+  }
+
+  /* Mobile variant styles */
+  .language-mobile-menu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px 0;
+  }
+
+  .language-item {
+    padding: 8px 16px;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+    font-weight: 500;
+  }
+
+  .language-item:hover {
+    background-color: rgba(var(--color-primary-rgb), 0.1);
+  }
+
+  .language-item.active {
+    font-weight: 600;
+    background-color: var(--color-primary);
+    color: var(--color-dark);
+  }
+
+  /* Dark theme support */
+  [data-theme-section="dark"] .language-dropdown-content {
+    background-color: var(--color-dark-tint);
+    border: 1px solid var(--color-border-light);
+  }
+
+  [data-theme-section="dark"] .language-dropdown-content a {
+    color: var(--color-light);
+  }
+
+  [data-theme-section="dark"] .language-dropdown-content a:hover {
+    background-color: var(--color-dark);
+  }
+
+  [data-theme-section="dark"] .language-dropdown-content a.active {
+    background-color: var(--color-primary);
+    color: var(--color-dark);
+  }
+
+  /* Responsive adjustments */
+  @media screen and (max-width: 1070px) {
+    .language-dropdown {
+      position: relative;
+    }
+    
+    .language-dropdown-content {
+      right: auto;
+      left: 0;
+    }
+  }
+
+  @media screen and (max-width: 540px) {
+    .language-toggle {
+      font-size: 0.85em;
+    }
+    
+    .language-toggle-item {
+      padding: 3px 6px;
+    }
+  }
+
+  /* Loading state */
+  .language-switcher.loading {
+    opacity: 0.6;
+    pointer-events: none;
+  }
+
+  .language-switcher.loading .language-btn {
+    cursor: wait;
+  }
+</style>
+
+<script>
+  // Language switcher functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    // Handle language switching
+    const languageSwitchers = document.querySelectorAll('[data-language-switch]');
+    
+    languageSwitchers.forEach(switcher => {
+      switcher.addEventListener('click', function(e) {
+        // Add loading state
+        const languageContainer = this.closest('.language-switcher');
+        if (languageContainer) {
+          languageContainer.classList.add('loading');
+        }
+        
+        // Let the browser handle the navigation
+        // The loading class will be removed when the new page loads
+      });
+    });
+  });
+</script>

@@ -1,0 +1,197 @@
+{
+  "navigation": {
+    "home": "首页",
+    "speakers": "演讲者",
+    "schedule": "日程",
+    "tickets": "门票",
+    "sponsors": "赞助商",
+    "supporters": "支持方",
+    "venue": "会场",
+    "faq": "常见问题",
+    "workshops": "工作坊",
+    "conference_venue": "会议会场",
+    "forum_venue": "论坛会场",
+    "co_located_events": "同期活动",
+    "more": "更多",
+    "our_volunteers": "我们的志愿者",
+    "get_tickets": "获取门票",
+    "filter": "筛选",
+    "go_to_homepage": "返回首页",
+    "language_switcher_label": "切换语言"
+  },
+  "homepage": {
+    "hero": {
+      "title": "GOSIM 杭州 2025",
+      "subtitle": "中国顶级开源大会",
+      "date": "2025年9月13-14日",
+      "location": "中国杭州",
+      "call_for_proposals": "征集提案 - 8/18截止"
+    },
+    "intro": {
+      "title": "加入我们的GOSIM杭州2025，中国顶级开源大会，创新、协作与技术突破在此汇聚。"
+    },
+    "statistics": {
+      "attendees": "参会者",
+      "speakers": "演讲者",
+      "days": "精彩天数"
+    },
+    "tracks": {
+      "title": "5个前沿赛道",
+      "ai_models": "AI 模型 × 基础设施",
+      "ai_models_desc": "基础模型、边缘推理、生成式AI、AI训练工具等。",
+      "embodied_ai": "具身智能",
+      "embodied_ai_desc": "将AI应用于现实世界，从人形机器人到自主系统。",
+      "agentic_web": "智能体网络",
+      "agentic_web_desc": "去中心化应用、身份认证、隐私增强技术和协作平台。",
+      "apps_agents": "应用 × 智能体",
+      "apps_agents_desc": "跨平台和AI辅助应用开发、Rust GUI应用、WebAssembly和超级应用生态系统。",
+      "ai_next": "AI未来",
+      "ai_next_desc": "AI赋能用例、AI设备、人机交互界面、AI平台和AI治理",
+      "schedule_coming_soon": "日程即将发布"
+    },
+    "venue": {
+      "subtitle": "会场",
+      "title": "杭州白金汉爵酒店\nHangzhou Platinum Hanjue Hotel",
+      "location": "中国杭州 - 创新与历史的交汇之地",
+      "description": "在GOSIM杭州2025体验这座以历史传承和充满活力的技术未来而闻名的城市。杭州，一个历史瑰宝和现代科技中心，为灵感、网络建设和突破性创新提供了完美的背景。"
+    },
+    "proposals": {
+      "title": "征集提案 - 8/18截止",
+      "description": "我们正在寻找大胆的想法和新鲜的声音来塑造未来。如果您对前沿技术、新兴趋势或变革性实践有见解，我们希望听到您的声音。提交演讲提案，加入推动未来边界的创新者、思想领袖和变革者的阵容。",
+      "apply_now": "立即申请"
+    },
+    "timeline": {
+      "proposal_open": "提案申请开放",
+      "proposal_close": "提案申请截止",
+      "event_start": "GOSIM杭州开幕！",
+      "event_end": "GOSIM杭州闭幕"
+    },
+    "co_located_events": {
+      "title": "同期活动",
+      "description": "我们很高兴在GOSIM杭州2025举办这些同期活动。",
+      "rust_global": "RustGlobal & RustChinaConf",
+      "rust_global_desc": "RustGlobal是首个由Rust基金会主办的专注于Rust在全球领导层应用的聚会。",
+      "ai_vision": "AI愿景论坛",
+      "ai_vision_desc": "一个专为全球思想家和实践者探索AI与人类共生未来的独家论坛，确保技术进步以核心人类价值观为指导。",
+      "open_sdg": "开源促进SDG大会",
+      "open_sdg_desc": "一个汇聚开源、AI和政策专家的全球大会，通过开放协作和技术加速联合国可持续发展目标(SDGs)。",
+      "super_agent": "超级智能体训练营",
+      "super_agent_desc": "一个结合训练营和黑客马拉松的开发者'训练营'，挑战参与者构建个性化和情感智能的'超级智能体'，用于下一代交互。",
+      "code_alert": "代码警报黑客马拉松",
+      "code_alert_desc": "基于经典游戏《红色警戒》的AI黑客马拉松。参赛者将使用自然语言指挥AI智能体通过在线挑战和现场决赛。"
+    },
+    "sponsorship": {
+      "title": "赞助机会",
+      "description": "通过成为GOSIM杭州2025的支持组织，接触目标受众中的数千人。",
+      "disclaimer": "*此处显示的往届GOSIM大会赞助商仅供说明之用。",
+      "contact_us": "联系我们"
+    },
+    "spotlight": {
+      "title": "GOSIM AI人文聚焦",
+      "description": "迈向道德与创意AI的共生未来：如果AI不仅仅是为了服务，而是与我们共同创造会怎样？AI人文聚焦是一个国际展示平台，展示探索生成式AI如何促进共情、共享创造力和道德共存的项目。",
+      "apply_nominate": "立即申请或提名"
+    },
+    "previous_events": {
+      "title": "往届活动",
+      "paris_title": "GOSIM AI 巴黎",
+      "paris_desc": "超过1000名与会者和知名人士在光之城深入探讨了我们为期2天的GOSIM巴黎活动中AI的多方面发展。",
+      "beijing_title": "GOSIM 中国（北京）",
+      "beijing_desc": "吸引了超过1700名与会者，GOSIM北京是迄今为止在中国历史首都举办的最大规模GOSIM活动。",
+      "delft_title": "GOSIM 欧洲（代尔夫特）",
+      "delft_desc": "GOSIM代尔夫特是一个为期两天、包含3个赛道的活动，汇聚了来自荷兰乃至世界各地的1200名与会者。",
+      "shanghai_title": "GOSIM 大会（上海）",
+      "shanghai_desc": "一切开始的地方，GOSIM大会和工作坊专注于倡导和增强开源贡献。"
+    },
+    "get_tickets": {
+      "title": "获取您的GOSIM杭州门票",
+      "description": "立即预订您在GOSIM杭州2025的席位。与创新者协作，与行业先锋互动，成为塑造开源技术未来的一部分。"
+    }
+  },
+  "speakers": {
+    "title": "特邀演讲者",
+    "more_speakers": "更多演讲者",
+    "page_title": "讲师 – GOSIM Hangzhou 2025",
+    "page_description": "GOSIM Hangzhou 2025 是一个开源人工智能项目、开发者、研究人员和行业赞助商的聚会，旨在分享知识、相互学习和合作。",
+    "hero_title": "本届讲师",
+    "hero_text": "从基础模型到前沿研究，我们的演讲者将涵盖广泛的主题，帮助您保持在人工智能创新的前沿。",
+    "sessions": "会议"
+  },
+  "workshops": {
+    "page_title": "工作坊 – GOSIM Hangzhou 2025",
+    "page_description": "GOSIM Hangzhou 2025是开源AI项目、开发者、研究人员和行业赞助商的聚会，旨在分享知识、相互学习和合作。",
+    "hero_title": "本届工作坊"
+  },
+  "404": {
+    "page_title": "404 – 页面未找到",
+    "page_description": "页面未找到",
+    "heading": "页面未找到",
+    "message": "您查找的页面无法找到。",
+    "back_to_homepage": "返回首页"
+  },
+  "code_of_conduct": {
+    "page_title": "行为准则 – GOSIM Hangzhou 2025",
+    "page_description": "GOSIM Hangzhou 2025是开源AI项目、开发者、研究人员和行业赞助商的聚会，旨在分享知识、相互学习和合作。"
+  },
+  "privacy": {
+    "page_title": "隐私政策 – GOSIM Hangzhou 2025",
+    "page_description": "GOSIM Hangzhou 2025隐私政策。"
+  },
+  "schedule": {
+    "page_title_day1": "第一天日程 – GOSIM Hangzhou 2025",
+    "page_title_day2": "第二天日程 – GOSIM Hangzhou 2025",
+    "page_description": "GOSIM Hangzhou 2025是开源AI项目、开发者、研究人员和行业赞助商的聚会，旨在分享知识、相互学习和合作。",
+    "hero_title_day1": "日程：9月13日",
+    "hero_title_day2": "日程：9月14日"
+  },
+  "venue": {
+    "page_title": "会议地点 – GOSIM Hangzhou 2025",
+    "page_description": "GOSIM Hangzhou 2025会议地点信息",
+    "hero_title": "会议地点"
+  },
+  "tickets": {
+    "page_title": "门票 – GOSIM Hangzhou 2025",
+    "page_description": "获取GOSIM Hangzhou 2025门票。加入我们，参加中国顶级开源大会。",
+    "event_category": "杭州",
+    "event_tagline": "2025-09-13 09:00 ~ 09-14 18:00"
+  },
+  "sponsors": {
+    "page_title": "赞助商 – GOSIM Hangzhou 2025",
+    "page_description": "GOSIM Hangzhou 2025是开源AI项目、开发者、研究人员和行业赞助商的聚会，旨在分享知识、相互学习和合作。",
+    "hero_title": "赞助商",
+    "hero_text": "我们很高兴为您带来一次令人难以置信的体验，这要归功于我们的赞助商和支持组织的慷慨支持。我们与真正的创新者合作，他们正在推动我们行业的边界。"
+  },
+  "faq": {
+    "page_title": "常见问题 – GOSIM Hangzhou 2025",
+    "page_description": "GOSIM Hangzhou 2025是开源AI项目、开发者、研究人员和行业赞助商的聚会，旨在分享知识、相互学习和合作。",
+    "hero_title": "常见问题"
+  },
+  "footer": {
+    "code_of_conduct": "行为准则",
+    "privacy": "隐私政策",
+    "follow_mastodon": "在Mastodon关注我们",
+    "follow_x": "在X(推特)关注我们",
+    "follow_linkedin": "在LinkedIn关注我们",
+    "follow_bluesky": "在BlueSky关注我们",
+    "follow_youtube": "在Youtube关注我们",
+    "gosim_foundation": "GOSIM基金会"
+  },
+  "co_located_events": {
+    "gosim_ai_spotlight": "GOSIM AI聚焦",
+    "gosim_forum": "GOSIM开源AI战略论坛",
+    "pytorch_day": "PyTorch法国日",
+    "seeed_hackathon": "矽递具身AI黑客马拉松"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "back": "返回",
+    "next": "下一页",
+    "previous": "上一页",
+    "all": "全部"
+  },
+  "meta": {
+    "default_title": "GOSIM 杭州 2025",
+    "default_description": "GOSIM杭州2025是开源AI项目、开发者、研究人员和行业赞助商的聚会，旨在分享知识、相互学习和合作。",
+    "site_name": "GOSIM 杭州 2025"
+  }
+}

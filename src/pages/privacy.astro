@@ -1,12 +1,26 @@
 ---
 // Components
 import Layout from "layouts/LayoutLanding.astro";
-import Content from "markdown/Privacy.md";
+import ContentEn from "markdown/Privacy.md";
+import ContentZh from "markdown/PrivacyZh.md";
+
+// i18n utilities
+import { getCurrentLocale, createTranslationFunction, loadTranslations } from "../i18n/utils";
+
+// Load translations
+await loadTranslations();
+
+// Get current locale and create translation function
+const currentLocale = getCurrentLocale(Astro);
+const t = createTranslationFunction(currentLocale);
+
+// Select content based on locale
+const Content = currentLocale === 'zh' ? ContentZh : ContentEn;
 ---
 
 <Layout
-    title="Privacy – GOSIM Hangzhou 2025"
-    description="GOSIM Hangzhou 2025 is a gathering of open-source AI projects, developers, researchers, and industry sponsors to share knowledge, learn from each other, and collaborate."
+    title={t('privacy.page_title')}
+    description={t('privacy.page_description')}
     navBackground="light"
     pageTransitionName="Privacy"
 >

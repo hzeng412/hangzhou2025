@@ -79,7 +79,7 @@ const mapId = `map-${Math.random().toString(36).substr(2, 9)}`;
     // A. Check if we are in multi-marker mode
     if (markers && markers.length > 0) {
       const viewCenter = mapCenter ? [mapCenter.latitude, mapCenter.longitude] : [markers[0].latitude, markers[0].longitude];
-      map = L.map(mapId).setView(viewCenter, mapZoom);
+      map = L.map(mapId, { scrollWheelZoom: false }).setView(viewCenter, mapZoom);
 
       markers.forEach(marker => {
         const icon = marker.highlight ? highlightIcon : defaultIcon;
@@ -90,7 +90,7 @@ const mapId = `map-${Math.random().toString(36).substr(2, 9)}`;
 
     // B. Fallback to single-marker mode
     } else if (latitude !== undefined && longitude !== undefined) {
-      map = L.map(mapId).setView([latitude, longitude], zoom);
+      map = L.map(mapId, { scrollWheelZoom: false }).setView([latitude, longitude], zoom);
       
       L.marker([latitude, longitude], { icon: defaultIcon })
         .addTo(map)
@@ -108,6 +108,24 @@ const mapId = `map-${Math.random().toString(36).substr(2, 9)}`;
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
     }).addTo(map);
+
+    // --- GESTURE HANDLING ---
+    // Enable scroll wheel zoom only when Ctrl key is pressed
+    const mapContainer = document.getElementById(mapId);
+    if (mapContainer) {
+      mapContainer.addEventListener('wheel', function (e) {
+        if (e.ctrlKey) {
+          map.scrollWheelZoom.enable();
+        } else {
+          map.scrollWheelZoom.disable();
+        }
+      });
+    }
+    // When the mouse leaves the map, disable scroll wheel zoom for safety
+    map.on('mouseout', function () {
+      map.scrollWheelZoom.disable();
+    });
+    // --- END GESTURE HANDLING ---
 
   }).catch(error => {
     console.error("Leaflet failed to load.", error);

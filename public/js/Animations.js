@@ -471,6 +471,7 @@ function initCheckScrollUpDown() {
 function initScrollToAnchor() {
    var scrollToOffset = ($(".main-nav-bar").innerHeight() * -1);
 
+   // Handle elements with data-anchor-target attribute
    $("[data-anchor-target]").click(function (e) {
       e.preventDefault(); // Prevent default anchor behavior
 
@@ -490,6 +491,30 @@ function initScrollToAnchor() {
       // Update URL without page reload
       if (history.pushState) {
          history.pushState(null, null, targetScrollToAnchorLenis);
+      }
+   });
+
+   // Handle regular anchor links (href starting with #)
+   $("a[href^='#']").click(function (e) {
+      const href = $(this).attr('href');
+      
+      // Skip if it's an empty anchor or just #
+      if (href === '#' || href === '') {
+         return;
+      }
+
+      e.preventDefault(); // Prevent default anchor behavior
+
+      // Scroll to anchor using Lenis
+      scroll.scrollTo(href, {
+         duration: 1,
+         offset: scrollToOffset,
+         easing: (x) => (x < 0.5 ? 8 * x * x * x * x : 1 - Math.pow(-2 * x + 2, 4) / 2),
+      });
+
+      // Update URL without page reload
+      if (history.pushState) {
+         history.pushState(null, null, href);
       }
    });
 

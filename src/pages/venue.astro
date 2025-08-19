@@ -1,22 +1,42 @@
 ---
-import VenueInfo from '../components/VenueInfo.astro';
-import Layout from 'layouts/LayoutLanding.astro';
+import VenueInfo from "../components/VenueDetails.astro";
+import Layout from "layouts/LayoutLanding.astro";
+import HeroText from "components/HeroText.astro";
+import GetTickets from "components/GetTickets.astro";
+import LocationConnectivity from "components/LocationConnectivity.astro";
+
+// i18n utilities
+import { getCurrentLocale, createTranslationFunction, loadTranslations } from "../i18n/utils";
+
+// Load translations
+await loadTranslations();
+
+// Get current locale and create translation function
+const currentLocale = getCurrentLocale(Astro);
+const t = createTranslationFunction(currentLocale);
 ---
 
-<Layout title="Venue – GOSIM Hangzhou 2025" description="Information about the venue for GOSIM Hangzhou 2025">
-  <section
-    class="section speaker-detail-header"
-    data-theme-section="light"
-    data-bg-section="light"
-  >
-    <div class="container">
-      <h1>Venue</h1>
-      <VenueInfo
-        subtitle = "Hangzhou Platinum Hanjue Hotel";
-        title = "杭州白金汉爵酒店";
-        location = "浙江省杭州市西湖区珊瑚沙东路9号 (No. 9, Shanshadong Road, Xihu District, Hangzhou City, Zhejiang Province)";
-        image="/images/homepage/杭州白金汉爵酒店.jpg"
-      />
-    </div>
+<Layout
+  title={t('venue.page_title')}
+  description={t('venue.page_description')}
+  navBackground="lightgray"
+>
+  <HeroText title={t('venue.hero_title')} />
+
+  <section class="section" data-theme-section="light" data-bg-section="light">
+    <VenueInfo />
   </section>
+    <LocationConnectivity />
+
+  <GetTickets
+    title={t('homepage.get_tickets.title')}
+    location={t('homepage.hero.location')}
+    date={t('homepage.hero.date')}
+    text={t('homepage.get_tickets.description')}
+    ctaButton={{
+      text: t('navigation.get_tickets'),
+      link: "/tickets",
+      openInNewTab: false,
+    }}
+  />
 </Layout>

@@ -4,6 +4,17 @@ import Layout from "layouts/LayoutLanding.astro";
 import Tickets from "components/Tickets.astro";
 import PreviousEvents from "components/PreviousEvents.astro";
 import EventHeader from "components/EventHeader.astro";
+
+// i18n utilities
+import { getCurrentLocale, createTranslationFunction, loadTranslations } from "../i18n/utils";
+
+// Load translations
+await loadTranslations();
+
+// Get current locale and create translation function
+const currentLocale = getCurrentLocale(Astro);
+const t = createTranslationFunction(currentLocale);
+
 // Images
 import GosimShanghai from "images/homepage/gosim-shanghai.png";
 import GosimDelft from "images/homepage/gosim-delft.png";
@@ -12,50 +23,45 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
 ---
 
 <Layout
-  title="GOSIM Hangzhou 2025"
-  description="GOSIM Hangzhou. Coming soon."
+  title={t('tickets.page_title')}
+  description={t('tickets.page_description')}
   navDarkMode={true}
   navBackground="header-home"
   pageTransitionName="Home"
 >
   <EventHeader
-    category="Hangzhou"
-    ,
-    tagline="2025-09-13 09:00 ~ 09-14 18:00"
+    category={t('tickets.event_category')}
+    tagline={t('tickets.event_tagline')}
   />
   <Tickets />
   <PreviousEvents
-    title="Previous Events"
+    title={t('homepage.previous_events.title')}
     events={[
       {
-        title: "GOSIM Paris",
+        title: t('homepage.previous_events.paris_title'),
         date: "May 6-7, 2025",
-        description:
-          "Over 1000 attendees and luminaries delved into the multifaceted development of AI for our 2-day GOSIM Paris event in the city of lights.",
+        description: t('homepage.previous_events.paris_desc'),
         image: GosimParis,
         link: "https://paris2025.gosim.org/",
       },
       {
-        title: "GOSIM Beijing",
+        title: t('homepage.previous_events.beijing_title'),
         date: "October 17-18, 2024",
-        description:
-          "Attracted more than 1700 attendees, GOSIM Beijing is by far the largest GOSIM event ever in the historical capital of China.",
+        description: t('homepage.previous_events.beijing_desc'),
         image: GosimBeijing,
         link: "https://china2024.gosim.org/",
       },
       {
-        title: "GOSIM Delft",
+        title: t('homepage.previous_events.delft_title'),
         date: "June 6-7, 2024",
-        description:
-          "GOSIM Delft was a two-day event with 3 tracks that brought together 1200 attendees from not only the Netherlands, but all around the world.",
+        description: t('homepage.previous_events.delft_desc'),
         image: GosimDelft,
         link: "https://europe2024.gosim.org/",
       },
       {
-        title: "GOSIM Shanghai",
+        title: t('homepage.previous_events.shanghai_title'),
         date: "September 23-24, 2023",
-        description:
-          "Where everything started, GOSIM conference and workshop focused on championing and enhancing open-source contributions.",
+        description: t('homepage.previous_events.shanghai_desc'),
         image: GosimShanghai,
         link: "https://conference2023.gosim.org/",
       },

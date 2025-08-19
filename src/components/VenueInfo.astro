@@ -70,7 +70,7 @@ const { subtitle, title, location, image, text, ctaButton } = Astro.props;
       </div>
       <div class="col col-text styled-content">
 
-        <div class="col-row">
+        <div class="col-row map-container">
           <OpenStreetMap 
             latitude={30.172599} 
             longitude={120.102973} 
@@ -83,4 +83,11 @@ const { subtitle, title, location, image, text, ctaButton } = Astro.props;
     </div>
   </div>
 </section>
+
+<style>
+  .map-container {
+    z-index: 0;
+    position: relative;
+  }
+</style>
 

@@ -11,16 +11,27 @@ import GetTickets from "components/GetTickets.astro";
 import VenueInfo from "components/VenueInfo.astro";
 import TextAndSponsors from "components/TextAndSponsors.astro";
 import TextAndImageReverse from "components/TextAndImageReverse.astro";
-import FeaturedSpeakers from "components/FeaturedSpeakers.astro"
+import FeaturedSpeakers from "components/FeaturedSpeakers.astro";
 import Timeline from "components/Timeline.astro";
-import Marquee from "components/Marquee.astro"
+import Marquee from "components/Marquee.astro";
+import Cards from "components/Cards.astro";
+
+
+// i18n utilities
+import { getCurrentLocale, createTranslationFunction, loadTranslations } from "../i18n/utils";
+
+// Load translations
+await loadTranslations();
+
+// Get current locale and create translation function
+const currentLocale = getCurrentLocale(Astro);
+const t = createTranslationFunction(currentLocale);
 
 // Images
 import Placeholder1 from "images/homepage/stats1.jpeg";
 import Placeholder2 from "images/homepage/stats2.jpg";
 import Placeholder3 from "images/homepage/stats3.png";
 import SpotlightBlue from "images/homepage/spotlight-hg.svg";
-import RustGlobalWhite from "images/homepage/rust-svg.svg";
 import Proposals from "images/homepage/hangzhou-proposals-min.jpg";
 
 import GosimShanghai from "images/homepage/gosim-shanghai.png";
@@ -30,24 +41,24 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
 ---
 
 <Layout
-  title="GOSIM Hangzhou 2025"
-  description="GOSIM Hangzhou. Coming soon."
+  title={t('homepage.hero.title')}
+  description={t('homepage.hero.subtitle')}
   navDarkMode={true}
   navBackground="header-home"
   pageTransitionName="Home"
 >
   <Hero
-    date="September 13-14, 2025"
-    location="Hangzhou, China"
+    date={t('homepage.hero.date')}
+    location={t('homepage.hero.location')}
     links={[
       {
-        text: "Call for Proposals",
+        text: t('homepage.hero.call_for_proposals'),
         link: "/#proposals",
         openInNewTab: false,
       },
     ]}
   />
-  <!--   <CardsSponsors
+    <!-- <CardsSponsors
     title="Proudly Sponsored By"
     sponsors={[
       {
@@ -72,9 +83,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
   >
     <Intro>
       <h1 class="h3 light split-words animate-read">
-        Join us at GOSIM Hangzhou 2025, China's premier open-source conference,
-        where innovation, collaboration, and technological breakthroughs
-        converge.
+        {t('homepage.intro.title')}
       </h1>
     </Intro>
 
@@ -82,21 +91,21 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       stats={[
         {
           title: "1500",
-          subtitle: "Attendees",
+          subtitle: t('homepage.statistics.attendees'),
           image: Placeholder1,
           imageAlt: "",
           hasPlus: true,
         },
         {
           title: "100",
-          subtitle: "Speakers",
+          subtitle: t('homepage.statistics.speakers'),
           imageAlt: "",
           image: Placeholder2,
           hasPlus: true,
         },
         {
           title: "2",
-          subtitle: "Exhilarating days",
+          subtitle: t('homepage.statistics.days'),
           imageAlt: "",
           image: Placeholder3,
         },
@@ -106,68 +115,63 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
 
   <Tracks
     id="tracks"
-    title="5 Cutting-Edge Tracks"
+    title={t('homepage.tracks.title')}
     list={[
       {
-        title: "AI Models & Infra",
-        text: `Foundation models, edge inference, generative AI, tools for AI training and beyond.`,
+        title: t('homepage.tracks.ai_models'),
+        text: t('homepage.tracks.ai_models_desc'),
       },
       {
-        title: "Embodied AI",
-        text: `Apply AI in the real world, from humanoid robotics to autonomous systems.`,
+        title: t('homepage.tracks.embodied_ai'),
+        text: t('homepage.tracks.embodied_ai_desc'),
       },
       {
-        title: "Agentic Web",
-        text: `Decentralized applications, identity, privacy-enhanced technologies, and collaborative platforms.`,
+        title: t('homepage.tracks.agentic_web'),
+        text: t('homepage.tracks.agentic_web_desc'),
       },
       {
-        title: "Apps & Agents",
-        text: `Cross-platform and AI-assisted app dev, Rust GUI apps, WebAssembly, and super-app ecosystems.`,
+        title: t('homepage.tracks.apps_agents'),
+        text: t('homepage.tracks.apps_agents_desc'),
       },
       {
-        title: "AI Next",
-        text: `AI Enabled Use Cases, AI Devices, Human AI Interfaces, AI Platforms, and AI Governnances`,
+        title: t('homepage.tracks.ai_next'),
+        text: t('homepage.tracks.ai_next_desc'),
       },
-      // {
-      //   title: "Rust",
-      //   text: `Rust Global and Rust China conferences, focusing on the Rust programming language and its applications.`,
-      // },
     ]}
     ctaButton={{
-      text: "Schedule Coming Soon",
+      text: t('homepage.tracks.schedule_coming_soon'),
       link: "",
     }}
   />
 
   <VenueInfo
-    subtitle="Venue"
-    title={"Hangzhou Platinum Hanjue Hotel\n杭州白金汉爵酒店"}
-    location="Hangzhou, China - Where Innovation Meets History"
-    text="Experience GOSIM Hangzhou 2025 in a city renowned for its historical legacy and vibrant technological future. Hangzhou, a historical gem and modern tech hub, offers the perfect backdrop for inspiration, networking, and breakthrough innovations."
+    subtitle={t('homepage.venue.subtitle')}
+    title={t('homepage.venue.title')}
+    location={t('homepage.venue.location')}
+    text={t('homepage.venue.description')}
     image="/images/homepage/hangzhoubg.png"
   />
 
   <Marquee />
 
   <FeaturedSpeakers
-    title="Featured Speakers"
+    title={t('speakers.title')}
     ctaButton={{
-      text: "More speakers",
+      text: t('speakers.more_speakers'),
       link: "/speakers/",
     }}
   />
 
-
   <TextAndImageReverse
     id="proposals"
-    title="Call for Proposals"
-    text="We’re looking for bold ideas and fresh voices to shape the future. If you have insights on cutting-edge technology, emerging trends, or transformative practices, we want to hear from you. Submit a proposal to speak and join a lineup of innovators, thought leaders, and changemakers pushing the boundaries of what’s next."
+    title={t('homepage.proposals.title')}
+    text={t('homepage.proposals.description')}
     image={Proposals}
     imageAlt="GOSIM Hangzhou"
     dataBgSection="light"
     dataThemeSection="light"
     ctaButton={{
-      text: "Apply now",
+      text: t('homepage.proposals.apply_now'),
       link: "https://cfp.gosim.org/",
       openInNewTab: true,
     }}
@@ -176,43 +180,74 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
     events={[
       {
         date: "May 18, 2025",
-        title: "Proposal applications open",
+        title: t('homepage.timeline.proposal_open'),
       },
       {
         date: "August 18, 2025",
-        title: "Proposal applications close",
+        title: t('homepage.timeline.proposal_close'),
       },
       {
         date: "September 13, 2025",
-        title: "GOSIM Hangzhou kicks off!",
+        title: t('homepage.timeline.event_start'),
       },
       {
         date: "September 14, 2025",
-        title: "GOSIM Hangzhou concludes",
+        title: t('homepage.timeline.event_end'),
       },
     ]}
   />
-  <TextAndImage
-    id="rust-global"
-    title="Co-located RustGlobal & RustChinaConf"
-    text="RustGlobal is the first Rust Foundation-hosted gathering dedicated to the use of Rust in global leadership settings."
-    image={RustGlobalWhite}
-    imageAlt="Rust Global"
-    dataBgSection="dark"
-    dataThemeSection="dark"
-    ctaButton={{
-      text: "RustGlobal + RustChinaConf 2025",
-      link: "https://rustcc.cn/2025conf/",
-      openInNewTab: true,
-    }}
+
+  <Cards
+    id="co-located-events"
+    title={t('homepage.co_located_events.title')}
+    description={t('homepage.co_located_events.description')}
+    cards={[
+      {
+        title: t('homepage.co_located_events.rust_global'),
+        description: t('homepage.co_located_events.rust_global_desc'),
+        image: ["/images/homepage/rust-global-logo.svg","/images/homepage/RustChinaConf-hangzhou-black.svg"],
+        link: "https://rustcc.cn/2025conf/",
+        openInNewTab: false,
+      },
+      {
+        title: t('homepage.co_located_events.ai_vision'),
+        description: t('homepage.co_located_events.ai_vision_desc'),
+        image: "/images/homepage/co-located-ai-vision.png",
+        link: "https://forum.gosim.org/en/",
+        openInNewTab: false,
+      },
+            {
+        title: t('homepage.co_located_events.open_sdg'),
+        description: t('homepage.co_located_events.open_sdg_desc'),
+        image: "/images/homepage/co-located-open-sdg.jpg",
+        link: "https://opensdg.gosim.org/en/",
+        openInNewTab: false,
+      },
+      {
+        title: t('homepage.co_located_events.super_agent'),
+        description: t('homepage.co_located_events.super_agent_desc'),
+        image: "/images/homepage/co-located-super-agent.png",
+        link: "https://mofa.ai/super-agent-hackathon/",
+        openInNewTab: false,
+      },
+      {
+        title: t('homepage.co_located_events.code_alert'),
+        description: t('homepage.co_located_events.code_alert_desc'),
+        image: "/images/homepage/co-located-code-alert.png",
+        link: "https://hackathon.mofa.ai",
+        openInNewTab: false,
+      },
+    ]}
   />
 
+  
+
   <TextAndSponsors
-    title="Sponsorship Opportunities"
-    text="Reach thousands of people in your target audience by becoming a supporting organization at GOSIM Hangzhou 2025."
-    text2="*Previous GOSIM conference sponsors shown for illustration purposes only."
+    title={t('homepage.sponsorship.title')}
+    text={t('homepage.sponsorship.description')}
+    text2={t('homepage.sponsorship.disclaimer')}
     ctaButton={{
-      text: "Contact Us",
+      text: t('homepage.sponsorship.contact_us'),
       link: "mailto:sponsor@gosim.org",
     }}
     logos={[
@@ -242,63 +277,64 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       },
     ]}
   />
+  
   <TextAndImage
     id="spotlight"
-    title="GOSIM AI for Human Spotlight"
-    text="Towards a Symbiotic Future of Ethical and Creative AI: What if AI wasn't just built to serve, but to co-create with us? AI for Human Spotlight is an international showcase for projects that explore how generative AI can foster empathy, shared creativity, and ethical coexistence."
+    title={t('homepage.spotlight.title')}
+    text={t('homepage.spotlight.description')}
     image={SpotlightBlue}
     imageAlt="Gosim Spotlight badge"
     dataBgSection="light"
     dataThemeSection="light"
     ctaButton={{
-      text: "Apply or Nominate Now",
+      text: t('homepage.spotlight.apply_nominate'),
       link: "https://spotlight.gosim.org/",
       openInNewTab: true,
     }}
   />
 
   <PreviousEvents
-    title="Previous Events"
+    title={t('homepage.previous_events.title')}
     events={[
       {
-        title: "GOSIM Paris",
+        title: t('homepage.previous_events.paris_title'),
         date: "May 6-7, 2025",
-        description:
-          "Over 1000 attendees and luminaries delved into the multifaceted development of AI for our 2-day GOSIM Paris event in the city of lights.",
+        description: t('homepage.previous_events.paris_desc'),
         image: GosimParis,
         link: "https://paris2025.gosim.org/",
       },
       {
-        title: "GOSIM Beijing",
+        title: t('homepage.previous_events.beijing_title'),
         date: "October 17-18, 2024",
-        description:
-          "Attracted more than 1700 attendees, GOSIM Beijing is by far the largest GOSIM event ever in the historical capital of China.",
+        description: t('homepage.previous_events.beijing_desc'),
         image: GosimBeijing,
         link: "https://china2024.gosim.org/",
       },
       {
-        title: "GOSIM Delft",
+        title: t('homepage.previous_events.delft_title'),
         date: "June 6-7, 2024",
-        description:
-          "GOSIM Delft was a two-day event with 3 tracks that brought together 1200 attendees from not only the Netherlands, but all around the world.",
+        description: t('homepage.previous_events.delft_desc'),
         image: GosimDelft,
         link: "https://europe2024.gosim.org/",
       },
       {
-        title: "GOSIM Shanghai",
+        title: t('homepage.previous_events.shanghai_title'),
         date: "September 23-24, 2023",
-        description:
-          "Where everything started, GOSIM conference and workshop focused on championing and enhancing open-source contributions.",
+        description: t('homepage.previous_events.shanghai_desc'),
         image: GosimShanghai,
         link: "https://conference2023.gosim.org/",
       },
     ]}
   />
-
   <GetTickets
-    title="Join the open-source revolution!"
-    location="Hangzhou, China"
-    date="September 13-14, 2025"
-    text="Secure your spot today at GOSIM Hangzhou 2025. Collaborate with innovators, engage with industry pioneers, and be part of shaping the future of open-source technology."
+    title={t('homepage.get_tickets.title')}
+    location={t('homepage.hero.location')}
+    date={t('homepage.hero.date')}
+    text={t('homepage.get_tickets.description')}
+    ctaButton={{
+      text: "Get tickets",
+      link: "/tickets",
+      openInNewTab: false,
+    }}
   />
 </Layout>

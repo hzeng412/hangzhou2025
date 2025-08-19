@@ -1,30 +1,6 @@
 ---
-// Components
-import Layout from "layouts/LayoutLandingZh.astro";
-import GetTickets from "components/GetTickets.astro";
-import HeroText from "components/HeroText.astro";
-import FAQ from "components/FAQZh.astro";
+// Chinese FAQ page - redirects to main FAQ with zh locale
+import FaqPage from '../faq.astro';
 ---
 
-<Layout
-  title="常见问题 – GOSIM 杭州 2025"
-  description="GOSIM 杭州 2025是开源AI项目、开发者、研究人员和行业赞助商的聚会，旨在分享知识、相互学习和合作。"
-  navBackground="light"
-  pageTransitionName="常见问题"
->
-  <HeroText title="常见问题" lightgray />
-
-  <FAQ />
-
-  <GetTickets
-    title="获取您的GOSIM Hangzhou门票"
-    location="中国杭州"
-    date="2025年9月13-14日"
-    text="立即确保您在GOSIM Hangzhou 2025的席位。与创新者合作，与行业先驱交流，成为塑造开源技术未来的一部分。"
-    ctaButton={{
-      text: "获取门票",
-      link: "/zh/tickets",
-      openInNewTab: false,
-    }}
-  />
-</Layout>
+<FaqPage />

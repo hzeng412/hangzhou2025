@@ -20,23 +20,23 @@ const mapMarkers = [
   {
     "latitude": 30.172599,
     "longitude": 120.102973,
-    "title": "Hangzhou Platinum Hanjue Hotel 杭州白金汉爵酒店 (Venue)",
+    "title": "杭州白金汉爵酒店 Hangzhou Platinum Hanjue Hotel (Venue)",
     "highlight": true
   },
   {
     "latitude": 30.23734,
     "longitude": 120.42922,
-    "title": "Hangzhou Xiaoshan International Airport (HGH)"
+    "title": "杭州萧山国际机场 Hangzhou Xiaoshan International Airport (HGH)"
   },
   {
     "latitude": 30.2935,
     "longitude": 120.208361,
-    "title": "Hangzhou Dong Railway Station"
+    "title": "杭州东站 Hangzhou Dong Railway Station"
   },
   {
     "latitude": 30.3004,
     "longitude": 119.9817,
-    "title": "Hangzhou Xi Railway Station"
+    "title": "杭州西站 Hangzhou Xi Railway Station"
   }
 ];
 ---
@@ -60,7 +60,7 @@ const mapMarkers = [
       <br>
         Hangzhou is the capital of Zhejiang Province in Eastern China, located about 170 km (105 miles) southwest of Shanghai. It's a major economic and cultural hub, renowned for its natural beauty, particularly West Lake. 
       <br><br>
-        Hangzhou has a limited number of international flights, but it is well-connected to major cities in China and Asia. The city is easily accessible by high-speed train from Shanghai, Beijing, and other major international airports.
+        Hangzhou has a limited number of international flights, but it is well-connected to major cities in China and Asia. The city is easily accessible by high-speed train from Shanghai (45 min), Beijing (4.5 hr), and other major international airports.
 
     </div>
     <br>
@@ -70,7 +70,7 @@ const mapMarkers = [
     <br>
     You can order a DIDI (Chinese Uber) from Alipay or WeChat mini app, type in "杭州白金汉爵酒店" (Hangzhou Platinum Hanjue Hotel) to get a ride. 
     <br><br>
-    Hangzhou also has good subway and bus systems. You can use the Transit Feature in Alipay and scan QR code at the fare gate. 
+    Hangzhou also has good subway and bus systems. You can use the Transit Feature in Alipay and present your transit QR code at the fare gate scannerwhen riding subways and buses. 
 
     <br><br>
     <h3>To Venue From ...</h3>
@@ -113,9 +113,9 @@ const mapMarkers = [
         <div class="col">
           <OpenStreetMap 
               mapCenter={{ latitude: 30.172599, longitude: 120.102973 }}
-              mapZoom={11}
+              mapZoom={10}
               markers={mapMarkers}
-              height="550px"
+              height="350px"
             />
         </div>
       </div>

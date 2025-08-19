@@ -1,0 +1,44 @@
+---
+// Components
+import Layout from "layouts/LayoutLanding.astro";
+import GetTickets from "components/GetTickets.astro";
+import HeroText from "components/HeroText.astro";
+import AllWorkshops from "components/Workshops.astro";
+
+// i18n utilities
+import { getCurrentLocale, createTranslationFunction, loadTranslations } from "../../i18n/utils";
+
+// Load translations
+await loadTranslations();
+
+// Get current locale and create translation function
+const currentLocale = getCurrentLocale(Astro);
+const t = createTranslationFunction(currentLocale);
+---
+
+<Layout
+  title={t('workshops.page_title')}
+  description={t('workshops.page_description')}
+  navBackground="light"
+  pageTransitionName="Speakers"
+>
+  <HeroText
+    title={t('workshops.hero_title')}
+    text=""
+    lightgray
+  />
+
+  <AllWorkshops />
+
+  <GetTickets
+    title={t('homepage.get_tickets.title')}
+    location={t('homepage.hero.location')}
+    date={t('homepage.hero.date')}
+    text={t('homepage.get_tickets.description')}
+    ctaButton={{
+      text: t('navigation.get_tickets'),
+      link: "/tickets",
+      openInNewTab: false,
+    }}
+  />
+</Layout>

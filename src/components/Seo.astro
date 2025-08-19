@@ -1,20 +1,40 @@
 ---
+import { getAlternateLinks, getCurrentLocale, createTranslationFunction, loadTranslations } from '../i18n/utils';
+
 interface Props {
-    title: string;
-    description: string;
+    title?: string;
+    description?: string;
+    titleKey?: string;
+    descriptionKey?: string;
     noindex?: boolean;
     pageTransitionName?: string;
 }
 
-const { title, description, noindex, pageTransitionName } = Astro.props;
+const { title, description, titleKey, descriptionKey, noindex, pageTransitionName } = Astro.props;
 
-const newTitle = title || 'GOSIM Hangzhou 2025';
+const currentLocale = getCurrentLocale(Astro);
 
-const newDescription = description || 'GOSIM Hangzhou 2025 is a gathering of open-source AI projects, developers, researchers, and industry sponsors to share knowledge, learn from each other, and collaborate.'
+// Load translations
+await loadTranslations();
+
+// Create translation function for current locale
+const t = createTranslationFunction(currentLocale);
+
+// Determine title and description using translation keys or fallback to props
+const newTitle = titleKey ? t(titleKey) : (title || t('meta.default_title'));
+const newDescription = descriptionKey ? t(descriptionKey) : (description || t('meta.default_description'));
 
 const domain = "https://hangzhou2025.gosim.org";
 
-const slug = Astro.url.pathname;
+const slug = Astro.url.pathname || '/';
+
+// Get the path without locale prefix for alternate links
+const pathWithoutLocale = currentLocale === 'en' 
+  ? slug 
+  : (slug.replace(`/${currentLocale}`, '') || '/');
+
+// Generate alternate language links
+const alternateLinks = getAlternateLinks(pathWithoutLocale);
 
 ---
 
@@ -22,12 +42,18 @@ const slug = Astro.url.pathname;
 <meta name="viewport" content="width=device-width" />
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 
+<!-- Language and alternate links -->
+{alternateLinks.map(({ href, hreflang }) => (
+  <link rel="alternate" hreflang={hreflang} href={href} />
+))}
+<link rel="alternate" hreflang="x-default" href={alternateLinks.find(link => link.locale === 'en')?.href} />
+
 <title>{newTitle}</title>
 <meta name="title" content={newTitle}/>
 <meta property="og:title" content={newTitle}/>
 <meta property="twitter:title" content={newTitle}/>
 
-<meta property="og:site_name" content="GOSIM Hangzhou 2025" />
+<meta property="og:site_name" content={t('meta.site_name')} />
 <meta property="twitter:card" content="summary_large_image" />
 
 <link rel="canonical" href={`${domain}${slug}`} />

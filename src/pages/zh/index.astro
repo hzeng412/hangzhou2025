@@ -1,6 +1,6 @@
 ---
 // Components
-import Layout from "layouts/LayoutLandingZh.astro";
+import Layout from "layouts/LayoutLanding.astro";
 import Hero from "components/Hero.astro";
 import Intro from "components/Intro.astro";
 import Statistics from "components/Statistics.astro";
@@ -11,14 +11,26 @@ import GetTickets from "components/GetTickets.astro";
 import VenueInfo from "components/VenueInfo.astro";
 import TextAndSponsors from "components/TextAndSponsors.astro";
 import TextAndImageReverse from "components/TextAndImageReverse.astro";
+import FeaturedSpeakers from "components/FeaturedSpeakers.astro";
 import Timeline from "components/Timeline.astro";
+import Marquee from "components/Marquee.astro";
+import Cards from "components/Cards.astro";
+
+// i18n utilities
+import { getCurrentLocale, createTranslationFunction, loadTranslations } from "../../i18n/utils";
+
+// Load translations
+await loadTranslations();
+
+// Force Chinese locale for this page
+const currentLocale = 'zh';
+const t = createTranslationFunction(currentLocale);
 
 // Images
 import Placeholder1 from "images/homepage/stats1.jpeg";
 import Placeholder2 from "images/homepage/stats2.jpg";
 import Placeholder3 from "images/homepage/stats3.png";
 import SpotlightBlue from "images/homepage/spotlight-hg.svg";
-import RustGlobalWhite from "images/homepage/rust-svg.svg";
 import Proposals from "images/homepage/hangzhou-proposals-min.jpg";
 
 import GosimShanghai from "images/homepage/gosim-shanghai.png";
@@ -28,40 +40,23 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
 ---
 
 <Layout
-  title="GOSIM 杭州 2025"
-  description="GOSIM 杭州。即将到来。"
+  title={t('homepage.hero.title')}
+  description={t('homepage.hero.subtitle')}
   navDarkMode={true}
   navBackground="header-home"
   pageTransitionName="Home"
 >
   <Hero
-    date="2025年9月13-14日"
-    location="中国杭州"
+    date={t('homepage.hero.date')}
+    location={t('homepage.hero.location')}
     links={[
       {
-        text: "提案征集 Call For Proposals",
-        link: "/zh/#proposals",
+        text: t('homepage.hero.call_for_proposals'),
+        link: "/#proposals",
         openInNewTab: false,
       },
     ]}
   />
-  <!--   <CardsSponsors
-    title="由以下机构赞助"
-    sponsors={[
-      {
-        name: "1ms.ai",
-        image: "/images/sponsors/1msai.png",
-      },
-      {
-        name: "Huawei",
-        image: "/images/sponsors/huawei.png",
-      },
-      {
-        name: "CSDN",
-        image: "/images/sponsors/csdn.png",
-      },
-    ]}
-  /> -->
   <div
     class="section-wrap"
     id="intro"
@@ -70,7 +65,7 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
   >
     <Intro>
       <h1 class="h3 light split-words animate-read">
-        加入我们的GOSIM Hangzhou 2025，中国首屈一指的开源会议，这里是创新、协作和技术突破的汇聚之地。
+        {t('homepage.intro.title')}
       </h1>
     </Intro>
 
@@ -78,79 +73,87 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       stats={[
         {
           title: "1500",
-          subtitle: "与会者",
+          subtitle: t('homepage.statistics.attendees'),
           image: Placeholder1,
           imageAlt: "",
           hasPlus: true,
         },
         {
           title: "100",
-          subtitle: "演讲嘉宾",
+          subtitle: t('homepage.statistics.speakers'),
           imageAlt: "",
           image: Placeholder2,
           hasPlus: true,
         },
         {
           title: "2",
-          subtitle: "精彩日程",
+          subtitle: t('homepage.statistics.days'),
           imageAlt: "",
           image: Placeholder3,
         },
       ]}
     />
   </div>
-  <VenueInfo
-    subtitle="会议地点"
-    title="杭州白金汉爵酒店"
-    location="中国杭州 - 创新与历史交汇之地"
-    text="在杭州体验GOSIM 2025，这座城市以其历史遗产和充满活力的科技未来而闻名。杭州，一颗历史瑰宝和现代科技中心，为灵感、交流和突破性创新提供了完美的背景。"
-    image="/images/homepage/hangzhoubg.png"
-  />
 
   <Tracks
     id="tracks"
-    title="5大前沿主题"
+    title={t('homepage.tracks.title')}
     list={[
       {
-        title: "AI Models & Infra（AI模型与基础设施）",
-        text: `基础模型、边缘推理、生成式AI、AI训练工具等。`,
+        title: t('homepage.tracks.ai_models'),
+        text: t('homepage.tracks.ai_models_desc'),
       },
       {
-        title: "Embodied AI（实体AI）",
-        text: `在现实世界中应用AI，从人形机器人到自主系统。`,
+        title: t('homepage.tracks.embodied_ai'),
+        text: t('homepage.tracks.embodied_ai_desc'),
       },
       {
-        title: "Agentic Web（互联智能体）",
-        text: `去中心化应用、身份识别、增强隐私技术和协作平台。`,
+        title: t('homepage.tracks.agentic_web'),
+        text: t('homepage.tracks.agentic_web_desc'),
       },
       {
-        title: "Apps & Agents（应用与智能体）",
-        text: `跨平台和AI辅助应用开发、Rust GUI应用、WebAssembly和超级应用生态系统。`,
+        title: t('homepage.tracks.apps_agents'),
+        text: t('homepage.tracks.apps_agents_desc'),
       },
       {
-        title: "AI Next（AI未来）",
-        text: `AI赋能用例、AI设备、人机交互界面、AI平台和AI治理。`,
+        title: t('homepage.tracks.ai_next'),
+        text: t('homepage.tracks.ai_next_desc'),
       },
-      // {
-      //   title: "Rust",
-      //   text: `Rust Global和Rust China会议，专注于Rust编程语言及其应用。`,
-      // },
     ]}
     ctaButton={{
-      text: "日程安排即将公布",
+      text: t('homepage.tracks.schedule_coming_soon'),
       link: "",
     }}
   />
+
+  <VenueInfo
+    subtitle={t('homepage.venue.subtitle')}
+    title={t('homepage.venue.title')}
+    location={t('homepage.venue.location')}
+    text={t('homepage.venue.description')}
+    image="/images/homepage/hangzhoubg.png"
+  />
+
+  <Marquee />
+
+  <FeaturedSpeakers
+    title={t('speakers.title')}
+    ctaButton={{
+      text: t('speakers.more_speakers'),
+      link: "/zh/speakers/",
+    }}
+  />
+
   <TextAndImageReverse
     id="proposals"
-    title="提案征集 Call For Proposals"
-    text="我们正在寻找大胆的想法和新鲜的声音来塑造未来。如果您对前沿技术、新兴趋势或变革性实践有见解，我们希望听到您的声音。提交演讲提案，加入由推动边界的创新者、思想领袖和变革者组成的阵容。"
+    title={t('homepage.proposals.title')}
+    text={t('homepage.proposals.description')}
     image={Proposals}
-    imageAlt="GOSIM 杭州"
+    imageAlt="GOSIM Hangzhou"
     dataBgSection="light"
     dataThemeSection="light"
     ctaButton={{
-      text: "立即申请",
+      text: t('homepage.proposals.apply_now'),
       link: "https://cfp.gosim.org/",
       openInNewTab: true,
     }}
@@ -158,44 +161,73 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
   <Timeline
     events={[
       {
-        date: "2025年5月18日",
-        title: "提案申请开放",
+        date: "May 18, 2025",
+        title: t('homepage.timeline.proposal_open'),
       },
       {
-        date: "2025年8月18日",
-        title: "提案申请截止",
+        date: "August 18, 2025",
+        title: t('homepage.timeline.proposal_close'),
       },
       {
-        date: "2025年9月13日",
-        title: "GOSIM Hangzhou开幕！",
+        date: "September 13, 2025",
+        title: t('homepage.timeline.event_start'),
       },
       {
-        date: "2025年9月14日",
-        title: "GOSIM Hangzhou闭幕",
+        date: "September 14, 2025",
+        title: t('homepage.timeline.event_end'),
       },
     ]}
   />
-  <TextAndImage
-    id="rust-global"
-    title="同期举办RustGlobal与RustChinaConf"
-    text="RustGlobal是Rust基金会主办的首个专注于全球领导环境中使用Rust的聚会。"
-    image={RustGlobalWhite}
-    imageAlt="Rust Global"
-    dataBgSection="dark"
-    dataThemeSection="dark"
-    ctaButton={{
-      text: "RustGlobal + RustChinaConf 2025",
-      link: "https://rustcc.cn/2025conf/",
-      openInNewTab: true,
-    }}
+
+  <Cards
+    id="co-located-events"
+    title={t('homepage.co_located_events.title')}
+    description={t('homepage.co_located_events.description')}
+    cards={[
+      {
+        title: t('homepage.co_located_events.rust_global'),
+        description: t('homepage.co_located_events.rust_global_desc'),
+        image: ["/images/homepage/rust-global-logo.svg","/images/homepage/RustChinaConf-hangzhou-black.svg"],
+        link: "https://rustcc.cn/2025conf/",
+        openInNewTab: false,
+      },
+      {
+        title: t('homepage.co_located_events.ai_vision'),
+        description: t('homepage.co_located_events.ai_vision_desc'),
+        image: "/images/homepage/co-located-ai-vision.png",
+        link: "https://forum.gosim.org/en/",
+        openInNewTab: false,
+      },
+      {
+        title: t('homepage.co_located_events.open_sdg'),
+        description: t('homepage.co_located_events.open_sdg_desc'),
+        image: "/images/homepage/co-located-open-sdg.jpg",
+        link: "https://opensdg.gosim.org/en/",
+        openInNewTab: false,
+      },
+      {
+        title: t('homepage.co_located_events.super_agent'),
+        description: t('homepage.co_located_events.super_agent_desc'),
+        image: "/images/homepage/co-located-super-agent.png",
+        link: "https://mofa.ai/super-agent-hackathon/",
+        openInNewTab: false,
+      },
+      {
+        title: t('homepage.co_located_events.code_alert'),
+        description: t('homepage.co_located_events.code_alert_desc'),
+        image: "/images/homepage/co-located-code-alert.png",
+        link: "https://hackathon.mofa.ai",
+        openInNewTab: false,
+      },
+    ]}
   />
 
   <TextAndSponsors
-    title="赞助机会"
-    text="通过成为GOSIM Hangzhou 2025的支持组织，接触到数千名目标受众。"
-    text2="*仅展示往届GOSIM会议赞助商，仅供参考。"
+    title={t('homepage.sponsorship.title')}
+    text={t('homepage.sponsorship.description')}
+    text2={t('homepage.sponsorship.disclaimer')}
     ctaButton={{
-      text: "联系我们",
+      text: t('homepage.sponsorship.contact_us'),
       link: "mailto:sponsor@gosim.org",
     }}
     logos={[
@@ -225,62 +257,64 @@ import GosimParis from "images/homepage/gosim-paris-min.png";
       },
     ]}
   />
+  
   <TextAndImage
     id="spotlight"
-    title="GOSIM AI for Human Spotlight"
-    text="迈向道德与创意AI的共生未来：如果AI不仅仅是为了服务，而是与我们共同创造呢？AI for Human Spotlight是一个国际展示平台，展示探索生成式AI如何培养同理心、共享创造力和道德共存的项目。"
+    title={t('homepage.spotlight.title')}
+    text={t('homepage.spotlight.description')}
     image={SpotlightBlue}
     imageAlt="Gosim Spotlight badge"
     dataBgSection="light"
     dataThemeSection="light"
     ctaButton={{
-      text: "立即申请或提名",
+      text: t('homepage.spotlight.apply_nominate'),
       link: "https://spotlight.gosim.org/",
       openInNewTab: true,
     }}
   />
 
   <PreviousEvents
-    title="往届活动"
+    title={t('homepage.previous_events.title')}
     events={[
       {
-        title: "GOSIM 巴黎",
-        date: "2025年5月6-7日",
-        description:
-          "超过1000名与会者和行业精英在光之城参加了为期两天的GOSIM巴黎活动，深入探讨了AI的多方面发展。",
+        title: t('homepage.previous_events.paris_title'),
+        date: "May 6-7, 2025",
+        description: t('homepage.previous_events.paris_desc'),
         image: GosimParis,
         link: "https://paris2025.gosim.org/",
       },
       {
-        title: "GOSIM 北京",
-        date: "2024年10月17-18日",
-        description:
-          "吸引了超过1700名与会者，GOSIM北京是迄今为止在中国历史悠久的首都举办的规模最大的GOSIM活动。",
+        title: t('homepage.previous_events.beijing_title'),
+        date: "October 17-18, 2024",
+        description: t('homepage.previous_events.beijing_desc'),
         image: GosimBeijing,
         link: "https://china2024.gosim.org/",
       },
       {
-        title: "GOSIM 代尔夫特",
-        date: "2024年6月6-7日",
-        description:
-          "GOSIM代尔夫特是一个为期两天、设有3个主题的活动，吸引了来自荷兰及世界各地的1200名与会者。",
+        title: t('homepage.previous_events.delft_title'),
+        date: "June 6-7, 2024",
+        description: t('homepage.previous_events.delft_desc'),
         image: GosimDelft,
         link: "https://europe2024.gosim.org/",
       },
       {
-        title: "GOSIM 上海",
-        date: "2023年9月23-24日",
-        description: "一切的起点，GOSIM会议和工作坊专注于倡导和增强开源贡献。",
+        title: t('homepage.previous_events.shanghai_title'),
+        date: "September 23-24, 2023",
+        description: t('homepage.previous_events.shanghai_desc'),
         image: GosimShanghai,
         link: "https://conference2023.gosim.org/",
       },
     ]}
   />
-
   <GetTickets
-    title="加入开源革命！"
-    location="中国杭州"
-    date="2025年9月13-14日"
-    text="立即确保您在GOSIM Hangzhou 2025的席位。与创新者合作，与行业先驱交流，成为塑造开源技术未来的一部分。"
+    title={t('homepage.get_tickets.title')}
+    location={t('homepage.hero.location')}
+    date={t('homepage.hero.date')}
+    text={t('homepage.get_tickets.description')}
+    ctaButton={{
+      text: "Get tickets",
+      link: "/zh/tickets",
+      openInNewTab: false,
+    }}
   />
 </Layout>
